@@ -226,19 +226,77 @@
     font-size:11px;
     color:var(--ink-soft);
   }
-  .subcat-head{
+  .subcat-toggle{
     display:flex;
-    align-items:baseline;
+    align-items:center;
+    justify-content:space-between;
     gap:10px;
-    margin:20px 0 12px;
+    margin:14px 0;
+    width:100%;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    overflow:hidden;
+    padding:0;
+    cursor:pointer;
+    font:inherit;
+    color:inherit;
+    text-align:left;
   }
-  .subcat-head h3{
-    font-size:14px;
+  .subcat-toggle .toggle-stub{
+    align-self:stretch;
+    width:26px;
+    flex-shrink:0;
+    background:var(--petroleo);
+    background-image:
+      repeating-linear-gradient(180deg, rgba(255,255,255,0.06) 0 1px, transparent 1px 7px);
+  }
+  .subcat-toggle .toggle-body{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:13px 14px;
+    gap:10px;
+    min-width:0;
+  }
+  .subcat-toggle h3{
+    font-size:15px;
     font-weight:600;
-    margin:0;
+    margin:0 0 3px;
+    color:var(--ink);
+    text-transform:none;
+    letter-spacing:normal;
+    font-family:'Space Grotesk',system-ui,sans-serif;
+  }
+  .subcat-toggle .toggle-meta{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    color:var(--ink-soft);
+  }
+  .subcat-toggle .toggle-meta .n-modelos{
+    color:var(--gold);
+    letter-spacing:0.06em;
+  }
+  .subcat-toggle .chevron{
+    width:24px;height:24px;
+    border:1px solid var(--line-strong);
+    border-radius:50%;
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
     color:var(--petroleo);
-    text-transform:uppercase;
-    letter-spacing:0.04em;
+    font-size:12px;
+    transition:transform .2s ease;
+  }
+  .subcat-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
+  .subcat-toggle[aria-expanded="true"]{ border-color:var(--line-strong); }
+
+  .grid.collapsible{
+    display:none;
+    margin-bottom:4px;
+  }
+  .grid.collapsible.open{
+    display:grid;
   }
 
   .grid{
@@ -890,16 +948,35 @@ CATALOG.forEach((cat, ci)=>{
     section.appendChild(head);
 
     groupCats.forEach((subCat)=>{
-      const subHead = document.createElement("div");
-      subHead.className = "subcat-head";
-      subHead.innerHTML = `<h3>${subCat.category}</h3><span class="cat-count mono">${subCat.items.length} ${subCat.items.length===1?"item":"itens"}</span>`;
+      const toggle = document.createElement("button");
+      toggle.type = "button";
+      toggle.className = "subcat-toggle";
+      toggle.setAttribute("aria-expanded", "false");
+
+      const lowestInCat = Math.min(...subCat.items.flatMap(it => it.variations.map(v => v.cash)));
+
+      toggle.innerHTML = `
+        <span class="toggle-stub"></span>
+        <span class="toggle-body">
+          <span class="toggle-text">
+            <h3>${subCat.category}</h3>
+            <span class="toggle-meta"><span class="n-modelos">${subCat.items.length} ${subCat.items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(lowestInCat)}</span>
+          </span>
+          <span class="chevron">⌄</span>
+        </span>
+      `;
 
       const grid = document.createElement("div");
-      grid.className = "grid";
+      grid.className = "grid collapsible";
       const catIndex = CATALOG.indexOf(subCat);
       subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
 
-      section.appendChild(subHead);
+      toggle.addEventListener("click", ()=>{
+        const isOpen = grid.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      });
+
+      section.appendChild(toggle);
       section.appendChild(grid);
     });
 
