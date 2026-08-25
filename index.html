@@ -254,20 +254,18 @@
   .subcat-toggle .toggle-body{
     flex:1;
     display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:13px 14px;
-    gap:10px;
+    flex-direction:column;
+    padding:14px 14px 14px 16px;
     min-width:0;
   }
   .subcat-toggle .toggle-thumb{
-    width:92px;
-    height:92px;
-    flex-shrink:0;
-    border-radius:2px;
+    width:100%;
+    aspect-ratio:1/1;
+    border-radius:var(--radius);
     overflow:hidden;
     background:var(--paper);
     border:1px solid var(--line);
+    margin-bottom:12px;
   }
   .subcat-toggle .toggle-thumb img{
     width:100%;
@@ -275,14 +273,20 @@
     object-fit:cover;
     display:block;
   }
+  .subcat-toggle .toggle-textrow{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
   .subcat-toggle .toggle-text{
     flex:1;
     min-width:0;
   }
   .subcat-toggle h3{
-    font-size:15px;
+    font-size:15.5px;
     font-weight:600;
-    margin:0 0 3px;
+    margin:0 0 4px;
     color:var(--ink);
     text-transform:none;
     letter-spacing:normal;
@@ -299,13 +303,13 @@
     letter-spacing:0.06em;
   }
   .subcat-toggle .chevron{
-    width:22px;height:22px;
+    width:26px;height:26px;
     border:1px solid var(--line-strong);
     border-radius:50%;
     display:flex;align-items:center;justify-content:center;
     flex-shrink:0;
     color:var(--petroleo);
-    font-size:12px;
+    font-size:13px;
     transition:transform .2s ease;
   }
   .subcat-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
@@ -983,11 +987,13 @@ CATALOG.forEach((cat, ci)=>{
         <span class="toggle-stub"></span>
         <span class="toggle-body">
           ${thumbHtml}
-          <span class="toggle-text">
-            <h3>${subCat.category}</h3>
-            <span class="toggle-meta"><span class="n-modelos">${subCat.items.length} ${subCat.items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(lowestInCat)}</span>
+          <span class="toggle-textrow">
+            <span class="toggle-text">
+              <h3>${subCat.category}</h3>
+              <span class="toggle-meta"><span class="n-modelos">${subCat.items.length} ${subCat.items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(lowestInCat)}</span>
+            </span>
+            <span class="chevron">⌄</span>
           </span>
-          <span class="chevron">⌄</span>
         </span>
       `;
 
