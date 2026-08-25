@@ -24,7 +24,8 @@
               "cash": 9499,
               "inst": 914.99
             }
-          ]
+          ],
+          "image": "images/iphone17-pro-max.jpg"
         },
         {
           "name": "iPhone 17 Pro",
@@ -40,7 +41,8 @@
               "cash": 8779,
               "inst": 859.99
             }
-          ]
+          ],
+          "image": "images/iphone17-pro.jpg"
         },
         {
           "name": "iPhone 17",
@@ -51,7 +53,8 @@
               "cash": 5749,
               "inst": 554.99
             }
-          ]
+          ],
+          "image": "images/iphone17.jpg"
         }
       ]
     },
@@ -73,7 +76,8 @@
               "cash": 6449,
               "inst": 624.99
             }
-          ]
+          ],
+          "image": "images/iphone16-pro-max.jpg"
         },
         {
           "name": "iPhone 16 Pro",
@@ -89,7 +93,8 @@
               "cash": 5499,
               "inst": 529.99
             }
-          ]
+          ],
+          "image": "images/iphone16-pro.jpg"
         },
         {
           "name": "iPhone 16 Plus",
@@ -105,7 +110,8 @@
               "cash": 6149,
               "inst": 589.99
             }
-          ]
+          ],
+          "image": "images/iphone16-plus.jpg"
         },
         {
           "name": "iPhone 16",
@@ -116,7 +122,8 @@
               "cash": 5119,
               "inst": 489.99
             }
-          ]
+          ],
+          "image": "images/iphone16.jpg"
         },
         {
           "name": "iPhone 16",
@@ -132,7 +139,8 @@
               "cash": 4699,
               "inst": 454.99
             }
-          ]
+          ],
+          "image": "images/iphone16.jpg"
         },
         {
           "name": "iPhone 16E",
@@ -148,7 +156,8 @@
               "cash": 4219,
               "inst": 407.99
             }
-          ]
+          ],
+          "image": "images/iphone16.jpg"
         }
       ]
     },
@@ -165,7 +174,8 @@
               "cash": 4379,
               "inst": 424.99
             }
-          ]
+          ],
+          "image": "images/iphone15.jpg"
         },
         {
           "name": "iPhone 15 Pro Max",
@@ -181,7 +191,8 @@
               "cash": 5199,
               "inst": 499.99
             }
-          ]
+          ],
+          "image": "images/iphone15-pro-max.jpg"
         },
         {
           "name": "iPhone 15 Pro",
@@ -197,7 +208,8 @@
               "cash": 4249,
               "inst": 409.99
             }
-          ]
+          ],
+          "image": "images/iphone15-pro.jpg"
         },
         {
           "name": "iPhone 15",
@@ -213,7 +225,8 @@
               "cash": 3479,
               "inst": 334.99
             }
-          ]
+          ],
+          "image": "images/iphone15-seminovo.jpg"
         }
       ]
     },
@@ -235,7 +248,8 @@
               "cash": 3999,
               "inst": 384.99
             }
-          ]
+          ],
+          "image": "images/iphone14-pro-max.jpg"
         },
         {
           "name": "iPhone 14 Pro",
@@ -251,7 +265,8 @@
               "cash": 3499,
               "inst": 339.99
             }
-          ]
+          ],
+          "image": "images/iphone14-pro.jpg"
         },
         {
           "name": "iPhone 14",
@@ -267,7 +282,8 @@
               "cash": 3019,
               "inst": 294.99
             }
-          ]
+          ],
+          "image": "images/iphone14.jpg"
         }
       ]
     },
@@ -446,7 +462,8 @@
               "cash": 5249,
               "inst": 499.99
             }
-          ]
+          ],
+          "image": "images/macbook-neo.jpg"
         }
       ]
     },
@@ -587,7 +604,8 @@
               "cash": 4179.99,
               "inst": 404.99
             }
-          ]
+          ],
+          "image": "images/ps5-slim-digital.jpg"
         }
       ]
     },
