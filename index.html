@@ -3,8 +3,23 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Zeneex — Catálogo de Produtos</title>
+<title>Zeneex — Curadoria de Inovação Global</title>
 <meta name="description" content="Curadoria de Inovação Global. Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
+
+<!-- Open Graph (WhatsApp, Instagram, Facebook, etc.) -->
+<meta property="og:title" content="Zeneex — Curadoria de Inovação Global">
+<meta property="og:description" content="Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
+<meta property="og:image" content="https://zeneex.com.br/apple-touch-icon.png">
+<meta property="og:url" content="https://zeneex.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter Card (usado como fallback por alguns apps) -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zeneex — Curadoria de Inovação Global">
+<meta name="twitter:description" content="Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
+<meta name="twitter:image" content="https://zeneex.com.br/apple-touch-icon.png">
+
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +39,7 @@
     --line: rgba(14,59,62,0.14);
     --line-strong: rgba(14,59,62,0.28);
     --radius: 2px;
-    --wa-number: 5591984195397;
+    --wa-number: 5591992580901;
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
@@ -55,10 +70,18 @@
     background-size:240px 240px, cover, cover, cover, cover;
     background-repeat:repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     color:#fff;
-    padding:22px 18px 18px;
+    padding:22px 18px 34px;
     position:sticky;
     top:0;
     z-index:40;
+  }
+  header.site::after{
+    content:"";
+    position:absolute;
+    left:0;right:0;bottom:0;
+    height:26px;
+    background:linear-gradient(to bottom, rgba(14,59,62,0) 0%, var(--paper) 100%);
+    pointer-events:none;
   }
   .brand-row{
     display:flex;
@@ -482,7 +505,7 @@
     <a href="https://instagram.com/zeneex.br" target="_blank" rel="noopener" aria-label="Instagram @zeneex.br">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
     </a>
-    <a href="https://wa.me/5591984195397" target="_blank" rel="noopener" aria-label="WhatsApp (91) 98419-5397">
+    <a href="https://wa.me/5591992580901" target="_blank" rel="noopener" aria-label="WhatsApp (91) 99258-0901">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.4l-.3-.2-3.2 1 1-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
     </a>
   </div>
@@ -674,7 +697,7 @@ const CATALOG_FALLBACK = [
 
 let CATALOG = CATALOG_FALLBACK;
 const CATALOG_JSON_URL = "./catalogo-zeneex.json";
-const WA_NUMBER = "5591984195397";
+const WA_NUMBER = "5591992580901";
 
 /* =========================================================
    TRACKING
