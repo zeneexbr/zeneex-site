@@ -1,0 +1,742 @@
+{
+  "_meta": {
+    "fonte": "Fonte única compartilhada entre o site (Plataforma) e o Catálogo PDF — ver Nota de Sincronização na skill de Catálogo",
+    "atualizado_em": "2026-08-25",
+    "instrucao": "Ao editar preço/produto, atualizar este arquivo e depois refletir a mesma mudança no CATA_LOGO_ZENEEX.pdf na mesma sessão de trabalho.",
+    "whatsapp": "5591984195397"
+  },
+  "categorias": [
+    {
+      "category": "iPhone 17",
+      "group": "iPhones",
+      "items": [
+        {
+          "name": "iPhone 17 Pro Max",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 7819,
+              "inst": 754.99
+            },
+            {
+              "label": "512GB",
+              "cash": 9499,
+              "inst": 914.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17 Pro",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 7299,
+              "inst": 704.99
+            },
+            {
+              "label": "512GB",
+              "cash": 8779,
+              "inst": 859.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 17",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5749,
+              "inst": 554.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "iPhone 16",
+      "group": "iPhones",
+      "items": [
+        {
+          "name": "iPhone 16 Pro Max",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5519,
+              "inst": 529.99
+            },
+            {
+              "label": "512GB",
+              "cash": 6449,
+              "inst": 624.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 16 Pro",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 4799,
+              "inst": 464.99
+            },
+            {
+              "label": "256GB",
+              "cash": 5499,
+              "inst": 529.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 16 Plus",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 5399,
+              "inst": 519.99
+            },
+            {
+              "label": "256GB",
+              "cash": 6149,
+              "inst": 589.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 16",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 5119,
+              "inst": 489.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 16",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 4199,
+              "inst": 404.99
+            },
+            {
+              "label": "256GB",
+              "cash": 4699,
+              "inst": 454.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 16E",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3899,
+              "inst": 374.99
+            },
+            {
+              "label": "256GB",
+              "cash": 4219,
+              "inst": 407.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "iPhone 15",
+      "group": "iPhones",
+      "items": [
+        {
+          "name": "iPhone 15",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 4379,
+              "inst": 424.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 15 Pro Max",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 4349,
+              "inst": 419.99
+            },
+            {
+              "label": "512GB",
+              "cash": 5199,
+              "inst": 499.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 15 Pro",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 4119,
+              "inst": 397.99
+            },
+            {
+              "label": "256GB",
+              "cash": 4249,
+              "inst": 409.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 15",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3199,
+              "inst": 309.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3479,
+              "inst": 334.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "iPhone 14",
+      "group": "iPhones",
+      "items": [
+        {
+          "name": "iPhone 14 Pro Max",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3649,
+              "inst": 304.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3999,
+              "inst": 384.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 14 Pro",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3399,
+              "inst": 329.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3499,
+              "inst": 339.99
+            }
+          ]
+        },
+        {
+          "name": "iPhone 14",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 2549,
+              "inst": 244.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3019,
+              "inst": 294.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "iPhone 13",
+      "group": "iPhones",
+      "items": [
+        {
+          "name": "iPhone 13 Pro Max",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3349,
+              "inst": 324.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3449,
+              "inst": 334.99
+            }
+          ],
+          "image": "images/iphone13-pro-max.jpg"
+        },
+        {
+          "name": "iPhone 13 Pro",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3199,
+              "inst": 309.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3599,
+              "inst": 349.99
+            }
+          ],
+          "image": "images/iphone13-pro.jpg"
+        },
+        {
+          "name": "iPhone 13",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 2449,
+              "inst": 239.99
+            },
+            {
+              "label": "256GB",
+              "cash": 2849,
+              "inst": 249.99
+            }
+          ],
+          "image": "images/iphone13.jpg"
+        }
+      ]
+    },
+    {
+      "category": "iPad",
+      "items": [
+        {
+          "name": "iPad 11ª Geração",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3299,
+              "inst": 324.99
+            },
+            {
+              "label": "256GB",
+              "cash": 3999,
+              "inst": 389.99
+            }
+          ],
+          "image": "images/ipad-11.jpg"
+        },
+        {
+          "name": "iPad Pro M5 11\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 8299,
+              "inst": 799.99
+            }
+          ],
+          "image": "images/ipad-pro.jpg"
+        },
+        {
+          "name": "iPad Pro M5 13\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 9249,
+              "inst": 889.99
+            }
+          ],
+          "image": "images/ipad-pro.jpg"
+        },
+        {
+          "name": "iPad Air M4 11\"",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 5649,
+              "inst": 544.99
+            },
+            {
+              "label": "256GB",
+              "cash": 6119,
+              "inst": 589.99
+            }
+          ],
+          "image": "images/ipad-air.jpg"
+        },
+        {
+          "name": "iPad Air M3 13\"",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 5919,
+              "inst": 569.99
+            }
+          ],
+          "image": "images/ipad-air.jpg"
+        }
+      ]
+    },
+    {
+      "category": "MacBook",
+      "items": [
+        {
+          "name": "MacBook Pro M5",
+          "spec": "16GB · 512GB SSD · 14\"",
+          "variations": [
+            {
+              "label": "512GB",
+              "cash": 12119,
+              "inst": 1167.99
+            }
+          ],
+          "image": "images/macbook-pro.jpg"
+        },
+        {
+          "name": "MacBook Air M5",
+          "spec": "16GB · 512GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "512GB",
+              "cash": 8719,
+              "inst": 839.99
+            }
+          ],
+          "image": "images/macbook-air.jpg"
+        },
+        {
+          "name": "MacBook Air M4",
+          "spec": "16GB · 256GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 6999,
+              "inst": 674.99
+            }
+          ],
+          "image": "images/macbook-air.jpg"
+        },
+        {
+          "name": "MacBook Neo",
+          "spec": "8GB · 256GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5249,
+              "inst": 499.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Apple Watch",
+      "items": [
+        {
+          "name": "Apple Watch Ultra 3 5G",
+          "variations": [
+            {
+              "label": "49mm",
+              "cash": 5249,
+              "inst": 504.99
+            }
+          ],
+          "image": "images/watch-ultra.jpg"
+        },
+        {
+          "name": "Apple Watch Série 11",
+          "variations": [
+            {
+              "label": "42mm",
+              "cash": 2949,
+              "inst": 289.99
+            }
+          ],
+          "image": "images/watch-regular.jpg"
+        },
+        {
+          "name": "Apple Watch SE 3",
+          "variations": [
+            {
+              "label": "40mm",
+              "cash": 2399,
+              "inst": 229.99
+            }
+          ],
+          "image": "images/watch-regular.jpg"
+        },
+        {
+          "name": "Apple Watch SE 2",
+          "variations": [
+            {
+              "label": "44mm",
+              "cash": 2299,
+              "inst": 219.99
+            }
+          ],
+          "image": "images/watch-regular.jpg"
+        }
+      ]
+    },
+    {
+      "category": "AirPods",
+      "items": [
+        {
+          "name": "AirPods 4",
+          "spec": "Eliminador de Ruído",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1749,
+              "inst": 169.99
+            }
+          ],
+          "image": "images/airpods4.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Oura Ring",
+      "items": [
+        {
+          "name": "Oura Ring 4",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 3449.99,
+              "inst": 334.99
+            }
+          ],
+          "image": "images/oura-ring.jpg"
+        },
+        {
+          "name": "Oura Ring 5",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 4249.99,
+              "inst": 409.99
+            }
+          ],
+          "image": "images/oura-ring.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Scooter Elétrica",
+      "items": [
+        {
+          "name": "Scooter Elétrica",
+          "badge": "NOVO",
+          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 9999,
+              "inst": 964.99
+            }
+          ],
+          "image": "images/scooter.jpg"
+        }
+      ]
+    },
+    {
+      "category": "PlayStation 5",
+      "items": [
+        {
+          "name": "PlayStation 5 1TB com Leitor",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "1TB",
+              "cash": 3349.99,
+              "inst": 324.99
+            }
+          ],
+          "image": "images/ps5-leitor.jpg"
+        },
+        {
+          "name": "PlayStation 5 Slim 825GB Digital",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "825GB",
+              "cash": 4179.99,
+              "inst": 404.99
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Hollyland Lark M2",
+      "items": [
+        {
+          "name": "Microfone Hollyland Lark M2 Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Combo",
+              "cash": 999.99,
+              "inst": 97.99
+            }
+          ],
+          "image": "images/hollyland.jpg"
+        }
+      ]
+    },
+    {
+      "category": "DJI Osmo Pocket",
+      "items": [
+        {
+          "name": "DJI Osmo Pocket 4 Creator Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Combo",
+              "cash": 5119.99,
+              "inst": 494.99
+            }
+          ],
+          "image": "images/osmo-pocket.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Whoop",
+      "items": [
+        {
+          "name": "Whoop 5.0 Peak Health and Fitness Tracker",
+          "spec": "Obsidian",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Obsidian",
+              "cash": 2749.99,
+              "inst": 264.99
+            }
+          ],
+          "image": "images/whoop.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Ray-Ban Meta",
+      "items": [
+        {
+          "name": "Ray-Ban Meta Wayfarer Gen 2",
+          "spec": "Fotocromático",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Fotocromático",
+              "cash": 4299.99,
+              "inst": 414.99
+            }
+          ],
+          "image": "images/rayban-meta.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Insta360",
+      "items": [
+        {
+          "name": "Insta360 Go 3S",
+          "spec": "4K · 128GB",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3499.99,
+              "inst": 337.99
+            }
+          ],
+          "image": "images/insta360.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Drones DJI",
+      "items": [
+        {
+          "name": "Drone DJI Mini 5 Pro",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 5899,
+              "inst": 569.99
+            }
+          ],
+          "image": "images/drone-mini5pro.jpg"
+        },
+        {
+          "name": "Drone DJI Neo 2",
+          "spec": "FLY More Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Fly More Combo",
+              "cash": 4699,
+              "inst": 454.99
+            }
+          ],
+          "image": "images/drone-neo2.jpg"
+        },
+        {
+          "name": "Drone DJI Flip 4K",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 3449,
+              "inst": 334.99
+            }
+          ],
+          "image": "images/drone-flip4k.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Robô Aspirador",
+      "items": [
+        {
+          "name": "Robô Aspirador Xiaomi Vacuum S40",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1679.99,
+              "inst": 159.99
+            }
+          ],
+          "image": "images/vacuum-s40.jpg"
+        }
+      ]
+    }
+  ]
+}
