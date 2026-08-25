@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Zeneex — Catálogo de Produtos</title>
+<meta name="description" content="Curadoria de Inovação Global. Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --petroleo:#0E3B3E;
+    --petroleo-deep:#082426;
+    --petroleo-soft: rgba(14,59,62,0.08);
+    --paper:#EFF4F2;
+    --card:#FCFCFA;
+    --ink:#0F1E1D;
+    --ink-soft:#4A5B59;
+    --gold:#AD7F35;
+    --gold-soft: rgba(173,127,53,0.12);
+    --line: rgba(14,59,62,0.14);
+    --line-strong: rgba(14,59,62,0.28);
+    --radius: 2px;
+    --wa-number: 5591984195397;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    padding-bottom:64px;
+  }
+  h1,h2,h3,.display{font-family:'Space Grotesk',system-ui,sans-serif;}
+  .mono{font-family:'IBM Plex Mono',monospace;}
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+  ::selection{background:var(--petroleo);color:#fff;}
+
+  /* ---------- Header ---------- */
+  header.site{
+    background-color:var(--petroleo);
+    background-image:
+      url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.45'/></svg>"),
+      radial-gradient(ellipse 60% 50% at 18% 12%, rgba(255,255,255,0.09), transparent 55%),
+      radial-gradient(ellipse 75% 65% at 82% 88%, rgba(4,20,21,0.65), transparent 62%),
+      radial-gradient(ellipse 55% 55% at 62% 35%, rgba(255,255,255,0.04), transparent 50%),
+      radial-gradient(ellipse 45% 60% at 10% 80%, rgba(4,20,21,0.45), transparent 58%);
+    background-blend-mode:overlay, soft-light, normal, screen, normal;
+    background-size:240px 240px, cover, cover, cover, cover;
+    background-repeat:repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    color:#fff;
+    padding:22px 18px 18px;
+    position:sticky;
+    top:0;
+    z-index:40;
+  }
+  .brand-row{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+  }
+  .logo{
+    display:flex;
+    align-items:center;
+  }
+  .logo-img{
+    height:26px;
+    width:auto;
+    display:block;
+  }
+  .tagline{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    letter-spacing:0.03em;
+    color:rgba(255,255,255,0.62);
+    text-align:right;
+    white-space:nowrap;
+    margin-top:8px;
+  }
+  .page-title-block{margin-top:18px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold);
+  }
+  h1.page-title{
+    font-size:26px;
+    margin:8px 0 4px;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  .page-sub{
+    font-size:13px;
+    color:rgba(255,255,255,0.72);
+    margin:0;
+    line-height:1.5;
+  }
+
+  /* ---------- Category nav ---------- */
+  nav.catnav{
+    position:sticky;
+    top:0;
+    z-index:39;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    overflow-x:auto;
+    white-space:nowrap;
+    -webkit-overflow-scrolling:touch;
+    scrollbar-width:none;
+    padding:10px 14px;
+  }
+  /* subtle shadow to indicate nav pinned under header */
+  nav.catnav{box-shadow:0 6px 14px -12px rgba(0,0,0,0.35);}
+  nav.catnav::-webkit-scrollbar{display:none;}
+  nav.catnav a{
+    display:inline-block;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    letter-spacing:0.02em;
+    padding:7px 12px;
+    margin-right:6px;
+    border:1px solid var(--line-strong);
+    border-radius:20px;
+    text-decoration:none;
+    color:var(--petroleo);
+    background:transparent;
+  }
+  nav.catnav a:hover{background:var(--petroleo-soft);}
+
+  /* ---------- Filters ---------- */
+  .filters{
+    padding:16px 14px 6px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .filters .row{display:flex; gap:8px;}
+  .search-wrap{
+    position:relative;
+    flex:1;
+  }
+  .search-wrap input{
+    width:100%;
+    padding:12px 14px 12px 38px;
+    border:1px solid var(--line-strong);
+    background:var(--card);
+    border-radius:var(--radius);
+    font-family:'Inter',sans-serif;
+    font-size:14px;
+    color:var(--ink);
+    outline:none;
+  }
+  .search-wrap input:focus{border-color:var(--petroleo);}
+  .search-wrap svg{
+    position:absolute; left:12px; top:50%; transform:translateY(-50%);
+    width:15px; height:15px; opacity:0.5;
+  }
+  select#priceFilter{
+    border:1px solid var(--line-strong);
+    background:var(--card);
+    border-radius:var(--radius);
+    padding:12px 10px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--ink);
+    outline:none;
+    min-width:130px;
+  }
+  .result-count{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    padding:0 2px;
+  }
+  #emptyState{
+    display:none;
+    text-align:center;
+    padding:60px 20px;
+    color:var(--ink-soft);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+  }
+
+  /* ---------- Category sections ---------- */
+  main{padding:8px 14px 0;}
+  .category-section{
+    padding-top:26px;
+    scroll-margin-top:96px;
+  }
+  .cat-head{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin-bottom:14px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:10px;
+  }
+  .cat-head h2{
+    font-size:18px;
+    font-weight:600;
+    margin:0;
+  }
+  .cat-count{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+
+  .grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:14px;
+  }
+  @media(min-width:620px){
+    .grid{grid-template-columns:1fr 1fr;}
+  }
+  @media(min-width:980px){
+    .grid{grid-template-columns:1fr 1fr 1fr;}
+    main{padding:8px 28px 0;}
+    .filters{padding:16px 28px 6px;}
+    nav.catnav{padding:10px 28px;}
+    header.site{padding:22px 28px 18px;}
+  }
+
+  /* ---------- Product card (access-card signature) ---------- */
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    display:flex;
+    overflow:hidden;
+    position:relative;
+  }
+  .card .stub{
+    width:40px;
+    flex-shrink:0;
+    background:var(--petroleo);
+    background-image:
+      repeating-linear-gradient(180deg, rgba(255,255,255,0.06) 0 1px, transparent 1px 7px);
+    border-right:1px dashed rgba(255,255,255,0.35);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+  }
+  .card .stub .code{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9.5px;
+    color:rgba(255,255,255,0.75);
+    writing-mode:vertical-rl;
+    text-orientation:mixed;
+    letter-spacing:0.08em;
+  }
+  .card .stub::before,.card .stub::after{
+    content:"";
+    position:absolute;
+    left:-6px;
+    width:12px;height:12px;
+    background:var(--paper);
+    border-radius:50%;
+  }
+  .card .stub::before{top:-6px;}
+  .card .stub::after{bottom:-6px;}
+
+  .card .body{
+    flex:1;
+    padding:14px 14px 14px 16px;
+    display:flex;
+    flex-direction:column;
+    min-width:0;
+  }
+  .card .thumb{
+    height:108px;
+    border:1px dashed var(--line-strong);
+    border-radius:var(--radius);
+    background:
+      repeating-linear-gradient(135deg, rgba(14,59,62,0.05) 0 2px, transparent 2px 10px);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:12px;
+    color:var(--ink-soft);
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    text-align:center;
+    letter-spacing:0.02em;
+    padding:8px;
+  }
+  .badges{display:flex; gap:6px; margin-bottom:8px;}
+  .badge{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:9.5px;
+    letter-spacing:0.08em;
+    padding:3px 7px;
+    border-radius:20px;
+    text-transform:uppercase;
+  }
+  .badge.novo{background:var(--petroleo-soft); color:var(--petroleo);}
+  .badge.seminovo{background:var(--gold-soft); color:var(--gold);}
+
+  .card h3{
+    font-size:15.5px;
+    font-weight:600;
+    margin:0 0 4px;
+    line-height:1.28;
+  }
+  .spec{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin:0 0 10px;
+    line-height:1.4;
+  }
+
+  .variations{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin-bottom:12px;
+  }
+  .variations button{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    padding:6px 10px;
+    border:1px solid var(--line-strong);
+    background:transparent;
+    color:var(--ink);
+    border-radius:20px;
+    cursor:pointer;
+  }
+  .variations button.active{
+    background:var(--petroleo);
+    border-color:var(--petroleo);
+    color:#fff;
+  }
+
+  .price-block{margin-top:auto; margin-bottom:12px;}
+  .price-cash{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:19px;
+    font-weight:500;
+    color:var(--ink);
+  }
+  .price-install{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+
+  .cta{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    background:var(--petroleo);
+    color:#fff;
+    text-decoration:none;
+    padding:11px 12px;
+    border-radius:var(--radius);
+    font-size:13px;
+    font-weight:500;
+    letter-spacing:0.01em;
+    transition:background .15s ease;
+  }
+  .cta:hover{background:var(--petroleo-deep);}
+  .cta svg{width:15px; height:15px; flex-shrink:0;}
+
+  /* ---------- Footer ---------- */
+  footer{
+    margin-top:56px;
+    padding:28px 20px 40px;
+    text-align:center;
+    border-top:1px solid var(--line);
+  }
+  footer p{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    letter-spacing:0.02em;
+    margin:0;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="brand-row">
+    <div class="logo"><img src="logo-zeneex.png" alt="Zeneex" class="logo-img"></div>
+  </div>
+  <div class="tagline">Não é só Tecnologia, é Acesso</div>
+  <div class="page-title-block">
+    <div class="eyebrow">Curadoria de Inovação Global</div>
+    <h1 class="page-title">Seleção Exclusiva</h1>
+    <p class="page-sub">Toque em qualquer produto para solicitar orçamento direto no WhatsApp</p>
+  </div>
+</header>
+
+<nav class="catnav" id="catnav" aria-label="Categorias"></nav>
+
+<div class="filters">
+  <div class="row">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="searchInput" placeholder="Buscar produto…" autocomplete="off">
+    </div>
+    <select id="priceFilter">
+      <option value="all">Qualquer preço</option>
+      <option value="0-2000">Até R$ 2.000</option>
+      <option value="2000-4000">R$ 2.000 – 4.000</option>
+      <option value="4000-7000">R$ 4.000 – 7.000</option>
+      <option value="7000-999999">Acima de R$ 7.000</option>
+    </select>
+  </div>
+  <div class="result-count" id="resultCount"></div>
+</div>
+
+<main id="main"></main>
+<div id="emptyState">Nenhum produto encontrado para esses filtros.<br>Ajuste a busca ou a faixa de preço.</div>
+
+<footer>
+  <p>Catálogo Zeneex — toque no botão para falar direto no WhatsApp</p>
+</footer>
+
+<script>
+/* =========================================================
+   DADOS DO CATÁLOGO
+   Fonte compartilhada: catalogo-zeneex.json, o mesmo arquivo
+   citado no fluxo de atualização da skill de Catálogo PDF
+   ("backup .json da Plataforma"). Editar preço/produto aqui
+   ou lá exige replicar a mudança no outro sistema na mesma
+   sessão (ver Nota de Sincronização).
+   O array abaixo é usado como FALLBACK automático apenas se
+   o arquivo .json não puder ser carregado (ex: página aberta
+   direto do disco, sem servidor).
+========================================================= */
+const CATALOG_FALLBACK = [
+  { category:"iPhone 17", items:[
+    { name:"iPhone 17 Pro Max", badge:"NOVO", variations:[
+      {label:"256GB", cash:7819.00, inst:754.99},
+      {label:"512GB", cash:9499.00, inst:914.99}
+    ]},
+    { name:"iPhone 17 Pro", badge:"NOVO", variations:[
+      {label:"256GB", cash:7299.00, inst:704.99},
+      {label:"512GB", cash:8779.00, inst:859.99}
+    ]},
+    { name:"iPhone 17", badge:"NOVO", variations:[
+      {label:"256GB", cash:5749.00, inst:554.99}
+    ]}
+  ]},
+  { category:"iPhone 16", items:[
+    { name:"iPhone 16 Pro Max", badge:"SEMINOVO", variations:[
+      {label:"256GB", cash:5519.00, inst:529.99},
+      {label:"512GB", cash:6449.00, inst:624.99}
+    ]},
+    { name:"iPhone 16 Pro", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:4799.00, inst:464.99},
+      {label:"256GB", cash:5499.00, inst:529.99}
+    ]},
+    { name:"iPhone 16 Plus", badge:"NOVO", variations:[
+      {label:"128GB", cash:5399.00, inst:519.99},
+      {label:"256GB", cash:6149.00, inst:589.99}
+    ]},
+    { name:"iPhone 16", badge:"NOVO", variations:[
+      {label:"128GB", cash:5119.00, inst:489.99}
+    ]},
+    { name:"iPhone 16", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:4199.00, inst:404.99},
+      {label:"256GB", cash:4699.00, inst:454.99}
+    ]},
+    { name:"iPhone 16E", badge:"NOVO", variations:[
+      {label:"128GB", cash:3899.00, inst:374.99},
+      {label:"256GB", cash:4219.00, inst:407.99}
+    ]}
+  ]},
+  { category:"iPhone 15", items:[
+    { name:"iPhone 15", badge:"NOVO", variations:[
+      {label:"128GB", cash:4379.00, inst:424.99}
+    ]},
+    { name:"iPhone 15 Pro Max", badge:"SEMINOVO", variations:[
+      {label:"256GB", cash:4349.00, inst:419.99},
+      {label:"512GB", cash:5199.00, inst:499.99}
+    ]},
+    { name:"iPhone 15 Pro", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:4119.00, inst:397.99},
+      {label:"256GB", cash:4249.00, inst:409.99}
+    ]},
+    { name:"iPhone 15", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:3199.00, inst:309.99},
+      {label:"256GB", cash:3479.00, inst:334.99}
+    ]}
+  ]},
+  { category:"iPhone 14", items:[
+    { name:"iPhone 14 Pro Max", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:3649.00, inst:304.99},
+      {label:"256GB", cash:3999.00, inst:384.99}
+    ]},
+    { name:"iPhone 14 Pro", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:3399.00, inst:329.99},
+      {label:"256GB", cash:3499.00, inst:339.99}
+    ]},
+    { name:"iPhone 14", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:2549.00, inst:244.99},
+      {label:"256GB", cash:3019.00, inst:294.99}
+    ]}
+  ]},
+  { category:"iPhone 13", items:[
+    { name:"iPhone 13 Pro Max", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:3349.00, inst:324.99},
+      {label:"256GB", cash:3449.00, inst:334.99}
+    ]},
+    { name:"iPhone 13 Pro", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:3199.00, inst:309.99},
+      {label:"256GB", cash:3599.00, inst:349.99}
+    ]},
+    { name:"iPhone 13", badge:"SEMINOVO", variations:[
+      {label:"128GB", cash:2449.00, inst:239.99},
+      {label:"256GB", cash:2849.00, inst:249.99}
+    ]}
+  ]},
+  { category:"iPad", items:[
+    { name:"iPad 11ª Geração", variations:[
+      {label:"128GB", cash:3299.00, inst:324.99},
+      {label:"256GB", cash:3999.00, inst:389.99}
+    ]},
+    { name:"iPad Pro M5 11\"", variations:[
+      {label:"256GB", cash:8299.00, inst:799.99}
+    ]},
+    { name:"iPad Pro M5 13\"", variations:[
+      {label:"256GB", cash:9249.00, inst:889.99}
+    ]},
+    { name:"iPad Air M4 11\"", variations:[
+      {label:"128GB", cash:5649.00, inst:544.99},
+      {label:"256GB", cash:6119.00, inst:589.99}
+    ]},
+    { name:"iPad Air M3 13\"", variations:[
+      {label:"128GB", cash:5919.00, inst:569.99}
+    ]}
+  ]},
+  { category:"MacBook", items:[
+    { name:"MacBook Pro M5", spec:"16GB · 512GB SSD · 14\"", variations:[
+      {label:"512GB", cash:12119.00, inst:1167.99}
+    ]},
+    { name:"MacBook Air M5", spec:"16GB · 512GB SSD · 13\"", variations:[
+      {label:"512GB", cash:8719.00, inst:839.99}
+    ]},
+    { name:"MacBook Air M4", spec:"16GB · 256GB SSD · 13\"", variations:[
+      {label:"256GB", cash:6999.00, inst:674.99}
+    ]},
+    { name:"MacBook Neo", spec:"8GB · 256GB SSD · 13\"", variations:[
+      {label:"256GB", cash:5249.00, inst:499.99}
+    ]}
+  ]},
+  { category:"Apple Watch", items:[
+    { name:"Apple Watch Ultra 3 5G", variations:[
+      {label:"49mm", cash:5249.00, inst:504.99}
+    ]},
+    { name:"Apple Watch Série 11", variations:[
+      {label:"42mm", cash:2949.00, inst:289.99}
+    ]},
+    { name:"Apple Watch SE 3", variations:[
+      {label:"40mm", cash:2399.00, inst:229.99}
+    ]},
+    { name:"Apple Watch SE 2", variations:[
+      {label:"44mm", cash:2299.00, inst:219.99}
+    ]}
+  ]},
+  { category:"AirPods", items:[
+    { name:"AirPods 4", spec:"Eliminador de Ruído", variations:[
+      {label:"Padrão", cash:1749.00, inst:169.99}
+    ]}
+  ]},
+  { category:"Outros Produtos", items:[
+    { name:"Oura Ring 4", badge:"NOVO", variations:[{label:"Padrão", cash:3449.99, inst:334.99}] },
+    { name:"Oura Ring 5", badge:"NOVO", variations:[{label:"Padrão", cash:4249.99, inst:409.99}] },
+    { name:"Scooter Elétrica", badge:"NOVO", spec:"Motor 1000W · Autonomia 50km · Vel. até 32km/h", variations:[{label:"Padrão", cash:9999.00, inst:964.99}] },
+    { name:"PlayStation 5 1TB com Leitor", badge:"NOVO", variations:[{label:"1TB", cash:3349.99, inst:324.99}] },
+    { name:"PlayStation 5 Slim 825GB Digital", badge:"NOVO", variations:[{label:"825GB", cash:4179.99, inst:404.99}] },
+    { name:"Microfone Hollyland Lark M2 Combo", badge:"NOVO", variations:[{label:"Combo", cash:999.99, inst:97.99}] },
+    { name:"DJI Osmo Pocket 4 Creator Combo", badge:"NOVO", variations:[{label:"Combo", cash:5119.99, inst:494.99}] },
+    { name:"Whoop 5.0 Peak Health and Fitness Tracker", spec:"Obsidian", badge:"NOVO", variations:[{label:"Obsidian", cash:2749.99, inst:264.99}] },
+    { name:"Ray-Ban Meta Wayfarer Gen 2", spec:"Fotocromático", badge:"NOVO", variations:[{label:"Fotocromático", cash:4299.99, inst:414.99}] },
+    { name:"Insta360 Go 3S", spec:"4K · 128GB", badge:"NOVO", variations:[{label:"128GB", cash:3499.99, inst:337.99}] },
+    { name:"Drone DJI Mini 5 Pro", badge:"NOVO", variations:[{label:"Padrão", cash:5899.00, inst:569.99}] },
+    { name:"Drone DJI Neo 2", spec:"FLY More Combo", badge:"NOVO", variations:[{label:"Fly More Combo", cash:4699.00, inst:454.99}] },
+    { name:"Drone DJI Flip 4K", badge:"NOVO", variations:[{label:"Padrão", cash:3449.00, inst:334.99}] },
+    { name:"Robô Aspirador Xiaomi Vacuum S40", badge:"NOVO", variations:[{label:"Padrão", cash:1679.99, inst:159.99}] }
+  ]}
+];
+
+let CATALOG = CATALOG_FALLBACK;
+const CATALOG_JSON_URL = "./catalogo-zeneex.json";
+const WA_NUMBER = "5591984195397";
+
+/* =========================================================
+   TRACKING
+   Envie os cliques para o Google Analytics (GA4) assim que o
+   Measurement ID estiver configurado — ver nota ao final do arquivo.
+========================================================= */
+function trackOrcamento(productName, variationLabel, price){
+  const payload = {
+    event: "solicitar_orcamento",
+    product_name: productName,
+    variation: variationLabel,
+    price: price
+  };
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push(payload);
+  if (typeof gtag === "function"){
+    gtag("event", "solicitar_orcamento", {
+      item_name: productName,
+      item_variant: variationLabel,
+      value: price,
+      currency: "BRL"
+    });
+  }
+  console.log("[track] solicitar_orcamento", payload);
+}
+
+/* =========================================================
+   HELPERS
+========================================================= */
+function slug(str){
+  return str.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"");
+}
+function fmtBRL(n){
+  return n.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+function codeFor(catIndex, itemIndex){
+  const cat = CATALOG[catIndex].category.replace(/[^A-Za-z]/g,"").toUpperCase().slice(0,3) || "ZNX";
+  return `ZNX-${cat}${String(itemIndex+1).padStart(2,"0")}`;
+}
+function lowestPrice(item){
+  return Math.min(...item.variations.map(v=>v.cash));
+}
+function waLink(productName, variationLabel){
+  const msg = `Olá, vim do Instagram e quero orçamento do ${productName} ${variationLabel}`;
+  return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
+}
+
+/* =========================================================
+   RENDER
+========================================================= */
+const main = document.getElementById("main");
+const catnav = document.getElementById("catnav");
+const resultCount = document.getElementById("resultCount");
+const emptyState = document.getElementById("emptyState");
+
+function renderNav(){
+CATALOG.forEach((cat, ci)=>{
+  const a = document.createElement("a");
+  a.href = `#cat-${slug(cat.category)}`;
+  a.textContent = cat.category;
+  catnav.appendChild(a);
+});
+}
+
+function buildCard(item, ci, ii){
+  const card = document.createElement("article");
+  card.className = "card";
+  card.dataset.name = item.name.toLowerCase();
+  card.dataset.price = lowestPrice(item);
+
+  const stub = document.createElement("div");
+  stub.className = "stub";
+  stub.innerHTML = "";
+
+  const body = document.createElement("div");
+  body.className = "body";
+
+  const thumb = document.createElement("div");
+  thumb.className = "thumb";
+  thumb.textContent = `+ FOTO — ${item.name}`;
+
+  const badges = document.createElement("div");
+  badges.className = "badges";
+  if (item.badge){
+    const b = document.createElement("span");
+    b.className = "badge " + (item.badge === "NOVO" ? "novo" : "seminovo");
+    b.textContent = item.badge;
+    badges.appendChild(b);
+  }
+
+  const h3 = document.createElement("h3");
+  h3.textContent = item.name;
+
+  let specEl = null;
+  if (item.spec){
+    specEl = document.createElement("p");
+    specEl.className = "spec";
+    specEl.textContent = item.spec;
+  }
+
+  const variationsWrap = document.createElement("div");
+  variationsWrap.className = "variations";
+
+  const priceBlock = document.createElement("div");
+  priceBlock.className = "price-block";
+  const priceCash = document.createElement("div");
+  priceCash.className = "price-cash mono";
+  const priceInstall = document.createElement("div");
+  priceInstall.className = "price-install";
+
+  const cta = document.createElement("a");
+  cta.className = "cta";
+  cta.target = "_blank";
+  cta.rel = "noopener";
+  cta.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.4l-.3-.2-3.2 1 1-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg><span class="cta-label">Solicitar orçamento no WhatsApp</span>`;
+
+  let currentIndex = 0;
+
+  function updatePrice(){
+    const v = item.variations[currentIndex];
+    priceCash.textContent = "R$ " + fmtBRL(v.cash);
+    priceInstall.textContent = `ou 12x de R$ ${fmtBRL(v.inst)}`;
+    cta.href = waLink(item.name, v.label);
+    cta.onclick = ()=> trackOrcamento(item.name, v.label, v.cash);
+  }
+
+  if (item.variations.length > 1){
+    item.variations.forEach((v, vi)=>{
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.textContent = v.label;
+      if (vi === 0) btn.classList.add("active");
+      btn.addEventListener("click", ()=>{
+        currentIndex = vi;
+        variationsWrap.querySelectorAll("button").forEach(b=>b.classList.remove("active"));
+        btn.classList.add("active");
+        updatePrice();
+      });
+      variationsWrap.appendChild(btn);
+    });
+  }
+
+  updatePrice();
+
+  priceBlock.appendChild(priceCash);
+  priceBlock.appendChild(priceInstall);
+
+  body.appendChild(thumb);
+  if (badges.childElementCount) body.appendChild(badges);
+  body.appendChild(h3);
+  if (specEl) body.appendChild(specEl);
+  if (item.variations.length > 1) body.appendChild(variationsWrap);
+  body.appendChild(priceBlock);
+  body.appendChild(cta);
+
+  card.appendChild(stub);
+  card.appendChild(body);
+  return card;
+}
+
+function renderSections(){
+CATALOG.forEach((cat, ci)=>{
+  const section = document.createElement("section");
+  section.className = "category-section";
+  section.id = `cat-${slug(cat.category)}`;
+
+  const head = document.createElement("div");
+  head.className = "cat-head";
+  head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">${cat.items.length} ${cat.items.length===1?"item":"itens"}</span>`;
+
+  const grid = document.createElement("div");
+  grid.className = "grid";
+  cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, ci, ii)));
+
+  section.appendChild(head);
+  section.appendChild(grid);
+  main.appendChild(section);
+});
+}
+
+/* =========================================================
+   FILTER / SEARCH
+========================================================= */
+const searchInput = document.getElementById("searchInput");
+const priceFilter = document.getElementById("priceFilter");
+const allCards = ()=> Array.from(document.querySelectorAll(".card"));
+const allSections = ()=> Array.from(document.querySelectorAll(".category-section"));
+
+function applyFilters(){
+  const term = searchInput.value.trim().toLowerCase();
+  const range = priceFilter.value;
+  let [min, max] = range === "all" ? [0, Infinity] : range.split("-").map(Number);
+
+  let visibleTotal = 0;
+
+  allSections().forEach(section=>{
+    let visibleInSection = 0;
+    section.querySelectorAll(".card").forEach(card=>{
+      const nameMatch = !term || card.dataset.name.includes(term);
+      const price = Number(card.dataset.price);
+      const priceMatch = price >= min && price <= max;
+      const show = nameMatch && priceMatch;
+      card.style.display = show ? "" : "none";
+      if (show){ visibleInSection++; visibleTotal++; }
+    });
+    section.style.display = visibleInSection ? "" : "none";
+  });
+
+  resultCount.textContent = `${visibleTotal} produto${visibleTotal===1?"":"s"} encontrado${visibleTotal===1?"":"s"}`;
+  emptyState.style.display = visibleTotal === 0 ? "block" : "none";
+}
+
+searchInput.addEventListener("input", applyFilters);
+priceFilter.addEventListener("change", applyFilters);
+
+/* =========================================================
+   CARREGAMENTO DO CATÁLOGO
+   Tenta buscar catalogo-zeneex.json (fonte compartilhada com
+   o Catálogo PDF). Se falhar — por exemplo, página aberta
+   direto do disco sem servidor — usa o CATALOG_FALLBACK
+   embutido acima, para o site nunca ficar vazio.
+========================================================= */
+function startCatalog(){
+  renderNav();
+  renderSections();
+  applyFilters();
+}
+
+fetch(CATALOG_JSON_URL, {cache:"no-store"})
+  .then(res=>{
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  })
+  .then(data=>{
+    if (Array.isArray(data)) {
+      CATALOG = data;
+    } else if (data && Array.isArray(data.categorias)) {
+      CATALOG = data.categorias;
+    } else {
+      throw new Error("Formato de JSON inesperado");
+    }
+    startCatalog();
+  })
+  .catch(err=>{
+    console.warn("catalogo-zeneex.json não pôde ser carregado — usando dados embutidos.", err);
+    CATALOG = CATALOG_FALLBACK;
+    startCatalog();
+  });
+</script>
+</body>
+</html>
