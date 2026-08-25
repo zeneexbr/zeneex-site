@@ -260,6 +260,25 @@
     gap:10px;
     min-width:0;
   }
+  .subcat-toggle .toggle-thumb{
+    width:56px;
+    height:56px;
+    flex-shrink:0;
+    border-radius:2px;
+    overflow:hidden;
+    background:var(--paper);
+    border:1px solid var(--line);
+  }
+  .subcat-toggle .toggle-thumb img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+  }
+  .subcat-toggle .toggle-text{
+    flex:1;
+    min-width:0;
+  }
   .subcat-toggle h3{
     font-size:15px;
     font-weight:600;
@@ -793,7 +812,7 @@ function lowestPrice(item){
   return Math.min(...item.variations.map(v=>v.cash));
 }
 function waLink(productName, variationLabel){
-  const msg = `Olá, vim do Instagram e quero orçamento do ${productName} ${variationLabel}`;
+  const msg = `Olá! Estava vendo o catálogo da Zeneex e gostaria de um orçamento do ${productName} ${variationLabel}`;
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
@@ -954,10 +973,15 @@ CATALOG.forEach((cat, ci)=>{
       toggle.setAttribute("aria-expanded", "false");
 
       const lowestInCat = Math.min(...subCat.items.flatMap(it => it.variations.map(v => v.cash)));
+      const leadItem = subCat.items[0];
+      const thumbHtml = leadItem.image
+        ? `<span class="toggle-thumb"><img src="${leadItem.image}" alt="${leadItem.name}" loading="lazy"></span>`
+        : "";
 
       toggle.innerHTML = `
         <span class="toggle-stub"></span>
         <span class="toggle-body">
+          ${thumbHtml}
           <span class="toggle-text">
             <h3>${subCat.category}</h3>
             <span class="toggle-meta"><span class="n-modelos">${subCat.items.length} ${subCat.items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(lowestInCat)}</span>
