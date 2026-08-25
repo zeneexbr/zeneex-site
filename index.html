@@ -315,6 +315,28 @@
   .subcat-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
   .subcat-toggle[aria-expanded="true"]{ border-color:var(--line-strong); }
 
+  /* When expanded, the header tile shrinks so it doesn't repeat the big photo already shown in the first model card below */
+  .subcat-toggle[aria-expanded="true"] .toggle-body{
+    flex-direction:row;
+    align-items:center;
+    gap:10px;
+    padding:10px 12px;
+  }
+  .subcat-toggle[aria-expanded="true"] .toggle-thumb{
+    width:56px;
+    height:56px;
+    aspect-ratio:unset;
+    margin-bottom:0;
+    flex-shrink:0;
+  }
+  .subcat-toggle[aria-expanded="true"] .toggle-textrow{
+    flex:1;
+    min-width:0;
+  }
+  .subcat-toggle[aria-expanded="true"] h3{
+    font-size:14px;
+  }
+
   .grid.collapsible{
     display:none;
     margin-bottom:4px;
