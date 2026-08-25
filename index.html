@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Zeneex — Catálogo de Produtos</title>
 <meta name="description" content="Curadoria de Inovação Global. Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -24,7 +26,6 @@
     --radius: 2px;
     --wa-number: 5591984195397;
   }
-  
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{
@@ -77,10 +78,8 @@
     font-family:'IBM Plex Mono',monospace;
     font-size:10.5px;
     letter-spacing:0.03em;
-    color:rgba(255,255,255,0.62);
-    text-align:right;
-    white-space:nowrap;
-    margin-top:8px;
+    color:#fff;
+    text-align:left;
   }
   .page-title-block{margin-top:18px;}
   .eyebrow{
@@ -212,6 +211,20 @@
     font-size:11px;
     color:var(--ink-soft);
   }
+  .subcat-head{
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+    margin:20px 0 12px;
+  }
+  .subcat-head h3{
+    font-size:14px;
+    font-weight:600;
+    margin:0;
+    color:var(--petroleo);
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+  }
 
   .grid{
     display:grid;
@@ -292,6 +305,18 @@
     text-align:center;
     letter-spacing:0.02em;
     padding:8px;
+    overflow:hidden;
+  }
+  .card .thumb.has-image{
+    border-style:solid;
+    background:var(--card);
+    padding:0;
+  }
+  .card .thumb img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
   }
   .badges{display:flex; gap:6px; margin-bottom:8px;}
   .badge{
@@ -383,8 +408,30 @@
     font-size:11px;
     color:var(--ink-soft);
     letter-spacing:0.02em;
-    margin:0;
+    margin:0 0 16px;
   }
+  .footer-social{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+  }
+  .footer-social a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:36px;
+    height:36px;
+    border-radius:50%;
+    border:1px solid var(--line-strong);
+    color:var(--ink-soft);
+    text-decoration:none;
+    transition:color .15s ease, border-color .15s ease;
+  }
+  .footer-social a:hover{
+    color:var(--petroleo);
+    border-color:var(--petroleo);
+  }
+  .footer-social svg{width:17px; height:17px;}
 
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto;}
@@ -397,8 +444,8 @@
   <div class="brand-row">
     <div class="logo"><img src="logo-zeneex.png" alt="Zeneex" class="logo-img"></div>
   </div>
-  <div class="tagline">Não é só Tecnologia, é Acesso</div>
   <div class="page-title-block">
+    <div class="tagline">Não é só Tecnologia, é Acesso</div>
     <div class="eyebrow">Curadoria de Inovação Global</div>
     <h1 class="page-title">Seleção Exclusiva</h1>
     <p class="page-sub">Toque em qualquer produto para solicitar orçamento direto no WhatsApp</p>
@@ -429,6 +476,14 @@
 
 <footer>
   <p>Catálogo Zeneex — toque no botão para falar direto no WhatsApp</p>
+  <div class="footer-social">
+    <a href="https://instagram.com/zeneex.br" target="_blank" rel="noopener" aria-label="Instagram @zeneex.br">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+    </a>
+    <a href="https://wa.me/5591984195397" target="_blank" rel="noopener" aria-label="WhatsApp (91) 98419-5397">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.4l-.3-.2-3.2 1 1-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg>
+    </a>
+  </div>
 </footer>
 
 <script>
@@ -444,7 +499,7 @@
    direto do disco, sem servidor).
 ========================================================= */
 const CATALOG_FALLBACK = [
-  { category:"iPhone 17", items:[
+  { category:"iPhone 17", group:"iPhones", items:[
     { name:"iPhone 17 Pro Max", badge:"NOVO", variations:[
       {label:"256GB", cash:7819.00, inst:754.99},
       {label:"512GB", cash:9499.00, inst:914.99}
@@ -457,7 +512,7 @@ const CATALOG_FALLBACK = [
       {label:"256GB", cash:5749.00, inst:554.99}
     ]}
   ]},
-  { category:"iPhone 16", items:[
+  { category:"iPhone 16", group:"iPhones", items:[
     { name:"iPhone 16 Pro Max", badge:"SEMINOVO", variations:[
       {label:"256GB", cash:5519.00, inst:529.99},
       {label:"512GB", cash:6449.00, inst:624.99}
@@ -482,7 +537,7 @@ const CATALOG_FALLBACK = [
       {label:"256GB", cash:4219.00, inst:407.99}
     ]}
   ]},
-  { category:"iPhone 15", items:[
+  { category:"iPhone 15", group:"iPhones", items:[
     { name:"iPhone 15", badge:"NOVO", variations:[
       {label:"128GB", cash:4379.00, inst:424.99}
     ]},
@@ -499,7 +554,7 @@ const CATALOG_FALLBACK = [
       {label:"256GB", cash:3479.00, inst:334.99}
     ]}
   ]},
-  { category:"iPhone 14", items:[
+  { category:"iPhone 14", group:"iPhones", items:[
     { name:"iPhone 14 Pro Max", badge:"SEMINOVO", variations:[
       {label:"128GB", cash:3649.00, inst:304.99},
       {label:"256GB", cash:3999.00, inst:384.99}
@@ -513,7 +568,7 @@ const CATALOG_FALLBACK = [
       {label:"256GB", cash:3019.00, inst:294.99}
     ]}
   ]},
-  { category:"iPhone 13", items:[
+  { category:"iPhone 13", group:"iPhones", items:[
     { name:"iPhone 13 Pro Max", badge:"SEMINOVO", variations:[
       {label:"128GB", cash:3349.00, inst:324.99},
       {label:"256GB", cash:3449.00, inst:334.99}
@@ -579,20 +634,38 @@ const CATALOG_FALLBACK = [
       {label:"Padrão", cash:1749.00, inst:169.99}
     ]}
   ]},
-  { category:"Outros Produtos", items:[
+  { category:"Oura Ring", items:[
     { name:"Oura Ring 4", badge:"NOVO", variations:[{label:"Padrão", cash:3449.99, inst:334.99}] },
-    { name:"Oura Ring 5", badge:"NOVO", variations:[{label:"Padrão", cash:4249.99, inst:409.99}] },
-    { name:"Scooter Elétrica", badge:"NOVO", spec:"Motor 1000W · Autonomia 50km · Vel. até 32km/h", variations:[{label:"Padrão", cash:9999.00, inst:964.99}] },
+    { name:"Oura Ring 5", badge:"NOVO", variations:[{label:"Padrão", cash:4249.99, inst:409.99}] }
+  ]},
+  { category:"Scooter Elétrica", items:[
+    { name:"Scooter Elétrica", badge:"NOVO", spec:"Motor 1000W · Autonomia 50km · Vel. até 32km/h", variations:[{label:"Padrão", cash:9999.00, inst:964.99}] }
+  ]},
+  { category:"PlayStation 5", items:[
     { name:"PlayStation 5 1TB com Leitor", badge:"NOVO", variations:[{label:"1TB", cash:3349.99, inst:324.99}] },
-    { name:"PlayStation 5 Slim 825GB Digital", badge:"NOVO", variations:[{label:"825GB", cash:4179.99, inst:404.99}] },
-    { name:"Microfone Hollyland Lark M2 Combo", badge:"NOVO", variations:[{label:"Combo", cash:999.99, inst:97.99}] },
-    { name:"DJI Osmo Pocket 4 Creator Combo", badge:"NOVO", variations:[{label:"Combo", cash:5119.99, inst:494.99}] },
-    { name:"Whoop 5.0 Peak Health and Fitness Tracker", spec:"Obsidian", badge:"NOVO", variations:[{label:"Obsidian", cash:2749.99, inst:264.99}] },
-    { name:"Ray-Ban Meta Wayfarer Gen 2", spec:"Fotocromático", badge:"NOVO", variations:[{label:"Fotocromático", cash:4299.99, inst:414.99}] },
-    { name:"Insta360 Go 3S", spec:"4K · 128GB", badge:"NOVO", variations:[{label:"128GB", cash:3499.99, inst:337.99}] },
+    { name:"PlayStation 5 Slim 825GB Digital", badge:"NOVO", variations:[{label:"825GB", cash:4179.99, inst:404.99}] }
+  ]},
+  { category:"Hollyland Lark M2", items:[
+    { name:"Microfone Hollyland Lark M2 Combo", badge:"NOVO", variations:[{label:"Combo", cash:999.99, inst:97.99}] }
+  ]},
+  { category:"DJI Osmo Pocket", items:[
+    { name:"DJI Osmo Pocket 4 Creator Combo", badge:"NOVO", variations:[{label:"Combo", cash:5119.99, inst:494.99}] }
+  ]},
+  { category:"Whoop", items:[
+    { name:"Whoop 5.0 Peak Health and Fitness Tracker", spec:"Obsidian", badge:"NOVO", variations:[{label:"Obsidian", cash:2749.99, inst:264.99}] }
+  ]},
+  { category:"Ray-Ban Meta", items:[
+    { name:"Ray-Ban Meta Wayfarer Gen 2", spec:"Fotocromático", badge:"NOVO", variations:[{label:"Fotocromático", cash:4299.99, inst:414.99}] }
+  ]},
+  { category:"Insta360", items:[
+    { name:"Insta360 Go 3S", spec:"4K · 128GB", badge:"NOVO", variations:[{label:"128GB", cash:3499.99, inst:337.99}] }
+  ]},
+  { category:"Drones DJI", items:[
     { name:"Drone DJI Mini 5 Pro", badge:"NOVO", variations:[{label:"Padrão", cash:5899.00, inst:569.99}] },
     { name:"Drone DJI Neo 2", spec:"FLY More Combo", badge:"NOVO", variations:[{label:"Fly More Combo", cash:4699.00, inst:454.99}] },
-    { name:"Drone DJI Flip 4K", badge:"NOVO", variations:[{label:"Padrão", cash:3449.00, inst:334.99}] },
+    { name:"Drone DJI Flip 4K", badge:"NOVO", variations:[{label:"Padrão", cash:3449.00, inst:334.99}] }
+  ]},
+  { category:"Robô Aspirador", items:[
     { name:"Robô Aspirador Xiaomi Vacuum S40", badge:"NOVO", variations:[{label:"Padrão", cash:1679.99, inst:159.99}] }
   ]}
 ];
@@ -658,7 +731,17 @@ const resultCount = document.getElementById("resultCount");
 const emptyState = document.getElementById("emptyState");
 
 function renderNav(){
+const seenGroups = new Set();
 CATALOG.forEach((cat, ci)=>{
+  if (cat.group){
+    if (seenGroups.has(cat.group)) return;
+    seenGroups.add(cat.group);
+    const a = document.createElement("a");
+    a.href = `#group-${slug(cat.group)}`;
+    a.textContent = cat.group;
+    catnav.appendChild(a);
+    return;
+  }
   const a = document.createElement("a");
   a.href = `#cat-${slug(cat.category)}`;
   a.textContent = cat.category;
@@ -681,7 +764,16 @@ function buildCard(item, ci, ii){
 
   const thumb = document.createElement("div");
   thumb.className = "thumb";
-  thumb.textContent = `+ FOTO — ${item.name}`;
+  if (item.image){
+    thumb.classList.add("has-image");
+    const img = document.createElement("img");
+    img.src = item.image;
+    img.alt = item.name;
+    img.loading = "lazy";
+    thumb.appendChild(img);
+  } else {
+    thumb.textContent = `+ FOTO — ${item.name}`;
+  }
 
   const badges = document.createElement("div");
   badges.className = "badges";
@@ -763,7 +855,41 @@ function buildCard(item, ci, ii){
 }
 
 function renderSections(){
+const renderedGroups = new Set();
 CATALOG.forEach((cat, ci)=>{
+  if (cat.group){
+    if (renderedGroups.has(cat.group)) return;
+    renderedGroups.add(cat.group);
+    const groupCats = CATALOG.filter(c=>c.group === cat.group);
+    const totalItems = groupCats.reduce((sum,c)=>sum + c.items.length, 0);
+
+    const section = document.createElement("section");
+    section.className = "category-section";
+    section.id = `group-${slug(cat.group)}`;
+
+    const head = document.createElement("div");
+    head.className = "cat-head";
+    head.innerHTML = `<h2>${cat.group}</h2><span class="cat-count mono">${totalItems} ${totalItems===1?"item":"itens"}</span>`;
+    section.appendChild(head);
+
+    groupCats.forEach((subCat)=>{
+      const subHead = document.createElement("div");
+      subHead.className = "subcat-head";
+      subHead.innerHTML = `<h3>${subCat.category}</h3><span class="cat-count mono">${subCat.items.length} ${subCat.items.length===1?"item":"itens"}</span>`;
+
+      const grid = document.createElement("div");
+      grid.className = "grid";
+      const catIndex = CATALOG.indexOf(subCat);
+      subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
+
+      section.appendChild(subHead);
+      section.appendChild(grid);
+    });
+
+    main.appendChild(section);
+    return;
+  }
+
   const section = document.createElement("section");
   section.className = "category-section";
   section.id = `cat-${slug(cat.category)}`;
