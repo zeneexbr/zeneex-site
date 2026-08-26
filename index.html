@@ -388,26 +388,31 @@
   }
   .share-btn{
     position:absolute;
-    top:10px;
-    right:10px;
-    width:30px;
-    height:30px;
-    border-radius:50%;
-    background:rgba(252,252,250,0.92);
-    border:1px solid var(--line-strong);
+    top:8px;
+    right:8px;
+    width:36px;
+    height:28px;
+    background:transparent;
+    border:none;
     display:flex;
     align-items:center;
     justify-content:center;
-    color:var(--petroleo);
-    font-size:16px;
+    color:#fff;
+    font-size:20px;
     line-height:1;
+    letter-spacing:1px;
     z-index:5;
     cursor:pointer;
-    backdrop-filter:blur(2px);
+    text-shadow:0 1px 3px rgba(0,0,0,0.7), 0 0 8px rgba(0,0,0,0.4);
   }
-  .share-btn:active{ background:var(--paper); }
+  .share-btn:active{ opacity:0.6; }
   .subcat-toggle{ position:relative; scroll-margin-top:var(--sticky-offset, 200px); }
-  .subcat-toggle .share-btn{ top:10px; right:10px; }
+  .subcat-toggle .share-btn{
+    top:8px;
+    right:8px;
+    color:var(--ink-soft);
+    text-shadow:none;
+  }
   .card{ scroll-margin-top:var(--sticky-offset, 200px); }
   .card .stub{
     width:40px;
@@ -931,7 +936,7 @@ function buildCard(item, ci, ii){
   shareBtn.type = "button";
   shareBtn.className = "share-btn";
   shareBtn.setAttribute("aria-label", "Compartilhar produto");
-  shareBtn.textContent = "⋮";
+  shareBtn.textContent = "⋯";
   shareBtn.addEventListener("click", (e)=>{
     e.stopPropagation();
     shareLink(item.displayName || item.name, `#item-${ci}-${ii}`);
@@ -1072,7 +1077,7 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
     shareBtn.type = "button";
     shareBtn.className = "share-btn";
     shareBtn.setAttribute("aria-label", "Compartilhar");
-    shareBtn.textContent = "⋮";
+    shareBtn.textContent = "⋯";
     shareBtn.addEventListener("click", (e)=>{
       e.stopPropagation();
       shareLink(title, `#${shareHash}`);
