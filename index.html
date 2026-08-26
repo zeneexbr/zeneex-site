@@ -206,7 +206,7 @@
   main{padding:8px 14px 0;}
   .category-section{
     padding-top:26px;
-    scroll-margin-top:96px;
+    scroll-margin-top:var(--sticky-offset, 200px);
   }
   .cat-head{
     display:flex;
@@ -855,7 +855,7 @@ function lowestPrice(item){
   return Math.min(...item.variations.map(v=>v.cash));
 }
 function waLink(productName, variationLabel){
-  const msg = `Olá! Estava vendo o catálogo da Zeneex e gostaria de um orçamento do ${productName} ${variationLabel}`;
+  const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName} ${variationLabel}`;
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
@@ -1172,10 +1172,19 @@ priceFilter.addEventListener("change", applyFilters);
    direto do disco sem servidor — usa o CATALOG_FALLBACK
    embutido acima, para o site nunca ficar vazio.
 ========================================================= */
+function updateStickyOffset(){
+  const header = document.querySelector("header.site");
+  if (header) {
+    document.documentElement.style.setProperty("--sticky-offset", (header.offsetHeight + 16) + "px");
+  }
+}
+
 function startCatalog(){
   renderNav();
   renderSections();
   applyFilters();
+  updateStickyOffset();
+  window.addEventListener("resize", updateStickyOffset);
 }
 
 fetch(CATALOG_JSON_URL, {cache:"no-store"})
