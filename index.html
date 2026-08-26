@@ -254,18 +254,20 @@
   .subcat-toggle .toggle-body{
     flex:1;
     display:flex;
-    flex-direction:column;
-    padding:14px 14px 14px 16px;
+    flex-direction:row;
+    align-items:center;
+    gap:10px;
+    padding:13px 14px;
     min-width:0;
   }
   .subcat-toggle .toggle-thumb{
-    width:100%;
-    aspect-ratio:1/1;
-    border-radius:var(--radius);
+    width:92px;
+    height:92px;
+    flex-shrink:0;
+    border-radius:2px;
     overflow:hidden;
     background:var(--paper);
     border:1px solid var(--line);
-    margin-bottom:12px;
   }
   .subcat-toggle .toggle-thumb img{
     width:100%;
@@ -274,6 +276,8 @@
     display:block;
   }
   .subcat-toggle .toggle-textrow{
+    flex:1;
+    min-width:0;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -314,28 +318,6 @@
   }
   .subcat-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
   .subcat-toggle[aria-expanded="true"]{ border-color:var(--line-strong); }
-
-  /* When expanded, the header tile shrinks so it doesn't repeat the big photo already shown in the first model card below */
-  .subcat-toggle[aria-expanded="true"] .toggle-body{
-    flex-direction:row;
-    align-items:center;
-    gap:10px;
-    padding:10px 12px;
-  }
-  .subcat-toggle[aria-expanded="true"] .toggle-thumb{
-    width:56px;
-    height:56px;
-    aspect-ratio:unset;
-    margin-bottom:0;
-    flex-shrink:0;
-  }
-  .subcat-toggle[aria-expanded="true"] .toggle-textrow{
-    flex:1;
-    min-width:0;
-  }
-  .subcat-toggle[aria-expanded="true"] h3{
-    font-size:14px;
-  }
 
   /* compact variant: used for the inner "line" rows nested inside a family (e.g. generations inside iPhones) */
   .subcat-toggle.compact .toggle-body{
