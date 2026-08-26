@@ -855,7 +855,8 @@ function lowestPrice(item){
   return Math.min(...item.variations.map(v=>v.cash));
 }
 function waLink(productName, variationLabel){
-  const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName} ${variationLabel}`;
+  const suffix = variationLabel ? ` ${variationLabel}` : "";
+  const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName}${suffix}`;
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
@@ -953,7 +954,7 @@ function buildCard(item, ci, ii){
     const v = item.variations[currentIndex];
     priceCash.textContent = "R$ " + fmtBRL(v.cash);
     priceInstall.textContent = `ou 12x de R$ ${fmtBRL(v.inst)}`;
-    cta.href = waLink(item.name, v.label);
+    cta.href = waLink(item.name, item.variations.length > 1 ? v.label : "");
     cta.onclick = ()=> trackOrcamento(item.name, v.label, v.cash);
   }
 
