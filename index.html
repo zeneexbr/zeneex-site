@@ -386,6 +386,29 @@
     overflow:hidden;
     position:relative;
   }
+  .share-btn{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background:rgba(252,252,250,0.92);
+    border:1px solid var(--line-strong);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:var(--petroleo);
+    font-size:16px;
+    line-height:1;
+    z-index:5;
+    cursor:pointer;
+    backdrop-filter:blur(2px);
+  }
+  .share-btn:active{ background:var(--paper); }
+  .subcat-toggle{ position:relative; scroll-margin-top:var(--sticky-offset, 200px); }
+  .subcat-toggle .share-btn{ top:10px; right:10px; }
+  .card{ scroll-margin-top:var(--sticky-offset, 200px); }
   .card .stub{
     width:40px;
     flex-shrink:0;
@@ -902,6 +925,18 @@ function buildCard(item, ci, ii){
   card.className = "card";
   card.dataset.name = item.name.toLowerCase();
   card.dataset.price = lowestPrice(item);
+  card.id = `item-${ci}-${ii}`;
+
+  const shareBtn = document.createElement("button");
+  shareBtn.type = "button";
+  shareBtn.className = "share-btn";
+  shareBtn.setAttribute("aria-label", "Compartilhar produto");
+  shareBtn.textContent = "⋮";
+  shareBtn.addEventListener("click", (e)=>{
+    e.stopPropagation();
+    shareLink(item.displayName || item.name, `#item-${ci}-${ii}`);
+  });
+  card.appendChild(shareBtn);
 
   const stub = document.createElement("div");
   stub.className = "stub";
@@ -1002,11 +1037,12 @@ function buildCard(item, ci, ii){
   return card;
 }
 
-function buildToggleUnit(title, items, hideMeta){
+function buildToggleUnit(title, items, hideMeta, shareHash){
   const toggle = document.createElement("button");
   toggle.type = "button";
   toggle.className = "subcat-toggle";
   toggle.setAttribute("aria-expanded", "false");
+  if (shareHash) toggle.id = shareHash;
 
   const leadItem = items[0];
   const thumbHtml = leadItem.image
@@ -1030,25 +1066,40 @@ function buildToggleUnit(title, items, hideMeta){
       </span>
     </span>
   `;
+
+  if (shareHash){
+    const shareBtn = document.createElement("button");
+    shareBtn.type = "button";
+    shareBtn.className = "share-btn";
+    shareBtn.setAttribute("aria-label", "Compartilhar");
+    shareBtn.textContent = "⋮";
+    shareBtn.addEventListener("click", (e)=>{
+      e.stopPropagation();
+      shareLink(title, `#${shareHash}`);
+    });
+    toggle.appendChild(shareBtn);
+  }
+
   return toggle;
 }
 
-function buildGroupBlock(groupCats){
+function buildGroupBlock(groupCats, idOverride){
   const groupName = groupCats[0].group;
   const allItems = groupCats.flatMap(c => c.items);
-  const familyToggle = buildToggleUnit(groupName, allItems, false);
+  const familyToggle = buildToggleUnit(groupName, allItems, false, idOverride || `group-${slug(groupName)}-toggle`);
 
   const linesContainer = document.createElement("div");
   linesContainer.className = "lines-list collapsible";
 
   groupCats.forEach((subCat)=>{
-    const lineToggle = buildToggleUnit(subCat.category, subCat.items, false);
+    const lineToggle = buildToggleUnit(subCat.category, subCat.items, false, `line-${slug(subCat.category)}`);
     const grid = document.createElement("div");
     grid.className = "grid collapsible";
     const catIndex = CATALOG.indexOf(subCat);
     subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
 
-    lineToggle.addEventListener("click", ()=>{
+    lineToggle.addEventListener("click", (e)=>{
+      if (e.target.closest(".share-btn")) return;
       const isOpen = grid.classList.toggle("open");
       lineToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
@@ -1057,7 +1108,8 @@ function buildGroupBlock(groupCats){
     linesContainer.appendChild(grid);
   });
 
-  familyToggle.addEventListener("click", ()=>{
+  familyToggle.addEventListener("click", (e)=>{
+    if (e.target.closest(".share-btn")) return;
     const isOpen = linesContainer.classList.toggle("open");
     familyToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
   });
@@ -1065,14 +1117,15 @@ function buildGroupBlock(groupCats){
   return {toggle: familyToggle, content: linesContainer, items: allItems};
 }
 
-function buildFlatMultiBlock(cat){
-  const toggle = buildToggleUnit(cat.category, cat.items, false);
+function buildFlatMultiBlock(cat, idOverride){
+  const toggle = buildToggleUnit(cat.category, cat.items, false, idOverride || `cat-${slug(cat.category)}-toggle`);
   const grid = document.createElement("div");
   grid.className = "grid collapsible";
   const catIndex = CATALOG.indexOf(cat);
   cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
 
-  toggle.addEventListener("click", ()=>{
+  toggle.addEventListener("click", (e)=>{
+    if (e.target.closest(".share-btn")) return;
     const isOpen = grid.classList.toggle("open");
     toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
   });
@@ -1080,14 +1133,15 @@ function buildFlatMultiBlock(cat){
   return {toggle, content: grid, items: cat.items};
 }
 
-function buildSingleBlock(cat){
-  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true);
+function buildSingleBlock(cat, idOverride){
+  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true, idOverride || `cat-${slug(cat.category)}-toggle`);
   const grid = document.createElement("div");
   grid.className = "grid collapsible";
   const catIndex = CATALOG.indexOf(cat);
   grid.appendChild(buildCard(cat.items[0], catIndex, 0));
 
-  toggle.addEventListener("click", ()=>{
+  toggle.addEventListener("click", (e)=>{
+    if (e.target.closest(".share-btn")) return;
     const isOpen = grid.classList.toggle("open");
     toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
   });
@@ -1119,11 +1173,11 @@ CATALOG.forEach((cat, ci)=>{
       let block;
       if (c2.group){
         const gcats = CATALOG.filter(x=>x.group === c2.group);
-        block = buildGroupBlock(gcats);
+        block = buildGroupBlock(gcats, `sub-${slug(subKey)}`);
       } else if (c2.items.length > 1){
-        block = buildFlatMultiBlock(c2);
+        block = buildFlatMultiBlock(c2, `sub-${slug(subKey)}`);
       } else {
-        block = buildSingleBlock(c2);
+        block = buildSingleBlock(c2, `sub-${slug(subKey)}`);
       }
       totalItems += block.items.length;
       leadItems = leadItems.concat(block.items);
@@ -1139,7 +1193,7 @@ CATALOG.forEach((cat, ci)=>{
     head.innerHTML = `<h2>${cat.supergroup}</h2><span class="cat-count mono">${totalItems} itens</span>`;
     section.appendChild(head);
 
-    const outerToggle = buildToggleUnit(cat.supergroup, leadItems, false);
+    const outerToggle = buildToggleUnit(cat.supergroup, leadItems, false, `super-${slug(cat.supergroup)}-toggle`);
     const outerContainer = document.createElement("div");
     outerContainer.className = "lines-list collapsible";
     subBlocks.forEach(b=>{
@@ -1147,7 +1201,8 @@ CATALOG.forEach((cat, ci)=>{
       outerContainer.appendChild(b.content);
     });
 
-    outerToggle.addEventListener("click", ()=>{
+    outerToggle.addEventListener("click", (e)=>{
+      if (e.target.closest(".share-btn")) return;
       const isOpen = outerContainer.classList.toggle("open");
       outerToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     });
@@ -1263,12 +1318,60 @@ function updateStickyOffset(){
   }
 }
 
+function shareLink(title, hash){
+  const url = location.origin + location.pathname + hash;
+  const shareData = {title: `Zeneex — ${title}`, text: `Confira: ${title}`, url};
+  if (navigator.share){
+    navigator.share(shareData).catch(()=>{});
+    return;
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(()=>{
+      alert("Link copiado! Cole onde quiser compartilhar.");
+    }).catch(()=>{
+      window.prompt("Copie o link abaixo:", url);
+    });
+    return;
+  }
+  window.prompt("Copie o link abaixo:", url);
+}
+
+function revealAndScroll(el){
+  let node = el.parentElement;
+  while (node && node !== document.body){
+    if (node.classList && node.classList.contains("collapsible") && !node.classList.contains("open")){
+      const toggle = node.previousElementSibling;
+      if (toggle && toggle.classList && toggle.classList.contains("subcat-toggle")){
+        toggle.click();
+      }
+    }
+    node = node.parentElement;
+  }
+  if (el.classList && el.classList.contains("subcat-toggle") && el.getAttribute("aria-expanded") !== "true"){
+    el.click();
+  }
+  const ownToggle = el.querySelector(":scope > .subcat-toggle");
+  if (ownToggle && ownToggle.getAttribute("aria-expanded") !== "true"){
+    ownToggle.click();
+  }
+  setTimeout(()=>{ el.scrollIntoView({behavior:"smooth", block:"start"}); }, 60);
+}
+
+function handleShareHash(){
+  if (!location.hash || location.hash.length < 2) return;
+  const id = location.hash.slice(1);
+  const el = document.getElementById(id);
+  if (el) revealAndScroll(el);
+}
+
 function startCatalog(){
   renderNav();
   renderSections();
   applyFilters();
   updateStickyOffset();
   window.addEventListener("resize", updateStickyOffset);
+  setTimeout(handleShareHash, 120);
+  window.addEventListener("hashchange", handleShareHash);
 }
 
 fetch(CATALOG_JSON_URL, {cache:"no-store"})
