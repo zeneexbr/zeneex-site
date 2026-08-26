@@ -209,7 +209,8 @@
               "instCount": 18
             }
           ],
-          "image": "images/scooter-preta.jpg"
+          "image": "images/scooter-preta.jpg",
+          "displayName": "Scooter Elétrica"
         },
         {
           "name": "Scooter Elétrica Verde",
@@ -223,7 +224,8 @@
               "instCount": 18
             }
           ],
-          "image": "images/scooter-verde.jpg"
+          "image": "images/scooter-verde.jpg",
+          "displayName": "Scooter Elétrica"
         },
         {
           "name": "Scooter Elétrica Verde Oliva",
@@ -237,7 +239,8 @@
               "instCount": 18
             }
           ],
-          "image": "images/scooter-verde-oliva.jpg"
+          "image": "images/scooter-verde-oliva.jpg",
+          "displayName": "Scooter Elétrica"
         },
         {
           "name": "Scooter Elétrica",

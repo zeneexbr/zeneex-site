@@ -933,7 +933,7 @@ function buildCard(item, ci, ii){
   }
 
   const h3 = document.createElement("h3");
-  h3.textContent = item.name;
+  h3.textContent = item.displayName || item.name;
 
   let specEl = null;
   if (item.spec){
