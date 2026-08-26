@@ -870,7 +870,17 @@ const emptyState = document.getElementById("emptyState");
 
 function renderNav(){
 const seenGroups = new Set();
+const seenSupergroups = new Set();
 CATALOG.forEach((cat, ci)=>{
+  if (cat.supergroup){
+    if (seenSupergroups.has(cat.supergroup)) return;
+    seenSupergroups.add(cat.supergroup);
+    const a = document.createElement("a");
+    a.href = `#super-${slug(cat.supergroup)}`;
+    a.textContent = cat.supergroup;
+    catnav.appendChild(a);
+    return;
+  }
   if (cat.group){
     if (seenGroups.has(cat.group)) return;
     seenGroups.add(cat.group);
@@ -1023,9 +1033,131 @@ function buildToggleUnit(title, items, hideMeta){
   return toggle;
 }
 
+function buildGroupBlock(groupCats){
+  const groupName = groupCats[0].group;
+  const allItems = groupCats.flatMap(c => c.items);
+  const familyToggle = buildToggleUnit(groupName, allItems, false);
+
+  const linesContainer = document.createElement("div");
+  linesContainer.className = "lines-list collapsible";
+
+  groupCats.forEach((subCat)=>{
+    const lineToggle = buildToggleUnit(subCat.category, subCat.items, false);
+    const grid = document.createElement("div");
+    grid.className = "grid collapsible";
+    const catIndex = CATALOG.indexOf(subCat);
+    subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
+
+    lineToggle.addEventListener("click", ()=>{
+      const isOpen = grid.classList.toggle("open");
+      lineToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    linesContainer.appendChild(lineToggle);
+    linesContainer.appendChild(grid);
+  });
+
+  familyToggle.addEventListener("click", ()=>{
+    const isOpen = linesContainer.classList.toggle("open");
+    familyToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  return {toggle: familyToggle, content: linesContainer, items: allItems};
+}
+
+function buildFlatMultiBlock(cat){
+  const toggle = buildToggleUnit(cat.category, cat.items, false);
+  const grid = document.createElement("div");
+  grid.className = "grid collapsible";
+  const catIndex = CATALOG.indexOf(cat);
+  cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
+
+  toggle.addEventListener("click", ()=>{
+    const isOpen = grid.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  return {toggle, content: grid, items: cat.items};
+}
+
+function buildSingleBlock(cat){
+  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true);
+  const grid = document.createElement("div");
+  grid.className = "grid collapsible";
+  const catIndex = CATALOG.indexOf(cat);
+  grid.appendChild(buildCard(cat.items[0], catIndex, 0));
+
+  toggle.addEventListener("click", ()=>{
+    const isOpen = grid.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  return {toggle, content: grid, items: cat.items};
+}
+
 function renderSections(){
 const renderedGroups = new Set();
+const renderedSupergroups = new Set();
+
 CATALOG.forEach((cat, ci)=>{
+  if (cat.supergroup){
+    if (renderedSupergroups.has(cat.supergroup)) return;
+    renderedSupergroups.add(cat.supergroup);
+
+    const seenSub = new Set();
+    const subBlocks = [];
+    let totalItems = 0;
+    let allApplePrices = [];
+    let leadItems = [];
+
+    CATALOG.forEach((c2)=>{
+      if (c2.supergroup !== cat.supergroup) return;
+      const subKey = c2.group || c2.category;
+      if (seenSub.has(subKey)) return;
+      seenSub.add(subKey);
+
+      let block;
+      if (c2.group){
+        const gcats = CATALOG.filter(x=>x.group === c2.group);
+        block = buildGroupBlock(gcats);
+      } else if (c2.items.length > 1){
+        block = buildFlatMultiBlock(c2);
+      } else {
+        block = buildSingleBlock(c2);
+      }
+      totalItems += block.items.length;
+      leadItems = leadItems.concat(block.items);
+      subBlocks.push(block);
+    });
+
+    const section = document.createElement("section");
+    section.className = "category-section";
+    section.id = `super-${slug(cat.supergroup)}`;
+
+    const head = document.createElement("div");
+    head.className = "cat-head";
+    head.innerHTML = `<h2>${cat.supergroup}</h2><span class="cat-count mono">${totalItems} itens</span>`;
+    section.appendChild(head);
+
+    const outerToggle = buildToggleUnit(cat.supergroup, leadItems, false);
+    const outerContainer = document.createElement("div");
+    outerContainer.className = "lines-list collapsible";
+    subBlocks.forEach(b=>{
+      outerContainer.appendChild(b.toggle);
+      outerContainer.appendChild(b.content);
+    });
+
+    outerToggle.addEventListener("click", ()=>{
+      const isOpen = outerContainer.classList.toggle("open");
+      outerToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    section.appendChild(outerToggle);
+    section.appendChild(outerContainer);
+    main.appendChild(section);
+    return;
+  }
+
   if (cat.group){
     if (renderedGroups.has(cat.group)) return;
     renderedGroups.add(cat.group);
@@ -1041,46 +1173,15 @@ CATALOG.forEach((cat, ci)=>{
     head.innerHTML = `<h2>${cat.group}</h2><span class="cat-count mono">${totalItems} ${totalItems===1?"item":"itens"}</span>`;
     section.appendChild(head);
 
-    // level 1: one big tile representing the whole family (e.g. "iPhone")
-    const allItems = groupCats.flatMap(c => c.items);
-    const familyToggle = buildToggleUnit(cat.group, allItems, false);
-
-    // level 2: compact rows, one per line (e.g. iPhone 17, iPhone 16...)
-    const linesContainer = document.createElement("div");
-    linesContainer.className = "lines-list collapsible";
-
-    groupCats.forEach((subCat)=>{
-      const lineToggle = buildToggleUnit(subCat.category, subCat.items, false);
-
-      // level 3: the actual model cards for this line
-      const grid = document.createElement("div");
-      grid.className = "grid collapsible";
-      const catIndex = CATALOG.indexOf(subCat);
-      subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
-
-      lineToggle.addEventListener("click", ()=>{
-        const isOpen = grid.classList.toggle("open");
-        lineToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      });
-
-      linesContainer.appendChild(lineToggle);
-      linesContainer.appendChild(grid);
-    });
-
-    familyToggle.addEventListener("click", ()=>{
-      const isOpen = linesContainer.classList.toggle("open");
-      familyToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-    });
-
-    section.appendChild(familyToggle);
-    section.appendChild(linesContainer);
+    const block = buildGroupBlock(groupCats);
+    section.appendChild(block.toggle);
+    section.appendChild(block.content);
 
     main.appendChild(section);
     return;
   }
 
   if (cat.items.length > 1){
-    // no natural "line" grouping, but more than one item: one tile that opens directly to the items
     const section = document.createElement("section");
     section.className = "category-section";
     section.id = `cat-${slug(cat.category)}`;
@@ -1090,18 +1191,9 @@ CATALOG.forEach((cat, ci)=>{
     head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">${cat.items.length} itens</span>`;
     section.appendChild(head);
 
-    const toggle = buildToggleUnit(cat.category, cat.items, false);
-    const grid = document.createElement("div");
-    grid.className = "grid collapsible";
-    cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, ci, ii)));
-
-    toggle.addEventListener("click", ()=>{
-      const isOpen = grid.classList.toggle("open");
-      toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-    });
-
-    section.appendChild(toggle);
-    section.appendChild(grid);
+    const block = buildFlatMultiBlock(cat);
+    section.appendChild(block.toggle);
+    section.appendChild(block.content);
     main.appendChild(section);
     return;
   }
@@ -1115,18 +1207,9 @@ CATALOG.forEach((cat, ci)=>{
   head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">1 item</span>`;
   section.appendChild(head);
 
-  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true);
-  const grid = document.createElement("div");
-  grid.className = "grid collapsible";
-  grid.appendChild(buildCard(cat.items[0], ci, 0));
-
-  toggle.addEventListener("click", ()=>{
-    const isOpen = grid.classList.toggle("open");
-    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
-  });
-
-  section.appendChild(toggle);
-  section.appendChild(grid);
+  const block = buildSingleBlock(cat);
+  section.appendChild(block.toggle);
+  section.appendChild(block.content);
   main.appendChild(section);
 });
 }

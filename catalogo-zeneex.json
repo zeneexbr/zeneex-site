@@ -7,6 +7,229 @@
   },
   "categorias": [
     {
+      "category": "Oura Ring",
+      "items": [
+        {
+          "name": "Oura Ring 4",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 3449.99,
+              "inst": 334.99
+            }
+          ],
+          "image": "images/oura-ring.jpg"
+        },
+        {
+          "name": "Oura Ring 5",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 4249.99,
+              "inst": 409.99
+            }
+          ],
+          "image": "images/oura-ring.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Whoop",
+      "items": [
+        {
+          "name": "Whoop 5.0 Peak Health and Fitness Tracker",
+          "spec": "Obsidian",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Obsidian",
+              "cash": 2749.99,
+              "inst": 264.99
+            }
+          ],
+          "image": "images/whoop.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Ray-Ban Meta",
+      "items": [
+        {
+          "name": "Ray-Ban Meta Wayfarer Gen 2",
+          "spec": "Fotocromático",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Fotocromático",
+              "cash": 4299.99,
+              "inst": 414.99
+            }
+          ],
+          "image": "images/rayban-meta.jpg"
+        }
+      ]
+    },
+    {
+      "category": "DJI Osmo Pocket",
+      "items": [
+        {
+          "name": "DJI Osmo Pocket 4 Creator Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Combo",
+              "cash": 5119.99,
+              "inst": 494.99
+            }
+          ],
+          "image": "images/osmo-pocket.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Insta360",
+      "items": [
+        {
+          "name": "Insta360 Go 3S",
+          "spec": "4K · 128GB",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "128GB",
+              "cash": 3499.99,
+              "inst": 337.99
+            }
+          ],
+          "image": "images/insta360.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Hollyland Lark M2",
+      "items": [
+        {
+          "name": "Microfone Hollyland Lark M2 Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Combo",
+              "cash": 999.99,
+              "inst": 97.99
+            }
+          ],
+          "image": "images/hollyland.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Drones DJI",
+      "items": [
+        {
+          "name": "Drone DJI Mini 5 Pro",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 5899,
+              "inst": 569.99
+            }
+          ],
+          "image": "images/drone-mini5pro.jpg"
+        },
+        {
+          "name": "Drone DJI Neo 2",
+          "spec": "FLY More Combo",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Fly More Combo",
+              "cash": 4699,
+              "inst": 454.99
+            }
+          ],
+          "image": "images/drone-neo2.jpg"
+        },
+        {
+          "name": "Drone DJI Flip 4K",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 3449,
+              "inst": 334.99
+            }
+          ],
+          "image": "images/drone-flip4k.jpg"
+        }
+      ]
+    },
+    {
+      "category": "PlayStation 5",
+      "items": [
+        {
+          "name": "PlayStation 5 1TB com Leitor",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "1TB",
+              "cash": 3349.99,
+              "inst": 324.99
+            }
+          ],
+          "image": "images/ps5-leitor.jpg"
+        },
+        {
+          "name": "PlayStation 5 Slim 825GB Digital",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "825GB",
+              "cash": 4179.99,
+              "inst": 404.99
+            }
+          ],
+          "image": "images/ps5-slim-digital.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Scooter Elétrica",
+      "items": [
+        {
+          "name": "Scooter Elétrica",
+          "badge": "NOVO",
+          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 9999,
+              "inst": 964.99
+            }
+          ],
+          "image": "images/scooter.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Robô Aspirador",
+      "items": [
+        {
+          "name": "Robô Aspirador Xiaomi Vacuum S40",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1679.99,
+              "inst": 159.99
+            }
+          ],
+          "image": "images/vacuum-s40.jpg"
+        }
+      ]
+    },
+    {
       "category": "iPhone 17",
       "group": "iPhones",
       "items": [
@@ -56,7 +279,8 @@
           ],
           "image": "images/iphone17.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPhone 16",
@@ -159,7 +383,8 @@
           ],
           "image": "images/iphone16.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPhone 15",
@@ -228,7 +453,8 @@
           ],
           "image": "images/iphone15-seminovo.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPhone 14",
@@ -285,7 +511,8 @@
           ],
           "image": "images/iphone14.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPhone 13",
@@ -342,7 +569,77 @@
           ],
           "image": "images/iphone13.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
+    },
+    {
+      "category": "MacBook Pro",
+      "group": "MacBook",
+      "items": [
+        {
+          "name": "MacBook Pro M5",
+          "spec": "16GB · 512GB SSD · 14\"",
+          "variations": [
+            {
+              "label": "512GB",
+              "cash": 12119,
+              "inst": 1167.99
+            }
+          ],
+          "image": "images/macbook-pro.jpg"
+        }
+      ],
+      "supergroup": "Apple Store"
+    },
+    {
+      "category": "MacBook Air",
+      "group": "MacBook",
+      "items": [
+        {
+          "name": "MacBook Air M5",
+          "spec": "16GB · 512GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "512GB",
+              "cash": 8719,
+              "inst": 839.99
+            }
+          ],
+          "image": "images/macbook-air.jpg"
+        },
+        {
+          "name": "MacBook Air M4",
+          "spec": "16GB · 256GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 6999,
+              "inst": 674.99
+            }
+          ],
+          "image": "images/macbook-air.jpg"
+        }
+      ],
+      "supergroup": "Apple Store"
+    },
+    {
+      "category": "MacBook Neo",
+      "group": "MacBook",
+      "items": [
+        {
+          "name": "MacBook Neo",
+          "spec": "8GB · 256GB SSD · 13\"",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5249,
+              "inst": 499.99
+            }
+          ],
+          "image": "images/macbook-neo.jpg"
+        }
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPad",
@@ -364,7 +661,8 @@
           ],
           "image": "images/ipad-11.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPad Pro",
@@ -392,7 +690,8 @@
           ],
           "image": "images/ipad-pro.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "iPad Air",
@@ -425,73 +724,8 @@
           ],
           "image": "images/ipad-air.jpg"
         }
-      ]
-    },
-    {
-      "category": "MacBook Pro",
-      "group": "MacBook",
-      "items": [
-        {
-          "name": "MacBook Pro M5",
-          "spec": "16GB · 512GB SSD · 14\"",
-          "variations": [
-            {
-              "label": "512GB",
-              "cash": 12119,
-              "inst": 1167.99
-            }
-          ],
-          "image": "images/macbook-pro.jpg"
-        }
-      ]
-    },
-    {
-      "category": "MacBook Air",
-      "group": "MacBook",
-      "items": [
-        {
-          "name": "MacBook Air M5",
-          "spec": "16GB · 512GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "512GB",
-              "cash": 8719,
-              "inst": 839.99
-            }
-          ],
-          "image": "images/macbook-air.jpg"
-        },
-        {
-          "name": "MacBook Air M4",
-          "spec": "16GB · 256GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 6999,
-              "inst": 674.99
-            }
-          ],
-          "image": "images/macbook-air.jpg"
-        }
-      ]
-    },
-    {
-      "category": "MacBook Neo",
-      "group": "MacBook",
-      "items": [
-        {
-          "name": "MacBook Neo",
-          "spec": "8GB · 256GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 5249,
-              "inst": 499.99
-            }
-          ],
-          "image": "images/macbook-neo.jpg"
-        }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "Apple Watch Ultra",
@@ -508,7 +742,8 @@
           ],
           "image": "images/watch-ultra.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "Apple Watch Série 11",
@@ -525,7 +760,8 @@
           ],
           "image": "images/watch-regular.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "Apple Watch SE",
@@ -553,7 +789,8 @@
           ],
           "image": "images/watch-regular.jpg"
         }
-      ]
+      ],
+      "supergroup": "Apple Store"
     },
     {
       "category": "AirPods",
@@ -570,230 +807,8 @@
           ],
           "image": "images/airpods4.jpg"
         }
-      ]
-    },
-    {
-      "category": "Oura Ring",
-      "items": [
-        {
-          "name": "Oura Ring 4",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 3449.99,
-              "inst": 334.99
-            }
-          ],
-          "image": "images/oura-ring.jpg"
-        },
-        {
-          "name": "Oura Ring 5",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 4249.99,
-              "inst": 409.99
-            }
-          ],
-          "image": "images/oura-ring.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Scooter Elétrica",
-      "items": [
-        {
-          "name": "Scooter Elétrica",
-          "badge": "NOVO",
-          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 9999,
-              "inst": 964.99
-            }
-          ],
-          "image": "images/scooter.jpg"
-        }
-      ]
-    },
-    {
-      "category": "PlayStation 5",
-      "items": [
-        {
-          "name": "PlayStation 5 1TB com Leitor",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "1TB",
-              "cash": 3349.99,
-              "inst": 324.99
-            }
-          ],
-          "image": "images/ps5-leitor.jpg"
-        },
-        {
-          "name": "PlayStation 5 Slim 825GB Digital",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "825GB",
-              "cash": 4179.99,
-              "inst": 404.99
-            }
-          ],
-          "image": "images/ps5-slim-digital.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Hollyland Lark M2",
-      "items": [
-        {
-          "name": "Microfone Hollyland Lark M2 Combo",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Combo",
-              "cash": 999.99,
-              "inst": 97.99
-            }
-          ],
-          "image": "images/hollyland.jpg"
-        }
-      ]
-    },
-    {
-      "category": "DJI Osmo Pocket",
-      "items": [
-        {
-          "name": "DJI Osmo Pocket 4 Creator Combo",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Combo",
-              "cash": 5119.99,
-              "inst": 494.99
-            }
-          ],
-          "image": "images/osmo-pocket.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Whoop",
-      "items": [
-        {
-          "name": "Whoop 5.0 Peak Health and Fitness Tracker",
-          "spec": "Obsidian",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Obsidian",
-              "cash": 2749.99,
-              "inst": 264.99
-            }
-          ],
-          "image": "images/whoop.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Ray-Ban Meta",
-      "items": [
-        {
-          "name": "Ray-Ban Meta Wayfarer Gen 2",
-          "spec": "Fotocromático",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Fotocromático",
-              "cash": 4299.99,
-              "inst": 414.99
-            }
-          ],
-          "image": "images/rayban-meta.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Insta360",
-      "items": [
-        {
-          "name": "Insta360 Go 3S",
-          "spec": "4K · 128GB",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "128GB",
-              "cash": 3499.99,
-              "inst": 337.99
-            }
-          ],
-          "image": "images/insta360.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Drones DJI",
-      "items": [
-        {
-          "name": "Drone DJI Mini 5 Pro",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 5899,
-              "inst": 569.99
-            }
-          ],
-          "image": "images/drone-mini5pro.jpg"
-        },
-        {
-          "name": "Drone DJI Neo 2",
-          "spec": "FLY More Combo",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Fly More Combo",
-              "cash": 4699,
-              "inst": 454.99
-            }
-          ],
-          "image": "images/drone-neo2.jpg"
-        },
-        {
-          "name": "Drone DJI Flip 4K",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 3449,
-              "inst": 334.99
-            }
-          ],
-          "image": "images/drone-flip4k.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Robô Aspirador",
-      "items": [
-        {
-          "name": "Robô Aspirador Xiaomi Vacuum S40",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1679.99,
-              "inst": 159.99
-            }
-          ],
-          "image": "images/vacuum-s40.jpg"
-        }
-      ]
+      ],
+      "supergroup": "Apple Store"
     }
   ]
 }
