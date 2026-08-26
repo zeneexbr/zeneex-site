@@ -314,6 +314,18 @@
           "image": "images/iphone17-pro.jpg"
         },
         {
+          "name": "iPhone 17 Air",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5899.0,
+              "inst": 569.99
+            }
+          ],
+          "image": "images/iphone17-air.jpg"
+        },
+        {
           "name": "iPhone 17",
           "badge": "NOVO",
           "variations": [
