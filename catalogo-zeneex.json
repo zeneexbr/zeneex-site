@@ -346,6 +346,7 @@
     },
     {
       "category": "iPad",
+      "group": "iPad",
       "items": [
         {
           "name": "iPad 11ª Geração",
@@ -362,7 +363,13 @@
             }
           ],
           "image": "images/ipad-11.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "iPad Pro",
+      "group": "iPad",
+      "items": [
         {
           "name": "iPad Pro M5 11\"",
           "variations": [
@@ -384,7 +391,13 @@
             }
           ],
           "image": "images/ipad-pro.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "iPad Air",
+      "group": "iPad",
+      "items": [
         {
           "name": "iPad Air M4 11\"",
           "variations": [
@@ -415,7 +428,8 @@
       ]
     },
     {
-      "category": "MacBook",
+      "category": "MacBook Pro",
+      "group": "MacBook",
       "items": [
         {
           "name": "MacBook Pro M5",
@@ -428,7 +442,13 @@
             }
           ],
           "image": "images/macbook-pro.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "MacBook Air",
+      "group": "MacBook",
+      "items": [
         {
           "name": "MacBook Air M5",
           "spec": "16GB · 512GB SSD · 13\"",
@@ -452,7 +472,13 @@
             }
           ],
           "image": "images/macbook-air.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "MacBook Neo",
+      "group": "MacBook",
+      "items": [
         {
           "name": "MacBook Neo",
           "spec": "8GB · 256GB SSD · 13\"",
@@ -468,7 +494,8 @@
       ]
     },
     {
-      "category": "Apple Watch",
+      "category": "Apple Watch Ultra",
+      "group": "Apple Watch",
       "items": [
         {
           "name": "Apple Watch Ultra 3 5G",
@@ -480,7 +507,13 @@
             }
           ],
           "image": "images/watch-ultra.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "Apple Watch Série 11",
+      "group": "Apple Watch",
+      "items": [
         {
           "name": "Apple Watch Série 11",
           "variations": [
@@ -491,7 +524,13 @@
             }
           ],
           "image": "images/watch-regular.jpg"
-        },
+        }
+      ]
+    },
+    {
+      "category": "Apple Watch SE",
+      "group": "Apple Watch",
+      "items": [
         {
           "name": "Apple Watch SE 3",
           "variations": [

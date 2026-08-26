@@ -337,6 +337,40 @@
     font-size:14px;
   }
 
+  /* compact variant: used for the inner "line" rows nested inside a family (e.g. generations inside iPhones) */
+  .subcat-toggle.compact .toggle-body{
+    flex-direction:row;
+    align-items:center;
+    gap:10px;
+    padding:10px 12px;
+  }
+  .subcat-toggle.compact .toggle-thumb{
+    width:56px;
+    height:56px;
+    aspect-ratio:unset;
+    margin-bottom:0;
+    flex-shrink:0;
+  }
+  .subcat-toggle.compact .toggle-textrow{
+    flex:1;
+    min-width:0;
+  }
+  .subcat-toggle.compact h3{
+    font-size:14px;
+  }
+
+  .lines-list.collapsible{
+    display:none;
+  }
+  .lines-list.collapsible.open{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin:10px 0 4px;
+    padding-left:12px;
+    border-left:2px dashed var(--line-strong);
+  }
+
   .grid.collapsible{
     display:none;
     margin-bottom:4px;
@@ -975,6 +1009,37 @@ function buildCard(item, ci, ii){
   return card;
 }
 
+function buildToggleUnit(title, items, hideMeta){
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "subcat-toggle";
+  toggle.setAttribute("aria-expanded", "false");
+
+  const leadItem = items[0];
+  const thumbHtml = leadItem.image
+    ? `<span class="toggle-thumb"><img src="${leadItem.image}" alt="${leadItem.name}" loading="lazy"></span>`
+    : "";
+
+  const metaHtml = hideMeta
+    ? ""
+    : `<span class="toggle-meta"><span class="n-modelos">${items.length} ${items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(Math.min(...items.flatMap(it => it.variations.map(v => v.cash))))}</span>`;
+
+  toggle.innerHTML = `
+    <span class="toggle-stub"></span>
+    <span class="toggle-body">
+      ${thumbHtml}
+      <span class="toggle-textrow">
+        <span class="toggle-text">
+          <h3>${title}</h3>
+          ${metaHtml}
+        </span>
+        <span class="chevron">⌄</span>
+      </span>
+    </span>
+  `;
+  return toggle;
+}
+
 function renderSections(){
 const renderedGroups = new Set();
 CATALOG.forEach((cat, ci)=>{
@@ -993,46 +1058,67 @@ CATALOG.forEach((cat, ci)=>{
     head.innerHTML = `<h2>${cat.group}</h2><span class="cat-count mono">${totalItems} ${totalItems===1?"item":"itens"}</span>`;
     section.appendChild(head);
 
+    // level 1: one big tile representing the whole family (e.g. "iPhone")
+    const allItems = groupCats.flatMap(c => c.items);
+    const familyToggle = buildToggleUnit(cat.group, allItems, false);
+
+    // level 2: compact rows, one per line (e.g. iPhone 17, iPhone 16...)
+    const linesContainer = document.createElement("div");
+    linesContainer.className = "lines-list collapsible";
+
     groupCats.forEach((subCat)=>{
-      const toggle = document.createElement("button");
-      toggle.type = "button";
-      toggle.className = "subcat-toggle";
-      toggle.setAttribute("aria-expanded", "false");
+      const lineToggle = buildToggleUnit(subCat.category, subCat.items, false);
 
-      const lowestInCat = Math.min(...subCat.items.flatMap(it => it.variations.map(v => v.cash)));
-      const leadItem = subCat.items[0];
-      const thumbHtml = leadItem.image
-        ? `<span class="toggle-thumb"><img src="${leadItem.image}" alt="${leadItem.name}" loading="lazy"></span>`
-        : "";
-
-      toggle.innerHTML = `
-        <span class="toggle-stub"></span>
-        <span class="toggle-body">
-          ${thumbHtml}
-          <span class="toggle-textrow">
-            <span class="toggle-text">
-              <h3>${subCat.category}</h3>
-              <span class="toggle-meta"><span class="n-modelos">${subCat.items.length} ${subCat.items.length===1?"MODELO":"MODELOS"}</span> · a partir de R$ ${fmtBRL(lowestInCat)}</span>
-            </span>
-            <span class="chevron">⌄</span>
-          </span>
-        </span>
-      `;
-
+      // level 3: the actual model cards for this line
       const grid = document.createElement("div");
       grid.className = "grid collapsible";
       const catIndex = CATALOG.indexOf(subCat);
       subCat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, catIndex, ii)));
 
-      toggle.addEventListener("click", ()=>{
+      lineToggle.addEventListener("click", ()=>{
         const isOpen = grid.classList.toggle("open");
-        toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        lineToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
       });
 
-      section.appendChild(toggle);
-      section.appendChild(grid);
+      linesContainer.appendChild(lineToggle);
+      linesContainer.appendChild(grid);
     });
 
+    familyToggle.addEventListener("click", ()=>{
+      const isOpen = linesContainer.classList.toggle("open");
+      familyToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    section.appendChild(familyToggle);
+    section.appendChild(linesContainer);
+
+    main.appendChild(section);
+    return;
+  }
+
+  if (cat.items.length > 1){
+    // no natural "line" grouping, but more than one item: one tile that opens directly to the items
+    const section = document.createElement("section");
+    section.className = "category-section";
+    section.id = `cat-${slug(cat.category)}`;
+
+    const head = document.createElement("div");
+    head.className = "cat-head";
+    head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">${cat.items.length} itens</span>`;
+    section.appendChild(head);
+
+    const toggle = buildToggleUnit(cat.category, cat.items, false);
+    const grid = document.createElement("div");
+    grid.className = "grid collapsible";
+    cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, ci, ii)));
+
+    toggle.addEventListener("click", ()=>{
+      const isOpen = grid.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    section.appendChild(toggle);
+    section.appendChild(grid);
     main.appendChild(section);
     return;
   }
@@ -1043,13 +1129,20 @@ CATALOG.forEach((cat, ci)=>{
 
   const head = document.createElement("div");
   head.className = "cat-head";
-  head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">${cat.items.length} ${cat.items.length===1?"item":"itens"}</span>`;
-
-  const grid = document.createElement("div");
-  grid.className = "grid";
-  cat.items.forEach((item, ii)=> grid.appendChild(buildCard(item, ci, ii)));
-
+  head.innerHTML = `<h2>${cat.category}</h2><span class="cat-count mono">1 item</span>`;
   section.appendChild(head);
+
+  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true);
+  const grid = document.createElement("div");
+  grid.className = "grid collapsible";
+  grid.appendChild(buildCard(cat.items[0], ci, 0));
+
+  toggle.addEventListener("click", ()=>{
+    const isOpen = grid.classList.toggle("open");
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
+
+  section.appendChild(toggle);
   section.appendChild(grid);
   main.appendChild(section);
 });
