@@ -15,8 +15,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3449.99,
-              "inst": 334.99
+              "cash": 3379.99,
+              "inst": 324.99
             }
           ],
           "image": "images/oura-ring-4.jpg"
@@ -26,9 +26,14 @@
           "badge": "NOVO",
           "variations": [
             {
-              "label": "Padrão",
-              "cash": 4249.99,
-              "inst": 409.99
+              "label": "Tamanho 7 ao 10",
+              "cash": 3649.99,
+              "inst": 354.99
+            },
+            {
+              "label": "Tamanho 11",
+              "cash": 3999.99,
+              "inst": 389.99
             }
           ],
           "image": "images/oura-ring-5.jpg"
@@ -45,8 +50,8 @@
           "variations": [
             {
               "label": "Obsidian",
-              "cash": 2749.99,
-              "inst": 264.99
+              "cash": 2679.99,
+              "inst": 259.99
             }
           ],
           "image": "images/whoop.jpg"
@@ -63,8 +68,8 @@
           "variations": [
             {
               "label": "Fotocromático",
-              "cash": 4299.99,
-              "inst": 414.99
+              "cash": 3799.99,
+              "inst": 367.99
             }
           ],
           "image": "images/rayban-meta.jpg"
@@ -80,8 +85,8 @@
           "variations": [
             {
               "label": "Combo",
-              "cash": 5119.99,
-              "inst": 494.99
+              "cash": 5079.99,
+              "inst": 489.99
             }
           ],
           "image": "images/osmo-pocket.jpg"
@@ -98,8 +103,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3499.99,
-              "inst": 337.99
+              "cash": 3299.99,
+              "inst": 319.99
             }
           ],
           "image": "images/insta360.jpg"
@@ -132,8 +137,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 5899,
-              "inst": 569.99
+              "cash": 5799.0,
+              "inst": 559.99
             }
           ],
           "image": "images/drone-mini5pro.jpg"
@@ -145,8 +150,8 @@
           "variations": [
             {
               "label": "Fly More Combo",
-              "cash": 4699,
-              "inst": 454.99
+              "cash": 3599.0,
+              "inst": 449.99
             }
           ],
           "image": "images/drone-neo2.jpg"
@@ -157,8 +162,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3449,
-              "inst": 334.99
+              "cash": 3399.0,
+              "inst": 329.99
             }
           ],
           "image": "images/drone-flip4k.jpg"
@@ -174,8 +179,8 @@
           "variations": [
             {
               "label": "1TB",
-              "cash": 3349.99,
-              "inst": 324.99
+              "cash": 3899.99,
+              "inst": 377.99
             }
           ],
           "image": "images/ps5-leitor.jpg"
@@ -186,8 +191,8 @@
           "variations": [
             {
               "label": "825GB",
-              "cash": 4179.99,
-              "inst": 404.99
+              "cash": 4579.99,
+              "inst": 439.99
             }
           ],
           "image": "images/ps5-slim-digital.jpg"
@@ -272,6 +277,42 @@
             }
           ],
           "image": "images/vacuum-s40.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Google Fitbit Air",
+      "items": [
+        {
+          "name": "Google Fitbit Air",
+          "badge": "NOVO",
+          "spec": "Pulseira inteligente · Obsidian",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1679.0,
+              "inst": 164.99
+            }
+          ],
+          "image": "images/fitbit-air.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Plaud Note",
+      "items": [
+        {
+          "name": "Plaud Note 64GB",
+          "badge": "NOVO",
+          "spec": "Gravador de Voz com ChatGPT",
+          "variations": [
+            {
+              "label": "64GB",
+              "cash": 1599.0,
+              "inst": 154.99
+            }
+          ],
+          "image": "images/plaud-note.jpg"
         }
       ]
     },
