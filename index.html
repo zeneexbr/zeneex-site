@@ -1000,11 +1000,15 @@ function buildCard(item, ci, ii){
 
   let currentIndex = 0;
 
+  function isRealLabel(label){
+    return label && label.trim().toLowerCase() !== "padrão";
+  }
+
   function updatePrice(){
     const v = item.variations[currentIndex];
     priceCash.textContent = "R$ " + fmtBRL(v.cash);
     priceInstall.textContent = `ou ${v.instCount || 12}x de R$ ${fmtBRL(v.inst)}`;
-    cta.href = waLink(item.name, item.variations.length > 1 ? v.label : "");
+    cta.href = waLink(item.name, (item.variations.length > 1 || isRealLabel(v.label)) ? v.label : "");
     cta.onclick = ()=> trackOrcamento(item.name, v.label, v.cash);
   }
 
@@ -1022,6 +1026,13 @@ function buildCard(item, ci, ii){
       });
       variationsWrap.appendChild(btn);
     });
+  } else if (isRealLabel(item.variations[0].label)){
+    const staticChip = document.createElement("button");
+    staticChip.type = "button";
+    staticChip.className = "active";
+    staticChip.textContent = item.variations[0].label;
+    staticChip.style.cursor = "default";
+    variationsWrap.appendChild(staticChip);
   }
 
   updatePrice();
@@ -1033,7 +1044,7 @@ function buildCard(item, ci, ii){
   if (badges.childElementCount) body.appendChild(badges);
   body.appendChild(h3);
   if (specEl) body.appendChild(specEl);
-  if (item.variations.length > 1) body.appendChild(variationsWrap);
+  if (variationsWrap.childElementCount) body.appendChild(variationsWrap);
   body.appendChild(priceBlock);
   body.appendChild(cta);
 
