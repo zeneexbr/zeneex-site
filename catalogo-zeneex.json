@@ -923,11 +923,15 @@
       "items": [
         {
           "name": "AirPods 4",
-          "spec": "Eliminador de Ruído",
           "variations": [
             {
-              "label": "Padrão",
-              "cash": 1749,
+              "label": "Sem Eliminador de Ruído",
+              "cash": 1379.0,
+              "inst": 134.99
+            },
+            {
+              "label": "Com Eliminador de Ruído",
+              "cash": 1749.0,
               "inst": 169.99
             }
           ],
