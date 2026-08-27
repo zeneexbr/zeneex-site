@@ -59,6 +59,24 @@
       ]
     },
     {
+      "category": "Google Fitbit Air",
+      "items": [
+        {
+          "name": "Google Fitbit Air",
+          "badge": "NOVO",
+          "spec": "Pulseira inteligente · Obsidian",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1679.0,
+              "inst": 164.99
+            }
+          ],
+          "image": "images/fitbit-air.jpg"
+        }
+      ]
+    },
+    {
       "category": "Ray-Ban Meta",
       "items": [
         {
@@ -125,6 +143,24 @@
             }
           ],
           "image": "images/hollyland.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Plaud Note",
+      "items": [
+        {
+          "name": "Plaud Note 64GB",
+          "badge": "NOVO",
+          "spec": "Gravador de Voz com ChatGPT",
+          "variations": [
+            {
+              "label": "64GB",
+              "cash": 1599.0,
+              "inst": 154.99
+            }
+          ],
+          "image": "images/plaud-note.jpg"
         }
       ]
     },
@@ -277,42 +313,6 @@
             }
           ],
           "image": "images/vacuum-s40.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Google Fitbit Air",
-      "items": [
-        {
-          "name": "Google Fitbit Air",
-          "badge": "NOVO",
-          "spec": "Pulseira inteligente · Obsidian",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1679.0,
-              "inst": 164.99
-            }
-          ],
-          "image": "images/fitbit-air.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Plaud Note",
-      "items": [
-        {
-          "name": "Plaud Note 64GB",
-          "badge": "NOVO",
-          "spec": "Gravador de Voz com ChatGPT",
-          "variations": [
-            {
-              "label": "64GB",
-              "cash": 1599.0,
-              "inst": 154.99
-            }
-          ],
-          "image": "images/plaud-note.jpg"
         }
       ]
     },
