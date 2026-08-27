@@ -326,13 +326,18 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7719.0,
+              "cash": 7699.0,
               "inst": 744.99
             },
             {
               "label": "512GB",
-              "cash": 9399.0,
-              "inst": 904.99
+              "cash": 8949.0,
+              "inst": 867.99
+            },
+            {
+              "label": "1TB",
+              "cash": 9999.0,
+              "inst": 967.99
             }
           ],
           "image": "images/iphone17-pro-max.jpg"
@@ -344,12 +349,17 @@
             {
               "label": "256GB",
               "cash": 7299,
-              "inst": 704.99
+              "inst": 699.99
             },
             {
               "label": "512GB",
-              "cash": 8779,
+              "cash": 8899.0,
               "inst": 859.99
+            },
+            {
+              "label": "1TB",
+              "cash": 9849.0,
+              "inst": 949.99
             }
           ],
           "image": "images/iphone17-pro.jpg"
@@ -360,8 +370,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 5899.0,
-              "inst": 569.99
+              "cash": 6199.0,
+              "inst": 597.99
             }
           ],
           "image": "images/iphone17-air.jpg"
@@ -377,6 +387,18 @@
             }
           ],
           "image": "images/iphone17.jpg"
+        },
+        {
+          "name": "iPhone 17E",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 4349.0,
+              "inst": 419.99
+            }
+          ],
+          "image": "images/iphone17e.jpg"
         }
       ],
       "supergroup": "Apple Store"
@@ -391,8 +413,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 5519,
-              "inst": 529.99
+              "cash": 5449.0,
+              "inst": 524.99
             },
             {
               "label": "512GB",
@@ -425,8 +447,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 5399,
-              "inst": 519.99
+              "cash": 5149.0,
+              "inst": 497.99
             },
             {
               "label": "256GB",
@@ -442,8 +464,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 5119,
-              "inst": 489.99
+              "cash": 4999.0,
+              "inst": 484.99
             }
           ],
           "image": "images/iphone16.jpg"
@@ -495,8 +517,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 4379,
-              "inst": 424.99
+              "cash": 4349.0,
+              "inst": 419.99
             }
           ],
           "image": "images/iphone15.jpg"
@@ -512,7 +534,12 @@
             },
             {
               "label": "512GB",
-              "cash": 5199,
+              "cash": 4899.0,
+              "inst": 474.99
+            },
+            {
+              "label": "1TB",
+              "cash": 5199.0,
               "inst": 499.99
             }
           ],
@@ -524,8 +551,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 4119,
-              "inst": 397.99
+              "cash": 3799.0,
+              "inst": 369.99
             },
             {
               "label": "256GB",
@@ -662,8 +689,8 @@
             },
             {
               "label": "256GB",
-              "cash": 2849,
-              "inst": 249.99
+              "cash": 2599.0,
+              "inst": 254.99
             }
           ],
           "image": "images/iphone13.jpg"
