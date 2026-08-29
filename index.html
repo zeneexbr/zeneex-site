@@ -601,7 +601,7 @@
     font-weight:600;
     color:var(--petroleo);
   }
-  .sim-result .sim-total{
+  .sim-result .sim-entrada-line{
     font-family:'IBM Plex Mono',monospace;
     font-size:11px;
     color:var(--ink-soft);
@@ -989,9 +989,10 @@ function codeFor(catIndex, itemIndex){
 function lowestPrice(item){
   return Math.min(...item.variations.map(v=>v.cash));
 }
-function waLink(productName, variationLabel){
+function waLink(productName, variationLabel, simText){
   const suffix = variationLabel ? ` ${variationLabel}` : "";
-  const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName}${suffix}`;
+  const simSuffix = simText ? `. ${simText}` : "";
+  const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName}${suffix}${simSuffix}`;
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
@@ -1118,14 +1119,15 @@ function buildCard(item, ci, ii){
       </select>
     </div>
     <div class="sim-result">
+      <span class="sim-entrada-line"></span>
       <span class="sim-parcela"></span>
-      <span class="sim-total"></span>
     </div>
   `;
   const simEntrada = simPanel.querySelector(".sim-entrada");
   const simParcelas = simPanel.querySelector(".sim-parcelas");
+  const simEntradaLine = simPanel.querySelector(".sim-entrada-line");
   const simParcelaEl = simPanel.querySelector(".sim-parcela");
-  const simTotalEl = simPanel.querySelector(".sim-total");
+  let simUsed = false;
 
   function updateSim(){
     const cashNow = item.variations[currentIndex].cash;
@@ -1133,17 +1135,31 @@ function buildCard(item, ci, ii){
     const n = parseInt(simParcelas.value, 10);
     const r = simulateFinanciamento(cashNow, entrada, n);
     if (r.restante <= 0){
+      simEntradaLine.textContent = "";
       simParcelaEl.textContent = "Entrada cobre o valor total";
-      simTotalEl.textContent = "";
       return;
     }
+    simEntradaLine.textContent = entrada > 0 ? `Entrada: R$ ${fmtBRL(entrada)}` : "";
     simParcelaEl.textContent = `${n}x de R$ ${fmtBRL(r.parcela)}`;
-    simTotalEl.textContent = entrada > 0
-      ? `+ entrada de R$ ${fmtBRL(entrada)} · total R$ ${fmtBRL(r.total + entrada)}`
-      : `total no cartão: R$ ${fmtBRL(r.total)}`;
   }
-  simEntrada.addEventListener("input", updateSim);
-  simParcelas.addEventListener("change", updateSim);
+
+  function getSimText(){
+    if (!simUsed) return null;
+    const cashNow = item.variations[currentIndex].cash;
+    const entrada = parseFloat(simEntrada.value) || 0;
+    const n = parseInt(simParcelas.value, 10);
+    const r = simulateFinanciamento(cashNow, entrada, n);
+    if (r.restante <= 0){
+      return `Simulação: entrada de R$ ${fmtBRL(entrada)} cobre o valor total`;
+    }
+    if (entrada > 0){
+      return `Simulação: entrada de R$ ${fmtBRL(entrada)} + ${n}x de R$ ${fmtBRL(r.parcela)}`;
+    }
+    return `Simulação: ${n}x de R$ ${fmtBRL(r.parcela)}`;
+  }
+
+  simEntrada.addEventListener("input", ()=>{ simUsed = true; updatePrice(); });
+  simParcelas.addEventListener("change", ()=>{ simUsed = true; updatePrice(); });
   simToggle.addEventListener("click", ()=>{
     const isOpen = simPanel.classList.toggle("open");
     if (isOpen) updateSim();
@@ -1165,7 +1181,7 @@ function buildCard(item, ci, ii){
     const v = item.variations[currentIndex];
     priceCash.textContent = "R$ " + fmtBRL(v.cash);
     priceInstall.textContent = `ou ${v.instCount || 12}x de R$ ${fmtBRL(v.inst)}`;
-    cta.href = waLink(item.name, (item.variations.length > 1 || isRealLabel(v.label)) ? v.label : "");
+    cta.href = waLink(item.name, (item.variations.length > 1 || isRealLabel(v.label)) ? v.label : "", getSimText());
     cta.onclick = ()=> trackOrcamento(item.name, v.label, v.cash);
     if (simPanel.classList.contains("open")) updateSim();
   }
