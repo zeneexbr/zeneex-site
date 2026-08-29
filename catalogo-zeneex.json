@@ -776,12 +776,12 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3299,
+              "cash": 3399.0,
               "inst": 324.99
             },
             {
               "label": "256GB",
-              "cash": 3999,
+              "cash": 3999.0,
               "inst": 389.99
             }
           ],
@@ -799,19 +799,13 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 8299,
-              "inst": 799.99
-            }
-          ],
-          "image": "images/ipad-pro.jpg"
-        },
-        {
-          "name": "iPad Pro M5 13\"",
-          "variations": [
+              "cash": 7999.0,
+              "inst": 769.99
+            },
             {
-              "label": "256GB",
-              "cash": 9249,
-              "inst": 889.99
+              "label": "512GB",
+              "cash": 8999.0,
+              "inst": 869.99
             }
           ],
           "image": "images/ipad-pro.jpg"
@@ -828,13 +822,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 5649,
-              "inst": 544.99
+              "cash": 5299.0,
+              "inst": 514.99
             },
             {
               "label": "256GB",
-              "cash": 6119,
-              "inst": 589.99
+              "cash": 5899.0,
+              "inst": 569.99
             }
           ],
           "image": "images/ipad-air.jpg"
@@ -843,9 +837,9 @@
           "name": "iPad Air M3 13\"",
           "variations": [
             {
-              "label": "128GB",
-              "cash": 5919,
-              "inst": 569.99
+              "label": "256GB",
+              "cash": 4919.0,
+              "inst": 474.99
             }
           ],
           "image": "images/ipad-air.jpg"
