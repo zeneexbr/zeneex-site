@@ -856,8 +856,8 @@
           "variations": [
             {
               "label": "49mm",
-              "cash": 5249,
-              "inst": 504.99
+              "cash": 5179.0,
+              "inst": 499.99
             }
           ],
           "image": "images/watch-ultra.jpg"
@@ -874,8 +874,13 @@
           "variations": [
             {
               "label": "42mm",
-              "cash": 2949,
-              "inst": 289.99
+              "cash": 2699.0,
+              "inst": 259.99
+            },
+            {
+              "label": "46mm",
+              "cash": 2899.0,
+              "inst": 279.99
             }
           ],
           "image": "images/watch-regular.jpg"
@@ -892,7 +897,12 @@
           "variations": [
             {
               "label": "40mm",
-              "cash": 2399,
+              "cash": 2249.0,
+              "inst": 217.99
+            },
+            {
+              "label": "44mm",
+              "cash": 2379.0,
               "inst": 229.99
             }
           ],
@@ -903,8 +913,8 @@
           "variations": [
             {
               "label": "44mm",
-              "cash": 2299,
-              "inst": 219.99
+              "cash": 2179.0,
+              "inst": 209.99
             }
           ],
           "image": "images/watch-regular.jpg"
