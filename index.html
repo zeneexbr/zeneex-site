@@ -543,6 +543,70 @@
     margin-top:2px;
   }
 
+  .sim-toggle{
+    display:inline-block;
+    background:none;
+    border:none;
+    padding:0;
+    margin:5px 0 10px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    color:var(--petroleo);
+    text-decoration:underline;
+    text-underline-offset:2px;
+    cursor:pointer;
+  }
+  .sim-panel{
+    display:none;
+    background:var(--paper);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:12px;
+    margin:0 0 12px;
+  }
+  .sim-panel.open{ display:block; }
+  .sim-row{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    margin-bottom:10px;
+  }
+  .sim-row label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  .sim-row input,
+  .sim-row select{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:13px;
+    padding:8px 10px;
+    border:1px solid var(--line-strong);
+    border-radius:4px;
+    background:var(--card);
+    color:var(--ink);
+  }
+  .sim-result{
+    border-top:1px dashed var(--line-strong);
+    padding-top:10px;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+  }
+  .sim-result .sim-parcela{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:16px;
+    font-weight:600;
+    color:var(--petroleo);
+  }
+  .sim-result .sim-total{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+  }
+
   .cta{
     display:flex;
     align-items:center;
@@ -875,6 +939,49 @@ function slug(str){
 function fmtBRL(n){
   return n.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
 }
+
+/* Taxas da maquininha por número de parcelas (mesma taxa Visa/Master) */
+const RATE_TABLE = {
+  1: 0.0359, 2: 0.0519, 3: 0.0599, 4: 0.0679, 5: 0.0759, 6: 0.0839,
+  7: 0.0939, 8: 0.1019, 9: 0.1099, 10: 0.1179, 11: 0.1259, 12: 0.1339,
+  13: 0.1419, 14: 0.1499, 15: 0.1579, 16: 0.1659, 17: 0.1739, 18: 0.1819
+};
+
+/* Arredonda até o final psicológico (X4,99 / X7,99 / X9,99).
+   Regra: se o valor bruto cair a menos de R$1,00 acima de um múltiplo de 5
+   (ex: 260,74 está a R$0,74 de R$260), usa o final válido logo abaixo desse
+   múltiplo (259,99) em vez de saltar pro próximo lá em cima. Isso evita perder
+   margem à toa quando nenhuma barreira de centena/milhar está sendo cruzada. */
+function roundPsych(raw){
+  if (raw <= 0) return 0;
+  const anchor = Math.floor(raw / 5) * 5;
+  const diff = raw - anchor;
+  if (anchor > 0 && diff < 1.0 - 1e-9){
+    return +(anchor - 0.01).toFixed(2);
+  }
+  const startN = Math.max(0, Math.floor(raw) - 12);
+  for (let n = startN; n <= Math.floor(raw) + 15; n++){
+    const d = n % 10;
+    if ((d===4||d===7||d===9) && (n + 0.99) >= raw - 1e-9){
+      return +(n + 0.99).toFixed(2);
+    }
+  }
+  return +raw.toFixed(2);
+}
+
+/* cashPrice: valor à vista do produto (sem juros).
+   entrada: valor pago à parte (Pix/dinheiro), sem juros.
+   parcelas: quantidade de parcelas no cartão (1 a 18). */
+function simulateFinanciamento(cashPrice, entrada, parcelas){
+  const restante = Math.max(cashPrice - (entrada || 0), 0);
+  if (restante <= 0) return {parcela: 0, total: 0, restante: 0};
+  const rate = RATE_TABLE[parcelas] || RATE_TABLE[12];
+  const totalCartao = restante / (1 - rate);
+  const rawParcela = totalCartao / parcelas;
+  const parcela = roundPsych(rawParcela);
+  return {parcela, total: +(parcela * parcelas).toFixed(2), restante};
+}
+
 function codeFor(catIndex, itemIndex){
   const cat = CATALOG[catIndex].category.replace(/[^A-Za-z]/g,"").toUpperCase().slice(0,3) || "ZNX";
   return `ZNX-${cat}${String(itemIndex+1).padStart(2,"0")}`;
@@ -992,6 +1099,56 @@ function buildCard(item, ci, ii){
   const priceInstall = document.createElement("div");
   priceInstall.className = "price-install";
 
+  const simToggle = document.createElement("button");
+  simToggle.type = "button";
+  simToggle.className = "sim-toggle";
+  simToggle.textContent = "Simular outras parcelas ou entrada";
+
+  const simPanel = document.createElement("div");
+  simPanel.className = "sim-panel";
+  simPanel.innerHTML = `
+    <div class="sim-row">
+      <label>Valor de entrada (opcional)</label>
+      <input type="number" inputmode="decimal" class="sim-entrada" placeholder="R$ 0,00" min="0" step="0.01">
+    </div>
+    <div class="sim-row">
+      <label>Parcelas no cartão</label>
+      <select class="sim-parcelas">
+        ${Object.keys(RATE_TABLE).map(n=>`<option value="${n}" ${n==="12"?"selected":""}>${n}x</option>`).join("")}
+      </select>
+    </div>
+    <div class="sim-result">
+      <span class="sim-parcela"></span>
+      <span class="sim-total"></span>
+    </div>
+  `;
+  const simEntrada = simPanel.querySelector(".sim-entrada");
+  const simParcelas = simPanel.querySelector(".sim-parcelas");
+  const simParcelaEl = simPanel.querySelector(".sim-parcela");
+  const simTotalEl = simPanel.querySelector(".sim-total");
+
+  function updateSim(){
+    const cashNow = item.variations[currentIndex].cash;
+    const entrada = parseFloat(simEntrada.value) || 0;
+    const n = parseInt(simParcelas.value, 10);
+    const r = simulateFinanciamento(cashNow, entrada, n);
+    if (r.restante <= 0){
+      simParcelaEl.textContent = "Entrada cobre o valor total";
+      simTotalEl.textContent = "";
+      return;
+    }
+    simParcelaEl.textContent = `${n}x de R$ ${fmtBRL(r.parcela)}`;
+    simTotalEl.textContent = entrada > 0
+      ? `+ entrada de R$ ${fmtBRL(entrada)} · total R$ ${fmtBRL(r.total + entrada)}`
+      : `total no cartão: R$ ${fmtBRL(r.total)}`;
+  }
+  simEntrada.addEventListener("input", updateSim);
+  simParcelas.addEventListener("change", updateSim);
+  simToggle.addEventListener("click", ()=>{
+    const isOpen = simPanel.classList.toggle("open");
+    if (isOpen) updateSim();
+  });
+
   const cta = document.createElement("a");
   cta.className = "cta";
   cta.target = "_blank";
@@ -1010,6 +1167,7 @@ function buildCard(item, ci, ii){
     priceInstall.textContent = `ou ${v.instCount || 12}x de R$ ${fmtBRL(v.inst)}`;
     cta.href = waLink(item.name, (item.variations.length > 1 || isRealLabel(v.label)) ? v.label : "");
     cta.onclick = ()=> trackOrcamento(item.name, v.label, v.cash);
+    if (simPanel.classList.contains("open")) updateSim();
   }
 
   if (item.variations.length > 1){
@@ -1046,6 +1204,8 @@ function buildCard(item, ci, ii){
   if (specEl) body.appendChild(specEl);
   if (variationsWrap.childElementCount) body.appendChild(variationsWrap);
   body.appendChild(priceBlock);
+  body.appendChild(simToggle);
+  body.appendChild(simPanel);
   body.appendChild(cta);
 
   card.appendChild(stub);
