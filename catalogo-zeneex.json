@@ -708,8 +708,8 @@
           "variations": [
             {
               "label": "512GB",
-              "cash": 12119,
-              "inst": 1167.99
+              "cash": 12179.0,
+              "inst": 1174.99
             }
           ],
           "image": "images/macbook-pro.jpg"
@@ -727,7 +727,7 @@
           "variations": [
             {
               "label": "512GB",
-              "cash": 8719,
+              "cash": 8719.0,
               "inst": 839.99
             }
           ],
@@ -739,7 +739,7 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 6999,
+              "cash": 6999.0,
               "inst": 674.99
             }
           ],
@@ -758,7 +758,7 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 5249,
+              "cash": 5179.0,
               "inst": 499.99
             }
           ],
