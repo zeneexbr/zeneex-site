@@ -1178,6 +1178,9 @@ function buildCard(item, ci, ii){
       e.stopPropagation();
       dotsMenu.classList.remove("open");
       insightPanel.classList.add("open");
+      requestAnimationFrame(()=>{
+        cta.scrollIntoView({behavior:"smooth", block:"end"});
+      });
     });
     body.appendChild(insightPanel);
   }
