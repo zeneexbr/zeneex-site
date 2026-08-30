@@ -440,7 +440,6 @@
     cursor:pointer;
   }
   .dots-menu-item:last-child{ border-bottom:none; }
-  .dots-menu-item .ic{ width:16px; text-align:center; color:var(--gold); font-size:14px; }
 
   .insight-panel{
     display:none;
@@ -825,177 +824,7 @@
    o arquivo .json não puder ser carregado (ex: página aberta
    direto do disco, sem servidor).
 ========================================================= */
-const CATALOG_FALLBACK = [
-  { category:"iPhone 17", group:"iPhones", items:[
-    { name:"iPhone 17 Pro Max", badge:"NOVO", variations:[
-      {label:"256GB", cash:7819.00, inst:754.99},
-      {label:"512GB", cash:9499.00, inst:914.99}
-    ]},
-    { name:"iPhone 17 Pro", badge:"NOVO", variations:[
-      {label:"256GB", cash:7299.00, inst:704.99},
-      {label:"512GB", cash:8779.00, inst:859.99}
-    ]},
-    { name:"iPhone 17", badge:"NOVO", variations:[
-      {label:"256GB", cash:5749.00, inst:554.99}
-    ]}
-  ]},
-  { category:"iPhone 16", group:"iPhones", items:[
-    { name:"iPhone 16 Pro Max", badge:"SEMINOVO", variations:[
-      {label:"256GB", cash:5519.00, inst:529.99},
-      {label:"512GB", cash:6449.00, inst:624.99}
-    ]},
-    { name:"iPhone 16 Pro", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:4799.00, inst:464.99},
-      {label:"256GB", cash:5499.00, inst:529.99}
-    ]},
-    { name:"iPhone 16 Plus", badge:"NOVO", variations:[
-      {label:"128GB", cash:5399.00, inst:519.99},
-      {label:"256GB", cash:6149.00, inst:589.99}
-    ]},
-    { name:"iPhone 16", badge:"NOVO", variations:[
-      {label:"128GB", cash:5119.00, inst:489.99}
-    ]},
-    { name:"iPhone 16", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:4199.00, inst:404.99},
-      {label:"256GB", cash:4699.00, inst:454.99}
-    ]},
-    { name:"iPhone 16E", badge:"NOVO", variations:[
-      {label:"128GB", cash:3899.00, inst:374.99},
-      {label:"256GB", cash:4219.00, inst:407.99}
-    ]}
-  ]},
-  { category:"iPhone 15", group:"iPhones", items:[
-    { name:"iPhone 15", badge:"NOVO", variations:[
-      {label:"128GB", cash:4379.00, inst:424.99}
-    ]},
-    { name:"iPhone 15 Pro Max", badge:"SEMINOVO", variations:[
-      {label:"256GB", cash:4349.00, inst:419.99},
-      {label:"512GB", cash:5199.00, inst:499.99}
-    ]},
-    { name:"iPhone 15 Pro", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:4119.00, inst:397.99},
-      {label:"256GB", cash:4249.00, inst:409.99}
-    ]},
-    { name:"iPhone 15", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:3199.00, inst:309.99},
-      {label:"256GB", cash:3479.00, inst:334.99}
-    ]}
-  ]},
-  { category:"iPhone 14", group:"iPhones", items:[
-    { name:"iPhone 14 Pro Max", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:3649.00, inst:304.99},
-      {label:"256GB", cash:3999.00, inst:384.99}
-    ]},
-    { name:"iPhone 14 Pro", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:3399.00, inst:329.99},
-      {label:"256GB", cash:3499.00, inst:339.99}
-    ]},
-    { name:"iPhone 14", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:2549.00, inst:244.99},
-      {label:"256GB", cash:3019.00, inst:294.99}
-    ]}
-  ]},
-  { category:"iPhone 13", group:"iPhones", items:[
-    { name:"iPhone 13 Pro Max", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:3349.00, inst:324.99},
-      {label:"256GB", cash:3449.00, inst:334.99}
-    ]},
-    { name:"iPhone 13 Pro", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:3199.00, inst:309.99},
-      {label:"256GB", cash:3599.00, inst:349.99}
-    ]},
-    { name:"iPhone 13", badge:"SEMINOVO", variations:[
-      {label:"128GB", cash:2449.00, inst:239.99},
-      {label:"256GB", cash:2849.00, inst:249.99}
-    ]}
-  ]},
-  { category:"iPad", items:[
-    { name:"iPad 11ª Geração", variations:[
-      {label:"128GB", cash:3299.00, inst:324.99},
-      {label:"256GB", cash:3999.00, inst:389.99}
-    ]},
-    { name:"iPad Pro M5 11\"", variations:[
-      {label:"256GB", cash:8299.00, inst:799.99}
-    ]},
-    { name:"iPad Pro M5 13\"", variations:[
-      {label:"256GB", cash:9249.00, inst:889.99}
-    ]},
-    { name:"iPad Air M4 11\"", variations:[
-      {label:"128GB", cash:5649.00, inst:544.99},
-      {label:"256GB", cash:6119.00, inst:589.99}
-    ]},
-    { name:"iPad Air M3 13\"", variations:[
-      {label:"128GB", cash:5919.00, inst:569.99}
-    ]}
-  ]},
-  { category:"MacBook", items:[
-    { name:"MacBook Pro M5", spec:"16GB · 512GB SSD · 14\"", variations:[
-      {label:"512GB", cash:12119.00, inst:1167.99}
-    ]},
-    { name:"MacBook Air M5", spec:"16GB · 512GB SSD · 13\"", variations:[
-      {label:"512GB", cash:8719.00, inst:839.99}
-    ]},
-    { name:"MacBook Air M4", spec:"16GB · 256GB SSD · 13\"", variations:[
-      {label:"256GB", cash:6999.00, inst:674.99}
-    ]},
-    { name:"MacBook Neo", spec:"8GB · 256GB SSD · 13\"", variations:[
-      {label:"256GB", cash:5249.00, inst:499.99}
-    ]}
-  ]},
-  { category:"Apple Watch", items:[
-    { name:"Apple Watch Ultra 3 5G", variations:[
-      {label:"49mm", cash:5249.00, inst:504.99}
-    ]},
-    { name:"Apple Watch Série 11", variations:[
-      {label:"42mm", cash:2949.00, inst:289.99}
-    ]},
-    { name:"Apple Watch SE 3", variations:[
-      {label:"40mm", cash:2399.00, inst:229.99}
-    ]},
-    { name:"Apple Watch SE 2", variations:[
-      {label:"44mm", cash:2299.00, inst:219.99}
-    ]}
-  ]},
-  { category:"AirPods", items:[
-    { name:"AirPods 4", spec:"Eliminador de Ruído", variations:[
-      {label:"Padrão", cash:1749.00, inst:169.99}
-    ]}
-  ]},
-  { category:"Oura Ring", items:[
-    { name:"Oura Ring 4", badge:"NOVO", variations:[{label:"Padrão", cash:3449.99, inst:334.99}] },
-    { name:"Oura Ring 5", badge:"NOVO", variations:[{label:"Padrão", cash:4249.99, inst:409.99}] }
-  ]},
-  { category:"Scooter Elétrica", items:[
-    { name:"Scooter Elétrica", badge:"NOVO", spec:"Motor 1000W · Autonomia 50km · Vel. até 32km/h", variations:[{label:"Padrão", cash:9999.00, inst:964.99}] }
-  ]},
-  { category:"PlayStation 5", items:[
-    { name:"PlayStation 5 1TB com Leitor", badge:"NOVO", variations:[{label:"1TB", cash:3349.99, inst:324.99}] },
-    { name:"PlayStation 5 Slim 825GB Digital", badge:"NOVO", variations:[{label:"825GB", cash:4179.99, inst:404.99}] }
-  ]},
-  { category:"Hollyland Lark M2", items:[
-    { name:"Microfone Hollyland Lark M2 Combo", badge:"NOVO", variations:[{label:"Combo", cash:999.99, inst:97.99}] }
-  ]},
-  { category:"DJI Osmo Pocket", items:[
-    { name:"DJI Osmo Pocket 4 Creator Combo", badge:"NOVO", variations:[{label:"Combo", cash:5119.99, inst:494.99}] }
-  ]},
-  { category:"Whoop", items:[
-    { name:"Whoop 5.0 Peak Health and Fitness Tracker", spec:"Obsidian", badge:"NOVO", variations:[{label:"Obsidian", cash:2749.99, inst:264.99}] }
-  ]},
-  { category:"Ray-Ban Meta", items:[
-    { name:"Ray-Ban Meta Wayfarer Gen 2", spec:"Fotocromático", badge:"NOVO", variations:[{label:"Fotocromático", cash:4299.99, inst:414.99}] }
-  ]},
-  { category:"Insta360", items:[
-    { name:"Insta360 Go 3S", spec:"4K · 128GB", badge:"NOVO", variations:[{label:"128GB", cash:3499.99, inst:337.99}] }
-  ]},
-  { category:"Drones DJI", items:[
-    { name:"Drone DJI Mini 5 Pro", badge:"NOVO", variations:[{label:"Padrão", cash:5899.00, inst:569.99}] },
-    { name:"Drone DJI Neo 2", spec:"FLY More Combo", badge:"NOVO", variations:[{label:"Fly More Combo", cash:4699.00, inst:454.99}] },
-    { name:"Drone DJI Flip 4K", badge:"NOVO", variations:[{label:"Padrão", cash:3449.00, inst:334.99}] }
-  ]},
-  { category:"Robô Aspirador", items:[
-    { name:"Robô Aspirador Xiaomi Vacuum S40", badge:"NOVO", variations:[{label:"Padrão", cash:1679.99, inst:159.99}] }
-  ]}
-];
+const CATALOG_FALLBACK = [];
 
 let CATALOG = CATALOG_FALLBACK;
 const CATALOG_JSON_URL = "./catalogo-zeneex.json";
@@ -1045,11 +874,6 @@ const RATE_TABLE = {
   13: 0.1419, 14: 0.1499, 15: 0.1579, 16: 0.1659, 17: 0.1739, 18: 0.1819
 };
 
-/* Arredonda até o final psicológico (X4,99 / X7,99 / X9,99).
-   Regra: se o valor bruto cair a menos de R$1,00 acima de um múltiplo de 5
-   (ex: 260,74 está a R$0,74 de R$260), usa o final válido logo abaixo desse
-   múltiplo (259,99) em vez de saltar pro próximo lá em cima. Isso evita perder
-   margem à toa quando nenhuma barreira de centena/milhar está sendo cruzada. */
 function roundPsych(raw){
   if (raw <= 0) return 0;
   const anchor = Math.floor(raw / 5) * 5;
@@ -1067,9 +891,6 @@ function roundPsych(raw){
   return +raw.toFixed(2);
 }
 
-/* cashPrice: valor à vista do produto (sem juros).
-   entrada: valor pago à parte (Pix/dinheiro), sem juros.
-   parcelas: quantidade de parcelas no cartão (1 a 18). */
 function simulateFinanciamento(cashPrice, entrada, parcelas){
   const restante = Math.max(cashPrice - (entrada || 0), 0);
   if (restante <= 0) return {parcela: 0, total: 0, restante: 0};
@@ -1147,8 +968,8 @@ function buildCard(item, ci, ii){
   const dotsMenu = document.createElement("div");
   dotsMenu.className = "dots-menu";
   dotsMenu.innerHTML = `
-    <button type="button" class="dots-menu-item" data-action="share"><span class="ic">↗</span> Compartilhar</button>
-    ${item.description ? `<button type="button" class="dots-menu-item" data-action="insight"><span class="ic">✦</span> Saiba mais</button>` : ""}
+    <button type="button" class="dots-menu-item" data-action="share">Compartilhar</button>
+    ${item.description ? `<button type="button" class="dots-menu-item" data-action="insight">Saiba mais</button>` : ""}
   `;
   dotsMenu.querySelector('[data-action="share"]').addEventListener("click", (e)=>{
     e.stopPropagation();
@@ -1264,7 +1085,7 @@ function buildCard(item, ci, ii){
     const cashNow = item.variations[currentIndex].cash;
     const entrada = parseFloat(simEntrada.value) || 0;
     const n = parseInt(simParcelas.value, 10);
-    if (entrada <= 0 && n === 12) return null; // igual ao padrão: não conta como simulação
+    if (entrada <= 0 && n === 12) return null;
     const r = simulateFinanciamento(cashNow, entrada, n);
     if (r.restante <= 0){
       return `Simulação: entrada de R$ ${fmtBRL(entrada)} cobre o valor total`;
@@ -1280,7 +1101,7 @@ function buildCard(item, ci, ii){
     const cashNow = item.variations[currentIndex].cash;
     const entrada = parseFloat(simEntrada.value) || 0;
     const n = parseInt(simParcelas.value, 10);
-    if (entrada <= 0 && n === 12) return null; // igual ao padrão: não conta como simulação
+    if (entrada <= 0 && n === 12) return null;
     const r = simulateFinanciamento(cashNow, entrada, n);
     return {entrada, n, parcela: r.parcela, restante: r.restante};
   }
@@ -1548,7 +1369,6 @@ CATALOG.forEach((cat, ci)=>{
     const seenSub = new Set();
     const subBlocks = [];
     let totalItems = 0;
-    let allApplePrices = [];
     let leadItems = [];
 
     CATALOG.forEach((c2)=>{
@@ -1693,10 +1513,6 @@ priceFilter.addEventListener("change", applyFilters);
 
 /* =========================================================
    CARREGAMENTO DO CATÁLOGO
-   Tenta buscar catalogo-zeneex.json (fonte compartilhada com
-   o Catálogo PDF). Se falhar — por exemplo, página aberta
-   direto do disco sem servidor — usa o CATALOG_FALLBACK
-   embutido acima, para o site nunca ficar vazio.
 ========================================================= */
 function updateStickyOffset(){
   const header = document.querySelector("header.site");
@@ -1705,8 +1521,6 @@ function updateStickyOffset(){
   }
 }
 
-/* ---- Geração de imagens de compartilhamento (produto específico e
-   categoria/família), no formato Stories (fundo texturizado, tela cheia) ---- */
 function roundRectPath(ctx,x,y,w,h,r){
   ctx.beginPath();
   ctx.moveTo(x+r,y);
@@ -1769,8 +1583,6 @@ async function loadStoryFonts(){
   ]).catch(()=>{});
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
 }
-/* Desenha o "corpo" comum (logo, foto, badge, título) e devolve o y onde
-   a seção de preço/meta deve começar. */
 async function drawStoryShell(ctx, W, photoSrc, title, badgeText){
   const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
   if (logoImg){
@@ -1837,7 +1649,6 @@ function drawStoryFooter(ctx, W, H){
   ctx.textAlign = "left";
 }
 
-/* Imagem de um produto específico (foto, nome, preço da variação escolhida) */
 async function buildCardCanvas(item, variation, simInfo){
   await loadStoryFonts();
   const W = 1080, H = 1920, scale = 1.5;
@@ -1877,8 +1688,6 @@ async function buildCardCanvas(item, variation, simInfo){
   return canvas;
 }
 
-/* Imagem de uma família/categoria/linha (vários modelos) — mostra a contagem
-   e o "a partir de", sem fingir que é um produto único */
 async function buildGroupCanvas(title, items){
   await loadStoryFonts();
   const W = 1080, H = 1920, scale = 1.5;
@@ -1910,7 +1719,7 @@ async function buildGroupCanvas(title, items){
 
 function attachImageShare(cta, getItem, getVariation, getSimInfo){
   cta.addEventListener("click", function(e){
-    if (!navigator.share) return; // sem suporte: segue o link normal do WhatsApp
+    if (!navigator.share) return;
     e.preventDefault();
     const waHref = cta.href;
     const item = getItem();
