@@ -210,18 +210,6 @@
       "category": "PlayStation 5",
       "items": [
         {
-          "name": "PlayStation 5 1TB com Leitor",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "1TB",
-              "cash": 3899.99,
-              "inst": 377.99
-            }
-          ],
-          "image": "images/ps5-leitor.jpg"
-        },
-        {
           "name": "PlayStation 5 Slim 825GB Digital",
           "badge": "NOVO",
           "variations": [
@@ -232,6 +220,18 @@
             }
           ],
           "image": "images/ps5-slim-digital.jpg"
+        },
+        {
+          "name": "PlayStation 5 1TB com Leitor",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "1TB",
+              "cash": 3899.99,
+              "inst": 377.99
+            }
+          ],
+          "image": "images/ps5-leitor.jpg"
         }
       ]
     },
