@@ -1148,6 +1148,7 @@ function buildCard(item, ci, ii){
     const cashNow = item.variations[currentIndex].cash;
     const entrada = parseFloat(simEntrada.value) || 0;
     const n = parseInt(simParcelas.value, 10);
+    if (entrada <= 0 && n === 12) return null; // igual ao padrão: não conta como simulação
     const r = simulateFinanciamento(cashNow, entrada, n);
     if (r.restante <= 0){
       return `Simulação: entrada de R$ ${fmtBRL(entrada)} cobre o valor total`;
@@ -1163,6 +1164,7 @@ function buildCard(item, ci, ii){
     const cashNow = item.variations[currentIndex].cash;
     const entrada = parseFloat(simEntrada.value) || 0;
     const n = parseInt(simParcelas.value, 10);
+    if (entrada <= 0 && n === 12) return null; // igual ao padrão: não conta como simulação
     const r = simulateFinanciamento(cashNow, entrada, n);
     return {entrada, n, parcela: r.parcela, restante: r.restante};
   }
@@ -1672,7 +1674,8 @@ function attachImageShare(cta, getItem, getVariation, getSimInfo){
         if (blob && navigator.canShare){
           const file = new File([blob], "zeneex-produto.png", {type:"image/png"});
           if (navigator.canShare({files:[file]})){
-            const shortText = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${item.displayName || item.name}`;
+            const intent = simInfo ? "gostaria de saber mais" : "gostaria de um orçamento";
+            const shortText = `Olá! Estava conferindo a Seleção da Zeneex e ${intent} do ${item.displayName || item.name}`;
             await navigator.share({files:[file], text: shortText});
             return;
           }
