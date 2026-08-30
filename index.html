@@ -1709,7 +1709,7 @@ async function buildGroupCanvas(title, items){
   const leadItem = items[0];
   const count = items.length;
   const lowest = Math.min(...items.flatMap(it => it.variations.map(v => v.cash)));
-  const badgeText = `${count} ${count === 1 ? "MODELO" : "MODELOS"}`;
+  const badgeText = count > 1 ? `${count} MODELOS` : null;
   const {y, px} = await drawStoryShell(ctx, W, leadItem.image, title, badgeText);
 
   ctx.fillStyle = "rgba(255,255,255,0.85)";
