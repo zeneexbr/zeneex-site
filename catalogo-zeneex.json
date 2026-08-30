@@ -24,7 +24,21 @@
               "inst": 389.99
             }
           ],
-          "image": "images/oura-ring-5.jpg"
+          "image": "images/oura-ring-5.jpg",
+          "description": {
+            "hook": "Quanto menos você percebe o Oura, mais ele percebe sobre você.",
+            "intro": "Mais fino, mais compacto e com uma nova geração de sensores, o Oura Ring 5 acompanha seu corpo continuamente sem disputar espaço na sua rotina.",
+            "blocks": [
+              {
+                "title": "Mais conforto. Mais tempo com você.",
+                "text": "Um design 40% menor em volume que o Ring 4, pensado para acompanhar seus sinais durante o dia, a noite e o sono."
+              },
+              {
+                "title": "Mais avançado onde você não vê.",
+                "text": "A nova arquitetura de sensores aprimora a precisão enquanto a tecnologia praticamente desaparece no seu dedo."
+              }
+            ]
+          }
         },
         {
           "name": "Oura Ring 4",
@@ -36,7 +50,21 @@
               "inst": 324.99
             }
           ],
-          "image": "images/oura-ring-4.jpg"
+          "image": "images/oura-ring-4.jpg",
+          "description": {
+            "hook": "Seu corpo fala o tempo todo. O Oura ajuda você a entendê-lo.",
+            "intro": "Sono, atividade e recuperação acompanhados continuamente - sem precisar de mais uma tela no seu dia.",
+            "blocks": [
+              {
+                "title": "Entenda o que seu corpo está dizendo.",
+                "text": "Descubra como seu sono, seus hábitos e sua rotina influenciam a maneira como você se sente e se recupera."
+              },
+              {
+                "title": "Tecnologia que não parece tecnologia.",
+                "text": "Smart Sensing e sensores integrados em um anel de titânio discreto, confortável e pensado para acompanhar você dia e noite."
+              }
+            ]
+          }
         }
       ]
     },
@@ -54,7 +82,21 @@
               "inst": 259.99
             }
           ],
-          "image": "images/whoop.jpg"
+          "image": "images/whoop.jpg",
+          "description": {
+            "hook": "Seu corpo sabe quando você pode ir além. O WHOOP ajuda você a perceber isso.",
+            "intro": "Sono, esforço, recuperação e saúde transformados em insights para entender como suas escolhas de hoje afetam seu desempenho amanhã.",
+            "blocks": [
+              {
+                "title": "Treine com mais inteligência.",
+                "text": "Entenda quando acelerar, quando recuperar e quais hábitos estão ajudando - ou atrapalhando - sua evolução."
+              },
+              {
+                "title": "Menos tela. Mais leitura do seu corpo.",
+                "text": "Monitoramento contínuo, bateria para mais de 14 dias e recursos do Peak voltados a desempenho, estresse e saúde a longo prazo."
+              }
+            ]
+          }
         }
       ]
     },
@@ -72,7 +114,21 @@
               "inst": 164.99
             }
           ],
-          "image": "images/fitbit-air.jpg"
+          "image": "images/fitbit-air.jpg",
+          "description": {
+            "hook": "Você não precisa de mais uma tela. Precisa entender melhor o que acontece com você.",
+            "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequência de notificações ao seu dia.",
+            "blocks": [
+              {
+                "title": "Acompanhe sem ficar acompanhando.",
+                "text": "A proposta é deixar o monitoramento acontecer em segundo plano enquanto você simplesmente vive sua rotina."
+              },
+              {
+                "title": "O diferencial é não pedir sua atenção.",
+                "text": "Uma experiência de acompanhamento corporal pensada para ser discreta, contínua e menos invasiva que a de um smartwatch tradicional."
+              }
+            ]
+          }
         }
       ]
     },
@@ -90,7 +146,21 @@
               "inst": 367.99
             }
           ],
-          "image": "images/rayban-meta.jpg"
+          "image": "images/rayban-meta.jpg",
+          "description": {
+            "hook": "E se os seus óculos também pudessem registrar aquilo que você está vivendo?",
+            "intro": "O clássico Wayfarer ganha câmera, áudio e recursos inteligentes integrados sem deixar de parecer um Ray-Ban.",
+            "blocks": [
+              {
+                "title": "Viva o momento sem correr para o celular.",
+                "text": "Registre fotos e vídeos da sua própria perspectiva enquanto mantém as mãos livres."
+              },
+              {
+                "title": "O diferencial é quase não parecer tecnologia.",
+                "text": "Recursos inteligentes integrados a um dos designs mais reconhecíveis da Ray-Ban - tecnologia presente sem dominar o visual."
+              }
+            ]
+          }
         }
       ]
     },
@@ -107,7 +177,21 @@
               "inst": 489.99
             }
           ],
-          "image": "images/osmo-pocket.jpg"
+          "image": "images/osmo-pocket.jpg",
+          "description": {
+            "hook": "A melhor câmera é aquela que está pronta quando o momento acontece.",
+            "intro": "Compacta para acompanhar você, mas equipada para transformar momentos rápidos em conteúdo com aparência de produção.",
+            "blocks": [
+              {
+                "title": "Tire a produção do caminho da ideia.",
+                "text": "Estabilização, captura de alta qualidade e recursos inteligentes deixam você mais livre para enquadrar, acompanhar e criar."
+              },
+              {
+                "title": "O Creator Combo já nasce para criar.",
+                "text": "Um conjunto pensado para ampliar a experiência de gravação com acessórios voltados a áudio, enquadramento e produção em movimento."
+              }
+            ]
+          }
         }
       ]
     },
@@ -125,7 +209,21 @@
               "inst": 319.99
             }
           ],
-          "image": "images/insta360.jpg"
+          "image": "images/insta360.jpg",
+          "description": {
+            "hook": "Tem momentos que uma câmera grande simplesmente não consegue acompanhar.",
+            "intro": "Pequena, leve e capaz de gravar em 4K, a GO 3S foi feita para registrar perspectivas que seriam difíceis com uma câmera convencional.",
+            "blocks": [
+              {
+                "title": "Mostre a cena como você realmente viveu.",
+                "text": "Use as mãos livres e explore ângulos em primeira pessoa para criar imagens muito mais imersivas."
+              },
+              {
+                "title": "O diferencial é a liberdade.",
+                "text": "Com apenas 39,1 g e fixação magnética, ela consegue estar onde câmeras maiores simplesmente atrapalhariam."
+              }
+            ]
+          }
         }
       ]
     },
@@ -142,7 +240,21 @@
               "inst": 97.99
             }
           ],
-          "image": "images/hollyland.jpg"
+          "image": "images/hollyland.jpg",
+          "description": {
+            "hook": "Um vídeo pode parecer profissional. Até o áudio começar.",
+            "intro": "O Lark M2 leva áudio sem fio de alta qualidade para vídeos, entrevistas, podcasts e conteúdos sem complicar sua gravação.",
+            "blocks": [
+              {
+                "title": "Sua voz merece a mesma qualidade da sua imagem.",
+                "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."
+              },
+              {
+                "title": "Pequeno para você esquecer. Potente para fazer diferença.",
+                "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."
+              }
+            ]
+          }
         }
       ]
     },
@@ -160,7 +272,21 @@
               "inst": 154.99
             }
           ],
-          "image": "images/plaud-note.jpg"
+          "image": "images/plaud-note.jpg",
+          "description": {
+            "hook": "Algumas conversas são importantes demais para depender da memória.",
+            "intro": "O Plaud Note registra conversas e usa IA para transformar o que foi dito em transcrições, resumos e informações que você pode consultar depois.",
+            "blocks": [
+              {
+                "title": "Você participa da conversa. Ele cuida das anotações.",
+                "text": "Em vez de dividir sua atenção entre ouvir e escrever, você pode voltar ao conteúdo quando precisar."
+              },
+              {
+                "title": "O diferencial acontece depois de gravar.",
+                "text": "A IA ajuda a organizar o conteúdo capturado, enquanto os 64 GB internos mantêm suas gravações em um dispositivo ultrafino."
+              }
+            ]
+          }
         }
       ]
     },
@@ -312,7 +438,21 @@
               "inst": 159.99
             }
           ],
-          "image": "images/vacuum-s40.jpg"
+          "image": "images/vacuum-s40.jpg",
+          "description": {
+            "hook": "Sua casa pode continuar sendo limpa mesmo quando você está fazendo outra coisa.",
+            "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos intervenção.",
+            "blocks": [
+              {
+                "title": "Menos uma tarefa esperando por você.",
+                "text": "Programe a limpeza, escolha áreas e acompanhe a rotina pelo aplicativo Xiaomi Home."
+              },
+              {
+                "title": "O diferencial está na autonomia para fazer sozinho.",
+                "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."
+              }
+            ]
+          }
         }
       ]
     },
@@ -712,7 +852,20 @@
               "inst": 1174.99
             }
           ],
-          "image": "images/macbook-pro.jpg"
+          "image": "images/macbook-pro.jpg",
+          "description": {
+            "hook": "Potência profissional para quem exige mais do Mac.",
+            "intro": "O MacBook Pro com chip M5 foi feito para quem trabalha com tarefas mais exigentes e quer desempenho para acompanhar uma rotina profissional.",
+            "highlights": [
+              "Chip Apple M5",
+              "512GB de armazenamento",
+              "Tela Liquid Retina XDR",
+              "Alto desempenho",
+              "Sistema de som com seis alto-falantes",
+              "Integração com o ecossistema Apple"
+            ],
+            "idealFor": "Profissionais, criadores e usuários que querem desempenho acima da linha Air."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -731,7 +884,21 @@
               "inst": 839.99
             }
           ],
-          "image": "images/macbook-air.jpg"
+          "image": "images/macbook-air.jpg",
+          "description": {
+            "hook": "Leve para levar. Potente para fazer muito mais.",
+            "intro": "O MacBook Air com M5 combina o design fino da linha Air com uma nova geração de desempenho para trabalho, faculdade, criação e rotina.",
+            "highlights": [
+              "Chip Apple M5",
+              "512GB",
+              "Design fino e leve",
+              "Tela Liquid Retina",
+              "Excelente autonomia",
+              "Funcionamento silencioso",
+              "Apple Intelligence"
+            ],
+            "idealFor": "Quem procura equilíbrio entre portabilidade, desempenho e autonomia."
+          }
         },
         {
           "name": "MacBook Air M4",
@@ -743,7 +910,20 @@
               "inst": 674.99
             }
           ],
-          "image": "images/macbook-air.jpg"
+          "image": "images/macbook-air.jpg",
+          "description": {
+            "hook": "Tudo o que faz o MacBook Air ser tão desejado, com a potência do chip M4.",
+            "intro": "Fino, leve e rápido, é uma excelente escolha para estudar, trabalhar, navegar, fazer reuniões, editar conteúdos e cuidar da rotina.",
+            "highlights": [
+              "Chip Apple M4",
+              "256GB",
+              "Design fino e portátil",
+              "Tela Liquid Retina",
+              "Excelente autonomia",
+              "macOS e integração com o ecossistema Apple"
+            ],
+            "idealFor": "Estudantes, profissionais e quem quer entrar no universo MacBook Air."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -762,7 +942,21 @@
               "inst": 499.99
             }
           ],
-          "image": "images/macbook-neo.jpg"
+          "image": "images/macbook-neo.jpg",
+          "description": {
+            "hook": "O jeito mais acessível de ter a experiência de um Mac.",
+            "intro": "Compacto, leve e pensado para as tarefas do dia a dia, o MacBook Neo entrega a experiência do macOS em uma proposta mais acessível.",
+            "highlights": [
+              "Chip A18 Pro",
+              "256GB",
+              "Tela Liquid Retina de 13 polegadas",
+              "Estrutura em alumínio",
+              "Design sem ventoinha",
+              "Até 16 horas de bateria",
+              "Apple Intelligence"
+            ],
+            "idealFor": "Estudantes, rotina de escritório e quem quer seu primeiro MacBook."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -785,7 +979,20 @@
               "inst": 389.99
             }
           ],
-          "image": "images/ipad-11.jpg"
+          "image": "images/ipad-11.jpg",
+          "description": {
+            "hook": "Um iPad para praticamente tudo do dia a dia.",
+            "intro": "Versátil e fácil de usar, funciona muito bem para estudos, entretenimento, videochamadas, leitura, navegação e produtividade cotidiana.",
+            "highlights": [
+              "128GB",
+              "Tela ampla",
+              "Design moderno",
+              "Câmeras frontal e traseira",
+              "iPadOS",
+              "Integração com outros dispositivos Apple"
+            ],
+            "idealFor": "Estudantes, família e quem procura seu primeiro iPad."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -808,7 +1015,20 @@
               "inst": 869.99
             }
           ],
-          "image": "images/ipad-pro.jpg"
+          "image": "images/ipad-pro.jpg",
+          "description": {
+            "hook": "Potência de computador em um iPad extremamente portátil.",
+            "intro": "O iPad Pro M5 é voltado para quem quer extrair o máximo do iPad: criação, produtividade, edição, desenho, estudos avançados e fluxos profissionais.",
+            "highlights": [
+              "Chip Apple M5",
+              "Tela de 11 polegadas",
+              "256GB",
+              "Alto desempenho",
+              "Compatibilidade com acessórios Apple",
+              "Integração com o ecossistema Apple"
+            ],
+            "idealFor": "Profissionais, criadores e usuários que querem o iPad mais avançado da linha."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -831,7 +1051,19 @@
               "inst": 569.99
             }
           ],
-          "image": "images/ipad-air.jpg"
+          "image": "images/ipad-air.jpg",
+          "description": {
+            "hook": "Mais potência para trabalhar, estudar e criar de qualquer lugar.",
+            "intro": "Com chip M4 e formato compacto, o iPad Air entrega desempenho para produtividade, estudos, entretenimento e criação sem precisar chegar ao investimento de um iPad Pro.",
+            "highlights": [
+              "Chip Apple M4",
+              "Tela de 11 polegadas",
+              "128GB",
+              "Multitarefas",
+              "Compatível com Apple Pencil Pro e Magic Keyboard"
+            ],
+            "idealFor": "Faculdade, trabalho, desenho, criação e produtividade móvel."
+          }
         },
         {
           "name": "iPad Air M3 13\"",
@@ -842,7 +1074,20 @@
               "inst": 474.99
             }
           ],
-          "image": "images/ipad-air.jpg"
+          "image": "images/ipad-air.jpg",
+          "description": {
+            "hook": "Mais espaço para criar. Mais liberdade para trabalhar.",
+            "intro": "A tela ampla de 13 polegadas transforma o iPad Air em uma excelente ferramenta para produtividade, estudos e criação.",
+            "highlights": [
+              "Chip Apple M3",
+              "Tela de 13 polegadas",
+              "256GB",
+              "Grande área de trabalho",
+              "Excelente desempenho",
+              "Compatibilidade com acessórios Apple"
+            ],
+            "idealFor": "Quem valoriza tela grande para estudar, trabalhar, desenhar ou consumir conteúdo."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -860,7 +1105,20 @@
               "inst": 499.99
             }
           ],
-          "image": "images/watch-ultra.jpg"
+          "image": "images/watch-ultra.jpg",
+          "description": {
+            "hook": "O Apple Watch para quem quer ir além.",
+            "intro": "O Ultra 3 é a proposta mais robusta da linha Apple Watch, unindo conectividade, recursos para atividades físicas e construção preparada para rotinas mais intensas.",
+            "highlights": [
+              "Caixa de 49mm",
+              "Conectividade celular",
+              "GPS",
+              "Recursos avançados para atividades físicas",
+              "Monitoramento de saúde e bem-estar",
+              "Construção robusta"
+            ],
+            "idealFor": "Esporte, aventura, treinos e usuários que querem o Apple Watch mais completo da linha."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -883,7 +1141,19 @@
               "inst": 279.99
             }
           ],
-          "image": "images/watch-regular.jpg"
+          "image": "images/watch-regular.jpg",
+          "description": {
+            "hook": "Seu dia, sua saúde e suas notificações direto no pulso.",
+            "intro": "O Apple Watch Series 11 combina acompanhamento da rotina, exercícios, comunicação e recursos de saúde em um dispositivo integrado ao iPhone.",
+            "highlights": [
+              "Caixa de 42mm",
+              "Monitoramento de atividades e exercícios",
+              "Recursos de saúde e bem-estar",
+              "Notificações",
+              "Integração com iPhone"
+            ],
+            "idealFor": "Quem quer um Apple Watch completo para acompanhar trabalho, saúde e rotina."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -906,7 +1176,20 @@
               "inst": 229.99
             }
           ],
-          "image": "images/watch-regular.jpg"
+          "image": "images/watch-regular.jpg",
+          "description": {
+            "hook": "A experiência Apple Watch em uma opção mais acessível.",
+            "intro": "O Apple Watch SE 3 reúne os recursos essenciais para acompanhar exercícios, atividades e notificações sem precisar partir para os modelos mais caros da linha.",
+            "highlights": [
+              "Caixa de 40mm",
+              "Acompanhamento de atividades",
+              "Exercícios",
+              "Notificações e chamadas",
+              "Integração com iPhone",
+              "Recursos de segurança e bem-estar"
+            ],
+            "idealFor": "Primeiro Apple Watch e quem procura praticidade com ótimo custo-benefício."
+          }
         },
         {
           "name": "Apple Watch SE 2",
@@ -917,7 +1200,20 @@
               "inst": 209.99
             }
           ],
-          "image": "images/watch-regular.jpg"
+          "image": "images/watch-regular.jpg",
+          "description": {
+            "hook": "O essencial do Apple Watch com uma tela maior.",
+            "intro": "O Apple Watch SE 2 continua sendo uma opção interessante para quem busca atividades físicas, notificações e integração com o iPhone em uma caixa de 44mm.",
+            "highlights": [
+              "Caixa de 44mm",
+              "Monitoramento de atividades",
+              "Exercícios",
+              "Notificações no pulso",
+              "Integração com iPhone",
+              "Recursos essenciais do Apple Watch"
+            ],
+            "idealFor": "Quem procura um Apple Watch acessível e prefere uma caixa maior."
+          }
         }
       ],
       "supergroup": "Apple Store"
@@ -939,7 +1235,19 @@
               "inst": 169.99
             }
           ],
-          "image": "images/airpods4.jpg"
+          "image": "images/airpods4.jpg",
+          "description": {
+            "hook": "Conforto, praticidade e a experiência dos AirPods no dia a dia.",
+            "intro": "Os AirPods 4 foram feitos para tornar música, chamadas e conteúdos mais simples dentro do ecossistema Apple, alternando entre dispositivos com praticidade.",
+            "highlights": [
+              "AirPods 4",
+              "Conexão rápida",
+              "Áudio para músicas, vídeos e chamadas",
+              "Estojo de recarga",
+              "Integração Apple"
+            ],
+            "idealFor": "Uso diário, trabalho, chamadas, academia e entretenimento."
+          }
         }
       ],
       "supergroup": "Apple Store"
