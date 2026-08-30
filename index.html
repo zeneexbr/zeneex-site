@@ -1596,12 +1596,12 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText){
     ctx.shadowColor = "rgba(0,0,0,0.5)";
     ctx.shadowBlur = 16;
     ctx.shadowOffsetY = 6;
-    ctx.drawImage(logoImg, (W-lw)/2, 90, lw, lh);
+    ctx.drawImage(logoImg, (W-lw)/2, 210, lw, lh);
     ctx.restore();
   }
 
   const photoImg = photoSrc ? await loadImageEl(photoSrc).catch(()=>null) : null;
-  const px = 90, py = 260, pw = W - px*2, ph = 900;
+  const px = 90, py = 380, pw = W - px*2, ph = 820;
   ctx.save();
   roundRectPath(ctx, px, py, pw, ph, 24);
   ctx.clip();
