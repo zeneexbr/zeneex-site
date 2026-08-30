@@ -1279,7 +1279,7 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
     shareBtn.textContent = "⋯";
     shareBtn.addEventListener("click", (e)=>{
       e.stopPropagation();
-      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0]);
+      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0], items);
     });
     toggle.appendChild(shareBtn);
   }
@@ -1522,8 +1522,8 @@ function updateStickyOffset(){
   }
 }
 
-/* ---- Geração de imagem do card (foto + nome + preço, sem botão) para
-   compartilhar junto com o texto do orçamento no WhatsApp ---- */
+/* ---- Geração de imagens de compartilhamento (produto específico e
+   categoria/família), no formato Stories (fundo texturizado, tela cheia) ---- */
 function roundRectPath(ctx,x,y,w,h,r){
   ctx.beginPath();
   ctx.moveTo(x+r,y);
@@ -1560,106 +1560,171 @@ function wrapCanvasText(ctx, text, maxWidth){
   if (line) lines.push(line);
   return lines;
 }
-async function buildCardCanvas(item, variation, simInfo){
+function drawStoryBackground(ctx, W, H){
+  ctx.fillStyle = "#0E3B3E";
+  ctx.fillRect(0, 0, W, H);
+  function radial(cx, cy, r, c1, c2, op){
+    const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, r);
+    g.addColorStop(0, c1);
+    g.addColorStop(1, c2);
+    ctx.globalCompositeOperation = op;
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+    ctx.globalCompositeOperation = "source-over";
+  }
+  radial(W*0.15, H*0.08, W*0.6, "rgba(255,255,255,0.12)", "rgba(255,255,255,0)", "lighter");
+  radial(W*0.9, H*0.95, W*0.7, "rgba(4,20,21,0.75)", "rgba(4,20,21,0)", "multiply");
+  radial(W*0.05, H*0.85, W*0.55, "rgba(4,20,21,0.55)", "rgba(4,20,21,0)", "multiply");
+}
+async function loadStoryFonts(){
   await Promise.all([
-    document.fonts.load("700 38px 'Space Grotesk'"),
-    document.fonts.load("600 21px 'IBM Plex Mono'"),
-    document.fonts.load("500 44px 'IBM Plex Mono'"),
-    document.fonts.load("400 25px 'Inter'"),
+    document.fonts.load("700 64px 'Space Grotesk'"),
+    document.fonts.load("500 56px 'IBM Plex Mono'"),
+    document.fonts.load("400 30px 'Inter'"),
+    document.fonts.load("600 22px 'IBM Plex Mono'"),
+    document.fonts.load("400 26px 'IBM Plex Mono'"),
   ]).catch(()=>{});
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
-  const W = 900, scale = 2, pad = 30, stubW = 64;
-  const photoSize = W - stubW - pad*2;
-  const img = item.image ? await loadImageEl(item.image).catch(()=>null) : null;
+}
+/* Desenha o "corpo" comum (logo, foto, badge, título) e devolve o y onde
+   a seção de preço/meta deve começar. */
+async function drawStoryShell(ctx, W, photoSrc, title, badgeText){
+  const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
+  if (logoImg){
+    const lh = 64, lw = lh * (logoImg.width/logoImg.height);
+    ctx.save();
+    ctx.shadowColor = "rgba(0,0,0,0.5)";
+    ctx.shadowBlur = 16;
+    ctx.shadowOffsetY = 6;
+    ctx.drawImage(logoImg, (W-lw)/2, 90, lw, lh);
+    ctx.restore();
+  }
+
+  const photoImg = photoSrc ? await loadImageEl(photoSrc).catch(()=>null) : null;
+  const px = 90, py = 260, pw = W - px*2, ph = 900;
+  ctx.save();
+  roundRectPath(ctx, px, py, pw, ph, 24);
+  ctx.clip();
+  ctx.shadowColor = "rgba(0,0,0,0.5)";
+  ctx.shadowBlur = 60;
+  if (photoImg) drawImageCover(ctx, photoImg, px, py, pw, ph);
+  else { ctx.fillStyle = "rgba(255,255,255,0.08)"; ctx.fillRect(px, py, pw, ph); }
+  ctx.restore();
+
+  let y = py + ph + 60;
+  if (badgeText){
+    ctx.font = "600 22px 'IBM Plex Mono'";
+    const bw = ctx.measureText(badgeText).width + 44;
+    ctx.fillStyle = "rgba(252,252,250,0.14)";
+    ctx.strokeStyle = "rgba(255,255,255,0.3)";
+    ctx.lineWidth = 1;
+    roundRectPath(ctx, px, y, bw, 46, 20);
+    ctx.fill(); ctx.stroke();
+    ctx.fillStyle = "#fff";
+    ctx.textBaseline = "middle";
+    ctx.fillText(badgeText, px+22, y+23);
+    ctx.textBaseline = "alphabetic";
+    y += 46 + 30;
+  } else {
+    y += 10;
+  }
 
   const measure = document.createElement("canvas").getContext("2d");
-  measure.font = "700 38px 'Space Grotesk'";
-  const nameLines = wrapCanvasText(measure, item.displayName || item.name, photoSize);
+  measure.font = "700 64px 'Space Grotesk'";
+  const titleLines = wrapCanvasText(measure, title, W - px*2);
+  ctx.fillStyle = "#fff";
+  ctx.font = "700 64px 'Space Grotesk'";
+  ctx.shadowColor = "rgba(0,0,0,0.85)";
+  ctx.shadowBlur = 10;
+  ctx.shadowOffsetY = 2;
+  titleLines.forEach((line, i)=> ctx.fillText(line, px, y + 54 + i*70));
+  ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
+  y += titleLines.length * 70 + 20;
 
-  const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
-  const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
-  const badgeH = item.badge ? 58 : 0;
-  const nameH = nameLines.length * 48;
-  const labelH = hasLabel ? 58 : 0;
-  const entradaLineH = (hasSim && simInfo.entrada > 0) ? 40 : 0;
-  const priceH = 96;
-  const H = pad + photoSize + 24 + badgeH + nameH + 10 + labelH + entradaLineH + priceH + pad;
+  return {y, px};
+}
+function drawStoryFooter(ctx, W, H){
+  ctx.font = "400 26px 'IBM Plex Mono'";
+  ctx.fillStyle = "rgba(255,255,255,0.7)";
+  ctx.textAlign = "center";
+  ctx.shadowColor = "rgba(0,0,0,0.7)";
+  ctx.shadowBlur = 8;
+  ctx.fillText("zeneex.com.br", W/2, H - 120);
+  ctx.shadowBlur = 0;
+  ctx.textAlign = "left";
+}
 
+/* Imagem de um produto específico (foto, nome, preço da variação escolhida) */
+async function buildCardCanvas(item, variation, simInfo){
+  await loadStoryFonts();
+  const W = 1080, H = 1920, scale = 1.5;
   const canvas = document.createElement("canvas");
   canvas.width = W*scale; canvas.height = H*scale;
   const ctx = canvas.getContext("2d");
   ctx.scale(scale, scale);
 
-  ctx.fillStyle = "#FCFCFA";
-  roundRectPath(ctx, 0, 0, W, H, 14); ctx.fill();
+  drawStoryBackground(ctx, W, H);
 
-  ctx.save();
-  roundRectPath(ctx, 0, 0, W, H, 14); ctx.clip();
-  ctx.fillStyle = "#0E3B3E";
-  ctx.fillRect(0, 0, stubW, H);
-  ctx.restore();
+  const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
+  const badgeText = [item.badge, hasLabel ? variation.label : null].filter(Boolean).join(" · ");
+  const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText);
 
-  const x = stubW + pad;
-  let y = pad;
-
-  ctx.save();
-  roundRectPath(ctx, x, y, photoSize, photoSize, 8);
-  ctx.clip();
-  if (img) drawImageCover(ctx, img, x, y, photoSize, photoSize);
-  else { ctx.fillStyle = "#EFF4F2"; ctx.fillRect(x, y, photoSize, photoSize); }
-  ctx.restore();
-  y += photoSize + 24;
-
-  if (item.badge){
-    const isNovo = item.badge === "NOVO";
-    ctx.font = "600 21px 'IBM Plex Mono'";
-    const bw = ctx.measureText(item.badge).width + 32;
-    ctx.fillStyle = isNovo ? "rgba(14,59,62,0.08)" : "rgba(173,127,53,0.12)";
-    roundRectPath(ctx, x, y, bw, 40, 20); ctx.fill();
-    ctx.fillStyle = isNovo ? "#0E3B3E" : "#AD7F35";
-    ctx.textBaseline = "middle";
-    ctx.fillText(item.badge, x+16, y+21);
-    ctx.textBaseline = "alphabetic";
-    y += 40 + 18;
-  }
-
-  ctx.fillStyle = "#0F1E1D";
-  ctx.font = "700 38px 'Space Grotesk'";
-  nameLines.forEach((line, i)=> ctx.fillText(line, x, y + 32 + i*48));
-  y += nameH + 8;
-
-  if (hasLabel){
-    ctx.font = "600 21px 'IBM Plex Mono'";
-    const lw = ctx.measureText(variation.label).width + 32;
-    ctx.fillStyle = "#0E3B3E";
-    roundRectPath(ctx, x, y, lw, 42, 21); ctx.fill();
-    ctx.fillStyle = "#fff";
-    ctx.textBaseline = "middle";
-    ctx.fillText(variation.label, x+16, y+22);
-    ctx.textBaseline = "alphabetic";
-    y += 42 + 16;
-  }
-
+  const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
+  let py2 = y + 10;
+  ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
   if (hasSim && simInfo.entrada > 0){
-    ctx.font = "400 24px 'Inter'";
-    ctx.fillStyle = "#4A5B59";
-    ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, x, y + 20);
-    y += entradaLineH;
+    ctx.font = "400 30px 'Inter'";
+    ctx.fillStyle = "rgba(255,255,255,0.85)";
+    ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, px, py2 + 26);
+    py2 += 50;
   }
-
-  ctx.fillStyle = "#0F1E1D";
-  ctx.font = "500 44px 'IBM Plex Mono'";
+  ctx.fillStyle = "#fff";
+  ctx.font = "500 56px 'IBM Plex Mono'";
   if (hasSim){
-    ctx.fillText(`${simInfo.n}x de R$ ${fmtBRL(simInfo.parcela)}`, x, y + 38);
+    ctx.fillText(`${simInfo.n}x de R$ ${fmtBRL(simInfo.parcela)}`, px, py2 + 46);
   } else {
-    ctx.fillText("R$ " + fmtBRL(variation.cash), x, y + 38);
-    ctx.font = "400 25px 'Inter'";
-    ctx.fillStyle = "#4A5B59";
-    ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, x, y + 74);
+    ctx.fillText("R$ " + fmtBRL(variation.cash), px, py2 + 46);
+    ctx.font = "400 30px 'Inter'";
+    ctx.fillStyle = "rgba(255,255,255,0.8)";
+    ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, px, py2 + 90);
   }
+  ctx.shadowBlur = 0;
 
+  drawStoryFooter(ctx, W, H);
   return canvas;
 }
+
+/* Imagem de uma família/categoria/linha (vários modelos) — mostra a contagem
+   e o "a partir de", sem fingir que é um produto único */
+async function buildGroupCanvas(title, items){
+  await loadStoryFonts();
+  const W = 1080, H = 1920, scale = 1.5;
+  const canvas = document.createElement("canvas");
+  canvas.width = W*scale; canvas.height = H*scale;
+  const ctx = canvas.getContext("2d");
+  ctx.scale(scale, scale);
+
+  drawStoryBackground(ctx, W, H);
+
+  const leadItem = items[0];
+  const count = items.length;
+  const lowest = Math.min(...items.flatMap(it => it.variations.map(v => v.cash)));
+  const badgeText = `${count} ${count === 1 ? "MODELO" : "MODELOS"}`;
+  const {y, px} = await drawStoryShell(ctx, W, leadItem.image, title, badgeText);
+
+  ctx.fillStyle = "rgba(255,255,255,0.85)";
+  ctx.font = "400 30px 'Inter'";
+  ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
+  ctx.fillText("a partir de", px, y + 30);
+  ctx.fillStyle = "#fff";
+  ctx.font = "500 56px 'IBM Plex Mono'";
+  ctx.fillText("R$ " + fmtBRL(lowest), px, y + 90);
+  ctx.shadowBlur = 0;
+
+  drawStoryFooter(ctx, W, H);
+  return canvas;
+}
+
 function attachImageShare(cta, getItem, getVariation, getSimInfo){
   cta.addEventListener("click", function(e){
     if (!navigator.share) return; // sem suporte: segue o link normal do WhatsApp
@@ -1689,13 +1754,15 @@ function attachImageShare(cta, getItem, getVariation, getSimInfo){
   });
 }
 
-function shareWithPhoto(title, hash, leadItem, leadVariation){
+function shareWithPhoto(title, hash, leadItem, leadVariation, groupItems){
   const url = location.origin + location.pathname + hash;
   if (navigator.share){
     (async ()=>{
       try{
         if (leadItem && leadItem.image && navigator.canShare){
-          const canvas = await buildCardCanvas(leadItem, leadVariation || leadItem.variations[0]);
+          const canvas = groupItems
+            ? await buildGroupCanvas(title, groupItems)
+            : await buildCardCanvas(leadItem, leadVariation || leadItem.variations[0]);
           const blob = await new Promise(res => canvas.toBlob(res, "image/png", 0.95));
           if (blob){
             const file = new File([blob], "zeneex-produto.png", {type:"image/png"});
