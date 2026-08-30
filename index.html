@@ -1047,7 +1047,7 @@ function buildCard(item, ci, ii){
   shareBtn.textContent = "⋯";
   shareBtn.addEventListener("click", (e)=>{
     e.stopPropagation();
-    shareLink(item.displayName || item.name, `#item-${ci}-${ii}`);
+    shareWithPhoto(item.displayName || item.name, `#item-${ci}-${ii}`, item, item.variations[0]);
   });
   card.appendChild(shareBtn);
 
@@ -1279,7 +1279,7 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
     shareBtn.textContent = "⋯";
     shareBtn.addEventListener("click", (e)=>{
       e.stopPropagation();
-      shareLink(title, `#${shareHash}`);
+      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0]);
     });
     toggle.appendChild(shareBtn);
   }
@@ -1687,6 +1687,40 @@ function attachImageShare(cta, getItem, getVariation, getSimInfo){
       }
     })();
   });
+}
+
+function shareWithPhoto(title, hash, leadItem, leadVariation){
+  const url = location.origin + location.pathname + hash;
+  if (navigator.share){
+    (async ()=>{
+      try{
+        if (leadItem && leadItem.image && navigator.canShare){
+          const canvas = await buildCardCanvas(leadItem, leadVariation || leadItem.variations[0]);
+          const blob = await new Promise(res => canvas.toBlob(res, "image/png", 0.95));
+          if (blob){
+            const file = new File([blob], "zeneex-produto.png", {type:"image/png"});
+            if (navigator.canShare({files:[file]})){
+              await navigator.share({files:[file], text: `Confira: ${title} — ${url}`});
+              return;
+            }
+          }
+        }
+        await navigator.share({title: `Zeneex — ${title}`, text: `Confira: ${title}`, url});
+      } catch(err){
+        if (err && err.name === "AbortError") return;
+      }
+    })();
+    return;
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(()=>{
+      alert("Link copiado! Cole onde quiser compartilhar.");
+    }).catch(()=>{
+      window.prompt("Copie o link abaixo:", url);
+    });
+    return;
+  }
+  window.prompt("Copie o link abaixo:", url);
 }
 
 function shareLink(title, hash){
