@@ -1158,6 +1158,15 @@ function buildCard(item, ci, ii){
     return `Simulação: ${n}x de R$ ${fmtBRL(r.parcela)}`;
   }
 
+  function getSimInfo(){
+    if (!simUsed) return null;
+    const cashNow = item.variations[currentIndex].cash;
+    const entrada = parseFloat(simEntrada.value) || 0;
+    const n = parseInt(simParcelas.value, 10);
+    const r = simulateFinanciamento(cashNow, entrada, n);
+    return {entrada, n, parcela: r.parcela, restante: r.restante};
+  }
+
   simEntrada.addEventListener("input", ()=>{ simUsed = true; updatePrice(); });
   simParcelas.addEventListener("change", ()=>{ simUsed = true; updatePrice(); });
   simToggle.addEventListener("click", ()=>{
@@ -1170,7 +1179,7 @@ function buildCard(item, ci, ii){
   cta.target = "_blank";
   cta.rel = "noopener";
   cta.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.9 1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.1.2-.3.2-.4.1-.1 0-.3 0-.4-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5c1.5.8 3.3 1.3 5.2 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.4-.5-4.8-1.4l-.3-.2-3.2 1 1-3.1-.2-.3C3.5 14.8 3 13.4 3 12c0-5 4-9 9-9s9 4 9 9-4 9-9 9.2z"/></svg><span class="cta-label">Solicitar orçamento no WhatsApp</span>`;
-  attachImageShare(cta, ()=>item, ()=>item.variations[currentIndex]);
+  attachImageShare(cta, ()=>item, ()=>item.variations[currentIndex], getSimInfo);
 
   let currentIndex = 0;
 
@@ -1549,7 +1558,7 @@ function wrapCanvasText(ctx, text, maxWidth){
   if (line) lines.push(line);
   return lines;
 }
-async function buildCardCanvas(item, variation){
+async function buildCardCanvas(item, variation, simInfo){
   await Promise.all([
     document.fonts.load("700 38px 'Space Grotesk'"),
     document.fonts.load("600 21px 'IBM Plex Mono'"),
@@ -1566,11 +1575,13 @@ async function buildCardCanvas(item, variation){
   const nameLines = wrapCanvasText(measure, item.displayName || item.name, photoSize);
 
   const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
+  const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
   const badgeH = item.badge ? 58 : 0;
   const nameH = nameLines.length * 48;
   const labelH = hasLabel ? 58 : 0;
+  const entradaLineH = (hasSim && simInfo.entrada > 0) ? 40 : 0;
   const priceH = 96;
-  const H = pad + photoSize + 24 + badgeH + nameH + 10 + labelH + priceH + pad;
+  const H = pad + photoSize + 24 + badgeH + nameH + 10 + labelH + entradaLineH + priceH + pad;
 
   const canvas = document.createElement("canvas");
   canvas.width = W*scale; canvas.height = H*scale;
@@ -1627,30 +1638,42 @@ async function buildCardCanvas(item, variation){
     y += 42 + 16;
   }
 
+  if (hasSim && simInfo.entrada > 0){
+    ctx.font = "400 24px 'Inter'";
+    ctx.fillStyle = "#4A5B59";
+    ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, x, y + 20);
+    y += entradaLineH;
+  }
+
   ctx.fillStyle = "#0F1E1D";
   ctx.font = "500 44px 'IBM Plex Mono'";
-  ctx.fillText("R$ " + fmtBRL(variation.cash), x, y + 38);
-  ctx.font = "400 25px 'Inter'";
-  ctx.fillStyle = "#4A5B59";
-  ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, x, y + 74);
+  if (hasSim){
+    ctx.fillText(`${simInfo.n}x de R$ ${fmtBRL(simInfo.parcela)}`, x, y + 38);
+  } else {
+    ctx.fillText("R$ " + fmtBRL(variation.cash), x, y + 38);
+    ctx.font = "400 25px 'Inter'";
+    ctx.fillStyle = "#4A5B59";
+    ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, x, y + 74);
+  }
 
   return canvas;
 }
-function attachImageShare(cta, getItem, getVariation){
+function attachImageShare(cta, getItem, getVariation, getSimInfo){
   cta.addEventListener("click", function(e){
     if (!navigator.share) return; // sem suporte: segue o link normal do WhatsApp
     e.preventDefault();
     const waHref = cta.href;
+    const item = getItem();
+    const simInfo = getSimInfo ? getSimInfo() : null;
     (async ()=>{
       try{
-        const canvas = await buildCardCanvas(getItem(), getVariation());
+        const canvas = await buildCardCanvas(item, getVariation(), simInfo);
         const blob = await new Promise(res => canvas.toBlob(res, "image/png", 0.95));
         if (blob && navigator.canShare){
           const file = new File([blob], "zeneex-produto.png", {type:"image/png"});
           if (navigator.canShare({files:[file]})){
-            const u = new URL(waHref);
-            const text = decodeURIComponent(u.searchParams.get("text") || "");
-            await navigator.share({files:[file], text});
+            const shortText = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${item.displayName || item.name}`;
+            await navigator.share({files:[file], text: shortText});
             return;
           }
         }
