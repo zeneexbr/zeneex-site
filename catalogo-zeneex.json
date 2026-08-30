@@ -10,18 +10,6 @@
       "category": "Oura Ring",
       "items": [
         {
-          "name": "Oura Ring 4",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 3379.99,
-              "inst": 324.99
-            }
-          ],
-          "image": "images/oura-ring-4.jpg"
-        },
-        {
           "name": "Oura Ring 5",
           "badge": "NOVO",
           "variations": [
@@ -37,6 +25,18 @@
             }
           ],
           "image": "images/oura-ring-5.jpg"
+        },
+        {
+          "name": "Oura Ring 4",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 3379.99,
+              "inst": 324.99
+            }
+          ],
+          "image": "images/oura-ring-4.jpg"
         }
       ]
     },
@@ -239,18 +239,32 @@
       "category": "Scooter Elétrica",
       "items": [
         {
-          "name": "Scooter Elétrica Preta",
+          "name": "Scooter Elétrica",
           "badge": "NOVO",
-          "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h",
+          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
           "variations": [
             {
               "label": "Padrão",
-              "cash": 6799.99,
-              "inst": 467.99,
+              "cash": 9299.0,
+              "inst": 639.99,
               "instCount": 18
             }
           ],
-          "image": "images/scooter-preta.jpg",
+          "image": "images/scooter.jpg"
+        },
+        {
+          "name": "Scooter Elétrica Verde Oliva",
+          "badge": "NOVO",
+          "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 7899.99,
+              "inst": 544.99,
+              "instCount": 18
+            }
+          ],
+          "image": "images/scooter-verde-oliva.jpg",
           "displayName": "Scooter Elétrica"
         },
         {
@@ -269,33 +283,19 @@
           "displayName": "Scooter Elétrica"
         },
         {
-          "name": "Scooter Elétrica Verde Oliva",
+          "name": "Scooter Elétrica Preta",
           "badge": "NOVO",
-          "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h",
+          "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h",
           "variations": [
             {
               "label": "Padrão",
-              "cash": 7899.99,
-              "inst": 544.99,
+              "cash": 6799.99,
+              "inst": 467.99,
               "instCount": 18
             }
           ],
-          "image": "images/scooter-verde-oliva.jpg",
+          "image": "images/scooter-preta.jpg",
           "displayName": "Scooter Elétrica"
-        },
-        {
-          "name": "Scooter Elétrica",
-          "badge": "NOVO",
-          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 9299.0,
-              "inst": 639.99,
-              "instCount": 18
-            }
-          ],
-          "image": "images/scooter.jpg"
         }
       ]
     },
