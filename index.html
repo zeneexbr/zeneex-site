@@ -942,7 +942,7 @@ function lowestPrice(item){
 }
 function waLink(productName, variationLabel, simText){
   const suffix = variationLabel ? ` ${variationLabel}` : "";
-  const simSuffix = simText ? `. ${simText}` : "";
+  const simSuffix = simText ? `.\n\n${simText}` : "";
   const msg = `Olá! Estava conferindo a Seleção da Zeneex e gostaria de um orçamento do ${productName}${suffix}${simSuffix}`;
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
