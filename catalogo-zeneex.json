@@ -1,7 +1,7 @@
 {
   "_meta": {
     "fonte": "Fonte única compartilhada entre o site (Plataforma) e o Catálogo PDF — ver Nota de Sincronização na skill de Catálogo",
-    "atualizado_em": "2026-08-25",
+    "atualizado_em": "2026-08-30",
     "instrucao": "Ao editar preço/produto, atualizar este arquivo e depois refletir a mesma mudança no CATA_LOGO_ZENEEX.pdf na mesma sessão de trabalho.",
     "whatsapp": "5591984195397"
   },
@@ -13,30 +13,16 @@
           "name": "Oura Ring 5",
           "badge": "NOVO",
           "variations": [
-            {
-              "label": "Tamanho 7 ao 10",
-              "cash": 3649.99,
-              "inst": 354.99
-            },
-            {
-              "label": "Tamanho 11",
-              "cash": 3999.99,
-              "inst": 389.99
-            }
+            {"label": "Tamanho 7 ao 10", "cash": 3649.99, "inst": 354.99},
+            {"label": "Tamanho 11", "cash": 3999.99, "inst": 389.99}
           ],
           "image": "images/oura-ring-5.jpg",
           "description": {
             "hook": "Quanto menos você percebe o Oura, mais ele percebe sobre você.",
             "intro": "Mais fino, mais compacto e com uma nova geração de sensores, o Oura Ring 5 acompanha seu corpo continuamente sem disputar espaço na sua rotina.",
             "blocks": [
-              {
-                "title": "Mais conforto. Mais tempo com você.",
-                "text": "Um design 40% menor em volume que o Ring 4, pensado para acompanhar seus sinais durante o dia, a noite e o sono."
-              },
-              {
-                "title": "Mais avançado onde você não vê.",
-                "text": "A nova arquitetura de sensores aprimora a precisão enquanto a tecnologia praticamente desaparece no seu dedo."
-              }
+              {"title": "Mais conforto. Mais tempo com você.", "text": "Um design 40% menor em volume que o Ring 4, pensado para acompanhar seus sinais durante o dia, a noite e o sono."},
+              {"title": "Mais avançado onde você não vê.", "text": "A nova arquitetura de sensores aprimora a precisão enquanto a tecnologia praticamente desaparece no seu dedo."}
             ]
           }
         },
@@ -44,25 +30,15 @@
           "name": "Oura Ring 4",
           "badge": "NOVO",
           "variations": [
-            {
-              "label": "Padrão",
-              "cash": 3379.99,
-              "inst": 324.99
-            }
+            {"label": "Padrão", "cash": 3379.99, "inst": 324.99}
           ],
           "image": "images/oura-ring-4.jpg",
           "description": {
             "hook": "Seu corpo fala o tempo todo. O Oura ajuda você a entendê-lo.",
             "intro": "Sono, atividade e recuperação acompanhados continuamente - sem precisar de mais uma tela no seu dia.",
             "blocks": [
-              {
-                "title": "Entenda o que seu corpo está dizendo.",
-                "text": "Descubra como seu sono, seus hábitos e sua rotina influenciam a maneira como você se sente e se recupera."
-              },
-              {
-                "title": "Tecnologia que não parece tecnologia.",
-                "text": "Smart Sensing e sensores integrados em um anel de titânio discreto, confortável e pensado para acompanhar você dia e noite."
-              }
+              {"title": "Entenda o que seu corpo está dizendo.", "text": "Descubra como seu sono, seus hábitos e sua rotina influenciam a maneira como você se sente e se recupera."},
+              {"title": "Tecnologia que não parece tecnologia.", "text": "Smart Sensing e sensores integrados em um anel de titânio discreto, confortável e pensado para acompanhar você dia e noite."}
             ]
           }
         }
@@ -75,26 +51,14 @@
           "name": "Whoop 5.0 Peak Health and Fitness Tracker",
           "spec": "Obsidian",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Obsidian",
-              "cash": 2679.99,
-              "inst": 259.99
-            }
-          ],
+          "variations": [{"label": "Obsidian", "cash": 2679.99, "inst": 259.99}],
           "image": "images/whoop.jpg",
           "description": {
             "hook": "Seu corpo sabe quando você pode ir além. O WHOOP ajuda você a perceber isso.",
             "intro": "Sono, esforço, recuperação e saúde transformados em insights para entender como suas escolhas de hoje afetam seu desempenho amanhã.",
             "blocks": [
-              {
-                "title": "Treine com mais inteligência.",
-                "text": "Entenda quando acelerar, quando recuperar e quais hábitos estão ajudando - ou atrapalhando - sua evolução."
-              },
-              {
-                "title": "Menos tela. Mais leitura do seu corpo.",
-                "text": "Monitoramento contínuo, bateria para mais de 14 dias e recursos do Peak voltados a desempenho, estresse e saúde a longo prazo."
-              }
+              {"title": "Treine com mais inteligência.", "text": "Entenda quando acelerar, quando recuperar e quais hábitos estão ajudando - ou atrapalhando - sua evolução."},
+              {"title": "Menos tela. Mais leitura do seu corpo.", "text": "Monitoramento contínuo, bateria para mais de 14 dias e recursos do Peak voltados a desempenho, estresse e saúde a longo prazo."}
             ]
           }
         }
@@ -107,26 +71,14 @@
           "name": "Google Fitbit Air",
           "badge": "NOVO",
           "spec": "Pulseira inteligente · Obsidian",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1679.0,
-              "inst": 164.99
-            }
-          ],
+          "variations": [{"label": "Padrão", "cash": 1679.0, "inst": 164.99}],
           "image": "images/fitbit-air.jpg",
           "description": {
             "hook": "Você não precisa de mais uma tela. Precisa entender melhor o que acontece com você.",
             "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequência de notificações ao seu dia.",
             "blocks": [
-              {
-                "title": "Acompanhe sem ficar acompanhando.",
-                "text": "A proposta é deixar o monitoramento acontecer em segundo plano enquanto você simplesmente vive sua rotina."
-              },
-              {
-                "title": "O diferencial é não pedir sua atenção.",
-                "text": "Uma experiência de acompanhamento corporal pensada para ser discreta, contínua e menos invasiva que a de um smartwatch tradicional."
-              }
+              {"title": "Acompanhe sem ficar acompanhando.", "text": "A proposta é deixar o monitoramento acontecer em segundo plano enquanto você simplesmente vive sua rotina."},
+              {"title": "O diferencial é não pedir sua atenção.", "text": "Uma experiência de acompanhamento corporal pensada para ser discreta, contínua e menos invasiva que a de um smartwatch tradicional."}
             ]
           }
         }
@@ -139,26 +91,14 @@
           "name": "Ray-Ban Meta Wayfarer Gen 2",
           "spec": "Fotocromático",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Fotocromático",
-              "cash": 3799.99,
-              "inst": 367.99
-            }
-          ],
+          "variations": [{"label": "Fotocromático", "cash": 3799.99, "inst": 367.99}],
           "image": "images/rayban-meta.jpg",
           "description": {
             "hook": "E se os seus óculos também pudessem registrar aquilo que você está vivendo?",
             "intro": "O clássico Wayfarer ganha câmera, áudio e recursos inteligentes integrados sem deixar de parecer um Ray-Ban.",
             "blocks": [
-              {
-                "title": "Viva o momento sem correr para o celular.",
-                "text": "Registre fotos e vídeos da sua própria perspectiva enquanto mantém as mãos livres."
-              },
-              {
-                "title": "O diferencial é quase não parecer tecnologia.",
-                "text": "Recursos inteligentes integrados a um dos designs mais reconhecíveis da Ray-Ban - tecnologia presente sem dominar o visual."
-              }
+              {"title": "Viva o momento sem correr para o celular.", "text": "Registre fotos e vídeos da sua própria perspectiva enquanto mantém as mãos livres."},
+              {"title": "O diferencial é quase não parecer tecnologia.", "text": "Recursos inteligentes integrados a um dos designs mais reconhecíveis da Ray-Ban - tecnologia presente sem dominar o visual."}
             ]
           }
         }
@@ -170,26 +110,14 @@
         {
           "name": "DJI Osmo Pocket 4 Creator Combo",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Combo",
-              "cash": 5079.99,
-              "inst": 489.99
-            }
-          ],
+          "variations": [{"label": "Combo", "cash": 5079.99, "inst": 489.99}],
           "image": "images/osmo-pocket.jpg",
           "description": {
             "hook": "A melhor câmera é aquela que está pronta quando o momento acontece.",
             "intro": "Compacta para acompanhar você, mas equipada para transformar momentos rápidos em conteúdo com aparência de produção.",
             "blocks": [
-              {
-                "title": "Tire a produção do caminho da ideia.",
-                "text": "Estabilização, captura de alta qualidade e recursos inteligentes deixam você mais livre para enquadrar, acompanhar e criar."
-              },
-              {
-                "title": "O Creator Combo já nasce para criar.",
-                "text": "Um conjunto pensado para ampliar a experiência de gravação com acessórios voltados a áudio, enquadramento e produção em movimento."
-              }
+              {"title": "Tire a produção do caminho da ideia.", "text": "Estabilização, captura de alta qualidade e recursos inteligentes deixam você mais livre para enquadrar, acompanhar e criar."},
+              {"title": "O Creator Combo já nasce para criar.", "text": "Um conjunto pensado para ampliar a experiência de gravação com acessórios voltados a áudio, enquadramento e produção em movimento."}
             ]
           }
         }
@@ -202,26 +130,14 @@
           "name": "Insta360 Go 3S",
           "spec": "4K · 128GB",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "128GB",
-              "cash": 3299.99,
-              "inst": 319.99
-            }
-          ],
+          "variations": [{"label": "128GB", "cash": 3299.99, "inst": 319.99}],
           "image": "images/insta360.jpg",
           "description": {
             "hook": "Tem momentos que uma câmera grande simplesmente não consegue acompanhar.",
             "intro": "Pequena, leve e capaz de gravar em 4K, a GO 3S foi feita para registrar perspectivas que seriam difíceis com uma câmera convencional.",
             "blocks": [
-              {
-                "title": "Mostre a cena como você realmente viveu.",
-                "text": "Use as mãos livres e explore ângulos em primeira pessoa para criar imagens muito mais imersivas."
-              },
-              {
-                "title": "O diferencial é a liberdade.",
-                "text": "Com apenas 39,1 g e fixação magnética, ela consegue estar onde câmeras maiores simplesmente atrapalhariam."
-              }
+              {"title": "Mostre a cena como você realmente viveu.", "text": "Use as mãos livres e explore ângulos em primeira pessoa para criar imagens muito mais imersivas."},
+              {"title": "O diferencial é a liberdade.", "text": "Com apenas 39,1 g e fixação magnética, ela consegue estar onde câmeras maiores simplesmente atrapalhariam."}
             ]
           }
         }
@@ -233,26 +149,14 @@
         {
           "name": "Microfone Hollyland Lark M2 Combo",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Combo",
-              "cash": 999.99,
-              "inst": 97.99
-            }
-          ],
+          "variations": [{"label": "Combo", "cash": 999.99, "inst": 97.99}],
           "image": "images/hollyland.jpg",
           "description": {
             "hook": "Um vídeo pode parecer profissional. Até o áudio começar.",
             "intro": "O Lark M2 leva áudio sem fio de alta qualidade para vídeos, entrevistas, podcasts e conteúdos sem complicar sua gravação.",
             "blocks": [
-              {
-                "title": "Sua voz merece a mesma qualidade da sua imagem.",
-                "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."
-              },
-              {
-                "title": "Pequeno para você esquecer. Potente para fazer diferença.",
-                "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."
-              }
+              {"title": "Sua voz merece a mesma qualidade da sua imagem.", "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."},
+              {"title": "Pequeno para você esquecer. Potente para fazer diferença.", "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."}
             ]
           }
         }
@@ -265,26 +169,14 @@
           "name": "Plaud Note 64GB",
           "badge": "NOVO",
           "spec": "Gravador de Voz com ChatGPT",
-          "variations": [
-            {
-              "label": "64GB",
-              "cash": 1599.0,
-              "inst": 154.99
-            }
-          ],
+          "variations": [{"label": "64GB", "cash": 1599.0, "inst": 154.99}],
           "image": "images/plaud-note.jpg",
           "description": {
             "hook": "Algumas conversas são importantes demais para depender da memória.",
             "intro": "O Plaud Note registra conversas e usa IA para transformar o que foi dito em transcrições, resumos e informações que você pode consultar depois.",
             "blocks": [
-              {
-                "title": "Você participa da conversa. Ele cuida das anotações.",
-                "text": "Em vez de dividir sua atenção entre ouvir e escrever, você pode voltar ao conteúdo quando precisar."
-              },
-              {
-                "title": "O diferencial acontece depois de gravar.",
-                "text": "A IA ajuda a organizar o conteúdo capturado, enquanto os 64 GB internos mantêm suas gravações em um dispositivo ultrafino."
-              }
+              {"title": "Você participa da conversa. Ele cuida das anotações.", "text": "Em vez de dividir sua atenção entre ouvir e escrever, você pode voltar ao conteúdo quando precisar."},
+              {"title": "O diferencial acontece depois de gravar.", "text": "A IA ajuda a organizar o conteúdo capturado, enquanto os 64 GB internos mantêm suas gravações em um dispositivo ultrafino."}
             ]
           }
         }
@@ -293,136 +185,25 @@
     {
       "category": "Drones DJI",
       "items": [
-        {
-          "name": "Drone DJI Mini 5 Pro",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 5799.0,
-              "inst": 559.99
-            }
-          ],
-          "image": "images/drone-mini5pro.jpg"
-        },
-        {
-          "name": "Drone DJI Neo 2",
-          "spec": "FLY More Combo",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Fly More Combo",
-              "cash": 3599.0,
-              "inst": 449.99
-            }
-          ],
-          "image": "images/drone-neo2.jpg"
-        },
-        {
-          "name": "Drone DJI Flip 4K",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 3399.0,
-              "inst": 329.99
-            }
-          ],
-          "image": "images/drone-flip4k.jpg"
-        }
+        {"name": "Drone DJI Mini 5 Pro", "badge": "NOVO", "variations": [{"label": "Padrão", "cash": 5799.0, "inst": 559.99}], "image": "images/drone-mini5pro.jpg"},
+        {"name": "Drone DJI Neo 2", "spec": "FLY More Combo", "badge": "NOVO", "variations": [{"label": "Fly More Combo", "cash": 3599.0, "inst": 449.99}], "image": "images/drone-neo2.jpg"},
+        {"name": "Drone DJI Flip 4K", "badge": "NOVO", "variations": [{"label": "Padrão", "cash": 3399.0, "inst": 329.99}], "image": "images/drone-flip4k.jpg"}
       ]
     },
     {
       "category": "PlayStation 5",
       "items": [
-        {
-          "name": "PlayStation 5 Slim 825GB Digital",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "825GB",
-              "cash": 4579.99,
-              "inst": 439.99
-            }
-          ],
-          "image": "images/ps5-slim-digital.jpg"
-        },
-        {
-          "name": "PlayStation 5 1TB com Leitor",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "1TB",
-              "cash": 3899.99,
-              "inst": 377.99
-            }
-          ],
-          "image": "images/ps5-leitor.jpg"
-        }
+        {"name": "PlayStation 5 Slim 825GB Digital", "badge": "NOVO", "variations": [{"label": "825GB", "cash": 4579.99, "inst": 439.99}], "image": "images/ps5-slim-digital.jpg"},
+        {"name": "PlayStation 5 1TB com Leitor", "badge": "NOVO", "variations": [{"label": "1TB", "cash": 3899.99, "inst": 377.99}], "image": "images/ps5-leitor.jpg"}
       ]
     },
     {
       "category": "Scooter Elétrica",
       "items": [
-        {
-          "name": "Scooter Elétrica",
-          "badge": "NOVO",
-          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 9299.0,
-              "inst": 639.99,
-              "instCount": 18
-            }
-          ],
-          "image": "images/scooter.jpg"
-        },
-        {
-          "name": "Scooter Elétrica Verde Oliva",
-          "badge": "NOVO",
-          "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 7899.99,
-              "inst": 544.99,
-              "instCount": 18
-            }
-          ],
-          "image": "images/scooter-verde-oliva.jpg",
-          "displayName": "Scooter Elétrica"
-        },
-        {
-          "name": "Scooter Elétrica Verde",
-          "badge": "NOVO",
-          "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 7119.99,
-              "inst": 489.99,
-              "instCount": 18
-            }
-          ],
-          "image": "images/scooter-verde.jpg",
-          "displayName": "Scooter Elétrica"
-        },
-        {
-          "name": "Scooter Elétrica Preta",
-          "badge": "NOVO",
-          "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 6799.99,
-              "inst": 467.99,
-              "instCount": 18
-            }
-          ],
-          "image": "images/scooter-preta.jpg",
-          "displayName": "Scooter Elétrica"
-        }
+        {"name": "Scooter Elétrica", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 9299.0, "inst": 639.99, "instCount": 18}], "image": "images/scooter.jpg"},
+        {"name": "Scooter Elétrica Verde Oliva", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 7899.99, "inst": 544.99, "instCount": 18}], "image": "images/scooter-verde-oliva.jpg", "displayName": "Scooter Elétrica"},
+        {"name": "Scooter Elétrica Verde", "badge": "NOVO", "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 7119.99, "inst": 489.99, "instCount": 18}], "image": "images/scooter-verde.jpg", "displayName": "Scooter Elétrica"},
+        {"name": "Scooter Elétrica Preta", "badge": "NOVO", "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 6799.99, "inst": 467.99, "instCount": 18}], "image": "images/scooter-preta.jpg", "displayName": "Scooter Elétrica"}
       ]
     },
     {
@@ -431,26 +212,14 @@
         {
           "name": "Robô Aspirador Xiaomi Vacuum S40",
           "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1679.99,
-              "inst": 159.99
-            }
-          ],
+          "variations": [{"label": "Padrão", "cash": 1679.99, "inst": 159.99}],
           "image": "images/vacuum-s40.jpg",
           "description": {
             "hook": "Sua casa pode continuar sendo limpa mesmo quando você está fazendo outra coisa.",
             "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos intervenção.",
             "blocks": [
-              {
-                "title": "Menos uma tarefa esperando por você.",
-                "text": "Programe a limpeza, escolha áreas e acompanhe a rotina pelo aplicativo Xiaomi Home."
-              },
-              {
-                "title": "O diferencial está na autonomia para fazer sozinho.",
-                "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."
-              }
+              {"title": "Menos uma tarefa esperando por você.", "text": "Programe a limpeza, escolha áreas e acompanhe a rotina pelo aplicativo Xiaomi Home."},
+              {"title": "O diferencial está na autonomia para fazer sozinho.", "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."}
             ]
           }
         }
@@ -459,798 +228,549 @@
     {
       "category": "iPhone 17",
       "group": "iPhones",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "iPhone 17 Pro Max",
-          "badge": "NOVO",
+          "name": "iPhone 17 Pro Max", "badge": "NOVO",
           "variations": [
-            {
-              "label": "256GB",
-              "cash": 7699.0,
-              "inst": 744.99
-            },
-            {
-              "label": "512GB",
-              "cash": 8949.0,
-              "inst": 867.99
-            },
-            {
-              "label": "1TB",
-              "cash": 9999.0,
-              "inst": 967.99
-            }
+            {"label": "256GB", "cash": 7699.0, "inst": 744.99},
+            {"label": "512GB", "cash": 8949.0, "inst": 867.99},
+            {"label": "1TB", "cash": 9999.0, "inst": 967.99}
           ],
-          "image": "images/iphone17-pro-max.jpg"
+          "image": "images/iphone17-pro-max.jpg",
+          "description": {
+            "hook": "Quando o máximo não é exagero. É exatamente o que você procura.",
+            "intro": "O iPhone 17 Pro Max reúne a experiência mais completa da geração para quem quer tela grande, desempenho Pro e um sistema de câmeras feito para ir além do uso comum. É o iPhone para quem não quer escolher entre potência, fotografia, vídeo e uma experiência premium - quer tudo no mesmo aparelho.",
+            "highlights": ["Tela Super Retina XDR de 6,9 polegadas com ProMotion até 120Hz", "Chip A19 Pro", "Sistema de câmeras Pro", "Apple Intelligence", "Até 2TB de armazenamento"],
+            "idealFor": "A experiência mais completa da geração 17, com a maior tela e opções de armazenamento que chegam a 2TB."
+          }
         },
         {
-          "name": "iPhone 17 Pro",
-          "badge": "NOVO",
+          "name": "iPhone 17 Pro", "badge": "NOVO",
           "variations": [
-            {
-              "label": "256GB",
-              "cash": 7299,
-              "inst": 699.99
-            },
-            {
-              "label": "512GB",
-              "cash": 8899.0,
-              "inst": 859.99
-            },
-            {
-              "label": "1TB",
-              "cash": 9849.0,
-              "inst": 949.99
-            }
+            {"label": "256GB", "cash": 7299, "inst": 699.99},
+            {"label": "512GB", "cash": 8899.0, "inst": 859.99},
+            {"label": "1TB", "cash": 9849.0, "inst": 949.99}
           ],
-          "image": "images/iphone17-pro.jpg"
+          "image": "images/iphone17-pro.jpg",
+          "description": {
+            "hook": "Tudo o que faz um iPhone ser Pro. Sem precisar ser Max.",
+            "intro": "O iPhone 17 Pro entrega potência, câmeras avançadas e recursos profissionais em um tamanho mais compacto. Para quem quer levar desempenho Pro no bolso sem necessariamente escolher a maior tela da linha.",
+            "highlights": ["Tela Super Retina XDR de 6,3 polegadas com ProMotion até 120Hz", "Chip A19 Pro", "Sistema de câmeras Pro", "Apple Intelligence", "Opções de até 1TB"],
+            "idealFor": "A experiência Pro em um corpo menor e mais leve que o Pro Max - sem abrir mão da proposta de alto desempenho."
+          }
         },
         {
-          "name": "iPhone 17 Air",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 6199.0,
-              "inst": 597.99
-            }
-          ],
-          "image": "images/iphone17-air.jpg"
+          "name": "iPhone 17 Air", "badge": "NOVO",
+          "variations": [{"label": "256GB", "cash": 6199.0, "inst": 597.99}],
+          "image": "images/iphone17-air.jpg",
+          "description": {
+            "hook": "Você percebe a diferença antes mesmo de desbloquear a tela.",
+            "intro": "Com apenas 5,64 mm de espessura, o iPhone Air transforma design em parte da experiência: fino, leve e construído em titânio. E não é só aparência. Por dentro, traz chip A19 Pro, tela de 6,5 polegadas com ProMotion até 120Hz e câmera Fusion de 48 MP.",
+            "highlights": ["Design em titânio · 5,64 mm · 165 g", "Tela Super Retina XDR de 6,5 polegadas", "ProMotion até 120Hz", "Chip A19 Pro", "Câmera Fusion de 48 MP"],
+            "idealFor": "É o iPhone para quem coloca design, leveza e tecnologia no mesmo nível de importância."
+          }
         },
         {
-          "name": "iPhone 17",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 5749,
-              "inst": 554.99
-            }
-          ],
-          "image": "images/iphone17.jpg"
+          "name": "iPhone 17", "badge": "NOVO",
+          "variations": [{"label": "256GB", "cash": 5749, "inst": 554.99}],
+          "image": "images/iphone17.jpg",
+          "description": {
+            "hook": "Talvez você não precise de um Pro para ter uma experiência incrível.",
+            "intro": "O iPhone 17 entrega justamente esse equilíbrio: desempenho de nova geração, câmeras versáteis e uma tela que agora traz recursos antes associados aos modelos superiores. Uma escolha para quem quer um iPhone completo para todos os dias sem necessariamente subir para a linha Pro.",
+            "highlights": ["Tela Super Retina XDR de 6,3 polegadas", "ProMotion até 120Hz", "Chip A19", "Sistema de câmera dupla Fusion de 48 MP", "Apple Intelligence", "256GB ou 512GB"],
+            "idealFor": "O equilíbrio da geração 17: recursos importantes de tela e câmera em uma proposta abaixo da linha Pro."
+          }
         },
         {
-          "name": "iPhone 17E",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 4349.0,
-              "inst": 419.99
-            }
-          ],
-          "image": "images/iphone17e.jpg"
+          "name": "iPhone 17E", "badge": "NOVO",
+          "variations": [{"label": "256GB", "cash": 4349.0, "inst": 419.99}],
+          "image": "images/iphone17e.jpg",
+          "description": {
+            "hook": "Entrar na nova geração não precisa significar ir até o topo.",
+            "intro": "O iPhone 17E concentra a experiência essencial da geração em uma proposta mais acessível. Traz chip A19, tela OLED Super Retina XDR de 6,1 polegadas e Apple Intelligence para quem quer tecnologia atual sem pagar pelos recursos mais avançados dos modelos superiores.",
+            "highlights": ["Tela Super Retina XDR OLED de 6,1 polegadas", "Chip A19", "Apple Intelligence", "Ceramic Shield 2", "256GB ou 512GB"],
+            "idealFor": "É a porta de entrada da geração 17: concentra os fundamentos da experiência atual do iPhone em uma faixa mais acessível."
+          }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPhone 16",
       "group": "iPhones",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "iPhone 16 Pro Max",
-          "badge": "SEMINOVO",
+          "name": "iPhone 16 Pro Max", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "256GB",
-              "cash": 5449.0,
-              "inst": 524.99
-            },
-            {
-              "label": "512GB",
-              "cash": 6449,
-              "inst": 624.99
-            }
+            {"label": "256GB", "cash": 5449.0, "inst": 524.99},
+            {"label": "512GB", "cash": 6449, "inst": 624.99}
           ],
-          "image": "images/iphone16-pro-max.jpg"
+          "image": "images/iphone16-pro-max.jpg",
+          "description": {
+            "hook": "Ainda é Pro Max. E isso diz muita coisa.",
+            "intro": "O iPhone 16 Pro Max continua sendo uma escolha para quem procura tela grande, câmeras avançadas e desempenho de categoria Pro - agora com a oportunidade de encontrá-lo seminovo. Uma geração anterior não elimina aquilo que fez dele o topo da linha.",
+            "highlights": ["Tela de 6,9 polegadas com ProMotion", "Chip A18 Pro", "Sistema de câmeras Pro", "Controle da Câmera", "Apple Intelligence", "Construção em titânio"],
+            "idealFor": "Uma forma de chegar à experiência Pro Max pagando menos do que nos modelos mais atuais."
+          }
         },
         {
-          "name": "iPhone 16 Pro",
-          "badge": "SEMINOVO",
+          "name": "iPhone 16 Pro", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 4799,
-              "inst": 464.99
-            },
-            {
-              "label": "256GB",
-              "cash": 5499,
-              "inst": 529.99
-            }
+            {"label": "128GB", "cash": 4799, "inst": 464.99},
+            {"label": "256GB", "cash": 5499, "inst": 529.99}
           ],
-          "image": "images/iphone16-pro.jpg"
+          "image": "images/iphone16-pro.jpg",
+          "description": {
+            "hook": "Ser de uma geração anterior não faz ele deixar de ser Pro.",
+            "intro": "O iPhone 16 Pro reúne desempenho A18 Pro, câmeras avançadas e acabamento em titânio em um tamanho mais compacto que o Pro Max. No seminovo, ganha outro argumento: entregar uma experiência de categoria Pro por um investimento menor.",
+            "highlights": ["Tela de 6,3 polegadas com ProMotion", "Chip A18 Pro", "Sistema de câmeras Pro", "Controle da Câmera", "Apple Intelligence", "Titânio"],
+            "idealFor": "Recursos Pro e construção premium em uma opção mais acessível dentro dessa categoria."
+          }
         },
         {
-          "name": "iPhone 16 Plus",
-          "badge": "NOVO",
+          "name": "iPhone 16 Plus", "badge": "NOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 5149.0,
-              "inst": 497.99
-            },
-            {
-              "label": "256GB",
-              "cash": 6149,
-              "inst": 589.99
-            }
+            {"label": "128GB", "cash": 5149.0, "inst": 497.99},
+            {"label": "256GB", "cash": 6149, "inst": 589.99}
           ],
-          "image": "images/iphone16-plus.jpg"
+          "image": "images/iphone16-plus.jpg",
+          "description": {
+            "hook": "Às vezes, tudo o que você queria era mais tela.",
+            "intro": "O iPhone 16 Plus leva a experiência do iPhone 16 para uma tela maior, sem obrigar você a subir para a linha Pro. Mais espaço para vídeos, fotos, redes sociais, jogos e tudo aquilo que você já faz todos os dias.",
+            "highlights": ["Tela Super Retina XDR de 6,7 polegadas", "Chip A18", "Sistema de câmera dupla", "Controle da Câmera", "Apple Intelligence"],
+            "idealFor": "A experiência da linha 16 com tela grande para quem não precisa dos recursos Pro."
+          }
         },
         {
-          "name": "iPhone 16",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "128GB",
-              "cash": 4999.0,
-              "inst": 484.99
-            }
-          ],
-          "image": "images/iphone16.jpg"
+          "name": "iPhone 16", "badge": "NOVO",
+          "variations": [{"label": "128GB", "cash": 4999.0, "inst": 484.99}],
+          "image": "images/iphone16.jpg",
+          "description": {
+            "hook": "O equilíbrio continua sendo uma ótima escolha.",
+            "intro": "O iPhone 16 combina desempenho, câmeras e recursos atuais em uma experiência fácil de escolher e ainda mais fácil de usar no dia a dia. É para quem não precisa de um Pro nem de uma tela gigante - mas também não quer abrir mão de uma geração recente.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Chip A18", "Câmera Fusion de 48 MP", "Controle da Câmera", "Apple Intelligence"],
+            "idealFor": "Um dos pontos de equilíbrio mais interessantes entre geração, desempenho e experiência de uso."
+          }
         },
         {
-          "name": "iPhone 16",
-          "badge": "SEMINOVO",
+          "name": "iPhone 16", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 4199,
-              "inst": 404.99
-            },
-            {
-              "label": "256GB",
-              "cash": 4699,
-              "inst": 454.99
-            }
+            {"label": "128GB", "cash": 4199, "inst": 404.99},
+            {"label": "256GB", "cash": 4699, "inst": 454.99}
           ],
-          "image": "images/iphone16.jpg"
+          "image": "images/iphone16.jpg",
+          "description": {
+            "hook": "O mesmo iPhone 16. Uma forma diferente de chegar até ele.",
+            "intro": "A experiência continua sendo a do iPhone 16: chip A18, câmera Fusion de 48 MP e recursos atuais da Apple. O que muda é a oportunidade de escolher um aparelho seminovo e reduzir o investimento para entrar nessa geração.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Chip A18", "Câmera Fusion de 48 MP", "Controle da Câmera", "Apple Intelligence"],
+            "idealFor": "Acesso à geração 16 por um valor abaixo da unidade nova."
+          }
         },
         {
-          "name": "iPhone 16E",
-          "badge": "NOVO",
+          "name": "iPhone 16E", "badge": "NOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3899,
-              "inst": 374.99
-            },
-            {
-              "label": "256GB",
-              "cash": 4219,
-              "inst": 407.99
-            }
+            {"label": "128GB", "cash": 3899, "inst": 374.99},
+            {"label": "256GB", "cash": 4219, "inst": 407.99}
           ],
-          "image": "images/iphone16.jpg"
+          "image": "images/iphone16.jpg",
+          "description": {
+            "hook": "O essencial da geração 16, por menos.",
+            "intro": "O iPhone 16E foi pensado para quem quer desempenho atual e os principais recursos da experiência iPhone sem precisar subir para as versões mais completas. Com chip A18 e Apple Intelligence, concentra justamente aquilo que importa para muita gente no uso diário.",
+            "highlights": ["Tela OLED de 6,1 polegadas", "Chip A18", "Câmera Fusion de 48 MP", "Apple Intelligence", "Botão de Ação"],
+            "idealFor": "A porta de entrada da família 16 para quem prioriza geração e desempenho acima dos extras."
+          }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPhone 15",
       "group": "iPhones",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "iPhone 15",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "128GB",
-              "cash": 4349.0,
-              "inst": 419.99
-            }
-          ],
-          "image": "images/iphone15.jpg"
+          "name": "iPhone 15", "badge": "NOVO",
+          "variations": [{"label": "128GB", "cash": 4349.0, "inst": 419.99}],
+          "image": "images/iphone15.jpg",
+          "description": {
+            "hook": "Tem novidades que mudam mais do que o número.",
+            "intro": "O iPhone 15 marcou uma evolução importante da linha: Dynamic Island, câmera principal de 48 MP e USB-C chegaram ao modelo convencional. Ainda novo, continua sendo uma escolha muito interessante para quem não precisa estar na geração mais recente para ter uma experiência moderna.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Dynamic Island", "Chip A16 Bionic", "Câmera principal de 48 MP", "USB-C"],
+            "idealFor": "Um conjunto de recursos que aproximou o iPhone convencional da experiência dos modelos superiores."
+          }
         },
         {
-          "name": "iPhone 15 Pro Max",
-          "badge": "SEMINOVO",
+          "name": "iPhone 15 Pro Max", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "256GB",
-              "cash": 4349,
-              "inst": 419.99
-            },
-            {
-              "label": "512GB",
-              "cash": 4899.0,
-              "inst": 474.99
-            },
-            {
-              "label": "1TB",
-              "cash": 5199.0,
-              "inst": 499.99
-            }
+            {"label": "256GB", "cash": 4349, "inst": 419.99},
+            {"label": "512GB", "cash": 4899.0, "inst": 474.99},
+            {"label": "1TB", "cash": 5199.0, "inst": 499.99}
           ],
-          "image": "images/iphone15-pro-max.jpg"
+          "image": "images/iphone15-pro-max.jpg",
+          "description": {
+            "hook": "Um Pro Max pode mudar de geração. Não de categoria.",
+            "intro": "O iPhone 15 Pro Max continua entregando uma experiência premium, com construção em titânio, desempenho Pro e câmeras feitas para quem exige mais do iPhone. Como seminovo, torna essa categoria muito mais próxima de quem não precisa necessariamente da geração mais recente.",
+            "highlights": ["Tela de 6,7 polegadas com ProMotion", "Chip A17 Pro", "Construção em titânio", "Câmera principal de 48 MP", "Teleobjetiva 5x", "USB-C"],
+            "idealFor": "Um Pro Max com zoom óptico 5x e construção em titânio em uma faixa de investimento inferior às gerações atuais."
+          }
         },
         {
-          "name": "iPhone 15 Pro",
-          "badge": "SEMINOVO",
+          "name": "iPhone 15 Pro", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3799.0,
-              "inst": 369.99
-            },
-            {
-              "label": "256GB",
-              "cash": 4249,
-              "inst": 409.99
-            }
+            {"label": "128GB", "cash": 3799.0, "inst": 369.99},
+            {"label": "256GB", "cash": 4249, "inst": 409.99}
           ],
-          "image": "images/iphone15-pro.jpg"
+          "image": "images/iphone15-pro.jpg",
+          "description": {
+            "hook": "Compacto no tamanho. Pro em tudo que importa.",
+            "intro": "O iPhone 15 Pro combina construção em titânio, desempenho A17 Pro e sistema avançado de câmeras em um corpo mais compacto. Uma escolha para quem prefere um aparelho menor, mas não quer abrir mão da experiência Pro.",
+            "highlights": ["Tela de 6,1 polegadas com ProMotion", "Chip A17 Pro", "Titânio", "Câmera principal de 48 MP", "Botão de Ação", "USB-C"],
+            "idealFor": "Experiência Pro em um formato compacto e com uma condição de seminovo mais acessível."
+          }
         },
         {
-          "name": "iPhone 15",
-          "badge": "SEMINOVO",
+          "name": "iPhone 15", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3199,
-              "inst": 309.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3479,
-              "inst": 334.99
-            }
+            {"label": "128GB", "cash": 3199, "inst": 309.99},
+            {"label": "256GB", "cash": 3479, "inst": 334.99}
           ],
-          "image": "images/iphone15-seminovo.jpg"
+          "image": "images/iphone15-seminovo.jpg",
+          "description": {
+            "hook": "Talvez o melhor upgrade seja pagar menos pelo que você realmente quer.",
+            "intro": "O iPhone 15 seminovo mantém os recursos que fizeram essa geração dar um salto importante: Dynamic Island, câmera de 48 MP e USB-C. A diferença está no investimento.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Dynamic Island", "Chip A16 Bionic", "Câmera principal de 48 MP", "USB-C"],
+            "idealFor": "Uma maneira mais acessível de entrar em uma geração que já trouxe vários elementos da experiência atual do iPhone."
+          }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPhone 14",
       "group": "iPhones",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "iPhone 14 Pro Max",
-          "badge": "SEMINOVO",
+          "name": "iPhone 14 Pro Max", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3649,
-              "inst": 304.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3999,
-              "inst": 384.99
-            }
+            {"label": "128GB", "cash": 3649, "inst": 304.99},
+            {"label": "256GB", "cash": 3999, "inst": 384.99}
           ],
-          "image": "images/iphone14-pro-max.jpg"
+          "image": "images/iphone14-pro-max.jpg",
+          "description": {
+            "hook": "Tela grande, experiência Pro e um preço que já mudou de geração.",
+            "intro": "O iPhone 14 Pro Max continua oferecendo uma experiência premium para quem valoriza tela grande, fluidez e câmeras avançadas. O tempo reduziu o preço. Não apagou aquilo que tornou esse aparelho um Pro Max.",
+            "highlights": ["Tela de 6,7 polegadas com ProMotion", "Dynamic Island", "Chip A16 Bionic", "Câmera principal de 48 MP", "Sistema de câmeras Pro"],
+            "idealFor": "Uma das formas mais acessíveis de chegar a um iPhone Pro Max com Dynamic Island e câmera principal de 48 MP."
+          }
         },
         {
-          "name": "iPhone 14 Pro",
-          "badge": "SEMINOVO",
+          "name": "iPhone 14 Pro", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3399,
-              "inst": 329.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3499,
-              "inst": 339.99
-            }
+            {"label": "128GB", "cash": 3399, "inst": 329.99},
+            {"label": "256GB", "cash": 3499, "inst": 339.99}
           ],
-          "image": "images/iphone14-pro.jpg"
+          "image": "images/iphone14-pro.jpg",
+          "description": {
+            "hook": "O preço desceu. A experiência Pro ficou.",
+            "intro": "O iPhone 14 Pro reúne recursos que ainda fazem diferença no uso diário: tela ProMotion, Dynamic Island e sistema de câmeras avançado. No formato seminovo, passa a ocupar uma posição muito interessante para quem quer recursos Pro sem avançar para as gerações mais caras.",
+            "highlights": ["Tela de 6,1 polegadas com ProMotion", "Dynamic Island", "Chip A16 Bionic", "Câmera principal de 48 MP", "Sistema de câmeras Pro"],
+            "idealFor": "Recursos Pro importantes em uma faixa de preço cada vez mais acessível."
+          }
         },
         {
-          "name": "iPhone 14",
-          "badge": "SEMINOVO",
+          "name": "iPhone 14", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 2549,
-              "inst": 244.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3019,
-              "inst": 294.99
-            }
+            {"label": "128GB", "cash": 2549, "inst": 244.99},
+            {"label": "256GB", "cash": 3019, "inst": 294.99}
           ],
-          "image": "images/iphone14.jpg"
+          "image": "images/iphone14.jpg",
+          "description": {
+            "hook": "Nem todo bom iPhone precisa ser o mais novo.",
+            "intro": "O iPhone 14 continua sendo uma escolha sólida para quem procura a experiência iOS, boas câmeras e desempenho confiável sem pagar pelas gerações mais recentes. É menos sobre ter o último lançamento - e mais sobre ter aquilo que atende bem todos os dias.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Chip A15 Bionic", "Sistema de câmera dupla", "Modo Ação", "Detecção de acidente"],
+            "idealFor": "Uma entrada mais acessível no ecossistema Apple sem precisar voltar para um aparelho com experiência ultrapassada."
+          }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPhone 13",
       "group": "iPhones",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "iPhone 13 Pro Max",
-          "badge": "SEMINOVO",
+          "name": "iPhone 13 Pro Max", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3349,
-              "inst": 324.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3449,
-              "inst": 334.99
-            }
+            {"label": "128GB", "cash": 3349, "inst": 324.99},
+            {"label": "256GB", "cash": 3449, "inst": 334.99}
           ],
-          "image": "images/iphone13-pro-max.jpg"
+          "image": "images/iphone13-pro-max.jpg",
+          "description": {
+            "hook": "Ainda existe muito de \"topo de linha\" aqui.",
+            "intro": "O iPhone 13 Pro Max foi feito para quem gosta da experiência grande: tela de 6,7 polegadas, fluidez ProMotion e um conjunto de câmeras mais completo. Mesmo depois de novas gerações, continua sendo uma maneira interessante de chegar a um Pro Max gastando menos.",
+            "highlights": ["Tela de 6,7 polegadas com ProMotion", "Chip A15 Bionic", "Sistema de câmeras Pro", "Teleobjetiva", "Bateria de longa duração"],
+            "idealFor": "Tela grande e experiência Pro Max em uma faixa de preço muito mais acessível."
+          }
         },
         {
-          "name": "iPhone 13 Pro",
-          "badge": "SEMINOVO",
+          "name": "iPhone 13 Pro", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3199,
-              "inst": 309.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3599,
-              "inst": 349.99
-            }
+            {"label": "128GB", "cash": 3199, "inst": 309.99},
+            {"label": "256GB", "cash": 3599, "inst": 349.99}
           ],
-          "image": "images/iphone13-pro.jpg"
+          "image": "images/iphone13-pro.jpg",
+          "description": {
+            "hook": "O tamanho é compacto. A experiência continua Pro.",
+            "intro": "O iPhone 13 Pro é para quem quer recursos de categoria Pro sem carregar um aparelho grande. Tela ProMotion, três câmeras e desempenho que ainda acompanha muito bem a rotina fazem dele uma alternativa interessante dentro dos seminovos.",
+            "highlights": ["Tela de 6,1 polegadas com ProMotion", "Chip A15 Bionic", "Sistema de câmeras Pro", "Teleobjetiva", "Acabamento premium"],
+            "idealFor": "É uma das formas mais acessíveis de ter tela ProMotion e o conjunto de três câmeras em um iPhone."
+          }
         },
         {
-          "name": "iPhone 13",
-          "badge": "SEMINOVO",
+          "name": "iPhone 13", "badge": "SEMINOVO",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 2449,
-              "inst": 239.99
-            },
-            {
-              "label": "256GB",
-              "cash": 2599.0,
-              "inst": 254.99
-            }
+            {"label": "128GB", "cash": 2449, "inst": 239.99},
+            {"label": "256GB", "cash": 2599.0, "inst": 254.99}
           ],
-          "image": "images/iphone13.jpg"
+          "image": "images/iphone13.jpg",
+          "description": {
+            "hook": "Um iPhone que ainda faz muito sentido.",
+            "intro": "O iPhone 13 chega a um ponto interessante: já não custa como as gerações mais novas, mas continua entregando uma experiência familiar, rápida e completa para o dia a dia. Para quem quer entrar no ecossistema Apple sem gastar tanto, é justamente aí que ele ganha força.",
+            "highlights": ["Tela Super Retina XDR de 6,1 polegadas", "Chip A15 Bionic", "Sistema de câmera dupla", "Modo Cinema", "5G"],
+            "idealFor": "Uma das portas de entrada mais equilibradas para ter um iPhone com boa experiência de uso sem partir para as gerações mais caras."
+          }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "MacBook Pro",
       "group": "MacBook",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "MacBook Pro M5",
-          "spec": "16GB · 512GB SSD · 14\"",
-          "variations": [
-            {
-              "label": "512GB",
-              "cash": 12179.0,
-              "inst": 1174.99
-            }
-          ],
+          "name": "MacBook Pro M5", "spec": "16GB · 512GB SSD · 14\"",
+          "variations": [{"label": "512GB", "cash": 12179.0, "inst": 1174.99}],
           "image": "images/macbook-pro.jpg",
           "description": {
             "hook": "Potência profissional para quem exige mais do Mac.",
             "intro": "O MacBook Pro com chip M5 foi feito para quem trabalha com tarefas mais exigentes e quer desempenho para acompanhar uma rotina profissional.",
-            "highlights": [
-              "Chip Apple M5",
-              "512GB de armazenamento",
-              "Tela Liquid Retina XDR",
-              "Alto desempenho",
-              "Sistema de som com seis alto-falantes",
-              "Integração com o ecossistema Apple"
-            ],
+            "highlights": ["Chip Apple M5", "512GB de armazenamento", "Tela Liquid Retina XDR", "Alto desempenho", "Sistema de som com seis alto-falantes", "Integração com o ecossistema Apple"],
             "idealFor": "Profissionais, criadores e usuários que querem desempenho acima da linha Air."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "MacBook Air",
       "group": "MacBook",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "MacBook Air M5",
-          "spec": "16GB · 512GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "512GB",
-              "cash": 8719.0,
-              "inst": 839.99
-            }
-          ],
+          "name": "MacBook Air M5", "spec": "16GB · 512GB SSD · 13\"",
+          "variations": [{"label": "512GB", "cash": 8719.0, "inst": 839.99}],
           "image": "images/macbook-air.jpg",
           "description": {
             "hook": "Leve para levar. Potente para fazer muito mais.",
             "intro": "O MacBook Air com M5 combina o design fino da linha Air com uma nova geração de desempenho para trabalho, faculdade, criação e rotina.",
-            "highlights": [
-              "Chip Apple M5",
-              "512GB",
-              "Design fino e leve",
-              "Tela Liquid Retina",
-              "Excelente autonomia",
-              "Funcionamento silencioso",
-              "Apple Intelligence"
-            ],
+            "highlights": ["Chip Apple M5", "512GB", "Design fino e leve", "Tela Liquid Retina", "Excelente autonomia", "Funcionamento silencioso", "Apple Intelligence"],
             "idealFor": "Quem procura equilíbrio entre portabilidade, desempenho e autonomia."
           }
         },
         {
-          "name": "MacBook Air M4",
-          "spec": "16GB · 256GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 6999.0,
-              "inst": 674.99
-            }
-          ],
+          "name": "MacBook Air M4", "spec": "16GB · 256GB SSD · 13\"",
+          "variations": [{"label": "256GB", "cash": 6999.0, "inst": 674.99}],
           "image": "images/macbook-air.jpg",
           "description": {
             "hook": "Tudo o que faz o MacBook Air ser tão desejado, com a potência do chip M4.",
             "intro": "Fino, leve e rápido, é uma excelente escolha para estudar, trabalhar, navegar, fazer reuniões, editar conteúdos e cuidar da rotina.",
-            "highlights": [
-              "Chip Apple M4",
-              "256GB",
-              "Design fino e portátil",
-              "Tela Liquid Retina",
-              "Excelente autonomia",
-              "macOS e integração com o ecossistema Apple"
-            ],
+            "highlights": ["Chip Apple M4", "256GB", "Design fino e portátil", "Tela Liquid Retina", "Excelente autonomia", "macOS e integração com o ecossistema Apple"],
             "idealFor": "Estudantes, profissionais e quem quer entrar no universo MacBook Air."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "MacBook Neo",
       "group": "MacBook",
+      "supergroup": "Apple Store",
       "items": [
         {
-          "name": "MacBook Neo",
-          "spec": "8GB · 256GB SSD · 13\"",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 5179.0,
-              "inst": 499.99
-            }
-          ],
+          "name": "MacBook Neo", "spec": "8GB · 256GB SSD · 13\"",
+          "variations": [{"label": "256GB", "cash": 5179.0, "inst": 499.99}],
           "image": "images/macbook-neo.jpg",
           "description": {
             "hook": "O jeito mais acessível de ter a experiência de um Mac.",
             "intro": "Compacto, leve e pensado para as tarefas do dia a dia, o MacBook Neo entrega a experiência do macOS em uma proposta mais acessível.",
-            "highlights": [
-              "Chip A18 Pro",
-              "256GB",
-              "Tela Liquid Retina de 13 polegadas",
-              "Estrutura em alumínio",
-              "Design sem ventoinha",
-              "Até 16 horas de bateria",
-              "Apple Intelligence"
-            ],
+            "highlights": ["Chip A18 Pro", "256GB", "Tela Liquid Retina de 13 polegadas", "Estrutura em alumínio", "Design sem ventoinha", "Até 16 horas de bateria", "Apple Intelligence"],
             "idealFor": "Estudantes, rotina de escritório e quem quer seu primeiro MacBook."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPad",
       "group": "iPad",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "iPad 11ª Geração",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 3399.0,
-              "inst": 324.99
-            },
-            {
-              "label": "256GB",
-              "cash": 3999.0,
-              "inst": 389.99
-            }
+            {"label": "128GB", "cash": 3399.0, "inst": 324.99},
+            {"label": "256GB", "cash": 3999.0, "inst": 389.99}
           ],
           "image": "images/ipad-11.jpg",
           "description": {
             "hook": "Um iPad para praticamente tudo do dia a dia.",
             "intro": "Versátil e fácil de usar, funciona muito bem para estudos, entretenimento, videochamadas, leitura, navegação e produtividade cotidiana.",
-            "highlights": [
-              "128GB",
-              "Tela ampla",
-              "Design moderno",
-              "Câmeras frontal e traseira",
-              "iPadOS",
-              "Integração com outros dispositivos Apple"
-            ],
+            "highlights": ["128GB", "Tela ampla", "Design moderno", "Câmeras frontal e traseira", "iPadOS", "Integração com outros dispositivos Apple"],
             "idealFor": "Estudantes, família e quem procura seu primeiro iPad."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPad Pro",
       "group": "iPad",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "iPad Pro M5 11\"",
           "variations": [
-            {
-              "label": "256GB",
-              "cash": 7999.0,
-              "inst": 769.99
-            },
-            {
-              "label": "512GB",
-              "cash": 8999.0,
-              "inst": 869.99
-            }
+            {"label": "256GB", "cash": 7999.0, "inst": 769.99},
+            {"label": "512GB", "cash": 8999.0, "inst": 869.99}
           ],
           "image": "images/ipad-pro.jpg",
           "description": {
             "hook": "Potência de computador em um iPad extremamente portátil.",
             "intro": "O iPad Pro M5 é voltado para quem quer extrair o máximo do iPad: criação, produtividade, edição, desenho, estudos avançados e fluxos profissionais.",
-            "highlights": [
-              "Chip Apple M5",
-              "Tela de 11 polegadas",
-              "256GB",
-              "Alto desempenho",
-              "Compatibilidade com acessórios Apple",
-              "Integração com o ecossistema Apple"
-            ],
+            "highlights": ["Chip Apple M5", "Tela de 11 polegadas", "256GB", "Alto desempenho", "Compatibilidade com acessórios Apple", "Integração com o ecossistema Apple"],
             "idealFor": "Profissionais, criadores e usuários que querem o iPad mais avançado da linha."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "iPad Air",
       "group": "iPad",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "iPad Air M4 11\"",
           "variations": [
-            {
-              "label": "128GB",
-              "cash": 5299.0,
-              "inst": 514.99
-            },
-            {
-              "label": "256GB",
-              "cash": 5899.0,
-              "inst": 569.99
-            }
+            {"label": "128GB", "cash": 5299.0, "inst": 514.99},
+            {"label": "256GB", "cash": 5899.0, "inst": 569.99}
           ],
           "image": "images/ipad-air.jpg",
           "description": {
             "hook": "Mais potência para trabalhar, estudar e criar de qualquer lugar.",
             "intro": "Com chip M4 e formato compacto, o iPad Air entrega desempenho para produtividade, estudos, entretenimento e criação sem precisar chegar ao investimento de um iPad Pro.",
-            "highlights": [
-              "Chip Apple M4",
-              "Tela de 11 polegadas",
-              "128GB",
-              "Multitarefas",
-              "Compatível com Apple Pencil Pro e Magic Keyboard"
-            ],
+            "highlights": ["Chip Apple M4", "Tela de 11 polegadas", "128GB", "Multitarefas", "Compatível com Apple Pencil Pro e Magic Keyboard"],
             "idealFor": "Faculdade, trabalho, desenho, criação e produtividade móvel."
           }
         },
         {
           "name": "iPad Air M3 13\"",
-          "variations": [
-            {
-              "label": "256GB",
-              "cash": 4919.0,
-              "inst": 474.99
-            }
-          ],
+          "variations": [{"label": "256GB", "cash": 4919.0, "inst": 474.99}],
           "image": "images/ipad-air.jpg",
           "description": {
             "hook": "Mais espaço para criar. Mais liberdade para trabalhar.",
             "intro": "A tela ampla de 13 polegadas transforma o iPad Air em uma excelente ferramenta para produtividade, estudos e criação.",
-            "highlights": [
-              "Chip Apple M3",
-              "Tela de 13 polegadas",
-              "256GB",
-              "Grande área de trabalho",
-              "Excelente desempenho",
-              "Compatibilidade com acessórios Apple"
-            ],
+            "highlights": ["Chip Apple M3", "Tela de 13 polegadas", "256GB", "Grande área de trabalho", "Excelente desempenho", "Compatibilidade com acessórios Apple"],
             "idealFor": "Quem valoriza tela grande para estudar, trabalhar, desenhar ou consumir conteúdo."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "Apple Watch Ultra",
       "group": "Apple Watch",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "Apple Watch Ultra 3 5G",
-          "variations": [
-            {
-              "label": "49mm",
-              "cash": 5179.0,
-              "inst": 499.99
-            }
-          ],
+          "variations": [{"label": "49mm", "cash": 5179.0, "inst": 499.99}],
           "image": "images/watch-ultra.jpg",
           "description": {
             "hook": "O Apple Watch para quem quer ir além.",
             "intro": "O Ultra 3 é a proposta mais robusta da linha Apple Watch, unindo conectividade, recursos para atividades físicas e construção preparada para rotinas mais intensas.",
-            "highlights": [
-              "Caixa de 49mm",
-              "Conectividade celular",
-              "GPS",
-              "Recursos avançados para atividades físicas",
-              "Monitoramento de saúde e bem-estar",
-              "Construção robusta"
-            ],
+            "highlights": ["Caixa de 49mm", "Conectividade celular", "GPS", "Recursos avançados para atividades físicas", "Monitoramento de saúde e bem-estar", "Construção robusta"],
             "idealFor": "Esporte, aventura, treinos e usuários que querem o Apple Watch mais completo da linha."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "Apple Watch Série 11",
       "group": "Apple Watch",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "Apple Watch Série 11",
           "variations": [
-            {
-              "label": "42mm",
-              "cash": 2699.0,
-              "inst": 259.99
-            },
-            {
-              "label": "46mm",
-              "cash": 2899.0,
-              "inst": 279.99
-            }
+            {"label": "42mm", "cash": 2699.0, "inst": 259.99},
+            {"label": "46mm", "cash": 2899.0, "inst": 279.99}
           ],
           "image": "images/watch-regular.jpg",
           "description": {
             "hook": "Seu dia, sua saúde e suas notificações direto no pulso.",
             "intro": "O Apple Watch Series 11 combina acompanhamento da rotina, exercícios, comunicação e recursos de saúde em um dispositivo integrado ao iPhone.",
-            "highlights": [
-              "Caixa de 42mm",
-              "Monitoramento de atividades e exercícios",
-              "Recursos de saúde e bem-estar",
-              "Notificações",
-              "Integração com iPhone"
-            ],
+            "highlights": ["Caixa de 42mm", "Monitoramento de atividades e exercícios", "Recursos de saúde e bem-estar", "Notificações", "Integração com iPhone"],
             "idealFor": "Quem quer um Apple Watch completo para acompanhar trabalho, saúde e rotina."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "Apple Watch SE",
       "group": "Apple Watch",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "Apple Watch SE 3",
           "variations": [
-            {
-              "label": "40mm",
-              "cash": 2249.0,
-              "inst": 217.99
-            },
-            {
-              "label": "44mm",
-              "cash": 2379.0,
-              "inst": 229.99
-            }
+            {"label": "40mm", "cash": 2249.0, "inst": 217.99},
+            {"label": "44mm", "cash": 2379.0, "inst": 229.99}
           ],
           "image": "images/watch-regular.jpg",
           "description": {
             "hook": "A experiência Apple Watch em uma opção mais acessível.",
             "intro": "O Apple Watch SE 3 reúne os recursos essenciais para acompanhar exercícios, atividades e notificações sem precisar partir para os modelos mais caros da linha.",
-            "highlights": [
-              "Caixa de 40mm",
-              "Acompanhamento de atividades",
-              "Exercícios",
-              "Notificações e chamadas",
-              "Integração com iPhone",
-              "Recursos de segurança e bem-estar"
-            ],
+            "highlights": ["Caixa de 40mm", "Acompanhamento de atividades", "Exercícios", "Notificações e chamadas", "Integração com iPhone", "Recursos de segurança e bem-estar"],
             "idealFor": "Primeiro Apple Watch e quem procura praticidade com ótimo custo-benefício."
           }
         },
         {
           "name": "Apple Watch SE 2",
-          "variations": [
-            {
-              "label": "44mm",
-              "cash": 2179.0,
-              "inst": 209.99
-            }
-          ],
+          "variations": [{"label": "44mm", "cash": 2179.0, "inst": 209.99}],
           "image": "images/watch-regular.jpg",
           "description": {
             "hook": "O essencial do Apple Watch com uma tela maior.",
             "intro": "O Apple Watch SE 2 continua sendo uma opção interessante para quem busca atividades físicas, notificações e integração com o iPhone em uma caixa de 44mm.",
-            "highlights": [
-              "Caixa de 44mm",
-              "Monitoramento de atividades",
-              "Exercícios",
-              "Notificações no pulso",
-              "Integração com iPhone",
-              "Recursos essenciais do Apple Watch"
-            ],
+            "highlights": ["Caixa de 44mm", "Monitoramento de atividades", "Exercícios", "Notificações no pulso", "Integração com iPhone", "Recursos essenciais do Apple Watch"],
             "idealFor": "Quem procura um Apple Watch acessível e prefere uma caixa maior."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     },
     {
       "category": "AirPods",
+      "supergroup": "Apple Store",
       "items": [
         {
           "name": "AirPods 4",
           "variations": [
-            {
-              "label": "Sem Eliminador de Ruído",
-              "cash": 1379.0,
-              "inst": 134.99
-            },
-            {
-              "label": "Com Eliminador de Ruído",
-              "cash": 1749.0,
-              "inst": 169.99
-            }
+            {"label": "Sem Eliminador de Ruído", "cash": 1379.0, "inst": 134.99},
+            {"label": "Com Eliminador de Ruído", "cash": 1749.0, "inst": 169.99}
           ],
           "image": "images/airpods4.jpg",
           "description": {
             "hook": "Conforto, praticidade e a experiência dos AirPods no dia a dia.",
             "intro": "Os AirPods 4 foram feitos para tornar música, chamadas e conteúdos mais simples dentro do ecossistema Apple, alternando entre dispositivos com praticidade.",
-            "highlights": [
-              "AirPods 4",
-              "Conexão rápida",
-              "Áudio para músicas, vídeos e chamadas",
-              "Estojo de recarga",
-              "Integração Apple"
-            ],
+            "highlights": ["AirPods 4", "Conexão rápida", "Áudio para músicas, vídeos e chamadas", "Estojo de recarga", "Integração Apple"],
             "idealFor": "Uso diário, trabalho, chamadas, academia e entretenimento."
           }
         }
-      ],
-      "supergroup": "Apple Store"
+      ]
     }
   ]
 }
