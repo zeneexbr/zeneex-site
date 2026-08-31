@@ -722,6 +722,41 @@
   .cta:hover{background:var(--petroleo-deep);}
   .cta svg{width:15px; height:15px; flex-shrink:0;}
 
+  /* ---------- Não encontrou / Zeneex Request ---------- */
+  .not-found-block{
+    margin:30px 0 6px;
+    padding:22px 18px;
+    text-align:center;
+    border:1px dashed var(--line-strong);
+    border-radius:4px;
+    background:var(--gold-soft);
+  }
+  .not-found-block .q{
+    font-family:'Space Grotesk',system-ui,sans-serif;
+    font-weight:600;
+    font-size:14.5px;
+    color:var(--ink);
+    margin:0 0 14px;
+  }
+  .not-found-block a{
+    display:inline-flex;
+    align-items:center;
+    gap:7px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.02em;
+    color:var(--petroleo);
+    border:1px solid var(--petroleo);
+    padding:11px 20px;
+    border-radius:20px;
+    text-decoration:none;
+    transition:background .15s ease, color .15s ease;
+  }
+  .not-found-block a:hover{
+    background:var(--petroleo);
+    color:#fff;
+  }
+
   /* ---------- Footer ---------- */
   footer{
     margin-top:56px;
@@ -1179,7 +1214,9 @@ function buildCard(item, ci, ii){
       dotsMenu.classList.remove("open");
       insightPanel.classList.add("open");
       requestAnimationFrame(()=>{
-        cta.scrollIntoView({behavior:"smooth", block:"end"});
+        requestAnimationFrame(()=>{
+          cta.scrollIntoView({behavior:"smooth", block:"end"});
+        });
       });
     });
     body.appendChild(insightPanel);
@@ -1831,9 +1868,30 @@ function handleShareHash(){
   if (el) revealAndScroll(el);
 }
 
+function renderNotFoundBlock(){
+  const block = document.createElement("div");
+  block.className = "not-found-block";
+  const msg = "Olá! Não encontrei o que eu queria na Seleção da Zeneex — vocês conseguem buscar um produto específico pra mim?";
+  const link = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
+  block.innerHTML = `
+    <div class="q">Não encontrou o que procurava?</div>
+    <a href="${link}" target="_blank" rel="noopener">Solicite aqui ↗</a>
+  `;
+  block.querySelector("a").addEventListener("click", ()=>{
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event: "solicitar_produto_nao_encontrado"});
+    if (typeof gtag === "function"){
+      gtag("event", "solicitar_produto_nao_encontrado");
+    }
+    console.log("[track] solicitar_produto_nao_encontrado");
+  });
+  main.appendChild(block);
+}
+
 function startCatalog(){
   renderNav();
   renderSections();
+  renderNotFoundBlock();
   applyFilters();
   updateStickyOffset();
   window.addEventListener("resize", updateStickyOffset);
