@@ -110,7 +110,7 @@
         {
           "name": "DJI Osmo Pocket 4 Creator Combo",
           "badge": "NOVO",
-          "variations": [{"label": "Combo", "cash": 5079.99, "inst": 489.99}],
+          "variations": [{"label": "Combo", "cash": 4999.99, "inst": 484.99}],
           "image": "images/osmo-pocket.jpg",
           "description": {
             "hook": "A melhor câmera é aquela que está pronta quando o momento acontece.",
@@ -130,7 +130,7 @@
           "name": "Insta360 Go 3S",
           "spec": "4K · 128GB",
           "badge": "NOVO",
-          "variations": [{"label": "128GB", "cash": 3299.99, "inst": 319.99}],
+          "variations": [{"label": "128GB", "cash": 3199.99, "inst": 307.99}],
           "image": "images/insta360.jpg",
           "description": {
             "hook": "Tem momentos que uma câmera grande simplesmente não consegue acompanhar.",
