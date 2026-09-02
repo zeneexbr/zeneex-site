@@ -650,7 +650,7 @@
     font-size:10px;
     letter-spacing:0.06em;
     text-transform:uppercase;
-    color:var(--gold);
+    color:var(--ink-soft);
     margin-bottom:2px;
   }
   .price-cash{
@@ -1743,7 +1743,7 @@ async function buildCardCanvas(item, variation, simInfo){
   drawStoryBackground(ctx, W, H);
 
   const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
-  const badgeText = [item.badge, hasLabel ? variation.label : null].filter(Boolean).join(" · ");
+  const badgeText = [item.badge, hasLabel ? variation.label : null, variation.was ? "OFERTA" : null].filter(Boolean).join(" · ");
   const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText);
 
   const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
@@ -1754,6 +1754,25 @@ async function buildCardCanvas(item, variation, simInfo){
     ctx.fillStyle = "rgba(255,255,255,0.85)";
     ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, px, py2 + 26);
     py2 += 50;
+  }
+  if (!hasSim && variation.was){
+    ctx.font = "400 34px 'IBM Plex Mono'";
+    ctx.fillStyle = "rgba(255,255,255,0.6)";
+    const deText = "De R$ " + fmtBRL(variation.was);
+    ctx.fillText(deText, px, py2 + 30);
+    const dw = ctx.measureText(deText).width;
+    ctx.strokeStyle = "rgba(255,255,255,0.6)";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(px, py2 + 19);
+    ctx.lineTo(px + dw, py2 + 19);
+    ctx.stroke();
+    py2 += 54;
+
+    ctx.font = "600 26px 'IBM Plex Mono'";
+    ctx.fillStyle = "rgba(255,255,255,0.75)";
+    ctx.fillText("POR", px, py2 + 20);
+    py2 += 44;
   }
   ctx.fillStyle = "#fff";
   ctx.font = "500 56px 'IBM Plex Mono'";
