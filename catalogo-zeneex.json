@@ -200,10 +200,54 @@
     {
       "category": "Scooter Elétrica",
       "items": [
-        {"name": "Scooter Elétrica", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 9999.99, "cash": 9499.99, "inst": 914.99}], "image": "images/scooter.jpg"},
-        {"name": "Scooter Elétrica Verde Oliva", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 8299.99, "cash": 7999.99, "inst": 769.99}], "image": "images/scooter-verde-oliva.jpg", "displayName": "Scooter Elétrica"},
-        {"name": "Scooter Elétrica Verde", "badge": "NOVO", "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 7599.99, "cash": 7299.99, "inst": 699.99}], "image": "images/scooter-verde.jpg", "displayName": "Scooter Elétrica"},
-        {"name": "Scooter Elétrica Preta", "badge": "NOVO", "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 7299.99, "cash": 6999.99, "inst": 674.99}], "image": "images/scooter-preta.jpg", "displayName": "Scooter Elétrica"}
+        {
+          "name": "Scooter Elétrica Urban Max 1000", "badge": "NOVO",
+          "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h",
+          "variations": [{"label": "Padrão", "was": 9999.99, "cash": 9499.99, "inst": 914.99}],
+          "image": "images/scooter.jpg",
+          "description": {
+            "hook": "Mais liberdade para ir além da rotina.",
+            "intro": "A Urban Max 1000 é o topo da linha para quem busca mais presença, conforto e autonomia para se movimentar pela cidade. Com motor de 1000W e autonomia de até 50 km, combina desempenho e praticidade em uma scooter elétrica feita para acompanhar diferentes momentos do dia.",
+            "highlights": ["Motor 1000W", "Autonomia de até 50 km", "Painel colorido com informações em tempo real"],
+            "idealFor": "A proposta mais completa da linha Urban para quem quer subir de categoria sem abrir mão da praticidade."
+          }
+        },
+        {
+          "name": "Scooter Elétrica Urban Pro 1000", "badge": "NOVO",
+          "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h",
+          "variations": [{"label": "Padrão", "was": 8299.99, "cash": 7999.99, "inst": 769.99}],
+          "image": "images/scooter-verde-oliva.jpg",
+          "description": {
+            "hook": "Mais potência para uma rotina que não para.",
+            "intro": "A Urban Pro 1000 sobe o nível da mobilidade diária com motor mais potente e uma construção de maior presença. São 1000W, velocidade de até 32 km/h e autonomia informada de 45 a 55 km para quem quer praticidade no cotidiano, mas prefere uma scooter com desempenho acima das versões de 800W.",
+            "highlights": ["Motor 1000W", "Bateria de lítio 64V 23Ah", "Até 32 km/h", "Autonomia de 45-55 km", "Capacidade de até 150 kg"],
+            "idealFor": "Motor de 1000W aliado a uma proposta mais robusta para os deslocamentos do dia a dia."
+          }
+        },
+        {
+          "name": "Scooter Elétrica Urban Plus 800", "badge": "NOVO",
+          "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h",
+          "variations": [{"label": "Padrão", "was": 7599.99, "cash": 7299.99, "inst": 699.99}],
+          "image": "images/scooter-verde.jpg",
+          "description": {
+            "hook": "Mobilidade também pode fazer parte do seu estilo.",
+            "intro": "A Urban Plus 800 une a praticidade que você espera de uma scooter elétrica a um design com mais personalidade para circular pela cidade. Com 800W, velocidade de até 32 km/h e autonomia informada de 45 a 55 km, entrega uma combinação equilibrada para trabalho, estudos e outros trajetos cotidianos.",
+            "highlights": ["Motor 800W", "Bateria de lítio 64V 23Ah", "Até 32 km/h", "Autonomia de 45-55 km", "Capacidade de até 150 kg"],
+            "idealFor": "Uma escolha para quem procura mobilidade prática sem deixar o design em segundo plano."
+          }
+        },
+        {
+          "name": "Scooter Elétrica Urban 800", "badge": "NOVO",
+          "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h",
+          "variations": [{"label": "Padrão", "was": 7299.99, "cash": 6999.99, "inst": 674.99}],
+          "image": "images/scooter-preta.jpg",
+          "description": {
+            "hook": "Seu dia pede um jeito mais simples de ir e voltar.",
+            "intro": "A Urban 800 leva a mobilidade elétrica para a rotina de forma prática e funcional. Com motor de 800W, velocidade de até 32 km/h e autonomia informada de 50 a 60 km, tem alcance para acompanhar os trajetos que fazem parte do seu dia.",
+            "highlights": ["Motor 800W", "Bateria de lítio 64V 23Ah", "Até 32 km/h", "Autonomia de 50-60 km", "Capacidade de até 150 kg"],
+            "idealFor": "A porta de entrada da linha Urban, com a maior autonomia informada entre os modelos de 800W."
+          }
+        }
       ]
     },
     {
