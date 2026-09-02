@@ -200,10 +200,10 @@
     {
       "category": "Scooter Elétrica",
       "items": [
-        {"name": "Scooter Elétrica", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 9299.0, "inst": 639.99, "instCount": 18}], "image": "images/scooter.jpg"},
-        {"name": "Scooter Elétrica Verde Oliva", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 7899.99, "inst": 544.99, "instCount": 18}], "image": "images/scooter-verde-oliva.jpg", "displayName": "Scooter Elétrica"},
-        {"name": "Scooter Elétrica Verde", "badge": "NOVO", "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 7119.99, "inst": 489.99, "instCount": 18}], "image": "images/scooter-verde.jpg", "displayName": "Scooter Elétrica"},
-        {"name": "Scooter Elétrica Preta", "badge": "NOVO", "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h", "variations": [{"label": "Padrão", "cash": 6799.99, "inst": 467.99, "instCount": 18}], "image": "images/scooter-preta.jpg", "displayName": "Scooter Elétrica"}
+        {"name": "Scooter Elétrica", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 50km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 9999.99, "cash": 9499.99, "inst": 914.99}], "image": "images/scooter.jpg"},
+        {"name": "Scooter Elétrica Verde Oliva", "badge": "NOVO", "spec": "Motor 1000W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 8299.99, "cash": 7999.99, "inst": 769.99}], "image": "images/scooter-verde-oliva.jpg", "displayName": "Scooter Elétrica"},
+        {"name": "Scooter Elétrica Verde", "badge": "NOVO", "spec": "Motor 800W · Autonomia 45/55km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 7599.99, "cash": 7299.99, "inst": 699.99}], "image": "images/scooter-verde.jpg", "displayName": "Scooter Elétrica"},
+        {"name": "Scooter Elétrica Preta", "badge": "NOVO", "spec": "Motor 800W · Autonomia 50/60km · Vel. até 32km/h", "variations": [{"label": "Padrão", "was": 7299.99, "cash": 6999.99, "inst": 674.99}], "image": "images/scooter-preta.jpg", "displayName": "Scooter Elétrica"}
       ]
     },
     {

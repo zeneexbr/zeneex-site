@@ -599,6 +599,7 @@
   }
   .badge.novo{background:var(--petroleo-soft); color:var(--petroleo);}
   .badge.seminovo{background:var(--gold-soft); color:var(--gold);}
+  .badge.oferta{background:var(--gold-soft); color:var(--gold);}
 
   .card h3{
     font-size:15.5px;
@@ -636,6 +637,22 @@
   }
 
   .price-block{margin-top:auto; margin-bottom:12px;}
+  .price-de{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    text-decoration:line-through;
+    text-decoration-color:var(--ink-soft);
+    margin-bottom:2px;
+  }
+  .price-por-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--gold);
+    margin-bottom:2px;
+  }
   .price-cash{
     font-family:'IBM Plex Mono',monospace;
     font-size:19px;
@@ -1072,6 +1089,13 @@ function buildCard(item, ci, ii){
 
   const priceBlock = document.createElement("div");
   priceBlock.className = "price-block";
+  const priceDe = document.createElement("div");
+  priceDe.className = "price-de";
+  priceDe.style.display = "none";
+  const pricePorLabel = document.createElement("div");
+  pricePorLabel.className = "price-por-label";
+  pricePorLabel.textContent = "Por";
+  pricePorLabel.style.display = "none";
   const priceCash = document.createElement("div");
   priceCash.className = "price-cash mono";
   const priceInstall = document.createElement("div");
@@ -1166,6 +1190,14 @@ function buildCard(item, ci, ii){
 
   function updatePrice(){
     const v = item.variations[currentIndex];
+    if (v.was){
+      priceDe.textContent = "De R$ " + fmtBRL(v.was);
+      priceDe.style.display = "";
+      pricePorLabel.style.display = "";
+    } else {
+      priceDe.style.display = "none";
+      pricePorLabel.style.display = "none";
+    }
     priceCash.textContent = "R$ " + fmtBRL(v.cash);
     priceInstall.textContent = `ou ${v.instCount || 12}x de R$ ${fmtBRL(v.inst)}`;
     cta.href = waLink(item.name, (item.variations.length > 1 || isRealLabel(v.label)) ? v.label : "", getSimText());
@@ -1198,6 +1230,8 @@ function buildCard(item, ci, ii){
 
   updatePrice();
 
+  priceBlock.appendChild(priceDe);
+  priceBlock.appendChild(pricePorLabel);
   priceBlock.appendChild(priceCash);
   priceBlock.appendChild(priceInstall);
 
