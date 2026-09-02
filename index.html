@@ -1073,6 +1073,12 @@ function buildCard(item, ci, ii){
     b.textContent = item.badge;
     badges.appendChild(b);
   }
+  if (item.variations.some(v => v.was)){
+    const bOferta = document.createElement("span");
+    bOferta.className = "badge oferta";
+    bOferta.textContent = "OFERTA";
+    badges.appendChild(bOferta);
+  }
 
   const h3 = document.createElement("h3");
   h3.textContent = item.displayName || item.name;
