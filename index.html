@@ -1366,7 +1366,8 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
     shareBtn.textContent = "⋯";
     shareBtn.addEventListener("click", (e)=>{
       e.stopPropagation();
-      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0], items);
+      const groupPayload = items.length > 1 ? items : null;
+      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0], groupPayload);
     });
     toggle.appendChild(shareBtn);
   }
