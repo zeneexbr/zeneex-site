@@ -85,6 +85,27 @@
       ]
     },
     {
+      "category": "Garmin Cirqa Smart Band",
+      "items": [
+        {
+          "name": "Garmin Cirqa Smart Band",
+          "badge": "NOVO",
+          "variations": [{"label": "Padrão", "cash": 2399.00, "inst": 229.99}],
+          "image": "images/garmin-cirqa.jpg",
+          "description": {
+            "hook": "Você não precisa de outra tela. Precisa entender melhor o que acontece com você.",
+            "intro": "A Garmin Cirqa Smart Band leva a proposta de monitoramento para um formato discreto, pensado para permanecer no pulso sem transformar cada informação em mais uma notificação.",
+            "blocks": [
+              {"title": "Tecnologia que quase desaparece.", "text": "Seu formato sem tela reduz distrações e deixa o acompanhamento acontecer de maneira mais silenciosa durante a rotina."},
+              {"title": "Do dia à recuperação.", "text": "A proposta da Cirqa é acompanhar informações relacionadas ao corpo, atividade e bem-estar para ajudar você a compreender melhor seus próprios padrões."},
+              {"title": "Feita para permanecer com você.", "text": "O design compacto aproxima a experiência de uma pulseira tradicional, mas com inteligência trabalhando em segundo plano."}
+            ],
+            "idealFor": "Para quem gosta da inteligência dos wearables, mas não quer mais uma tela disputando sua atenção."
+          }
+        }
+      ]
+    },
+    {
       "category": "Ray-Ban Meta",
       "items": [
         {
@@ -100,6 +121,49 @@
               {"title": "Viva o momento sem correr para o celular.", "text": "Registre fotos e vídeos da sua própria perspectiva enquanto mantém as mãos livres."},
               {"title": "O diferencial é quase não parecer tecnologia.", "text": "Recursos inteligentes integrados a um dos designs mais reconhecíveis da Ray-Ban - tecnologia presente sem dominar o visual."}
             ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Blulory Smart AI Glasses",
+      "items": [
+        {
+          "name": "Blulory Smart AI Glasses M01 Pro",
+          "badge": "NOVO",
+          "spec": "Speaker + Microfone",
+          "variations": [{"label": "Padrão", "cash": 649.00, "inst": 64.99}],
+          "image": "images/blulory-glasses.jpg",
+          "description": {
+            "hook": "Parece um óculos. Mas não termina no que você vê.",
+            "intro": "O Blulory Smart AI Glasses M01 Pro leva áudio e conectividade para uma peça que você já pode usar no rosto, sem precisar recorrer o tempo inteiro a um fone convencional.",
+            "blocks": [
+              {"title": "Áudio sem ocupar seus ouvidos.", "text": "Os speakers integrados permitem ouvir conteúdos enquanto o formato aberto mantém maior percepção do ambiente."},
+              {"title": "Fale sem tirar o celular do bolso.", "text": "Com microfone integrado e conectividade Bluetooth, o óculos pode acompanhar chamadas e outras interações de áudio compatíveis."},
+              {"title": "Tecnologia em um formato familiar.", "text": "Em vez de parecer um gadget preso ao rosto, a proposta é incorporar funções inteligentes ao formato tradicional de um óculos."}
+            ],
+            "idealFor": "Para quem quer experimentar óculos inteligentes de forma acessível, especialmente para áudio, chamadas e uso conectado no cotidiano."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Huawei FreeClip",
+      "items": [
+        {
+          "name": "Huawei FreeClip 2",
+          "badge": "NOVO",
+          "variations": [{"label": "Padrão", "cash": 1199.00, "inst": 114.99}],
+          "image": "images/huawei-freeclip-2.jpg",
+          "description": {
+            "hook": "Ouça o que você gosta sem se desconectar do que acontece ao redor.",
+            "intro": "O Huawei FreeClip 2 troca o formato tradicional dos fones intra-auriculares por uma experiência aberta, leve e diferente de usar.",
+            "blocks": [
+              {"title": "Nada entrando no ouvido.", "text": "Seu design open-ear permite ouvir o áudio sem bloquear completamente o canal auditivo, trazendo outra sensação de conforto para o uso diário."},
+              {"title": "Seu áudio e o ambiente podem coexistir.", "text": "Você continua mais consciente do que acontece ao redor enquanto escuta músicas, podcasts ou atende chamadas."},
+              {"title": "Um fone que também virou design.", "text": "O formato em clip transforma o FreeClip 2 em algo que se aproxima de um acessório, disponível em diferentes acabamentos e pensado para permanecer discreto na orelha."}
+            ],
+            "idealFor": "Para quem não se adapta bem aos fones tradicionais ou procura mais conforto e consciência do ambiente durante o dia."
           }
         }
       ]
@@ -158,6 +222,28 @@
               {"title": "Sua voz merece a mesma qualidade da sua imagem.", "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."},
               {"title": "Pequeno para você esquecer. Potente para fazer diferença.", "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."}
             ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "DJI Mic Mini 2",
+      "items": [
+        {
+          "name": "DJI Mic Mini 2",
+          "badge": "NOVO",
+          "spec": "2 TX + 1 RX + Estojo de Carregamento",
+          "variations": [{"label": "Padrão", "cash": 1279.00, "inst": 124.99}],
+          "image": "images/dji-mic-mini-2.jpg",
+          "description": {
+            "hook": "Sua câmera pode estar longe. Sua voz continua perto.",
+            "intro": "O DJI Mic Mini 2 leva liberdade para quem grava conteúdo, entrevistas, aulas ou vídeos sem querer ficar preso ao celular ou à câmera.",
+            "blocks": [
+              {"title": "Grave. Ande. Continue falando.", "text": "O sistema sem fio permite captar a voz enquanto você se movimenta, deixando a gravação muito mais natural."},
+              {"title": "Duas pessoas. Uma gravação.", "text": "Com dois transmissores, é uma solução especialmente interessante para entrevistas, podcasts, conteúdos em dupla e produções externas."},
+              {"title": "Tudo junto quando você precisa.", "text": "O conjunto com receptor e estojo de carregamento mantém os principais componentes organizados e prontos para acompanhar sua rotina de produção."}
+            ],
+            "idealFor": "Criadores de conteúdo, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do áudio sem montar uma estrutura complicada."
           }
         }
       ]
@@ -800,6 +886,22 @@
       "category": "AirPods",
       "supergroup": "Apple Store",
       "items": [
+        {
+          "name": "AirPods Max 2",
+          "badge": "NOVO",
+          "variations": [{"label": "Padrão", "cash": 3849.00, "inst": 369.99}],
+          "image": "images/airpods-max-2.jpg",
+          "description": {
+            "hook": "O som não fica ao seu redor. Ele coloca você dentro dele.",
+            "intro": "O AirPods Max 2 transforma música, filmes e chamadas em uma experiência mais imersiva, combinando áudio de alta qualidade, isolamento e o conforto de um headphone premium.",
+            "blocks": [
+              {"title": "Menos mundo lá fora. Mais do que você quer ouvir.", "text": "O cancelamento ativo de ruído ajuda a reduzir as distrações externas para você se concentrar no conteúdo, no trabalho ou simplesmente na música."},
+              {"title": "Uma experiência que acompanha você.", "text": "Integração com o ecossistema Apple torna a transição entre seus dispositivos mais natural no dia a dia."},
+              {"title": "Conforto também faz parte do som.", "text": "Construção premium e formato over-ear pensado para envolver os ouvidos e entregar uma experiência confortável mesmo durante períodos maiores de uso."}
+            ],
+            "idealFor": "Para quem não procura apenas um fone Apple, mas uma experiência de áudio premium para música, trabalho, viagens e entretenimento."
+          }
+        },
         {
           "name": "AirPods 4",
           "variations": [
