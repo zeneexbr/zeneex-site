@@ -172,6 +172,22 @@
       "category": "DJI Osmo Pocket",
       "items": [
         {
+          "name": "DJI Osmo Pocket 4P",
+          "badge": "NOVO",
+          "variations": [{"label": "Padrão", "cash": 6999.00, "inst": 674.99}],
+          "image": "images/dji-osmo-pocket-4p.jpg",
+          "description": {
+            "hook": "Capture mais. Viva além.",
+            "intro": "Uma câmera compacta criada para quem quer registrar viagens, rotina e conteúdo com uma qualidade que vai muito além de simplesmente tirar o celular do bolso. O Osmo Pocket 4P serve para gravar vídeos e produzir conteúdo com qualidade profissional em um equipamento pequeno e fácil de levar, oferecendo mais liberdade para filmar em movimento. Na prática, ele é ideal para viagens, vlogs, criação de conteúdo, eventos, vídeos para redes sociais e registros do dia a dia, especialmente quando você quer imagens mais estáveis e uma experiência dedicada à gravação. É como levar uma estrutura de produção na palma da mão — pronta para registrar a próxima história.",
+            "blocks": [
+              {"title": "Qualidade para acompanhar suas ideias.", "text": "Pensado para entregar imagens de alto nível sem exigir uma estrutura grande de equipamentos."},
+              {"title": "Movimento sem perder a cena.", "text": "A estabilização ajuda a manter as gravações mais fluidas enquanto você caminha, explora ou acompanha o que está acontecendo."},
+              {"title": "Pequeno para ir mais longe.", "text": "Seu formato compacto facilita levar a câmera para lugares em que uma estrutura tradicional simplesmente seria inconveniente."}
+            ],
+            "idealFor": "Criadores de conteúdo, viajantes, profissionais e qualquer pessoa que queira elevar a qualidade dos seus vídeos sem carregar uma produção inteira nas costas."
+          }
+        },
+        {
           "name": "DJI Osmo Pocket 4 Creator Combo",
           "badge": "NOVO",
           "variations": [{"label": "Combo", "cash": 4999.99, "inst": 484.99}],
