@@ -46,6 +46,7 @@
     },
     {
       "category": "Whoop",
+      "group": "Saúde & Atividade",
       "items": [
         {
           "name": "Whoop 5.0 Peak Health and Fitness Tracker",
@@ -65,27 +66,8 @@
       ]
     },
     {
-      "category": "Google Fitbit Air",
-      "items": [
-        {
-          "name": "Google Fitbit Air",
-          "badge": "NOVO",
-          "spec": "Pulseira inteligente · Obsidian",
-          "variations": [{"label": "Padrão", "cash": 1679.0, "inst": 164.99}],
-          "image": "images/fitbit-air.jpg",
-          "description": {
-            "hook": "Você não precisa de mais uma tela. Precisa entender melhor o que acontece com você.",
-            "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequência de notificações ao seu dia.",
-            "blocks": [
-              {"title": "Acompanhe sem ficar acompanhando.", "text": "A proposta é deixar o monitoramento acontecer em segundo plano enquanto você simplesmente vive sua rotina."},
-              {"title": "O diferencial é não pedir sua atenção.", "text": "Uma experiência de acompanhamento corporal pensada para ser discreta, contínua e menos invasiva que a de um smartwatch tradicional."}
-            ]
-          }
-        }
-      ]
-    },
-    {
       "category": "Garmin Cirqa Smart Band",
+      "group": "Saúde & Atividade",
       "items": [
         {
           "name": "Garmin Cirqa Smart Band",
@@ -106,7 +88,29 @@
       ]
     },
     {
+      "category": "Google Fitbit Air",
+      "group": "Saúde & Atividade",
+      "items": [
+        {
+          "name": "Google Fitbit Air",
+          "badge": "NOVO",
+          "spec": "Pulseira inteligente · Obsidian",
+          "variations": [{"label": "Padrão", "cash": 1679.0, "inst": 164.99}],
+          "image": "images/fitbit-air.jpg",
+          "description": {
+            "hook": "Você não precisa de mais uma tela. Precisa entender melhor o que acontece com você.",
+            "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequência de notificações ao seu dia.",
+            "blocks": [
+              {"title": "Acompanhe sem ficar acompanhando.", "text": "A proposta é deixar o monitoramento acontecer em segundo plano enquanto você simplesmente vive sua rotina."},
+              {"title": "O diferencial é não pedir sua atenção.", "text": "Uma experiência de acompanhamento corporal pensada para ser discreta, contínua e menos invasiva que a de um smartwatch tradicional."}
+            ]
+          }
+        }
+      ]
+    },
+    {
       "category": "Ray-Ban Meta",
+      "group": "Óculos Inteligentes",
       "items": [
         {
           "name": "Ray-Ban Meta Wayfarer Gen 2",
@@ -127,6 +131,7 @@
     },
     {
       "category": "Blulory Smart AI Glasses",
+      "group": "Óculos Inteligentes",
       "items": [
         {
           "name": "Blulory Smart AI Glasses M01 Pro",
@@ -170,6 +175,7 @@
     },
     {
       "category": "DJI Osmo Pocket",
+      "group": "Câmeras de Ação",
       "items": [
         {
           "name": "DJI Osmo Pocket 4P",
@@ -205,6 +211,7 @@
     },
     {
       "category": "Insta360",
+      "group": "Câmeras de Ação",
       "items": [
         {
           "name": "Insta360 Go 3S",
@@ -224,26 +231,8 @@
       ]
     },
     {
-      "category": "Hollyland Lark M2",
-      "items": [
-        {
-          "name": "Microfone Hollyland Lark M2 Combo",
-          "badge": "NOVO",
-          "variations": [{"label": "Combo", "cash": 999.99, "inst": 97.99}],
-          "image": "images/hollyland.jpg",
-          "description": {
-            "hook": "Um vídeo pode parecer profissional. Até o áudio começar.",
-            "intro": "O Lark M2 leva áudio sem fio de alta qualidade para vídeos, entrevistas, podcasts e conteúdos sem complicar sua gravação.",
-            "blocks": [
-              {"title": "Sua voz merece a mesma qualidade da sua imagem.", "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."},
-              {"title": "Pequeno para você esquecer. Potente para fazer diferença.", "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."}
-            ]
-          }
-        }
-      ]
-    },
-    {
       "category": "DJI Mic Mini 2",
+      "group": "Microfones sem Fio",
       "items": [
         {
           "name": "DJI Mic Mini 2",
@@ -260,6 +249,26 @@
               {"title": "Tudo junto quando você precisa.", "text": "O conjunto com receptor e estojo de carregamento mantém os principais componentes organizados e prontos para acompanhar sua rotina de produção."}
             ],
             "idealFor": "Criadores de conteúdo, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do áudio sem montar uma estrutura complicada."
+          }
+        }
+      ]
+    },
+    {
+      "category": "Hollyland Lark M2",
+      "group": "Microfones sem Fio",
+      "items": [
+        {
+          "name": "Microfone Hollyland Lark M2 Combo",
+          "badge": "NOVO",
+          "variations": [{"label": "Combo", "cash": 999.99, "inst": 97.99}],
+          "image": "images/hollyland.jpg",
+          "description": {
+            "hook": "Um vídeo pode parecer profissional. Até o áudio começar.",
+            "intro": "O Lark M2 leva áudio sem fio de alta qualidade para vídeos, entrevistas, podcasts e conteúdos sem complicar sua gravação.",
+            "blocks": [
+              {"title": "Sua voz merece a mesma qualidade da sua imagem.", "text": "Áudio em 48 kHz/24-bit e cancelamento de ruído ajudam a entregar uma voz mais limpa e presente."},
+              {"title": "Pequeno para você esquecer. Potente para fazer diferença.", "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."}
+            ]
           }
         }
       ]
@@ -293,7 +302,7 @@
       ]
     },
     {
-      "category": "PlayStation 5",
+      "category": "Games e Consoles",
       "items": [
         {"name": "PlayStation 5 Slim 825GB Digital", "badge": "NOVO", "variations": [{"label": "825GB", "cash": 4579.99, "inst": 439.99}], "image": "images/ps5-slim-digital.jpg"},
         {"name": "PlayStation 5 1TB com Leitor", "badge": "NOVO", "variations": [{"label": "1TB", "cash": 3899.99, "inst": 377.99}], "image": "images/ps5-leitor.jpg"}
