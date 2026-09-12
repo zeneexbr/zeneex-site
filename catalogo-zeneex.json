@@ -8,6 +8,7 @@
   "categorias": [
     {
       "category": "Oura Ring",
+      "coverImage": "images/cover-oura-ring.jpg",
       "items": [
         {
           "name": "Oura Ring 5",
@@ -47,6 +48,7 @@
     {
       "category": "Whoop",
       "group": "Saúde & Atividade",
+      "coverImage": "images/cover-saude-atividade.jpg",
       "items": [
         {
           "name": "Whoop 5.0 Peak Health and Fitness Tracker",
@@ -111,6 +113,7 @@
     {
       "category": "Ray-Ban Meta",
       "group": "Óculos Inteligentes",
+      "coverImage": "images/cover-oculos-inteligentes.jpg",
       "items": [
         {
           "name": "Ray-Ban Meta Wayfarer Gen 2",
@@ -176,6 +179,7 @@
     {
       "category": "DJI Osmo Pocket",
       "group": "Câmeras de Ação",
+      "coverImage": "images/cover-cameras-acao.jpg",
       "items": [
         {
           "name": "DJI Osmo Pocket 4P",
@@ -233,6 +237,7 @@
     {
       "category": "DJI Mic Mini 2",
       "group": "Microfones sem Fio",
+      "coverImage": "images/cover-microfones.jpg",
       "items": [
         {
           "name": "DJI Mic Mini 2",
@@ -295,6 +300,7 @@
     },
     {
       "category": "Drones DJI",
+      "coverImage": "images/cover-drones.jpg",
       "items": [
         {"name": "Drone DJI Mini 5 Pro", "badge": "NOVO", "variations": [{"label": "Padrão", "cash": 5799.0, "inst": 559.99}], "image": "images/drone-mini5pro.jpg"},
         {"name": "Drone DJI Neo 2", "spec": "FLY More Combo", "badge": "NOVO", "variations": [{"label": "Fly More Combo", "cash": 3599.0, "inst": 449.99}], "image": "images/drone-neo2.jpg"},
@@ -303,6 +309,7 @@
     },
     {
       "category": "Games e Consoles",
+      "coverImage": "images/cover-consoles.jpg",
       "items": [
         {"name": "PlayStation 5 Slim 825GB Digital", "badge": "NOVO", "variations": [{"label": "825GB", "cash": 4579.99, "inst": 439.99}], "image": "images/ps5-slim-digital.jpg"},
         {"name": "PlayStation 5 1TB com Leitor", "badge": "NOVO", "variations": [{"label": "1TB", "cash": 3899.99, "inst": 377.99}], "image": "images/ps5-leitor.jpg"}
@@ -310,6 +317,7 @@
     },
     {
       "category": "Scooter Elétrica",
+      "coverImage": "images/cover-scooters.jpg",
       "items": [
         {
           "name": "Scooter Elétrica Urban Max 1000", "badge": "NOVO",
@@ -363,6 +371,7 @@
     },
     {
       "category": "Robô Aspirador",
+      "coverImage": "images/cover-robo-aspirador.jpg",
       "items": [
         {
           "name": "Robô Aspirador Xiaomi Vacuum S40",
@@ -382,6 +391,7 @@
     },
     {
       "category": "iPhone 17",
+      "supergroupCoverImage": "images/cover-apple-store.jpg",
       "group": "iPhones",
       "supergroup": "Apple Store",
       "items": [

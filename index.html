@@ -1328,7 +1328,7 @@ function buildInsightPanel(desc){
   return panel;
 }
 
-function buildToggleUnit(title, items, hideMeta, shareHash){
+function buildToggleUnit(title, items, hideMeta, shareHash, coverImage){
   const toggle = document.createElement("button");
   toggle.type = "button";
   toggle.className = "subcat-toggle";
@@ -1336,8 +1336,9 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
   if (shareHash) toggle.id = shareHash;
 
   const leadItem = items[0];
-  const thumbHtml = leadItem.image
-    ? `<span class="toggle-thumb"><img src="${leadItem.image}" alt="${leadItem.name}" loading="lazy"></span>`
+  const thumbSrc = coverImage || leadItem.image;
+  const thumbHtml = thumbSrc
+    ? `<span class="toggle-thumb"><img src="${thumbSrc}" alt="${title}" loading="lazy"></span>`
     : "";
 
   const metaHtml = hideMeta
@@ -1367,7 +1368,8 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
     shareBtn.addEventListener("click", (e)=>{
       e.stopPropagation();
       const groupPayload = items.length > 1 ? items : null;
-      shareWithPhoto(title, `#${shareHash}`, leadItem, leadItem.variations[0], groupPayload);
+      const shareLead = coverImage ? Object.assign({}, leadItem, {image: coverImage}) : leadItem;
+      shareWithPhoto(title, `#${shareHash}`, shareLead, leadItem.variations[0], groupPayload);
     });
     toggle.appendChild(shareBtn);
   }
@@ -1378,7 +1380,8 @@ function buildToggleUnit(title, items, hideMeta, shareHash){
 function buildGroupBlock(groupCats, idOverride){
   const groupName = groupCats[0].group;
   const allItems = groupCats.flatMap(c => c.items);
-  const familyToggle = buildToggleUnit(groupName, allItems, false, idOverride || `group-${slug(groupName)}-toggle`);
+  const groupCover = groupCats.find(c => c.coverImage)?.coverImage;
+  const familyToggle = buildToggleUnit(groupName, allItems, false, idOverride || `group-${slug(groupName)}-toggle`, groupCover);
 
   const linesContainer = document.createElement("div");
   linesContainer.className = "lines-list collapsible";
@@ -1410,7 +1413,7 @@ function buildGroupBlock(groupCats, idOverride){
 }
 
 function buildFlatMultiBlock(cat, idOverride){
-  const toggle = buildToggleUnit(cat.category, cat.items, false, idOverride || `cat-${slug(cat.category)}-toggle`);
+  const toggle = buildToggleUnit(cat.category, cat.items, false, idOverride || `cat-${slug(cat.category)}-toggle`, cat.coverImage);
   const grid = document.createElement("div");
   grid.className = "grid collapsible";
   const catIndex = CATALOG.indexOf(cat);
@@ -1426,7 +1429,7 @@ function buildFlatMultiBlock(cat, idOverride){
 }
 
 function buildSingleBlock(cat, idOverride){
-  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true, idOverride || `cat-${slug(cat.category)}-toggle`);
+  const toggle = buildToggleUnit(cat.items[0].name, cat.items, true, idOverride || `cat-${slug(cat.category)}-toggle`, cat.coverImage);
   const grid = document.createElement("div");
   grid.className = "grid collapsible";
   const catIndex = CATALOG.indexOf(cat);
@@ -1484,7 +1487,7 @@ CATALOG.forEach((cat, ci)=>{
     head.innerHTML = `<h2>${cat.supergroup}</h2><span class="cat-count mono">${totalItems} itens</span>`;
     section.appendChild(head);
 
-    const outerToggle = buildToggleUnit(cat.supergroup, leadItems, false, `super-${slug(cat.supergroup)}-toggle`);
+    const outerToggle = buildToggleUnit(cat.supergroup, leadItems, false, `super-${slug(cat.supergroup)}-toggle`, cat.supergroupCoverImage);
     const outerContainer = document.createElement("div");
     outerContainer.className = "lines-list collapsible";
     subBlocks.forEach(b=>{
