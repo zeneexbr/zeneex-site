@@ -157,6 +157,7 @@
     },
     {
       "category": "Huawei FreeClip",
+      "coverImage": "images/cover-huawei-freeclip-2.jpg",
       "items": [
         {
           "name": "Huawei FreeClip 2",
@@ -280,6 +281,7 @@
     },
     {
       "category": "Plaud Note",
+      "coverImage": "images/cover-plaud-note.jpg",
       "items": [
         {
           "name": "Plaud Note 64GB",
