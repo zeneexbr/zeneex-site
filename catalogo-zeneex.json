@@ -8,7 +8,8 @@
   "categorias": [
     {
       "category": "Oura Ring",
-      "coverImage": "images/cover-oura-ring.jpg",
+      "group": "Anéis Inteligentes",
+      "coverImage": "images/cover-aneis-inteligentes.jpg",
       "items": [
         {
           "name": "Oura Ring 5",
@@ -40,6 +41,25 @@
             "blocks": [
               {"title": "Entenda o que seu corpo está dizendo.", "text": "Descubra como seu sono, seus hábitos e sua rotina influenciam a maneira como você se sente e se recupera."},
               {"title": "Tecnologia que não parece tecnologia.", "text": "Smart Sensing e sensores integrados em um anel de titânio discreto, confortável e pensado para acompanhar você dia e noite."}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "RingConn",
+      "group": "Anéis Inteligentes",
+      "items": [
+        {
+          "name": "RingConn Gen 3",
+          "badge": "NOVO",
+          "variations": [{"label": "Padrão", "cash": 2879.00, "inst": 279.99}],
+          "image": "images/ringconn-gen3.jpg",
+          "description": {
+            "hook": "Seu corpo fala o tempo todo. O RingConn ajuda você a entender.",
+            "intro": "Um anel inteligente que acompanha seu corpo continuamente, transformando dados de saúde, sono e atividade em informações fáceis de acompanhar. Serve para entender melhor como você dorme, se recupera e como seu corpo responde à sua rotina, acompanhando indicadores como frequência cardíaca, HRV, oxigenação, temperatura, atividade e sono.",
+            "blocks": [
+              {"title": "Mais informação. Sem mais uma tela.", "text": "Discreto no dedo, acompanha seus sinais durante o dia e a noite, com autonomia de até 14 dias e sem assinatura mensal obrigatória."}
             ]
           }
         }
