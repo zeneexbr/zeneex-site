@@ -577,9 +577,45 @@
     overflow:hidden;
   }
   .card .thumb.has-image{
+    cursor: zoom-in;
     border-style:solid;
     background:var(--card);
     padding:0;
+  }
+  .img-lightbox{
+    display:none;
+    position:fixed;
+    inset:0;
+    background:rgba(4,20,21,0.94);
+    z-index:200;
+    align-items:center;
+    justify-content:center;
+    padding:26px;
+  }
+  .img-lightbox.open{ display:flex; }
+  .img-lightbox img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:contain;
+    border-radius:4px;
+    box-shadow:0 20px 60px rgba(0,0,0,0.5);
+  }
+  .lightbox-close{
+    position:absolute;
+    top:18px;
+    right:18px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.3);
+    color:#fff;
+    font-size:22px;
+    line-height:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
   }
   .card .thumb img{
     width:100%;
@@ -915,6 +951,32 @@ function trackOrcamento(productName, variationLabel, price){
 /* =========================================================
    HELPERS
 ========================================================= */
+function openLightbox(src, alt){
+  let lb = document.getElementById("imgLightbox");
+  if (!lb){
+    lb = document.createElement("div");
+    lb.id = "imgLightbox";
+    lb.className = "img-lightbox";
+    lb.innerHTML = `<button type="button" class="lightbox-close" aria-label="Fechar">×</button><img>`;
+    document.body.appendChild(lb);
+    lb.addEventListener("click", (e)=>{
+      if (e.target === lb || e.target.classList.contains("lightbox-close")) closeLightbox();
+    });
+    document.addEventListener("keydown", (e)=>{
+      if (e.key === "Escape") closeLightbox();
+    });
+  }
+  lb.querySelector("img").src = src;
+  lb.querySelector("img").alt = alt || "";
+  lb.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeLightbox(){
+  const lb = document.getElementById("imgLightbox");
+  if (lb) lb.classList.remove("open");
+  document.body.style.overflow = "";
+}
+
 function slug(str){
   return str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
@@ -1061,6 +1123,10 @@ function buildCard(item, ci, ii){
     img.alt = item.name;
     img.loading = "lazy";
     thumb.appendChild(img);
+    thumb.addEventListener("click", (e)=>{
+      e.stopPropagation();
+      openLightbox(item.image, item.name);
+    });
   } else {
     thumb.textContent = `+ FOTO — ${item.name}`;
   }
@@ -1794,7 +1860,7 @@ async function buildCardCanvas(item, variation, simInfo){
   return canvas;
 }
 
-async function buildGroupCanvas(title, items){
+async function buildGroupCanvas(title, items, coverImageOverride){
   await loadStoryFonts();
   const W = 1080, H = 1920, scale = 1.5;
   const canvas = document.createElement("canvas");
@@ -1808,7 +1874,8 @@ async function buildGroupCanvas(title, items){
   const count = items.length;
   const lowest = Math.min(...items.flatMap(it => it.variations.map(v => v.cash)));
   const badgeText = count > 1 ? `${count} MODELOS` : null;
-  const {y, px} = await drawStoryShell(ctx, W, leadItem.image, title, badgeText);
+  const photoSrc = coverImageOverride || leadItem.image;
+  const {y, px} = await drawStoryShell(ctx, W, photoSrc, title, badgeText);
 
   ctx.fillStyle = "rgba(255,255,255,0.85)";
   ctx.font = "400 30px 'Inter'";
@@ -1830,7 +1897,7 @@ function shareWithPhoto(title, hash, leadItem, leadVariation, groupItems){
       try{
         if (leadItem && leadItem.image && navigator.canShare){
           const canvas = groupItems
-            ? await buildGroupCanvas(title, groupItems)
+            ? await buildGroupCanvas(title, groupItems, leadItem.image)
             : await buildCardCanvas(leadItem, leadVariation || leadItem.variations[0]);
           const blob = await new Promise(res => canvas.toBlob(res, "image/png", 0.95));
           if (blob){
