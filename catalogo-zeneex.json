@@ -22,8 +22,9 @@
             },
             {
               "label": "Tamanho 11",
-              "cash": 3999.99,
-              "inst": 389.99
+              "cash": 3549.0,
+              "inst": 344.99,
+              "was": 3999.99
             }
           ],
           "image": "images/oura-ring-5.jpg",
@@ -80,8 +81,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2879.0,
-              "inst": 279.99
+              "cash": 2719.0,
+              "inst": 264.99,
+              "was": 2879.0
             }
           ],
           "image": "images/ringconn-gen3.jpg",
@@ -110,8 +112,9 @@
           "variations": [
             {
               "label": "Obsidian",
-              "cash": 2679.99,
-              "inst": 259.99
+              "cash": 2399.0,
+              "inst": 234.99,
+              "was": 2679.99
             }
           ],
           "image": "images/whoop.jpg",
@@ -142,8 +145,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2399.0,
-              "inst": 229.99
+              "cash": 2199.0,
+              "inst": 214.99,
+              "was": 2399.0
             }
           ],
           "image": "images/garmin-cirqa.jpg",
@@ -180,8 +184,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1679.0,
-              "inst": 164.99
+              "cash": 1399.0,
+              "inst": 134.99,
+              "was": 1679.0
             }
           ],
           "image": "images/fitbit-air.jpg",
@@ -353,8 +358,9 @@
           "variations": [
             {
               "label": "Combo",
-              "cash": 4999.99,
-              "inst": 484.99
+              "cash": 4719.0,
+              "inst": 454.99,
+              "was": 4999.99
             }
           ],
           "image": "images/osmo-pocket.jpg",
@@ -386,8 +392,9 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3199.99,
-              "inst": 307.99
+              "cash": 2899.0,
+              "inst": 279.99,
+              "was": 3199.99
             }
           ],
           "image": "images/insta360.jpg",
