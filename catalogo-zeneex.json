@@ -744,18 +744,13 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7919.0,
-              "inst": 764.99
+              "cash": 7779.0,
+              "inst": 749.99
             },
             {
               "label": "512GB",
-              "cash": 8799.0,
-              "inst": 847.99
-            },
-            {
-              "label": "1TB",
               "cash": 9999.0,
-              "inst": 967.99
+              "inst": 964.99
             }
           ],
           "image": "images/iphone17-pro-max.jpg",
@@ -778,18 +773,18 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7499.0,
-              "inst": 724.99
+              "cash": 7399.0,
+              "inst": 714.99
             },
             {
               "label": "512GB",
-              "cash": 8599.0,
-              "inst": 827.99
+              "cash": 8579.0,
+              "inst": 824.99
             },
             {
               "label": "1TB",
-              "cash": 9899.0,
-              "inst": 954.99
+              "cash": 9999.0,
+              "inst": 964.99
             }
           ],
           "image": "images/iphone17-pro.jpg",
@@ -812,8 +807,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 6199.0,
-              "inst": 597.99
+              "cash": 6179.0,
+              "inst": 594.99
             }
           ],
           "image": "images/iphone17-air.jpg",
@@ -841,8 +836,8 @@
             },
             {
               "label": "512GB",
-              "cash": 6449.0,
-              "inst": 619.99
+              "cash": 6479.0,
+              "inst": 624.99
             }
           ],
           "image": "images/iphone17.jpg",
@@ -866,8 +861,13 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 4499.0,
-              "inst": 434.99
+              "cash": 4479.0,
+              "inst": 429.99
+            },
+            {
+              "label": "512GB",
+              "cash": 5999.0,
+              "inst": 577.99
             }
           ],
           "image": "images/iphone17e.jpg",
