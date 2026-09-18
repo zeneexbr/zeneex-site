@@ -16,15 +16,10 @@
           "badge": "NOVO",
           "variations": [
             {
-              "label": "Tamanho 7 ao 10",
-              "cash": 3649.99,
-              "inst": 354.99
-            },
-            {
-              "label": "Tamanho 11",
+              "label": "Padrão",
+              "was": 3999.99,
               "cash": 3549.0,
-              "inst": 344.99,
-              "was": 3999.99
+              "inst": 344.99
             }
           ],
           "image": "images/oura-ring-5.jpg",
@@ -219,8 +214,9 @@
           "variations": [
             {
               "label": "Fotocromático",
-              "cash": 3799.99,
-              "inst": 367.99
+              "cash": 3499.0,
+              "inst": 337.99,
+              "was": 3799.99
             }
           ],
           "image": "images/rayban-meta.jpg",
@@ -252,8 +248,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 649.0,
-              "inst": 64.99
+              "cash": 449.0,
+              "inst": 44.99,
+              "was": 649.0
             }
           ],
           "image": "images/blulory-glasses.jpg",
@@ -327,8 +324,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 6999.0,
-              "inst": 674.99
+              "cash": 6549.0,
+              "inst": 629.99,
+              "was": 6999.0
             }
           ],
           "image": "images/dji-osmo-pocket-4p.jpg",
@@ -427,8 +425,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1279.0,
-              "inst": 124.99
+              "cash": 1119.0,
+              "inst": 107.99,
+              "was": 1279.0
             }
           ],
           "image": "images/dji-mic-mini-2.jpg",
@@ -464,8 +463,9 @@
           "variations": [
             {
               "label": "Combo",
-              "cash": 999.99,
-              "inst": 97.99
+              "cash": 789.0,
+              "inst": 77.99,
+              "was": 999.99
             }
           ],
           "image": "images/hollyland.jpg",
