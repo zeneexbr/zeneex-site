@@ -768,6 +768,23 @@
           }
         },
         {
+          "name": "iPhone 17 Pro Max",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 7299.0,
+              "inst": 704.99
+            },
+            {
+              "label": "512GB",
+              "cash": 8119.0,
+              "inst": 784.99
+            }
+          ],
+          "image": "images/iphone17-pro-max-seminovo.jpg"
+        },
+        {
           "name": "iPhone 17 Pro",
           "badge": "NOVO",
           "variations": [
@@ -802,6 +819,18 @@
           }
         },
         {
+          "name": "iPhone 17 Pro",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 6849.0,
+              "inst": 659.99
+            }
+          ],
+          "image": "images/iphone17-pro-seminovo.jpg"
+        },
+        {
           "name": "iPhone 17 Air",
           "badge": "NOVO",
           "variations": [
@@ -824,6 +853,18 @@
             ],
             "idealFor": "É o iPhone para quem coloca design, leveza e tecnologia no mesmo nível de importância."
           }
+        },
+        {
+          "name": "iPhone 17 Air",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5399.0,
+              "inst": 519.99
+            }
+          ],
+          "image": "images/iphone17-air-seminovo.jpg"
         },
         {
           "name": "iPhone 17",
@@ -854,6 +895,18 @@
             ],
             "idealFor": "O equilíbrio da geração 17: recursos importantes de tela e câmera em uma proposta abaixo da linha Pro."
           }
+        },
+        {
+          "name": "iPhone 17",
+          "badge": "SEMINOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 5349.0,
+              "inst": 514.99
+            }
+          ],
+          "image": "images/iphone17-seminovo.jpg"
         },
         {
           "name": "iPhone 17E",
