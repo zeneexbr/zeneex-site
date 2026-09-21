@@ -498,8 +498,9 @@
           "variations": [
             {
               "label": "64GB",
-              "cash": 1599.0,
-              "inst": 154.99
+              "cash": 1379.0,
+              "inst": 134.99,
+              "was": 1599.0
             }
           ],
           "image": "images/plaud-note.jpg",
