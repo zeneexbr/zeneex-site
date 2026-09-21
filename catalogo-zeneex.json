@@ -1711,8 +1711,9 @@
           "variations": [
             {
               "label": "49mm",
-              "cash": 5179.0,
-              "inst": 499.99
+              "cash": 4949.99,
+              "inst": 477.99,
+              "was": 5179.0
             }
           ],
           "image": "images/watch-ultra.jpg",
@@ -1742,13 +1743,15 @@
           "variations": [
             {
               "label": "42mm",
-              "cash": 2699.0,
-              "inst": 259.99
+              "cash": 2399.99,
+              "inst": 229.99,
+              "was": 2699.0
             },
             {
               "label": "46mm",
-              "cash": 2899.0,
-              "inst": 279.99
+              "cash": 2649.99,
+              "inst": 254.99,
+              "was": 2899.0
             }
           ],
           "image": "images/watch-regular.jpg",
@@ -1777,13 +1780,15 @@
           "variations": [
             {
               "label": "40mm",
-              "cash": 2249.0,
-              "inst": 217.99
+              "cash": 1949.99,
+              "inst": 187.99,
+              "was": 2249.0
             },
             {
               "label": "44mm",
-              "cash": 2379.0,
-              "inst": 229.99
+              "cash": 2119.99,
+              "inst": 204.99,
+              "was": 2379.0
             }
           ],
           "image": "images/watch-regular.jpg",
@@ -1806,8 +1811,9 @@
           "variations": [
             {
               "label": "44mm",
-              "cash": 2179.0,
-              "inst": 209.99
+              "cash": 1919.99,
+              "inst": 184.99,
+              "was": 2179.0
             }
           ],
           "image": "images/watch-regular.jpg",
@@ -1837,8 +1843,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3849.0,
-              "inst": 369.99
+              "cash": 3549.99,
+              "inst": 344.99,
+              "was": 3849.0
             }
           ],
           "image": "images/airpods-max-2.jpg",
@@ -1867,13 +1874,15 @@
           "variations": [
             {
               "label": "Sem Eliminador de Ruído",
-              "cash": 1379.0,
-              "inst": 134.99
+              "cash": 1149.99,
+              "inst": 109.99,
+              "was": 1379.0
             },
             {
               "label": "Com Eliminador de Ruído",
-              "cash": 1749.0,
-              "inst": 169.99
+              "cash": 1399.99,
+              "inst": 134.99,
+              "was": 1749.0
             }
           ],
           "image": "images/airpods4.jpg",
