@@ -286,8 +286,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1199.0,
-              "inst": 114.99
+              "cash": 1079.0,
+              "inst": 104.99,
+              "was": 1199.0
             }
           ],
           "image": "images/huawei-freeclip-2.jpg",
