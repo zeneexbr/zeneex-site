@@ -710,8 +710,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1679.99,
-              "inst": 164.99
+              "cash": 1579.99,
+              "inst": 154.99,
+              "was": 1679.0
             }
           ],
           "image": "images/vacuum-s40.jpg",
