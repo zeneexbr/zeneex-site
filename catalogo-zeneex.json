@@ -44,8 +44,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3379.99,
-              "inst": 324.99
+              "was": 3379.99,
+              "cash": 3249.0,
+              "inst": 314.99
             }
           ],
           "image": "images/oura-ring-4.jpg",
@@ -773,7 +774,7 @@
               "inst": 949.99
             }
           ],
-          "image": "images/iphone18-lineup.jpg"
+          "image": "images/iphone18-pro.jpg"
         }
       ]
     },
