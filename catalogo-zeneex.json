@@ -741,8 +741,44 @@
       ]
     },
     {
-      "category": "iPhone 17",
+      "category": "iPhone 18",
+      "group": "iPhones",
+      "supergroup": "Apple Store",
       "supergroupCoverImage": "images/cover-apple-store.jpg",
+      "items": [
+        {
+          "name": "iPhone 18 Pro Max",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 11299.0,
+              "inst": 1089.99
+            },
+            {
+              "label": "512GB",
+              "cash": 12399.0,
+              "inst": 1194.99
+            }
+          ],
+          "image": "images/iphone18-lineup.jpg"
+        },
+        {
+          "name": "iPhone 18 Pro",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "256GB",
+              "cash": 10299.0,
+              "inst": 949.99
+            }
+          ],
+          "image": "images/iphone18-lineup.jpg"
+        }
+      ]
+    },
+    {
+      "category": "iPhone 17",
       "group": "iPhones",
       "supergroup": "Apple Store",
       "items": [
