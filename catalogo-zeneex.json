@@ -531,8 +531,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 5799.0,
-              "inst": 557.99
+              "cash": 5719.99,
+              "inst": 549.99,
+              "was": 5799.0
             }
           ],
           "image": "images/drone-mini5pro.jpg"
@@ -544,8 +545,9 @@
           "variations": [
             {
               "label": "Fly More Combo",
-              "cash": 3599.0,
-              "inst": 347.99
+              "cash": 3529.99,
+              "inst": 339.99,
+              "was": 3599.0
             }
           ],
           "image": "images/drone-neo2.jpg"
@@ -556,8 +558,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3399.0,
-              "inst": 327.99
+              "cash": 3249.99,
+              "inst": 314.99,
+              "was": 3399.0
             }
           ],
           "image": "images/drone-flip4k.jpg"
