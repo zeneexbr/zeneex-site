@@ -577,8 +577,9 @@
           "variations": [
             {
               "label": "825GB",
-              "cash": 4579.99,
-              "inst": 439.99
+              "cash": 4499.99,
+              "inst": 434.99,
+              "was": 4579.0
             }
           ],
           "image": "images/ps5-slim-digital.jpg"
@@ -589,8 +590,9 @@
           "variations": [
             {
               "label": "1TB",
-              "cash": 3899.99,
-              "inst": 374.99
+              "cash": 4999.99,
+              "inst": 484.99,
+              "was": 5319.0
             }
           ],
           "image": "images/ps5-leitor.jpg"
