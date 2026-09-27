@@ -519,6 +519,34 @@
               }
             ]
           }
+        },
+        {
+          "name": "Plaud NotePin 64GB",
+          "badge": "NOVO",
+          "spec": "Gravador de voz portátil com IA",
+          "variations": [
+            {
+              "label": "64GB",
+              "was": 1599.99,
+              "cash": 1379.99,
+              "inst": 134.99
+            }
+          ],
+          "image": "images/plaud-notepin.jpg",
+          "description": {
+            "hook": "Uma boa ideia não precisa esperar você pegar o celular.",
+            "intro": "Compacto e fácil de levar, o Plaud NotePin registra conversas presenciais para que você possa se concentrar no momento.",
+            "blocks": [
+              {
+                "title": "Presente na conversa, com o conteúdo guardado.",
+                "text": "Grave reuniões e ideias sem dividir a atenção entre ouvir e anotar."
+              },
+              {
+                "title": "Da gravação ao que interessa.",
+                "text": "Pelo aplicativo Plaud, use recursos de IA para transcrever, resumir e consultar o conteúdo depois."
+              }
+            ]
+          }
         }
       ]
     },
@@ -1948,3 +1976,4 @@
     }
   ]
 }
+
