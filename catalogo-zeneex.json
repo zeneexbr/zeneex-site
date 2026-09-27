@@ -278,8 +278,7 @@
       ]
     },
     {
-      "category": "Huawei FreeClip",
-      "coverImage": "images/cover-huawei-freeclip-2.jpg",
+      "category": "Fones de Ouvido",
       "items": [
         {
           "name": "Huawei FreeClip 2",
@@ -311,6 +310,34 @@
               }
             ],
             "idealFor": "Para quem não se adapta bem aos fones tradicionais ou procura mais conforto e consciência do ambiente durante o dia."
+          }
+        },
+        {
+          "name": "Ozlo Sleepbuds 2",
+          "badge": "NOVO",
+          "spec": "Fones sem fio projetados para dormir",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 3279.99,
+              "cash": 2899.99,
+              "inst": 279.99
+            }
+          ],
+          "image": "images/ozlo-sleepbuds-2.jpg",
+          "description": {
+            "hook": "O seu descanso começa com um som feito para a noite.",
+            "intro": "Pequenos e discretos, os Sleepbuds 2 foram desenhados para permanecer confortáveis durante o sono, inclusive para quem dorme de lado.",
+            "blocks": [
+              {
+                "title": "Menos distrações ao redor.",
+                "text": "Sons de mascaramento ajudam a reduzir o impacto de ruídos como trânsito e ronco; você também pode ouvir seu próprio conteúdo para adormecer."
+              },
+              {
+                "title": "Feitos para atravessar a noite.",
+                "text": "A bateria oferece até 14 horas de reprodução, e o alarme individual toca nos próprios fones. Eles usam mascaramento sonoro, não cancelamento ativo de ruído."
+              }
+            ]
           }
         }
       ]
@@ -544,6 +571,39 @@
               {
                 "title": "Da gravação ao que interessa.",
                 "text": "Pelo aplicativo Plaud, use recursos de IA para transcrever, resumir e consultar o conteúdo depois."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Huion Note",
+      "items": [
+        {
+          "name": "Huion Note",
+          "badge": "NOVO",
+          "spec": "Caderno inteligente e mesa digitalizadora",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1579.99,
+              "cash": 1279.99,
+              "inst": 124.99
+            }
+          ],
+          "image": "images/huion-note.jpg",
+          "description": {
+            "hook": "A liberdade de escrever no papel, com suas ideias também no digital.",
+            "intro": "O Huion Note acompanha suas anotações feitas no caderno e permite organizá-las no aplicativo. Para criar no computador, ele também funciona como mesa digitalizadora.",
+            "blocks": [
+              {
+                "title": "Escreva do seu jeito.",
+                "text": "Use papel e caneta em reuniões, aulas ou projetos, com a escrita sincronizada ao celular quando conectado."
+              },
+              {
+                "title": "Continue a criação no computador.",
+                "text": "No modo mesa digitalizadora, use a caneta para desenhar diretamente no PC."
               }
             ]
           }
