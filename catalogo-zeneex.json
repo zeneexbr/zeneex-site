@@ -899,13 +899,19 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 11299.0,
-              "inst": 1089.99
+              "was": 11299.0,
+              "cash": 10999.99,
+              "inst": 1059.99
             },
             {
               "label": "512GB",
               "cash": 12399.0,
               "inst": 1194.99
+            },
+            {
+              "label": "1TB",
+              "cash": 15499.99,
+              "inst": 1494.99
             }
           ],
           "image": "images/iphone18-lineup.jpg"
@@ -916,8 +922,14 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 10299.0,
-              "inst": 949.99
+              "was": 10299.0,
+              "cash": 9799.99,
+              "inst": 944.99
+            },
+            {
+              "label": "512GB",
+              "cash": 11399.99,
+              "inst": 1097.99
             }
           ],
           "image": "images/iphone18-pro.jpg"
