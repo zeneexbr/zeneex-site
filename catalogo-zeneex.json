@@ -310,6 +310,34 @@
           }
         },
         {
+          "name": "Shokz OpenRun Pro",
+          "badge": "NOVO",
+          "spec": "Fone Bluetooth de condução óssea · cores preta e laranja",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1749.99,
+              "cash": 1499.99,
+              "inst": 144.99
+            }
+          ],
+          "image": "images/shokz-openrun-pro.jpg",
+          "description": {
+            "hook": "Seu ritmo, com os ouvidos livres.",
+            "intro": "O Shokz OpenRun Pro usa condução óssea para levar o áudio sem cobrir os ouvidos. É uma escolha para quem quer ouvir música ou atender chamadas durante o treino e continuar percebendo o que acontece ao redor.",
+            "blocks": [
+              {
+                "title": "Feito para acompanhar o movimento.",
+                "text": "A estrutura se ajusta ao redor da cabeça, e a proteção IP55 oferece resistência a suor e respingos."
+              },
+              {
+                "title": "Mais tempo em movimento.",
+                "text": "A bateria oferece até 10 horas de música e chamadas. Com 5 minutos de carga rápida, pode render até 1,5 hora de uso, segundo a Shokz."
+              }
+            ]
+          }
+        },
+        {
           "name": "Huawei FreeClip 2",
           "badge": "NOVO",
           "variations": [
@@ -825,6 +853,34 @@
               {
                 "title": "O diferencial está na autonomia para fazer sozinho.",
                 "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robô Aspirador Joog RA10 Vacuum Cleaner",
+          "badge": "NOVO",
+          "spec": "Bivolt · aspira e passa pano",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1519.99,
+              "cash": 1199.99,
+              "inst": 114.99
+            }
+          ],
+          "image": "images/joog-ra10.jpg",
+          "description": {
+            "hook": "Mais tempo para você, menos tempo cuidando do chão.",
+            "intro": "O Joog RA10 aspira e passa pano, ajudando a cuidar dos pisos enquanto você dedica seu tempo a outras coisas. A limpeza pode ser iniciada pelo aplicativo ou pelo controle remoto que acompanha o produto.",
+            "blocks": [
+              {
+                "title": "Limpeza com autonomia.",
+                "text": "Seus sensores ajudam a evitar colisões com móveis e paredes. Quando precisa recarregar, o robô retorna à base automaticamente."
+              },
+              {
+                "title": "Controle do seu jeito.",
+                "text": "Use o celular ou o controle remoto para comandar a limpeza. O modelo é bivolt e oferece aproximadamente 90 minutos de funcionamento por carga, segundo a fabricante."
               }
             ]
           }
@@ -2038,4 +2094,3 @@
     }
   ]
 }
-
