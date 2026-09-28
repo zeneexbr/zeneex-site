@@ -947,13 +947,18 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7779.0,
-              "inst": 749.99
+              "cash": 7699.99,
+              "inst": 739.99
             },
             {
               "label": "512GB",
-              "cash": 9999.0,
-              "inst": 964.99
+              "cash": 9649.99,
+              "inst": 929.99
+            },
+            {
+              "label": "1TB",
+              "cash": 10999.99,
+              "inst": 1059.99
             }
           ],
           "image": "images/iphone17-pro-max.jpg",
