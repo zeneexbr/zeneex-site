@@ -18,8 +18,8 @@
             {
               "label": "Padrão",
               "was": 3999.99,
-              "cash": 3549.0,
-              "inst": 344.99
+              "cash": 3349.99,
+              "inst": 324.99
             }
           ],
           "image": "images/oura-ring-5.jpg",
@@ -45,8 +45,8 @@
             {
               "label": "Padrão",
               "was": 3379.99,
-              "cash": 3249.0,
-              "inst": 314.99
+              "cash": 2999.99,
+              "inst": 289.99
             }
           ],
           "image": "images/oura-ring-4.jpg",
@@ -77,8 +77,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2719.0,
-              "inst": 264.99,
+              "cash": 2599.99,
+              "inst": 249.99,
               "was": 2879.0
             }
           ],
@@ -108,8 +108,8 @@
           "variations": [
             {
               "label": "Obsidian",
-              "cash": 2399.0,
-              "inst": 234.99,
+              "cash": 2279.99,
+              "inst": 219.99,
               "was": 2679.99
             }
           ],
@@ -141,8 +141,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2199.0,
-              "inst": 214.99,
+              "cash": 1999.99,
+              "inst": 194.99,
               "was": 2399.0
             }
           ],
@@ -180,8 +180,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1399.0,
-              "inst": 134.99,
+              "cash": 1349.99,
+              "inst": 129.99,
               "was": 1679.0
             }
           ],
@@ -650,9 +650,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 5719.99,
-              "inst": 549.99,
-              "was": 5799.0
+              "cash": 5919.99,
+              "inst": 569.99,
+              "was": 7119.99
             }
           ],
           "image": "images/drone-mini5pro.jpg"
@@ -664,8 +664,8 @@
           "variations": [
             {
               "label": "Fly More Combo",
-              "cash": 3529.99,
-              "inst": 339.99,
+              "cash": 3179.99,
+              "inst": 304.99,
               "was": 3599.0
             }
           ],
@@ -677,8 +677,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 3249.99,
-              "inst": 314.99,
+              "cash": 2819.99,
+              "inst": 274.99,
               "was": 3399.0
             }
           ],
@@ -696,7 +696,7 @@
           "variations": [
             {
               "label": "825GB",
-              "cash": 4499.99,
+              "cash": 4479.99,
               "inst": 434.99,
               "was": 4579.0
             }
@@ -709,8 +709,8 @@
           "variations": [
             {
               "label": "1TB",
-              "cash": 4999.99,
-              "inst": 484.99,
+              "cash": 4979.99,
+              "inst": 479.99,
               "was": 5319.0
             }
           ],
@@ -836,8 +836,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1579.99,
-              "inst": 154.99,
+              "cash": 1399.99,
+              "inst": 134.99,
               "was": 1679.0
             }
           ],
