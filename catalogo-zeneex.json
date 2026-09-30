@@ -472,6 +472,43 @@
       ]
     },
     {
+      "category": "DJI Osmo Action",
+      "group": "Câmeras de Ação",
+      "items": [
+        {
+          "name": "DJI Osmo Action 4",
+          "spec": "Câmera de ação 10 MP, tela traseira de 2,25\"",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Standard Combo",
+              "was": 2979.99,
+              "cash": 2179.99,
+              "inst": 209.99
+            },
+            {
+              "label": "Adventure Combo",
+              "was": 3579.99,
+              "cash": 2779.99,
+              "inst": 267.99
+            }
+          ],
+          "image": "images/dji-osmo-action-4.jpg",
+          "description": {
+            "hook": "Feita para acompanhar a ação, sem deixar a história para trás.",
+            "intro": "A DJI Osmo Action 4 reúne gravação em até 4K/120 fps, sensor de 1/1,3\" e estabilização para registrar viagens, esportes e conteúdo em movimento. O campo de visão amplo ajuda a mostrar mais da cena, enquanto as telas sensíveis ao toque facilitam o enquadramento. O corpo é resistente à água até 18 m sem caixa estanque, conforme as condições informadas pela DJI.",
+            "blocks": [
+              {
+                "title": "Qual combo escolher?",
+                "text": "O Standard Combo é a opção para começar com o kit essencial e uma bateria. O Adventure Combo acrescenta duas baterias, estojo multifuncional para baterias e bastão extensor de 1,5 m, oferecendo mais autonomia e possibilidades de enquadramento."
+              }
+            ],
+            "idealFor": "Para quem quer filmar além dos ângulos e das condições em que costuma usar o celular. A Action 4 é uma escolha para criadores, viajantes e pessoas que registram experiências em movimento. Se a prioridade é começar com o essencial, o Standard Combo atende. Para jornadas mais longas e gravações com menos pausas, o Adventure Combo faz mais sentido."
+          }
+        }
+      ]
+    },
+    {
       "category": "DJI Mic Mini 2",
       "group": "Microfones sem Fio",
       "coverImage": "images/cover-microfones.jpg",
