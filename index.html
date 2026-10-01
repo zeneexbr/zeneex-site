@@ -14,7 +14,6 @@
 <title>Zeneex — Curadoria de Inovação Global</title>
 <meta name="description" content="Curadoria de Inovação Global. Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
 
-<!-- Open Graph (WhatsApp, Instagram, Facebook, etc.) -->
 <meta property="og:title" content="Zeneex — Curadoria de Inovação Global">
 <meta property="og:description" content="Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
 <meta property="og:image" content="https://zeneex.com.br/apple-touch-icon.png">
@@ -22,7 +21,6 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 
-<!-- Twitter Card (usado como fallback por alguns apps) -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zeneex — Curadoria de Inovação Global">
 <meta name="twitter:description" content="Toque em qualquer produto para solicitar orçamento direto no WhatsApp.">
@@ -65,7 +63,6 @@
   img{max-width:100%;display:block;}
   ::selection{background:var(--petroleo);color:#fff;}
 
-  /* ---------- Header ---------- */
   header.site{
     background-color:var(--petroleo);
     background-image:
@@ -125,7 +122,6 @@
     line-height:1.5;
   }
 
-  /* ---------- Category nav ---------- */
   nav.catnav{
     position:sticky;
     top:0;
@@ -138,7 +134,6 @@
     scrollbar-width:none;
     padding:10px 14px;
   }
-  /* subtle shadow to indicate nav pinned under header */
   nav.catnav{box-shadow:0 6px 14px -12px rgba(0,0,0,0.35);}
   nav.catnav::-webkit-scrollbar{display:none;}
   nav.catnav a{
@@ -156,7 +151,6 @@
   }
   nav.catnav a:hover{background:var(--petroleo-soft);}
 
-  /* ---------- Filters ---------- */
   .filters{
     padding:16px 14px 6px;
     display:flex;
@@ -210,7 +204,6 @@
     font-size:12.5px;
   }
 
-  /* ---------- Category sections ---------- */
   main{padding:8px 14px 0;}
   .category-section{
     padding-top:26px;
@@ -327,7 +320,6 @@
   .subcat-toggle[aria-expanded="true"] .chevron{ transform:rotate(180deg); }
   .subcat-toggle[aria-expanded="true"]{ border-color:var(--line-strong); }
 
-  /* compact variant: used for the inner "line" rows nested inside a family (e.g. generations inside iPhones) */
   .subcat-toggle.compact .toggle-body{
     flex-direction:row;
     align-items:center;
@@ -385,7 +377,6 @@
     header.site{padding:22px 28px 18px;}
   }
 
-  /* ---------- Product card (access-card signature) ---------- */
   .card{
     background:var(--card);
     border:1px solid var(--line);
@@ -783,7 +774,6 @@
   .cta:hover{background:var(--petroleo-deep);}
   .cta svg{width:15px; height:15px; flex-shrink:0;}
 
-  /* ---------- Não encontrou / Zeneex Request ---------- */
   .not-found-block{
     margin:34px 0 6px;
     padding:0;
@@ -815,7 +805,6 @@
     color:#fff;
   }
 
-  /* ---------- Footer ---------- */
   footer{
     margin-top:56px;
     padding:28px 20px 40px;
@@ -906,28 +895,12 @@
 </footer>
 
 <script>
-/* =========================================================
-   DADOS DO CATÁLOGO
-   Fonte compartilhada: catalogo-zeneex.json, o mesmo arquivo
-   citado no fluxo de atualização da skill de Catálogo PDF
-   ("backup .json da Plataforma"). Editar preço/produto aqui
-   ou lá exige replicar a mudança no outro sistema na mesma
-   sessão (ver Nota de Sincronização).
-   O array abaixo é usado como FALLBACK automático apenas se
-   o arquivo .json não puder ser carregado (ex: página aberta
-   direto do disco, sem servidor).
-========================================================= */
 const CATALOG_FALLBACK = [];
 
 let CATALOG = CATALOG_FALLBACK;
 const CATALOG_JSON_URL = "./catalogo-zeneex.json";
 const WA_NUMBER = "5591984195397";
 
-/* =========================================================
-   TRACKING
-   Envie os cliques para o Google Analytics (GA4) assim que o
-   Measurement ID estiver configurado — ver nota ao final do arquivo.
-========================================================= */
 function trackOrcamento(productName, variationLabel, price){
   const payload = {
     event: "solicitar_orcamento",
@@ -948,9 +921,6 @@ function trackOrcamento(productName, variationLabel, price){
   console.log("[track] solicitar_orcamento", payload);
 }
 
-/* =========================================================
-   HELPERS
-========================================================= */
 function openLightbox(src, alt){
   let lb = document.getElementById("imgLightbox");
   if (!lb){
@@ -986,7 +956,6 @@ function fmtBRL(n){
   return n.toLocaleString("pt-BR",{minimumFractionDigits:2,maximumFractionDigits:2});
 }
 
-/* Taxas da maquininha por número de parcelas (mesma taxa Visa/Master) */
 const RATE_TABLE = {
   1: 0.0359, 2: 0.0519, 3: 0.0599, 4: 0.0679, 5: 0.0759, 6: 0.0839,
   7: 0.0939, 8: 0.1019, 9: 0.1099, 10: 0.1179, 11: 0.1259, 12: 0.1339,
@@ -1034,9 +1003,6 @@ function waLink(productName, variationLabel, simText){
   return `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg)}`;
 }
 
-/* =========================================================
-   RENDER
-========================================================= */
 const main = document.getElementById("main");
 const catnav = document.getElementById("catnav");
 const resultCount = document.getElementById("resultCount");
@@ -1093,7 +1059,7 @@ function buildCard(item, ci, ii){
   dotsMenu.querySelector('[data-action="share"]').addEventListener("click", (e)=>{
     e.stopPropagation();
     dotsMenu.classList.remove("open");
-    shareWithPhoto(item.displayName || item.name, `#item-${ci}-${ii}`, item, item.variations[0]);
+    shareWithPhoto(item.displayName || item.name, `#item-${ci}-${ii}`, item, item.variations[currentIndex]);
   });
   const insightBtn = dotsMenu.querySelector('[data-action="insight"]');
 
@@ -1629,9 +1595,6 @@ CATALOG.forEach((cat, ci)=>{
 });
 }
 
-/* =========================================================
-   FILTER / SEARCH
-========================================================= */
 const searchInput = document.getElementById("searchInput");
 const priceFilter = document.getElementById("priceFilter");
 const allCards = ()=> Array.from(document.querySelectorAll(".card"));
@@ -1664,9 +1627,6 @@ function applyFilters(){
 searchInput.addEventListener("input", applyFilters);
 priceFilter.addEventListener("change", applyFilters);
 
-/* =========================================================
-   CARREGAMENTO DO CATÁLOGO
-========================================================= */
 function updateStickyOffset(){
   const header = document.querySelector("header.site");
   if (header) {
