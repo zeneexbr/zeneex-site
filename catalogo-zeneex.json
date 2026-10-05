@@ -368,6 +368,116 @@
             ],
             "idealFor": "Para quem não se adapta bem aos fones tradicionais ou procura mais conforto e consciência do ambiente durante o dia."
           }
+        },
+        {
+          "name": "Huawei FreeArc T0021",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 879.99,
+              "cash": 679.99,
+              "inst": 64.99
+            }
+          ],
+          "image": "images/huawei-freearc.jpg",
+          "description": {
+            "hook": "Ouça suas músicas com liberdade e continue atento ao que acontece ao redor.",
+            "intro": "O Huawei FreeArc combina design de ouvido aberto com ganchos flexíveis que ajudam a manter os fones firmes e confortáveis durante a rotina e os treinos.",
+            "blocks": [
+              {
+                "title": "Feito para o dia a dia e os treinos.",
+                "text": "Bluetooth 5.2, controles por toque e conexão simultânea com dois dispositivos."
+              },
+              {
+                "title": "Mais tempo de uso, mais proteção.",
+                "text": "Autonomia de até 7 horas nos fones e até 28 horas com o estojo; redução de ruído para chamadas e proteção IP57 contra água e poeira."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joog OWS H33",
+          "badge": "NOVO",
+          "spec": "Anatel",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 419.99,
+              "cash": 299.99,
+              "inst": 29.99
+            }
+          ],
+          "image": "images/joog-ows-h33.jpg",
+          "description": {
+            "hook": "Música para acompanhar o dia sem fechar seus ouvidos para o que acontece ao redor.",
+            "intro": "O Joog OWS H33 tem design aberto com apoio na orelha, conexão sem fio e estojo de recarga. É uma opção para quem procura conforto em deslocamentos, trabalho e atividades do cotidiano.",
+            "blocks": [
+              {
+                "title": "Feito para o uso contínuo.",
+                "text": "Bluetooth 6.0, controles por toque, conexão USB-C e autonomia de 6 a 6,5 horas por carga, medida a 70% do volume, segundo a Joog."
+              },
+              {
+                "title": "Mais recargas, mais liberdade.",
+                "text": "O estojo de 250 mAh permite até três recargas completas dos fones, segundo a fabricante."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joog U9-JG",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 299.99,
+              "cash": 219.99,
+              "inst": 24.99
+            }
+          ],
+          "image": "images/joog-u9-jg.jpg",
+          "description": {
+            "hook": "Ouça música e atenda chamadas com liberdade, sem perder a percepção do ambiente.",
+            "intro": "O Joog U9-JG foi pensado para quem quer ouvir música e atender chamadas com liberdade, sem perder completamente a percepção do ambiente. Seu formato aberto apoia o fone na orelha, enquanto o gancho de silicone ajuda a mantê-lo estável na rotina, em caminhadas e no trabalho.",
+            "blocks": [
+              {
+                "title": "Feito para o seu ritmo.",
+                "text": "Bluetooth 5.3, drivers de 14,2 mm, controles por toque e estojo de recarga USB-C."
+              },
+              {
+                "title": "Autonomia para o dia.",
+                "text": "A autonomia informada pela Joog é de até 5 horas por carga."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Joog Air 1 Pro A1P-JG",
+          "badge": "NOVO",
+          "spec": "Anatel",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 219.99,
+              "cash": 149.99,
+              "inst": 14.99
+            }
+          ],
+          "image": "images/joog-air1-pro.jpg",
+          "description": {
+            "hook": "Leve sua música para todos os momentos.",
+            "intro": "O Joog Air 1 Pro oferece um formato leve para a rotina, conexão Bluetooth 5.0 e controles por toque para reproduzir músicas e atender chamadas com praticidade.",
+            "blocks": [
+              {
+                "title": "Pareamento automático.",
+                "text": "Ao retirar os fones do estojo, o pareamento acontece automaticamente."
+              },
+              {
+                "title": "Bateria para o dia a dia.",
+                "text": "Mais de 4 horas de uso por carga; o estojo amplia o tempo de reprodução e recarrega por USB-C. Modelo homologado pela Anatel."
+              }
+            ]
+          }
         }
       ]
     },
@@ -509,6 +619,40 @@
       ]
     },
     {
+      "category": "SJCAM",
+      "group": "Câmeras de Ação",
+      "items": [
+        {
+          "name": "SJCAM C100+ Mini Actioncam 4K/WiFi",
+          "badge": "NOVO",
+          "spec": "Black",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 719.99,
+              "cash": 599.99,
+              "inst": 57.99
+            }
+          ],
+          "image": "images/sjcam-c100-plus.jpg",
+          "description": {
+            "hook": "Uma câmera pequena para registrar momentos de vários ângulos.",
+            "intro": "A SJCAM C100+ pesa apenas 34 g e combina corpo magnético com opções flexíveis de fixação, facilitando gravações em viagens, passeios e na criação de conteúdo.",
+            "blocks": [
+              {
+                "title": "Qualidade em 4K.",
+                "text": "Grava vídeos em até 4K a 30 fps, com estabilização eletrônica para reduzir movimentos indesejados."
+              },
+              {
+                "title": "Conectada ao seu fluxo.",
+                "text": "Wi-Fi para conexão ao aplicativo SJCAM ZONE, com gravação vertical em 9:16 para Reels e Stories."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
       "category": "DJI Mic Mini 2",
       "group": "Microfones sem Fio",
       "coverImage": "images/cover-microfones.jpg",
@@ -544,6 +688,34 @@
               }
             ],
             "idealFor": "Criadores de conteúdo, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do áudio sem montar uma estrutura complicada."
+          }
+        },
+        {
+          "name": "Joog MicPro VX1",
+          "badge": "NOVO",
+          "spec": "USB-C · Preto",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1119.99,
+              "cash": 979.99,
+              "inst": 94.99
+            }
+          ],
+          "image": "images/joog-micpro-vx1.jpg",
+          "description": {
+            "hook": "Uma boa imagem merece uma voz bem captada.",
+            "intro": "Compacto e fácil de levar, o Joog MicPro VX1 foi pensado para quem grava vídeos, entrevistas, vlogs e transmissões com o smartphone.",
+            "blocks": [
+              {
+                "title": "Áudio limpo, sem fio.",
+                "text": "Conecta sem fio ao receptor USB-C e oferece redução de ruído acionada por um toque."
+              },
+              {
+                "title": "Controle pelo app.",
+                "text": "O conjunto inclui estojo de carregamento, e o aplicativo permite monitorar o áudio e ajustar o volume."
+              }
+            ]
           }
         }
       ]
@@ -640,6 +812,34 @@
               }
             ]
           }
+        },
+        {
+          "name": "Joog Ai Note 64GB",
+          "badge": "NOVO",
+          "spec": "Cinza",
+          "variations": [
+            {
+              "label": "64GB",
+              "was": 1249.99,
+              "cash": 979.99,
+              "inst": 94.99
+            }
+          ],
+          "image": "images/joog-ai-note.jpg",
+          "description": {
+            "hook": "Esteja presente na conversa sem depender de anotações a cada minuto.",
+            "intro": "O Joog AI Note grava reuniões, aulas e entrevistas e permite organizar o conteúdo depois com recursos de inteligência artificial, como resumos e mapas mentais.",
+            "blocks": [
+              {
+                "title": "Para guardar o que importa.",
+                "text": "64GB de armazenamento, formato fino e aplicativo para iOS e Android."
+              },
+              {
+                "title": "IA incluída todo mês.",
+                "text": "A Joog informa 300 minutos gratuitos por mês para os recursos de IA."
+              }
+            ]
+          }
         }
       ]
     },
@@ -671,6 +871,131 @@
               {
                 "title": "Continue a criação no computador.",
                 "text": "No modo mesa digitalizadora, use a caneta para desenhar diretamente no PC."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Joog Powerbank",
+      "items": [
+        {
+          "name": "Carregador Portátil Joog Powerbank QC Digital 20.000mAh",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 499.99,
+              "cash": 379.99,
+              "inst": 37.99
+            }
+          ],
+          "image": "images/joog-powerbank-20000.jpg",
+          "description": {
+            "hook": "Mais energia para acompanhar sua rotina.",
+            "intro": "O Joog Powerbank QC Digital combina capacidade de 20.000 mAh com carregamento rápido para dispositivos compatíveis, oferecendo uma reserva de energia prática para viagens, trabalho e momentos longe da tomada.",
+            "blocks": [
+              {
+                "title": "Carregue até três dispositivos.",
+                "text": "Duas saídas USB-A e uma USB-C permitem carregar até três dispositivos simultaneamente."
+              },
+              {
+                "title": "Acompanhe e fique protegido.",
+                "text": "Indicador digital de bateria disponível e proteções contra sobrecarga, curto-circuito e superaquecimento."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Joog EM10",
+      "items": [
+        {
+          "name": "Cafeteira Portátil Espresso 3 Em 1 Joog EM10 72W",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 499.99,
+              "cash": 379.99,
+              "inst": 37.99
+            }
+          ],
+          "image": "images/joog-em10.jpg",
+          "description": {
+            "hook": "Seu momento de café pode acompanhar você.",
+            "intro": "A Joog EM10 combina formato portátil e preparo de espresso em uma solução prática para levar ao trabalho, nas viagens ou usar em casa.",
+            "blocks": [
+              {
+                "title": "3 em 1, sem complicação.",
+                "text": "O sistema aceita café moído, cápsulas pequenas e cápsulas grandes, com aquecimento automático e capacidade de 60 ml."
+              },
+              {
+                "title": "Prática no uso e na limpeza.",
+                "text": "Recarga USB-C e corpo desmontável, que facilita a limpeza após o uso."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Depilador a Laser",
+      "items": [
+        {
+          "name": "Depilador Laser Joog IPL HR3 Ice Cooling 64.8W",
+          "badge": "NOVO",
+          "spec": "Bivolt",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1449.99,
+              "cash": 1219.99,
+              "inst": 117.99
+            }
+          ],
+          "image": "images/joog-hr3-ipl.jpg",
+          "description": {
+            "hook": "Mais praticidade para sua rotina de cuidados.",
+            "intro": "O Joog HR3 combina tecnologia IPL para auxiliar na redução dos pelos com o sistema Ice Cooling, que resfria a superfície de contato para ajudar a diminuir a sensação de calor durante a aplicação.",
+            "blocks": [
+              {
+                "title": "Fácil de usar e acompanhar.",
+                "text": "Formato ergonômico e painel digital facilitam o manuseio e o acompanhamento das configurações."
+              },
+              {
+                "title": "Mais potência.",
+                "text": "Potência de 64,8W e alimentação bivolt, seguindo as orientações do fabricante."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Depilador Laser Joog IPL HR2 Ice Cooling 48W",
+          "badge": "NOVO",
+          "spec": "Bivolt",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1279.99,
+              "cash": 999.99,
+              "inst": 97.99
+            }
+          ],
+          "image": "images/joog-hr2-ipl.jpg",
+          "description": {
+            "hook": "Tecnologia para tornar sua rotina de cuidados mais prática.",
+            "intro": "O Joog HR2 combina luz pulsada intensa (IPL), voltada à redução dos pelos, com o sistema Ice Cooling, que resfria a superfície de contato para ajudar a diminuir a sensação de calor durante a aplicação.",
+            "blocks": [
+              {
+                "title": "Pensado para casa.",
+                "text": "Formato ergonômico que ajuda a incorporar a fotodepilação à rotina em casa, seguindo as orientações de uso do fabricante."
+              },
+              {
+                "title": "Potência e praticidade.",
+                "text": "Potência de 48W e alimentação bivolt."
               }
             ]
           }
@@ -1347,7 +1672,7 @@
               "inst": 404.99
             }
           ],
-          "image": "images/iphone16.jpg",
+          "image": "images/iphone16e.jpg",
           "description": {
             "hook": "O essencial da geração 16, por menos.",
             "intro": "O iPhone 16E foi pensado para quem quer desempenho atual e os principais recursos da experiência iPhone sem precisar subir para as versões mais completas. Com chip A18 e Apple Intelligence, concentra justamente aquilo que importa para muita gente no uso diário.",
