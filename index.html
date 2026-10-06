@@ -627,7 +627,7 @@
   }
   .badge.novo{background:var(--petroleo-soft); color:var(--petroleo);}
   .badge.seminovo{background:var(--gold-soft); color:var(--gold);}
-  .badge.oferta{background:var(--gold-soft); color:var(--gold);}
+  .badge.oferta{background:#F2650D; color:#000; font-weight:700;}
   .badge.esgotado{background:rgba(74,91,89,0.14); color:var(--ink-soft);}
 
   .card.is-esgotado .thumb img{ filter:grayscale(100%); opacity:0.45; }
@@ -1158,7 +1158,7 @@ function buildCard(item, ci, ii){
     if (item.variations.some(v => v.was)){
       const bOferta = document.createElement("span");
       bOferta.className = "badge oferta";
-      bOferta.textContent = "OFERTA";
+      bOferta.textContent = "TECH SALE";
       badges.appendChild(bOferta);
     }
   }
@@ -1827,7 +1827,7 @@ async function buildCardCanvas(item, variation, simInfo){
   drawStoryBackground(ctx, W, H);
 
   const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
-  const badgeText = [item.badge, hasLabel ? variation.label : null, variation.was ? "OFERTA" : null].filter(Boolean).join(" · ");
+  const badgeText = [item.badge, hasLabel ? variation.label : null, variation.was ? "TECH SALE" : null].filter(Boolean).join(" · ");
   const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText);
 
   const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
