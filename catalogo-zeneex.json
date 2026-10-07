@@ -370,6 +370,38 @@
           }
         },
         {
+          "name": "Huawei FreeBuds 6",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 979.99,
+              "inst": 94.99,
+              "was": 1219.99
+            }
+          ],
+          "image": "images/huawei-freebuds6.jpg",
+          "description": {
+            "hook": "Som de alta fidelidade com cancelamento de ruído, em um case que cabe na palma da mão.",
+            "intro": "O Huawei FreeBuds 6 combina drivers duplos, cancelamento ativo de ruído e conectividade estável para acompanhar o seu dia inteiro, do trabalho ao treino.",
+            "blocks": [
+              {
+                "title": "Áudio nítido em qualquer ambiente.",
+                "text": "Sistema de drivers duplos entrega graves mais profundos e agudos mais claros, com cancelamento ativo de ruído para isolar o que importa: a sua música, o seu podcast, a sua chamada."
+              },
+              {
+                "title": "Chamadas limpas, mesmo no barulho.",
+                "text": "Microfones com redução de ruído ambiente mantêm sua voz nítida do outro lado da linha, mesmo em ruas movimentadas ou ambientes com vento."
+              },
+              {
+                "title": "Bateria para o dia todo.",
+                "text": "Case compacto que recarrega rápido e estende o uso por horas a mais, feito para quem não quer parar pra pensar em bateria."
+              }
+            ],
+            "idealFor": "Para quem quer um fone premium no dia a dia, com cancelamento de ruído de verdade e conforto para usar por horas seguidas."
+          }
+        },
+        {
           "name": "Huawei FreeArc T0021",
           "badge": "NOVO",
           "variations": [
