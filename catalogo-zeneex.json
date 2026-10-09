@@ -338,6 +338,39 @@
           }
         },
         {
+          "name": "Shokz OpenFit 2",
+          "badge": "NOVO",
+          "spec": "Fone de Ouvido Bluetooth",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1199.99,
+              "inst": 114.99,
+              "was": 1334.99
+            }
+          ],
+          "image": "images/shokz-openfit-2.jpg",
+          "description": {
+            "hook": "Liberdade sem fios, sem abrir mão da percepção do ambiente.",
+            "intro": "O Shokz OpenFit 2 combina áudio Bluetooth e encaixe aberto, apoiado ao redor das orelhas. É uma escolha para ouvir música, atender chamadas e acompanhar a rotina mantendo maior percepção do ambiente.",
+            "blocks": [
+              {
+                "title": "Controle sem tirar o fone do ouvido.",
+                "text": "Controles físicos facilitam o uso durante atividades e deslocamentos, sem precisar mexer no celular."
+              },
+              {
+                "title": "Bateria para o dia inteiro.",
+                "text": "Até 11 horas de uso nos fones e até 48 horas com o estojo."
+              },
+              {
+                "title": "Pronto pro suor e a chuva fina.",
+                "text": "Resistência IP55 a suor e respingos, feito para acompanhar treino e rotina."
+              }
+            ],
+            "idealFor": "Selecionado para quem procura liberdade sem fios, conforto no uso prolongado e um formato aberto para o dia a dia."
+          }
+        },
+        {
           "name": "Huawei FreeClip 2",
           "badge": "NOVO",
           "variations": [
@@ -454,6 +487,39 @@
                 "text": "O estojo de 250 mAh permite até três recargas completas dos fones, segundo a fabricante."
               }
             ]
+          }
+        },
+        {
+          "name": "Fone de Ouvido Sem Fio Joog H27 OWS",
+          "badge": "NOVO",
+          "spec": "Preto | Anatel",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 299.99,
+              "inst": 29.99,
+              "was": 319.99
+            }
+          ],
+          "image": "images/joog-h27-ows.jpg",
+          "description": {
+            "hook": "Música e chamadas com liberdade para acompanhar o dia.",
+            "intro": "O Joog H27 tem design de ouvido aberto e encaixe com gancho, pensado para oferecer conforto sem isolar completamente você do ambiente. Os fones vêm com estojo de carregamento para facilitar o transporte e o uso na rotina.",
+            "blocks": [
+              {
+                "title": "Aberto para o que acontece ao redor.",
+                "text": "Design OWS com encaixe de gancho, sem bloquear completamente o canal auditivo."
+              },
+              {
+                "title": "Controle sem tirar o fone do ouvido.",
+                "text": "Conexão Bluetooth 6.0 e controles por toque para tocar, pausar e atender chamadas direto no fone."
+              },
+              {
+                "title": "Bateria para o dia a dia.",
+                "text": "Até 6,5 horas de reprodução por carga¹, com estojo de carregamento para repor a energia na rua."
+              }
+            ],
+            "idealFor": "Para quem prefere ouvir música durante deslocamentos, trabalho ou atividades do dia a dia mantendo a percepção do entorno."
           }
         },
         {
@@ -753,7 +819,7 @@
       ]
     },
     {
-      "category": "Hollyland Lark M2",
+      "category": "Hollyland Lark",
       "group": "Microfones sem Fio",
       "items": [
         {
@@ -781,6 +847,39 @@
                 "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."
               }
             ]
+          }
+        },
+        {
+          "name": "Microfone Sem Fio Hollyland LARK A1 Combo",
+          "badge": "NOVO",
+          "spec": "Preto",
+          "variations": [
+            {
+              "label": "Combo",
+              "cash": 579.99,
+              "inst": 54.99,
+              "was": 699.99
+            }
+          ],
+          "image": "images/hollyland-lark-a1.jpg",
+          "description": {
+            "hook": "Sua voz em primeiro plano.",
+            "intro": "O Hollyland LARK A1 é uma escolha prática para gravar vídeos, entrevistas e conteúdos para redes sociais pelo smartphone. A versão Combo reúne dois transmissores compactos, receptores USB-C e Lightning e um estojo de carregamento.",
+            "blocks": [
+              {
+                "title": "Fala clara em qualquer ambiente.",
+                "text": "Captação em 48 kHz/24 bits e cancelamento de ruído ajustável em três níveis ajudam a manter a fala clara em diferentes ambientes."
+              },
+              {
+                "title": "Pronto pra qualquer celular.",
+                "text": "Receptores USB-C e Lightning incluídos no combo, sem precisar comprar adaptador à parte."
+              },
+              {
+                "title": "Autonomia para o dia de gravação.",
+                "text": "Até 54 horas de uso alternado entre os dois transmissores com o estojo¹."
+              }
+            ],
+            "idealFor": "Para quem quer dar um passo na qualidade do áudio sem complicar a rotina de gravação."
           }
         }
       ]
