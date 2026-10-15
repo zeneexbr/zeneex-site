@@ -18,8 +18,8 @@
             {
               "label": "Padrão",
               "was": 3999.99,
-              "cash": 3199.99,
-              "inst": 307.99
+              "cash": 3379.99,
+              "inst": 324.99
             }
           ],
           "image": "images/oura-ring-5.jpg",
@@ -45,8 +45,8 @@
             {
               "label": "Padrão",
               "was": 3379.99,
-              "cash": 2849.99,
-              "inst": 274.99
+              "cash": 2999.99,
+              "inst": 289.99
             }
           ],
           "image": "images/oura-ring-4.jpg",
@@ -77,8 +77,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2479.99,
-              "inst": 239.99,
+              "cash": 2579.99,
+              "inst": 249.99,
               "was": 2879.0
             }
           ],
@@ -1599,8 +1599,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 5349.0,
-              "inst": 514.99
+              "cash": 5149.0,
+              "inst": 494.99
             }
           ],
           "image": "images/iphone17-seminovo.jpg"
@@ -1652,8 +1652,8 @@
             },
             {
               "label": "512GB",
-              "cash": 5999.0,
-              "inst": 577.99
+              "cash": 5899.0,
+              "inst": 567.99
             }
           ],
           "image": "images/iphone16-pro-max.jpg",
@@ -1677,13 +1677,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 4779.0,
-              "inst": 459.99
+              "cash": 4649.0,
+              "inst": 447.99
             },
             {
               "label": "256GB",
-              "cash": 5499,
-              "inst": 529.99
+              "cash": 4999.0,
+              "inst": 479.99
             }
           ],
           "image": "images/iphone16-pro.jpg",
@@ -1760,8 +1760,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3999.0,
-              "inst": 384.99
+              "cash": 3949.0,
+              "inst": 379.99
             },
             {
               "label": "256GB",
@@ -1849,8 +1849,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 4399.0,
-              "inst": 424.99
+              "cash": 4479.0,
+              "inst": 429.99
             },
             {
               "label": "512GB",
@@ -1884,13 +1884,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3799.0,
-              "inst": 364.99
+              "cash": 3819.0,
+              "inst": 367.99
             },
             {
               "label": "256GB",
-              "cash": 4249,
-              "inst": 409.99
+              "cash": 4119.0,
+              "inst": 397.99
             }
           ],
           "image": "images/iphone15-pro.jpg",
@@ -1914,8 +1914,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3199,
-              "inst": 307.99
+              "cash": 3119.0,
+              "inst": 299.99
             },
             {
               "label": "256GB",
@@ -1950,13 +1950,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3649,
-              "inst": 354.99
+              "cash": 3599.0,
+              "inst": 347.99
             },
             {
               "label": "256GB",
-              "cash": 3999,
-              "inst": 384.99
+              "cash": 3849.0,
+              "inst": 369.99
             }
           ],
           "image": "images/iphone14-pro-max.jpg",
@@ -1979,13 +1979,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3299.0,
-              "inst": 317.99
+              "cash": 3249.0,
+              "inst": 314.99
             },
             {
               "label": "256GB",
-              "cash": 3499,
-              "inst": 337.99
+              "cash": 3449.0,
+              "inst": 334.99
             },
             {
               "label": "512GB",
@@ -2013,8 +2013,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 2719.0,
-              "inst": 264.99
+              "cash": 2699.0,
+              "inst": 259.99
             }
           ],
           "image": "images/iphone14.jpg"
@@ -2025,8 +2025,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 2549,
-              "inst": 244.99
+              "cash": 2499.0,
+              "inst": 239.99
             },
             {
               "label": "256GB",
