@@ -2602,6 +2602,143 @@
           }
         }
       ]
+    },
+    {
+      "category": "Medicube",
+      "items": [
+        {
+          "name": "Medicube AGE-R Booster Pro",
+          "badge": "NOVO",
+          "spec": "Dispositivo facial para skincare",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1199.99,
+              "inst": 114.99
+            }
+          ],
+          "image": "images/medicube-age-r-booster-pro.jpg",
+          "description": {
+            "hook": "Tecnologia para complementar sua rotina de cuidados com a pele.",
+            "intro": "O Medicube AGE-R Booster Pro reúne quatro modos de tratamento, luz LED e vibração sônica em um único dispositivo.",
+            "blocks": [
+              {
+                "title": "Absorção e luminosidade.",
+                "text": "O modo Booster auxilia a absorção dos cosméticos e favorece a luminosidade."
+              },
+              {
+                "title": "Poros, textura e firmeza.",
+                "text": "Air Shot trabalha a aparência dos poros e da textura; MC e Derma Shot oferecem cuidados voltados à aparência de elasticidade e definição facial."
+              },
+              {
+                "title": "Tecnologia na rotina.",
+                "text": "Quatro modos de cuidado, luz LED, vibração sônica e acompanhamento pelo aplicativo AGE-R."
+              },
+              {
+                "title": "Uso e resultados.",
+                "text": "Utilize conforme o manual e as orientações de cada modo. Os resultados variam conforme a pele e a rotina de uso."
+              }
+            ],
+            "idealFor": "Selecionado para quem deseja incorporar tecnologia à rotina de skincare, com diferentes modos de cuidado em um aparelho compacto para uso em casa."
+          }
+        },
+        {
+          "name": "Medicube AGE-R Booster Pro Mini Plus",
+          "badge": "NOVO",
+          "spec": "Dispositivo facial compacto para skincare",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 979.99,
+              "inst": 94.99
+            }
+          ],
+          "image": "images/medicube-age-r-booster-pro-mini-plus.jpg",
+          "description": {
+            "hook": "Um cuidado tecnológico que acompanha sua rotina.",
+            "intro": "O Medicube AGE-R Booster Pro Mini Plus auxilia a absorção dos cosméticos e oferece três modos para complementar os cuidados com a aparência da pele.",
+            "blocks": [
+              {
+                "title": "Três modos de cuidado.",
+                "text": "O modo vermelho é voltado ao cuidado calmante; o azul trabalha a aparência dos poros e da textura; e o roxo favorece uma aparência mais luminosa e revitalizada."
+              },
+              {
+                "title": "Intensidade sob medida.",
+                "text": "Cinco níveis de intensidade permitem ajustar a experiência conforme as orientações de uso."
+              },
+              {
+                "title": "Compacto e conectado.",
+                "text": "Design compacto, sensor de contato com a pele e conexão com o aplicativo AGE-R."
+              },
+              {
+                "title": "Uso e resultados.",
+                "text": "Utilize conforme o manual. Os resultados variam conforme a pele e a rotina de cuidados."
+              }
+            ],
+            "idealFor": "Selecionado para quem deseja começar ou complementar uma rotina de beauty tech com um aparelho compacto, prático e fácil de levar."
+          }
+        },
+        {
+          "name": "Medicube AGE-R Booster V Roller",
+          "badge": "NOVO",
+          "spec": "Rejuvenescedor facial",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 899.99,
+              "inst": 87.99
+            }
+          ],
+          "image": "images/medicube-age-r-booster-v-roller.jpg",
+          "description": {
+            "hook": "Um ritual de cuidado para quem deseja dedicar mais atenção à aparência da firmeza e do contorno facial.",
+            "intro": "O V Roller combina dois rolos metálicos com massagem por estímulos EMS, acompanhando as linhas do rosto durante o uso.",
+            "blocks": [
+              {
+                "title": "Massagem em V.",
+                "text": "Rolos em V acompanham o contorno do rosto, com atenção à aparência da firmeza."
+              },
+              {
+                "title": "Uso com gel condutor.",
+                "text": "Aplique com gel condutor para uma experiência mais confortável."
+              },
+              {
+                "title": "Sensação e resultados.",
+                "text": "Os resultados e a sensação durante o uso podem variar de pessoa para pessoa."
+              }
+            ],
+            "idealFor": "Uma escolha para incluir um momento de cuidado facial tecnológico na rotina, com movimentos suaves e intensidade ajustada ao conforto da pele."
+          }
+        },
+        {
+          "name": "Medicube AGE-R Booster Cleansing Device",
+          "badge": "NOVO",
+          "spec": "Limpador facial",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 849.99,
+              "inst": 84.99
+            }
+          ],
+          "image": "images/medicube-age-r-booster-cleansing.jpg",
+          "description": {
+            "hook": "Transforme a limpeza do rosto em um momento mais completo da rotina.",
+            "intro": "O cabeçote com cerdas de silicone auxilia na remoção de resíduos de maquiagem e do excesso de oleosidade, enquanto a massagem ajuda a deixar a pele com sensação de frescor.",
+            "blocks": [
+              {
+                "title": "Limpeza com silicone.",
+                "text": "Cerdas de silicone com cuidado com resíduos e oleosidade."
+              },
+              {
+                "title": "Três modos de uso.",
+                "text": "Disponível nas versões rosa e bege."
+              }
+            ],
+            "idealFor": "Para quem busca uma rotina de limpeza prática, com um dispositivo que combina cuidado facial e tecnologia em um só gesto."
+          }
+        }
+      ]
     }
   ]
 }
