@@ -97,6 +97,40 @@
       ]
     },
     {
+      "category": "Garmin Forerunner 170",
+      "group": "Saúde & Atividade",
+      "items": [
+        {
+          "name": "Garmin Forerunner 170",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 2419.99,
+              "cash": 2299.99,
+              "inst": 224.99
+            }
+          ],
+          "image": "images/garmin-forerunner-170.jpg",
+          "description": {
+            "hook": "Cada corrida conta. Acompanhe sua evolução.",
+            "intro": "Um smartwatch com GPS para transformar seus treinos em informações úteis. Acompanhe ritmo, distância e métricas de corrida em uma tela AMOLED, com recursos que ajudam a entender seu desempenho e organizar sua evolução.",
+            "blocks": [
+              {
+                "title": "GPS integrado.",
+                "text": "Ritmo e distância registrados em cada treino."
+              },
+              {
+                "title": "Tela AMOLED.",
+                "text": "Métricas de corrida em uma tela nítida, sensível ao toque e com cinco botões."
+              }
+            ],
+            "idealFor": "Para quem deseja começar a correr com mais orientação ou acompanhar os treinos com mais consistência, levando dados úteis para o pulso."
+          }
+        }
+      ]
+    },
+    {
       "category": "Whoop",
       "group": "Saúde & Atividade",
       "coverImage": "images/cover-saude-atividade.jpg",
@@ -234,6 +268,50 @@
                 "text": "Recursos inteligentes integrados a um dos designs mais reconhecíveis da Ray-Ban - tecnologia presente sem dominar o visual."
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Óculos Inteligentes Meta com IA",
+      "group": "Óculos Inteligentes",
+      "items": [
+        {
+          "name": "Óculos Inteligentes Meta com IA",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Classic",
+              "was": 3119.99,
+              "cash": 2799.99,
+              "inst": 269.99
+            },
+            {
+              "label": "Adventurer",
+              "was": 3849.99,
+              "cash": 3399.99,
+              "inst": 327.99
+            }
+          ],
+          "image": "images/oculos-meta-ia.jpg",
+          "description": {
+            "hook": "Viva o momento. Registre pela sua perspectiva.",
+            "intro": "Capture fotos e vídeos sem segurar o celular, ouça suas músicas e faça chamadas pelos próprios óculos. Com a Meta AI, comandos de voz ajudam a acessar informações e realizar tarefas durante o dia.",
+            "blocks": [
+              {
+                "title": "Mãos livres.",
+                "text": "Captura de fotos e vídeos sem precisar segurar o celular."
+              },
+              {
+                "title": "Áudio aberto integrado.",
+                "text": "Ouça músicas e faça chamadas por voz pelos próprios óculos."
+              },
+              {
+                "title": "Assistente Meta AI.",
+                "text": "Comandos de voz ajudam a acessar informações e realizar tarefas durante o dia."
+              }
+            ],
+            "idealFor": "Para quem deseja registrar viagens, criar conteúdo e trazer mais praticidade à rotina, combinando tecnologia e estilo em um acessório de uso diário."
           }
         }
       ]
