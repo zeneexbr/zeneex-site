@@ -388,6 +388,39 @@
           }
         },
         {
+          "name": "Shokz OpenFit 2+",
+          "badge": "NOVO",
+          "spec": "Fone de Ouvido Bluetooth",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 1599.99,
+              "inst": 154.99,
+              "was": 1799.99
+            }
+          ],
+          "image": "images/shokz-openfit-2.jpg",
+          "description": {
+            "hook": "Liberdade sem fios, sem abrir mão da percepção do ambiente.",
+            "intro": "O Shokz OpenFit 2+ combina áudio Bluetooth e encaixe aberto, apoiado ao redor das orelhas. É uma escolha para ouvir música, atender chamadas e acompanhar a rotina mantendo maior percepção do ambiente.",
+            "blocks": [
+              {
+                "title": "Controle sem tirar o fone do ouvido.",
+                "text": "Controles físicos facilitam o uso durante atividades e deslocamentos, sem precisar mexer no celular."
+              },
+              {
+                "title": "Bateria para o dia inteiro.",
+                "text": "Até 11 horas de uso nos fones e até 48 horas com o estojo."
+              },
+              {
+                "title": "Pronto pro suor e a chuva fina.",
+                "text": "Resistência IP55 a suor e respingos, feito para acompanhar treino e rotina."
+              }
+            ],
+            "idealFor": "Selecionado para quem procura liberdade sem fios, conforto no uso prolongado e um formato aberto para o dia a dia."
+          }
+        },
+        {
           "name": "Shokz OpenRun Pro",
           "badge": "NOVO",
           "spec": "Fone Bluetooth de condução óssea · cores preta e laranja",
@@ -413,39 +446,6 @@
                 "text": "A bateria oferece até 10 horas de música e chamadas. Com 5 minutos de carga rápida, pode render até 1,5 hora de uso, segundo a Shokz."
               }
             ]
-          }
-        },
-        {
-          "name": "Shokz OpenFit 2",
-          "badge": "NOVO",
-          "spec": "Fone de Ouvido Bluetooth",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1199.99,
-              "inst": 114.99,
-              "was": 1334.99
-            }
-          ],
-          "image": "images/shokz-openfit-2.jpg",
-          "description": {
-            "hook": "Liberdade sem fios, sem abrir mão da percepção do ambiente.",
-            "intro": "O Shokz OpenFit 2 combina áudio Bluetooth e encaixe aberto, apoiado ao redor das orelhas. É uma escolha para ouvir música, atender chamadas e acompanhar a rotina mantendo maior percepção do ambiente.",
-            "blocks": [
-              {
-                "title": "Controle sem tirar o fone do ouvido.",
-                "text": "Controles físicos facilitam o uso durante atividades e deslocamentos, sem precisar mexer no celular."
-              },
-              {
-                "title": "Bateria para o dia inteiro.",
-                "text": "Até 11 horas de uso nos fones e até 48 horas com o estojo."
-              },
-              {
-                "title": "Pronto pro suor e a chuva fina.",
-                "text": "Resistência IP55 a suor e respingos, feito para acompanhar treino e rotina."
-              }
-            ],
-            "idealFor": "Selecionado para quem procura liberdade sem fios, conforto no uso prolongado e um formato aberto para o dia a dia."
           }
         },
         {
