@@ -1190,40 +1190,7 @@
       "coverImage": "images/cover-carregadores-powerbanks.jpg"
     },
     {
-      "category": "Joog EM10",
-      "items": [
-        {
-          "name": "Cafeteira Portátil Espresso 3 Em 1 Joog EM10 72W",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "was": 499.99,
-              "cash": 379.99,
-              "inst": 37.99
-            }
-          ],
-          "image": "images/joog-em10.jpg",
-          "description": {
-            "hook": "Seu momento de café pode acompanhar você.",
-            "intro": "A Joog EM10 combina formato portátil e preparo de espresso em uma solução prática para levar ao trabalho, nas viagens ou usar em casa.",
-            "blocks": [
-              {
-                "title": "3 em 1, sem complicação.",
-                "text": "O sistema aceita café moído, cápsulas pequenas e cápsulas grandes, com aquecimento automático e capacidade de 60 ml."
-              },
-              {
-                "title": "Prática no uso e na limpeza.",
-                "text": "Recarga USB-C e corpo desmontável, que facilita a limpeza após o uso."
-              }
-            ]
-          }
-        }
-      ],
-      "coverImage": "images/cover-cafeteira-joog.jpg"
-    },
-    {
-      "category": "Kit Abridor de Vinho Joog",
+      "category": "Café & Vinho",
       "items": [
         {
           "name": "Kit Abridor de Vinho Joog",
@@ -1261,9 +1228,36 @@
             ],
             "idealFor": "Para quem gosta de receber bem ou procura um presente útil e elegante. Os acessórios ficam reunidos em um só lugar, prontos para transformar o ritual de servir vinho em uma experiência mais prática."
           }
+        },
+        {
+          "name": "Cafeteira Portátil Espresso 3 Em 1 Joog EM10 72W",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 499.99,
+              "cash": 379.99,
+              "inst": 37.99
+            }
+          ],
+          "image": "images/joog-em10.jpg",
+          "description": {
+            "hook": "Seu momento de café pode acompanhar você.",
+            "intro": "A Joog EM10 combina formato portátil e preparo de espresso em uma solução prática para levar ao trabalho, nas viagens ou usar em casa.",
+            "blocks": [
+              {
+                "title": "3 em 1, sem complicação.",
+                "text": "O sistema aceita café moído, cápsulas pequenas e cápsulas grandes, com aquecimento automático e capacidade de 60 ml."
+              },
+              {
+                "title": "Prática no uso e na limpeza.",
+                "text": "Recarga USB-C e corpo desmontável, que facilita a limpeza após o uso."
+              }
+            ]
+          }
         }
       ],
-      "coverImage": "images/cover-kit-vinho-joog.jpg"
+      "coverImage": "images/cover-cafe-vinho.jpg"
     },
     {
       "category": "Depilador a Laser",
