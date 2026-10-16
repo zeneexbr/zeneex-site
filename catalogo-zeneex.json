@@ -898,7 +898,13 @@
             ],
             "idealFor": "Criadores de conteúdo, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do áudio sem montar uma estrutura complicada."
           }
-        },
+        }
+      ]
+    },
+    {
+      "category": "Joog MicPro VX1",
+      "group": "Microfones sem Fio",
+      "items": [
         {
           "name": "Joog MicPro VX1",
           "badge": "NOVO",
