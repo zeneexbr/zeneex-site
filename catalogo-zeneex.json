@@ -1186,7 +1186,8 @@
             ]
           }
         }
-      ]
+      ],
+      "coverImage": "images/cover-carregadores-powerbanks.jpg"
     },
     {
       "category": "Joog EM10",
@@ -1218,7 +1219,8 @@
             ]
           }
         }
-      ]
+      ],
+      "coverImage": "images/cover-cafeteira-joog.jpg"
     },
     {
       "category": "Kit Abridor de Vinho Joog",
@@ -1260,7 +1262,8 @@
             "idealFor": "Para quem gosta de receber bem ou procura um presente útil e elegante. Os acessórios ficam reunidos em um só lugar, prontos para transformar o ritual de servir vinho em uma experiência mais prática."
           }
         }
-      ]
+      ],
+      "coverImage": "images/cover-kit-vinho-joog.jpg"
     },
     {
       "category": "Depilador a Laser",
@@ -1321,7 +1324,8 @@
             ]
           }
         }
-      ]
+      ],
+      "coverImage": "images/cover-depilador-laser.jpg"
     },
     {
       "category": "Drones DJI",
@@ -2923,7 +2927,8 @@
             "idealFor": "Para quem busca uma rotina de limpeza prática, com um dispositivo que combina cuidado facial e tecnologia em um só gesto."
           }
         }
-      ]
+      ],
+      "coverImage": "images/cover-medicube.jpg"
     }
   ]
 }
