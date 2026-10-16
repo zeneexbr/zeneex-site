@@ -1152,6 +1152,48 @@
       ]
     },
     {
+      "category": "Joog MagCharger",
+      "items": [
+        {
+          "name": "Joog MagCharger",
+          "badge": "NOVO",
+          "spec": "Carregador 3 em 1 · Qi2",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 799.99,
+              "cash": 719.99,
+              "inst": 69.99
+            }
+          ],
+          "image": "images/joog-magcharger.jpg",
+          "description": {
+            "hook": "Uma estação. Três dispositivos. Mais organização.",
+            "intro": "O Joog MagCharger reúne o carregamento do celular, dos fones e do relógio em uma estação compacta. Com alinhamento magnético e tecnologia Qi2, oferece até 15W para smartphones compatíveis, enquanto mantém seus acessórios ao alcance.",
+            "blocks": [
+              {
+                "title": "Carregamento 3 em 1.",
+                "text": "Celular, fones e relógio carregando em uma única estação, com tecnologia Qi2 e até 15W para o celular."
+              },
+              {
+                "title": "Design articulado.",
+                "text": "Ajuste automático de 180° por toque para posicionar o celular, e suportes que se recolhem quando não estão em uso."
+              },
+              {
+                "title": "Compacto e prático.",
+                "text": "Entrada USB-C e design compacto para a mesa do escritório ou a cabeceira."
+              },
+              {
+                "title": "Compatibilidade e alimentação.",
+                "text": "Requer dispositivos compatíveis com cada área de carga. Para carregamento rápido, utiliza adaptador PD de 30W ou superior, vendido separadamente."
+              }
+            ],
+            "idealFor": "Para quem valoriza uma mesa organizada e gosta de ter seus dispositivos reunidos em um só lugar. Uma escolha funcional para acompanhar a rotina no escritório ou na cabeceira."
+          }
+        }
+      ]
+    },
+    {
       "category": "Joog EM10",
       "items": [
         {
@@ -1179,6 +1221,48 @@
                 "text": "Recarga USB-C e corpo desmontável, que facilita a limpeza após o uso."
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Kit Abridor de Vinho Joog",
+      "items": [
+        {
+          "name": "Kit Abridor de Vinho Joog",
+          "badge": "NOVO",
+          "spec": "Elétrico Automático · Prata",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 649.99,
+              "cash": 579.99,
+              "inst": 54.99
+            }
+          ],
+          "image": "images/joog-kit-vinho.jpg",
+          "description": {
+            "hook": "Um convite para abrir, servir e compartilhar bons momentos.",
+            "intro": "O kit reúne um abridor elétrico recarregável e acessórios para acompanhar o vinho da primeira taça ao armazenamento da garrafa, organizados em uma base de apresentação.",
+            "blocks": [
+              {
+                "title": "Abrir com praticidade.",
+                "text": "Abridor elétrico recarregável e cortador de lacre."
+              },
+              {
+                "title": "Servir melhor.",
+                "text": "Aerador e bico dosador para servir com mais controle."
+              },
+              {
+                "title": "Guardar a garrafa.",
+                "text": "Bomba de vácuo e duas tampas para armazenar o vinho que sobrou."
+              },
+              {
+                "title": "Tudo em um só lugar.",
+                "text": "Base para organizar o conjunto e deixá-lo pronto para uso."
+              }
+            ],
+            "idealFor": "Para quem gosta de receber bem ou procura um presente útil e elegante. Os acessórios ficam reunidos em um só lugar, prontos para transformar o ritual de servir vinho em uma experiência mais prática."
           }
         }
       ]
@@ -1436,42 +1520,15 @@
       "coverImage": "images/cover-robo-aspirador.jpg",
       "items": [
         {
-          "name": "Robô Aspirador Xiaomi Vacuum S40",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "cash": 1399.99,
-              "inst": 134.99,
-              "was": 1679.0
-            }
-          ],
-          "image": "images/vacuum-s40.jpg",
-          "description": {
-            "hook": "Sua casa pode continuar sendo limpa mesmo quando você está fazendo outra coisa.",
-            "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos intervenção.",
-            "blocks": [
-              {
-                "title": "Menos uma tarefa esperando por você.",
-                "text": "Programe a limpeza, escolha áreas e acompanhe a rotina pelo aplicativo Xiaomi Home."
-              },
-              {
-                "title": "O diferencial está na autonomia para fazer sozinho.",
-                "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."
-              }
-            ]
-          }
-        },
-        {
           "name": "Robô Aspirador Joog RA10 Vacuum Cleaner",
           "badge": "NOVO",
           "spec": "Bivolt · aspira e passa pano",
           "variations": [
             {
               "label": "Padrão",
-              "was": 1519.99,
-              "cash": 1199.99,
-              "inst": 114.99
+              "was": 1679.99,
+              "cash": 1519.99,
+              "inst": 147.99
             }
           ],
           "image": "images/joog-ra10.jpg",
@@ -1486,6 +1543,33 @@
               {
                 "title": "Controle do seu jeito.",
                 "text": "Use o celular ou o controle remoto para comandar a limpeza. O modelo é bivolt e oferece aproximadamente 90 minutos de funcionamento por carga, segundo a fabricante."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Robô Aspirador Xiaomi Vacuum S40",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 1679.0,
+              "cash": 1399.99,
+              "inst": 134.99
+            }
+          ],
+          "image": "images/vacuum-s40.jpg",
+          "description": {
+            "hook": "Sua casa pode continuar sendo limpa mesmo quando você está fazendo outra coisa.",
+            "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos intervenção.",
+            "blocks": [
+              {
+                "title": "Menos uma tarefa esperando por você.",
+                "text": "Programe a limpeza, escolha áreas e acompanhe a rotina pelo aplicativo Xiaomi Home."
+              },
+              {
+                "title": "O diferencial está na autonomia para fazer sozinho.",
+                "text": "Sucção potente, navegação a laser LDS e aspiração com lavagem integrada para manter a casa em ordem com menos esforço."
               }
             ]
           }
