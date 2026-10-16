@@ -728,6 +728,39 @@
       "group": "Câmeras de Ação",
       "items": [
         {
+          "name": "Insta360 GO 3",
+          "badge": "NOVO",
+          "spec": "Câmera de Ação com Action Pod",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 2999.99,
+              "cash": 2879.99,
+              "inst": 277.99
+            }
+          ],
+          "image": "images/insta360-go3.jpg",
+          "description": {
+            "hook": "Pequena no tamanho. Livre para acompanhar sua vida.",
+            "intro": "Registre viagens, passeios e momentos do dia pela sua perspectiva. A GO 3 combina uma câmera compacta e removível com o Action Pod de tela articulada, facilitando o enquadramento e a criação de conteúdo.",
+            "blocks": [
+              {
+                "title": "Vídeos em até 2,7K.",
+                "text": "Qualidade para registrar viagens, passeios e o dia a dia."
+              },
+              {
+                "title": "Estabilização FlowState.",
+                "text": "Imagens mais firmes mesmo em movimento."
+              },
+              {
+                "title": "Câmera removível + Action Pod.",
+                "text": "A câmera sai do Action Pod, que tem tela articulada para facilitar o enquadramento."
+              }
+            ],
+            "idealFor": "Para quem deseja registrar mais sem carregar equipamentos grandes, com liberdade para explorar ângulos e transformar momentos simples em conteúdo."
+          }
+        },
+        {
           "name": "Insta360 Go 3S",
           "spec": "4K · 128GB",
           "badge": "NOVO",
