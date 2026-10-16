@@ -1120,39 +1120,7 @@
       ]
     },
     {
-      "category": "Joog Powerbank",
-      "items": [
-        {
-          "name": "Carregador Portátil Joog Powerbank QC Digital 20.000mAh",
-          "badge": "NOVO",
-          "variations": [
-            {
-              "label": "Padrão",
-              "was": 499.99,
-              "cash": 379.99,
-              "inst": 37.99
-            }
-          ],
-          "image": "images/joog-powerbank-20000.jpg",
-          "description": {
-            "hook": "Mais energia para acompanhar sua rotina.",
-            "intro": "O Joog Powerbank QC Digital combina capacidade de 20.000 mAh com carregamento rápido para dispositivos compatíveis, oferecendo uma reserva de energia prática para viagens, trabalho e momentos longe da tomada.",
-            "blocks": [
-              {
-                "title": "Carregue até três dispositivos.",
-                "text": "Duas saídas USB-A e uma USB-C permitem carregar até três dispositivos simultaneamente."
-              },
-              {
-                "title": "Acompanhe e fique protegido.",
-                "text": "Indicador digital de bateria disponível e proteções contra sobrecarga, curto-circuito e superaquecimento."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "category": "Joog MagCharger",
+      "category": "Carregadores e Powerbanks",
       "items": [
         {
           "name": "Joog MagCharger",
@@ -1189,6 +1157,33 @@
               }
             ],
             "idealFor": "Para quem valoriza uma mesa organizada e gosta de ter seus dispositivos reunidos em um só lugar. Uma escolha funcional para acompanhar a rotina no escritório ou na cabeceira."
+          }
+        },
+        {
+          "name": "Carregador Portátil Joog Powerbank QC Digital 20.000mAh",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "was": 499.99,
+              "cash": 379.99,
+              "inst": 37.99
+            }
+          ],
+          "image": "images/joog-powerbank-20000.jpg",
+          "description": {
+            "hook": "Mais energia para acompanhar sua rotina.",
+            "intro": "O Joog Powerbank QC Digital combina capacidade de 20.000 mAh com carregamento rápido para dispositivos compatíveis, oferecendo uma reserva de energia prática para viagens, trabalho e momentos longe da tomada.",
+            "blocks": [
+              {
+                "title": "Carregue até três dispositivos.",
+                "text": "Duas saídas USB-A e uma USB-C permitem carregar até três dispositivos simultaneamente."
+              },
+              {
+                "title": "Acompanhe e fique protegido.",
+                "text": "Indicador digital de bateria disponível e proteções contra sobrecarga, curto-circuito e superaquecimento."
+              }
+            ]
           }
         }
       ]
