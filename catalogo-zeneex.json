@@ -9,7 +9,7 @@
     {
       "category": "Oura Ring",
       "group": "Anéis Inteligentes",
-      "coverImage": "images/cover-aneis-inteligentes-2.jpg",
+      "coverImage": "images/cover-aneis-inteligentes-3.jpg",
       "items": [
         {
           "name": "Oura Ring 5",
@@ -92,6 +92,37 @@
                 "text": "Discreto no dedo, acompanha seus sinais durante o dia e a noite, com autonomia de até 14 dias e sem assinatura mensal obrigatória."
               }
             ]
+          }
+        }
+      ]
+    },
+    {
+      "category": "Havit",
+      "group": "Anéis Inteligentes",
+      "items": [
+        {
+          "name": "Anel Inteligente Havit",
+          "badge": "NOVO",
+          "variations": [
+            {
+              "label": "Padrão",
+              "cash": 629.99,
+              "inst": 59.99,
+              "was": 779.99
+            }
+          ],
+          "image": "images/havit-smart-ring.jpg",
+          "description": {
+            "hook": "Seu corpo tem uma rotina. Comece a conhecê-la melhor.",
+            "intro": "Discreto como um acessório, o anel inteligente Havit acompanha o sono, os movimentos e indicadores de bem-estar. Pelo aplicativo, você consulta seus registros e observa como seus hábitos mudam ao longo dos dias.",
+            "highlights": [
+              "acompanhamento do sono",
+              "frequência cardíaca e oxigenação",
+              "registro de passos e atividades",
+              "conexão com Android e iPhone",
+              "estojo de carregamento"
+            ],
+            "idealFor": "Uma opção para quem deseja começar a acompanhar a própria rotina com um dispositivo discreto, mantendo o pulso livre e as informações ao alcance no celular."
           }
         }
       ]
