@@ -1,7 +1,7 @@
 {
   "_meta": {
     "fonte": "Fonte única compartilhada entre o site (Plataforma) e o Catálogo PDF — ver Nota de Sincronização na skill de Catálogo",
-    "atualizado_em": "2026-08-30",
+    "atualizado_em": "2026-10-18",
     "instrucao": "Ao editar preço/produto, atualizar este arquivo e depois refletir a mesma mudança no CATA_LOGO_ZENEEX.pdf na mesma sessão de trabalho.",
     "whatsapp": "5591984195397"
   },
@@ -240,7 +240,7 @@
     {
       "category": "Ray-Ban Meta",
       "group": "Óculos Inteligentes",
-      "coverImage": "images/cover-oculos-inteligentes.jpg",
+      "coverImage": "images/cover-oculos-inteligentes-2.jpg",
       "items": [
         {
           "name": "Ray-Ban Meta Wayfarer Gen 2",
@@ -551,9 +551,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 419.99,
-              "cash": 299.99,
-              "inst": 29.99
+              "was": 579.99,
+              "cash": 499.99,
+              "inst": 49.99
             }
           ],
           "image": "images/joog-ows-h33.jpg",
@@ -579,9 +579,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 299.99,
-              "inst": 29.99,
-              "was": 319.99
+              "cash": 529.99,
+              "inst": 49.99,
+              "was": 599.99
             }
           ],
           "image": "images/joog-h27-ows.jpg",
@@ -672,9 +672,9 @@
           "badge": "NOVO",
           "variations": [
             {
-              "label": "Padrão",
-              "cash": 5299.99,
-              "inst": 509.99,
+              "label": "Standard Combo",
+              "cash": 5119.99,
+              "inst": 494.99,
               "was": 6999.0
             }
           ],
@@ -705,8 +705,8 @@
           "variations": [
             {
               "label": "Combo",
-              "cash": 4119.99,
-              "inst": 397.99,
+              "cash": 4499.99,
+              "inst": 434.99,
               "was": 4999.99
             }
           ],
@@ -740,8 +740,8 @@
             {
               "label": "Padrão",
               "was": 2999.99,
-              "cash": 2879.99,
-              "inst": 277.99
+              "cash": 2899.99,
+              "inst": 279.99
             }
           ],
           "image": "images/insta360-go3.jpg",
@@ -772,9 +772,9 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 2849.99,
-              "inst": 274.99,
-              "was": 3199.99
+              "cash": 3119.99,
+              "inst": 299.99,
+              "was": 3479.99
             }
           ],
           "image": "images/insta360.jpg",
@@ -807,14 +807,14 @@
             {
               "label": "Standard Combo",
               "was": 2979.99,
-              "cash": 1519.99,
-              "inst": 147.99
+              "cash": 2249.99,
+              "inst": 217.99
             },
             {
               "label": "Adventure Combo",
               "was": 3579.99,
-              "cash": 2679.99,
-              "inst": 257.99
+              "cash": 2879.99,
+              "inst": 277.99
             }
           ],
           "image": "images/dji-osmo-action-4.jpg",
@@ -843,9 +843,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 719.99,
-              "cash": 599.99,
-              "inst": 57.99
+              "was": 1119.99,
+              "cash": 934.99,
+              "inst": 89.99
             }
           ],
           "image": "images/sjcam-c100-plus.jpg",
@@ -878,9 +878,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1279.99,
-              "inst": 124.99,
-              "was": 1499.99
+              "cash": 1399.99,
+              "inst": 134.99,
+              "was": 1679.99
             }
           ],
           "image": "images/dji-mic-mini-2.jpg",
@@ -917,9 +917,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 1119.99,
-              "cash": 979.99,
-              "inst": 94.99
+              "was": 1229.99,
+              "cash": 1174.99,
+              "inst": 114.99
             }
           ],
           "image": "images/joog-micpro-vx1.jpg",
@@ -950,9 +950,9 @@
           "variations": [
             {
               "label": "Combo",
-              "cash": 719.99,
-              "inst": 69.99,
-              "was": 999.99
+              "cash": 999.99,
+              "inst": 97.99,
+              "was": 1199.99
             }
           ],
           "image": "images/hollyland.jpg",
@@ -969,18 +969,19 @@
                 "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a gravação."
               }
             ]
-          }
+          },
+          "spec": "Conector Lightning e USB-C"
         },
         {
           "name": "Microfone Sem Fio Hollyland LARK A1 Combo",
           "badge": "NOVO",
-          "spec": "Preto",
+          "spec": "Preto · Conector Lightning e USB-C",
           "variations": [
             {
               "label": "Combo",
-              "cash": 579.99,
-              "inst": 54.99,
-              "was": 699.99
+              "cash": 799.99,
+              "inst": 77.99,
+              "was": 919.99
             }
           ],
           "image": "images/hollyland-lark-a1.jpg",
@@ -1017,8 +1018,8 @@
           "variations": [
             {
               "label": "64GB",
-              "cash": 1299.99,
-              "inst": 124.99,
+              "cash": 1419.99,
+              "inst": 137.99,
               "was": 1599.0
             }
           ],
@@ -1046,8 +1047,8 @@
             {
               "label": "64GB",
               "was": 1779.99,
-              "cash": 1399.99,
-              "inst": 134.99
+              "cash": 1529.99,
+              "inst": 147.99
             }
           ],
           "image": "images/plaud-notepin.jpg",
@@ -1074,8 +1075,8 @@
             {
               "label": "64GB",
               "was": 1249.99,
-              "cash": 979.99,
-              "inst": 94.99
+              "cash": 1079.99,
+              "inst": 104.99
             }
           ],
           "image": "images/joog-ai-note.jpg",
@@ -1108,8 +1109,8 @@
             {
               "label": "Padrão",
               "was": 1579.99,
-              "cash": 999.99,
-              "inst": 97.99
+              "cash": 1119.99,
+              "inst": 107.99
             }
           ],
           "image": "images/huion-note.jpg",
@@ -1140,9 +1141,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 799.99,
-              "cash": 719.99,
-              "inst": 69.99
+              "was": 979.99,
+              "cash": 849.99,
+              "inst": 84.99
             }
           ],
           "image": "images/joog-magcharger.jpg",
@@ -1176,9 +1177,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 499.99,
-              "cash": 379.99,
-              "inst": 37.99
+              "was": 619.99,
+              "cash": 579.99,
+              "inst": 54.99
             }
           ],
           "image": "images/joog-powerbank-20000.jpg",
@@ -1309,8 +1310,8 @@
             {
               "label": "Padrão",
               "was": 1279.99,
-              "cash": 999.99,
-              "inst": 97.99
+              "cash": 1149.99,
+              "inst": 109.99
             }
           ],
           "image": "images/joog-hr2-ipl.jpg",
@@ -1342,8 +1343,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 5919.99,
-              "inst": 569.99,
+              "cash": 5419.99,
+              "inst": 524.99,
               "was": 7119.99
             }
           ],
@@ -1375,8 +1376,8 @@
           "variations": [
             {
               "label": "Fly More Combo",
-              "cash": 3179.99,
-              "inst": 304.99,
+              "cash": 3319.99,
+              "inst": 319.99,
               "was": 3599.0
             }
           ],
@@ -1407,8 +1408,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 2819.99,
-              "inst": 274.99,
+              "cash": 2899.99,
+              "inst": 279.99,
               "was": 3399.0
             }
           ],
@@ -1445,7 +1446,7 @@
           "variations": [
             {
               "label": "825GB",
-              "cash": 4479.99,
+              "cash": 4519.99,
               "inst": 434.99,
               "was": 4579.0
             }
@@ -1477,8 +1478,8 @@
           "variations": [
             {
               "label": "1TB",
-              "cash": 4979.99,
-              "inst": 479.99,
+              "cash": 4849.99,
+              "inst": 467.99,
               "was": 5319.0
             }
           ],
@@ -1626,8 +1627,8 @@
             {
               "label": "Padrão",
               "was": 1679.99,
-              "cash": 1519.99,
-              "inst": 147.99
+              "cash": 1449.99,
+              "inst": 139.99
             }
           ],
           "image": "images/joog-ra10.jpg",
@@ -1647,14 +1648,14 @@
           }
         },
         {
-          "name": "Robô Aspirador Xiaomi Vacuum S40",
+          "name": "Robô Aspirador Xiaomi Vacuum S40C",
           "badge": "NOVO",
           "variations": [
             {
               "label": "Padrão",
               "was": 1679.0,
-              "cash": 1399.99,
-              "inst": 134.99
+              "cash": 1529.99,
+              "inst": 147.99
             }
           ],
           "image": "images/vacuum-s40.jpg",
@@ -2937,8 +2938,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1199.99,
-              "inst": 114.99
+              "cash": 1349.99,
+              "inst": 129.99,
+              "was": 1579.99
             }
           ],
           "image": "images/medicube-age-r-booster-pro.jpg",
@@ -2973,8 +2975,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 979.99,
-              "inst": 94.99
+              "cash": 1079.99,
+              "inst": 104.99,
+              "was": 1219.99
             }
           ],
           "image": "images/medicube-age-r-booster-pro-mini-plus.jpg",
@@ -3009,8 +3012,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 899.99,
-              "inst": 87.99
+              "cash": 999.99,
+              "inst": 97.99,
+              "was": 1179.99
             }
           ],
           "image": "images/medicube-age-r-booster-v-roller.jpg",
@@ -3041,8 +3045,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 849.99,
-              "inst": 84.99
+              "cash": 919.99,
+              "inst": 89.99,
+              "was": 1149.0
             }
           ],
           "image": "images/medicube-age-r-booster-cleansing.jpg",
