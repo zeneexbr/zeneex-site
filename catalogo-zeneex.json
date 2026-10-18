@@ -1342,7 +1342,26 @@
               "was": 7119.99
             }
           ],
-          "image": "images/drone-mini5pro.jpg"
+          "image": "images/drone-mini5pro.jpg",
+          "description": {
+            "hook": "Tem paisagens que merecem mais do que uma foto do celular.",
+            "intro": "O DJI Mini 5 Pro combina uma câmera com sensor de 1 polegada e recursos inteligentes em um drone compacto, fácil de levar para viagens e produções.",
+            "blocks": [
+              {
+                "title": "Mais detalhes. Mais possibilidades.",
+                "text": "Fotos de até 50 MP e vídeos em 4K permitem registrar paisagens, imóveis e momentos com riqueza de detalhes."
+              },
+              {
+                "title": "Sua criatividade também pode ser vertical.",
+                "text": "A gravação vertical real facilita a produção para Reels e Stories. O gimbal com rotação de 225° amplia as possibilidades de enquadramento."
+              },
+              {
+                "title": "Acompanhe o movimento.",
+                "text": "O ActiveTrack 360° mantém o assunto em destaque, enquanto os sensores de obstáculos auxiliam durante o voo."
+              }
+            ],
+            "idealFor": "Uma escolha para criadores, viajantes e profissionais que procuram qualidade de imagem e liberdade criativa em um equipamento portátil."
+          }
         },
         {
           "name": "Drone DJI Neo 2",
@@ -1356,7 +1375,26 @@
               "was": 3599.0
             }
           ],
-          "image": "images/drone-neo2.jpg"
+          "image": "images/drone-neo2.jpg",
+          "description": {
+            "hook": "Você vive o momento. O drone acompanha.",
+            "intro": "O DJI Neo 2 foi pensado para colocar você dentro da cena. Compacto e leve, acompanha passeios, viagens e atividades com recursos que simplificam a gravação.",
+            "blocks": [
+              {
+                "title": "Comece pela palma da mão.",
+                "text": "A decolagem e o pouso na mão tornam o uso mais prático. O controle por gestos permite comandar funções sem precisar segurar um controle."
+              },
+              {
+                "title": "Movimento com você em destaque.",
+                "text": "O ActiveTrack acompanha seus deslocamentos, enquanto o SelfieShot facilita a criação de enquadramentos automáticos."
+              },
+              {
+                "title": "Pequeno para levar. Versátil para criar.",
+                "text": "Vídeos em 4K, protetores integrais de hélices e detecção de obstáculos em todas as direções completam a proposta."
+              }
+            ],
+            "idealFor": "Para quem deseja registrar a própria experiência com mais liberdade: passeios, atividades ao ar livre e conteúdos com perspectivas que o celular sozinho não oferece."
+          }
         },
         {
           "name": "Drone DJI Flip 4K",
@@ -1369,7 +1407,26 @@
               "was": 3399.0
             }
           ],
-          "image": "images/drone-flip4k.jpg"
+          "image": "images/drone-flip4k.jpg",
+          "description": {
+            "hook": "Seu próximo conteúdo pode começar de um ângulo inesperado.",
+            "intro": "O DJI Flip reúne qualidade de imagem e praticidade em um drone dobrável, pensado para acompanhar viagens, passeios e a rotina de criação.",
+            "blocks": [
+              {
+                "title": "Cenas que valorizam cada detalhe.",
+                "text": "O sensor de 1/1,3 polegada e a gravação em 4K a 60 quadros por segundo com HDR ajudam a registrar imagens detalhadas e movimentos suaves."
+              },
+              {
+                "title": "Você também faz parte da história.",
+                "text": "A decolagem na palma da mão e o acompanhamento inteligente facilitam a criação de vídeos com você em cena."
+              },
+              {
+                "title": "Abriu. Gravou. Guardou.",
+                "text": "Os protetores integrais de hélices dobráveis tornam o conjunto compacto para transportar."
+              }
+            ],
+            "idealFor": "Uma opção para quem quer começar a criar imagens aéreas ou trazer novas perspectivas aos conteúdos, com um equipamento prático para levar na mochila."
+          }
         }
       ]
     },
@@ -1388,7 +1445,26 @@
               "was": 4579.0
             }
           ],
-          "image": "images/ps5-slim-digital.jpg"
+          "image": "images/ps5-slim-digital.jpg",
+          "description": {
+            "hook": "Sua próxima grande aventura começa quando você pega o controle.",
+            "intro": "O PlayStation 5 Slim Digital reúne a experiência PS5 em um console compacto, com SSD de 825 GB e acesso aos jogos digitais da PlayStation Store.",
+            "blocks": [
+              {
+                "title": "Menos espera para entrar na ação.",
+                "text": "O SSD de alta velocidade reduz os tempos de carregamento nos jogos compatíveis."
+              },
+              {
+                "title": "Sinta o que acontece na tela.",
+                "text": "A resposta tátil e os gatilhos adaptáveis do DualSense trazem novas sensações aos títulos compatíveis."
+              },
+              {
+                "title": "Sua biblioteca em formato digital.",
+                "text": "Esta versão não possui leitor de discos: os jogos são adquiridos e baixados digitalmente."
+              }
+            ],
+            "idealFor": "Para quem prefere organizar sua coleção digital e ter entretenimento, grandes aventuras e partidas com os amigos em um só console."
+          }
         },
         {
           "name": "PlayStation 5 1TB com Leitor",
@@ -1401,7 +1477,26 @@
               "was": 5319.0
             }
           ],
-          "image": "images/ps5-leitor.jpg"
+          "image": "images/ps5-leitor.jpg",
+          "description": {
+            "hook": "Grandes histórias merecem ser jogadas de perto.",
+            "intro": "O PlayStation 5 com SSD de 1 TB e leitor de discos combina carregamento rápido, imersão e liberdade para escolher entre jogos físicos e digitais.",
+            "blocks": [
+              {
+                "title": "Sua coleção ganha espaço.",
+                "text": "O leitor permite utilizar discos de jogos compatíveis, além dos títulos adquiridos na PlayStation Store."
+              },
+              {
+                "title": "Cada ação ganha uma nova sensação.",
+                "text": "O DualSense aproxima você do jogo com resposta tátil e gatilhos adaptáveis nos títulos compatíveis."
+              },
+              {
+                "title": "Mais tempo jogando.",
+                "text": "O SSD de alta velocidade agiliza o carregamento e a entrada nas partidas."
+              }
+            ],
+            "idealFor": "Uma escolha para quem valoriza mídia física, gosta de colecionar jogos e quer manter também a praticidade das compras digitais."
+          }
         }
       ]
     },
@@ -1597,7 +1692,12 @@
               "inst": 1134.99
             }
           ],
-          "image": "images/iphone18-lineup.jpg"
+          "image": "images/iphone18-lineup.jpg",
+          "description": {
+            "hook": "Para quem faz tudo pelo iPhone. E gosta de fazer em grande.",
+            "intro": "Tela ampla, autonomia para jornadas intensas e câmeras com mais controle criativo. O 18 Pro Max combina com quem trabalha, grava, edita e aproveita entretenimento no mesmo aparelho.",
+            "idealFor": "Nossa indicação para quem prioriza tela e bateria na geração Pro mais recente."
+          }
         },
         {
           "name": "iPhone 18 Pro",
@@ -1615,7 +1715,12 @@
               "inst": 974.99
             }
           ],
-          "image": "images/iphone18-pro.jpg"
+          "image": "images/iphone18-pro.jpg",
+          "description": {
+            "hook": "A experiência Pro mais recente em um tamanho mais prático.",
+            "intro": "O 18 Pro reúne as novas possibilidades de câmera e desempenho da geração em um formato mais confortável para carregar e usar no dia a dia.",
+            "idealFor": "Para quem quer os recursos avançados da linha Pro e prefere um aparelho menor que o Pro Max."
+          }
         }
       ]
     },
@@ -1673,7 +1778,12 @@
               "inst": 784.99
             }
           ],
-          "image": "images/iphone17-pro-max-seminovo.jpg"
+          "image": "images/iphone17-pro-max-seminovo.jpg",
+          "description": {
+            "hook": "Mais espaço para criar, trabalhar e aproveitar.",
+            "intro": "O 17 Pro Max combina tela generosa, câmeras versáteis e bateria para acompanhar uma rotina exigente. Uma escolha para quem passa boa parte do dia no celular.",
+            "idealFor": "Vale considerar para ter a experiência Pro Max com um investimento abaixo da geração mais recente, conforme a oferta disponível."
+          }
         },
         {
           "name": "iPhone 17 Pro",
@@ -1719,7 +1829,12 @@
               "inst": 659.99
             }
           ],
-          "image": "images/iphone17-pro-seminovo.jpg"
+          "image": "images/iphone17-pro-seminovo.jpg",
+          "description": {
+            "hook": "Para quem gosta de fotografar além do básico.",
+            "intro": "O conjunto de câmeras do 17 Pro amplia suas opções de enquadramento, dos detalhes próximos às cenas distantes. Tudo em um tamanho mais fácil de levar e manusear que o Pro Max.",
+            "idealFor": "Uma combinação interessante de recursos para criação e praticidade no uso diário."
+          }
         },
         {
           "name": "iPhone 17 Air",
@@ -1755,7 +1870,12 @@
               "inst": 519.99
             }
           ],
-          "image": "images/iphone17-air-seminovo.jpg"
+          "image": "images/iphone17-air-seminovo.jpg",
+          "description": {
+            "hook": "Você percebe a diferença assim que pega na mão.",
+            "intro": "O iPhone Air tem no design fino e leve seu grande diferencial. Uma proposta para quem valoriza conforto ao carregar o aparelho e gosta de um visual discreto e elegante.",
+            "idealFor": "Para quem coloca leveza e design entre as prioridades na escolha do próximo iPhone."
+          }
         },
         {
           "name": "iPhone 17",
@@ -1797,7 +1917,12 @@
               "inst": 494.99
             }
           ],
-          "image": "images/iphone17-seminovo.jpg"
+          "image": "images/iphone17-seminovo.jpg",
+          "description": {
+            "hook": "O upgrade que faz sentido para a sua rotina.",
+            "intro": "Fotos, vídeos, trabalho, redes sociais e entretenimento em um iPhone equilibrado para o dia a dia. O 17 é uma opção para renovar o aparelho sem precisar avançar para a linha Pro.",
+            "idealFor": "Para quem procura uma experiência atual e prefere concentrar o investimento no que realmente utiliza."
+          }
         },
         {
           "name": "iPhone 17E",
@@ -2211,7 +2336,12 @@
               "inst": 259.99
             }
           ],
-          "image": "images/iphone14.jpg"
+          "image": "images/iphone14.jpg",
+          "description": {
+            "hook": "Tela grande pode ser sua prioridade.",
+            "intro": "O iPhone 14 Plus oferece mais conforto para assistir, ler, conversar e acompanhar o trabalho, com tela de 6,7 polegadas e boa autonomia.",
+            "idealFor": "Uma alternativa para quem deseja um iPhone de tela ampla e quer investir menos que nas linhas Pro Max mais recentes."
+          }
         },
         {
           "name": "iPhone 14",
