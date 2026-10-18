@@ -9,7 +9,7 @@
     {
       "category": "Oura Ring",
       "group": "Anéis Inteligentes",
-      "coverImage": "images/cover-aneis-inteligentes.jpg",
+      "coverImage": "images/cover-aneis-inteligentes-2.jpg",
       "items": [
         {
           "name": "Oura Ring 5",
@@ -133,7 +133,7 @@
     {
       "category": "Whoop",
       "group": "Saúde & Atividade",
-      "coverImage": "images/cover-saude-atividade.jpg",
+      "coverImage": "images/cover-saude-atividade-2.jpg",
       "items": [
         {
           "name": "Whoop 5.0 Peak Health and Fitness Tracker",
@@ -362,7 +362,7 @@
     },
     {
       "category": "Fones de Ouvido",
-      "coverImage": "images/cover-fones-de-ouvido.jpg",
+      "coverImage": "images/cover-fones-de-ouvido-2.jpg",
       "items": [
         {
           "name": "Ozlo Sleepbuds 2",
@@ -665,7 +665,7 @@
     {
       "category": "DJI Osmo Pocket",
       "group": "Câmeras de Ação",
-      "coverImage": "images/cover-cameras-acao.jpg",
+      "coverImage": "images/cover-cameras-acao-2.jpg",
       "items": [
         {
           "name": "DJI Osmo Pocket 4P",
@@ -869,7 +869,7 @@
     {
       "category": "DJI Mic Mini 2",
       "group": "Microfones sem Fio",
-      "coverImage": "images/cover-microfones.jpg",
+      "coverImage": "images/cover-microfones-2.jpg",
       "items": [
         {
           "name": "DJI Mic Mini 2",
@@ -1009,7 +1009,7 @@
     },
     {
       "category": "Gravadores de Voz com IA",
-      "coverImage": "images/cover-gravadores-voz-ia.jpg",
+      "coverImage": "images/cover-gravadores-voz-ia-2.jpg",
       "items": [
         {
           "name": "Plaud Note 64GB",
@@ -1099,7 +1099,7 @@
     },
     {
       "category": "Huion Note",
-      "coverImage": "images/cover-huion-note.jpg",
+      "coverImage": "images/cover-huion-note-2.jpg",
       "items": [
         {
           "name": "Huion Note",
@@ -1335,7 +1335,7 @@
     },
     {
       "category": "Drones DJI",
-      "coverImage": "images/cover-drones.jpg",
+      "coverImage": "images/cover-drones-2.jpg",
       "items": [
         {
           "name": "Drone DJI Mini 5 Pro",
@@ -1438,7 +1438,7 @@
     },
     {
       "category": "Games e Consoles",
-      "coverImage": "images/cover-consoles.jpg",
+      "coverImage": "images/cover-consoles-2.jpg",
       "items": [
         {
           "name": "PlayStation 5 Slim 825GB Digital",
@@ -1508,7 +1508,7 @@
     },
     {
       "category": "Scooter Elétrica",
-      "coverImage": "images/cover-scooters.jpg",
+      "coverImage": "images/cover-scooters-2.jpg",
       "items": [
         {
           "name": "Scooter Elétrica Urban Pro 1000",
@@ -1617,7 +1617,7 @@
     },
     {
       "category": "Robô Aspirador",
-      "coverImage": "images/cover-robo-aspirador.jpg",
+      "coverImage": "images/cover-robo-aspirador-2.jpg",
       "items": [
         {
           "name": "Robô Aspirador Joog RA10 Vacuum Cleaner",
