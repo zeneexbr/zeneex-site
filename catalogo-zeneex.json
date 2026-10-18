@@ -133,7 +133,7 @@
     {
       "category": "Whoop",
       "group": "Saúde & Atividade",
-      "coverImage": "images/cover-saude-atividade-2.jpg",
+      "coverImage": "images/cover-saude-atividade-3.jpg",
       "items": [
         {
           "name": "Whoop 5.0 Peak Health and Fitness Tracker",
@@ -665,7 +665,7 @@
     {
       "category": "DJI Osmo Pocket",
       "group": "Câmeras de Ação",
-      "coverImage": "images/cover-cameras-acao-2.jpg",
+      "coverImage": "images/cover-cameras-acao-3.jpg",
       "items": [
         {
           "name": "DJI Osmo Pocket 4P",
@@ -1680,7 +1680,7 @@
       "category": "iPhone 18",
       "group": "iPhones",
       "supergroup": "Apple Store",
-      "supergroupCoverImage": "images/cover-apple-store.jpg",
+      "supergroupCoverImage": "images/cover-apple-store-2.jpg",
       "items": [
         {
           "name": "iPhone 18 Pro Max",
@@ -3068,7 +3068,7 @@
           }
         }
       ],
-      "coverImage": "images/cover-medicube.jpg"
+      "coverImage": "images/cover-medicube-2.jpg"
     }
   ]
 }
