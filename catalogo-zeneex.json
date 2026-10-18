@@ -142,8 +142,8 @@
           "variations": [
             {
               "label": "Obsidian",
-              "cash": 2119.99,
-              "inst": 204.99,
+              "cash": 2199.99,
+              "inst": 214.99,
               "was": 2679.99
             }
           ],
@@ -175,8 +175,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1699.99,
-              "inst": 164.99,
+              "cash": 1819.99,
+              "inst": 174.99,
               "was": 2399.0
             }
           ],
@@ -214,8 +214,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1279.99,
-              "inst": 124.99,
+              "cash": 1399.99,
+              "inst": 134.99,
               "was": 1679.0
             }
           ],
@@ -249,8 +249,8 @@
           "variations": [
             {
               "label": "Fotocromático",
-              "cash": 3399.99,
-              "inst": 327.99,
+              "cash": 3599.99,
+              "inst": 347.99,
               "was": 3799.99
             }
           ],
@@ -323,13 +323,18 @@
         {
           "name": "Blulory Smart AI Glasses M01 Pro",
           "badge": "NOVO",
-          "spec": "Speaker + Microfone",
           "variations": [
             {
-              "label": "Padrão",
-              "cash": 349.99,
-              "inst": 34.99,
-              "was": 649.0
+              "label": "Speaker + Microfone",
+              "was": 649.0,
+              "cash": 449.99,
+              "inst": 44.99
+            },
+            {
+              "label": "Câmera + Vídeo",
+              "was": 749.99,
+              "cash": 699.99,
+              "inst": 67.99
             }
           ],
           "image": "images/blulory-glasses.jpg",
@@ -367,8 +372,8 @@
             {
               "label": "Padrão",
               "was": 3279.99,
-              "cash": 2449.99,
-              "inst": 234.99
+              "cash": 2399.99,
+              "inst": 229.99
             }
           ],
           "image": "images/ozlo-sleepbuds-2.jpg",
@@ -421,15 +426,15 @@
           }
         },
         {
-          "name": "Shokz OpenRun Pro",
+          "name": "Shokz OpenRun Pro 2",
           "badge": "NOVO",
           "spec": "Fone Bluetooth de condução óssea · cores preta e laranja",
           "variations": [
             {
               "label": "Padrão",
               "was": 1749.99,
-              "cash": 1449.99,
-              "inst": 139.99
+              "cash": 1419.99,
+              "inst": 137.99
             }
           ],
           "image": "images/shokz-openrun-pro.jpg",
@@ -454,8 +459,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 1119.99,
-              "inst": 107.99,
+              "cash": 1199.99,
+              "inst": 114.99,
               "was": 1299.99
             }
           ],
@@ -486,8 +491,8 @@
           "variations": [
             {
               "label": "Padrão",
-              "cash": 979.99,
-              "inst": 94.99,
+              "cash": 1149.99,
+              "inst": 109.99,
               "was": 1219.99
             }
           ],
@@ -518,9 +523,9 @@
           "variations": [
             {
               "label": "Padrão",
-              "was": 879.99,
-              "cash": 679.99,
-              "inst": 64.99
+              "was": 979.99,
+              "cash": 899.99,
+              "inst": 87.99
             }
           ],
           "image": "images/huawei-freearc.jpg",
