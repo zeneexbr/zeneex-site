@@ -2210,8 +2210,8 @@
             },
             {
               "label": "512GB",
-              "cash": 4849.0,
-              "inst": 467.99
+              "cash": 4699.99,
+              "inst": 454.99
             },
             {
               "label": "1TB",
@@ -2240,8 +2240,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3819.0,
-              "inst": 367.99
+              "cash": 3749.99,
+              "inst": 359.99
             },
             {
               "label": "256GB",
@@ -2270,7 +2270,7 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3119.0,
+              "cash": 3119.99,
               "inst": 299.99
             },
             {
@@ -2335,8 +2335,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3249.0,
-              "inst": 314.99
+              "cash": 3199.99,
+              "inst": 307.99
             },
             {
               "label": "256GB",
@@ -2345,8 +2345,8 @@
             },
             {
               "label": "512GB",
-              "cash": 4679.0,
-              "inst": 449.99
+              "cash": 3599.99,
+              "inst": 347.99
             }
           ],
           "image": "images/iphone14-pro.jpg",
@@ -2386,7 +2386,7 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 2499.0,
+              "cash": 2499.99,
               "inst": 239.99
             },
             {
@@ -2422,13 +2422,13 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3319.0,
-              "inst": 319.99
+              "cash": 3149.99,
+              "inst": 304.99
             },
             {
               "label": "256GB",
-              "cash": 3449,
-              "inst": 334.99
+              "cash": 3399.99,
+              "inst": 327.99
             }
           ],
           "image": "images/iphone13-pro-max.jpg",
@@ -2451,8 +2451,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 3199,
-              "inst": 307.99
+              "cash": 2879.99,
+              "inst": 277.99
             },
             {
               "label": "256GB",
@@ -2480,8 +2480,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 2379.0,
-              "inst": 229.99
+              "cash": 2299.99,
+              "inst": 224.99
             },
             {
               "label": "256GB",
