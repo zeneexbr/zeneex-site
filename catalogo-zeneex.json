@@ -1,7 +1,7 @@
 {
   "_meta": {
     "fonte": "Fonte única compartilhada entre o site (Plataforma) e o Catálogo PDF — ver Nota de Sincronização na skill de Catálogo",
-    "atualizado_em": "2026-10-18",
+    "atualizado_em": "2026-10-19",
     "instrucao": "Ao editar preço/produto, atualizar este arquivo e depois refletir a mesma mudança no CATA_LOGO_ZENEEX.pdf na mesma sessão de trabalho.",
     "whatsapp": "5591984195397"
   },
@@ -1720,8 +1720,8 @@
             {
               "label": "256GB",
               "was": 11299.0,
-              "cash": 10399.99,
-              "inst": 999.99
+              "cash": 9999.99,
+              "inst": 964.99
             },
             {
               "label": "512GB",
@@ -1772,13 +1772,13 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7699.99,
-              "inst": 739.99
+              "cash": 7619.99,
+              "inst": 734.99
             },
             {
               "label": "512GB",
-              "cash": 9649.99,
-              "inst": 929.99
+              "cash": 9119.99,
+              "inst": 877.99
             },
             {
               "label": "1TB",
@@ -1828,13 +1828,13 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 7399.0,
-              "inst": 714.99
+              "cash": 7119.99,
+              "inst": 684.99
             },
             {
               "label": "512GB",
-              "cash": 8579.0,
-              "inst": 824.99
+              "cash": 8599.99,
+              "inst": 827.99
             },
             {
               "label": "1TB",
@@ -1920,8 +1920,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 5699.0,
-              "inst": 549.99
+              "cash": 5799.99,
+              "inst": 559.99
             },
             {
               "label": "512GB",
@@ -1967,8 +1967,8 @@
           "variations": [
             {
               "label": "256GB",
-              "cash": 4479.0,
-              "inst": 429.99
+              "cash": 4499.99,
+              "inst": 434.99
             },
             {
               "label": "512GB",
@@ -2092,8 +2092,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 4899.0,
-              "inst": 474.99
+              "cash": 4799.99,
+              "inst": 464.99
             }
           ],
           "image": "images/iphone16.jpg",
@@ -2181,8 +2181,8 @@
           "variations": [
             {
               "label": "128GB",
-              "cash": 4349.0,
-              "inst": 419.99
+              "cash": 4299.99,
+              "inst": 414.99
             }
           ],
           "image": "images/iphone15.jpg",
