@@ -1,7 +1,7 @@
 {
   "_meta": {
     "fonte": "Fonte única compartilhada entre o site (Plataforma) e o Catálogo PDF — ver Nota de Sincronização na skill de Catálogo",
-    "atualizado_em": "2026-10-19",
+    "atualizado_em": "2026-10-21",
     "instrucao": "Ao editar preço/produto, atualizar este arquivo e depois refletir a mesma mudança no CATA_LOGO_ZENEEX.pdf na mesma sessão de trabalho.",
     "whatsapp": "5591984195397"
   },
@@ -1720,13 +1720,13 @@
             {
               "label": "256GB",
               "was": 11299.0,
-              "cash": 9999.99,
-              "inst": 964.99
+              "cash": 9919.99,
+              "inst": 954.99
             },
             {
               "label": "512GB",
-              "cash": 11799.99,
-              "inst": 1134.99
+              "cash": 11519.99,
+              "inst": 1109.99
             }
           ],
           "image": "images/iphone18-lineup.jpg",
