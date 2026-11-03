@@ -2499,13 +2499,13 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 3149.99,
-       "inst": 304.99
+       "cash": 3029.99,
+       "inst": 294.99
       },
       {
        "label": "256GB",
-       "cash": 3399.99,
-       "inst": 327.99
+       "cash": 3329.99,
+       "inst": 319.99
       }
      ],
      "image": "images/iphone13-pro-max.jpg",
@@ -2528,13 +2528,13 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 2879.99,
-       "inst": 277.99
+       "cash": 2649.99,
+       "inst": 254.99
       },
       {
        "label": "256GB",
-       "cash": 3399.0,
-       "inst": 327.99
+       "cash": 2999.99,
+       "inst": 289.99
       }
      ],
      "image": "images/iphone13-pro.jpg",
@@ -2557,13 +2557,13 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 2299.99,
-       "inst": 224.99
+       "cash": 2149.99,
+       "inst": 207.99
       },
       {
        "label": "256GB",
-       "cash": 2599.0,
-       "inst": 249.99
+       "cash": 2479.99,
+       "inst": 239.99
       }
      ],
      "image": "images/iphone13.jpg",
