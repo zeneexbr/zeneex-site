@@ -937,9 +937,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1399.99,
-       "inst": 134.99,
-       "was": 1679.99
+       "cash": 1299.99,
+       "inst": 124.99,
+       "was": 1679.99,
+       "bw": true
       }
      ],
      "image": "images/dji-mic-mini-2.jpg",
@@ -995,7 +996,8 @@
         "text": "O conjunto inclui estojo de carregamento, e o aplicativo permite monitorar o \u00e1udio e ajustar o volume."
        }
       ]
-     }
+     },
+     "esgotado": true
     }
    ]
   },
@@ -1009,9 +1011,10 @@
      "variations": [
       {
        "label": "Combo",
-       "cash": 999.99,
-       "inst": 97.99,
-       "was": 1199.99
+       "cash": 849.99,
+       "inst": 84.99,
+       "was": 1199.99,
+       "bw": true
       }
      ],
      "image": "images/hollyland-lark-m2.jpg",
@@ -1038,9 +1041,10 @@
      "variations": [
       {
        "label": "Combo",
-       "cash": 799.99,
-       "inst": 77.99,
-       "was": 919.99
+       "cash": 649.99,
+       "inst": 64.99,
+       "was": 919.99,
+       "bw": true
       }
      ],
      "image": "images/hollyland-lark-a1.jpg",
@@ -1077,9 +1081,10 @@
      "variations": [
       {
        "label": "64GB",
-       "cash": 1419.99,
-       "inst": 137.99,
-       "was": 1599.0
+       "cash": 1299.99,
+       "inst": 124.99,
+       "was": 1599.0,
+       "bw": true
       }
      ],
      "image": "images/plaud-note.jpg",
@@ -1106,8 +1111,9 @@
       {
        "label": "64GB",
        "was": 1779.99,
-       "cash": 1529.99,
-       "inst": 147.99
+       "cash": 1399.99,
+       "inst": 134.99,
+       "bw": true
       }
      ],
      "image": "images/plaud-notepin.jpg",
@@ -1134,8 +1140,9 @@
       {
        "label": "64GB",
        "was": 1249.99,
-       "cash": 1079.99,
-       "inst": 104.99
+       "cash": 889.99,
+       "inst": 84.99,
+       "bw": true
       }
      ],
      "image": "images/joog-ai-note.jpg",
@@ -1168,8 +1175,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1579.99,
-       "cash": 1119.99,
-       "inst": 107.99
+       "cash": 889.99,
+       "inst": 84.99,
+       "bw": true
       }
      ],
      "image": "images/huion-note.jpg",
@@ -1201,8 +1209,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 979.99,
-       "cash": 849.99,
-       "inst": 84.99
+       "cash": 679.99,
+       "inst": 64.99,
+       "bw": true
       }
      ],
      "image": "images/joog-magcharger.jpg",
@@ -1237,8 +1246,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 619.99,
-       "cash": 579.99,
-       "inst": 54.99
+       "cash": 339.99,
+       "inst": 34.99,
+       "bw": true
       }
      ],
      "image": "images/joog-powerbank-20000.jpg",
@@ -1271,8 +1281,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 649.99,
-       "cash": 579.99,
-       "inst": 54.99
+       "cash": 404.99,
+       "inst": 39.99,
+       "bw": true
       }
      ],
      "image": "images/joog-kit-vinho.jpg",
@@ -1307,8 +1318,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 949.99,
-       "cash": 819.99,
-       "inst": 79.99
+       "cash": 659.99,
+       "inst": 64.99,
+       "bw": true
       }
      ],
      "image": "images/joog-em10.jpg",
@@ -1341,8 +1353,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1449.99,
-       "cash": 1219.99,
-       "inst": 117.99
+       "cash": 1069.99,
+       "inst": 104.99,
+       "bw": true
       }
      ],
      "image": "images/joog-hr3-ipl.jpg",
@@ -1369,8 +1382,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1279.99,
-       "cash": 1149.99,
-       "inst": 109.99
+       "cash": 969.99,
+       "inst": 94.99,
+       "bw": true
       }
      ],
      "image": "images/joog-hr2-ipl.jpg",
@@ -1402,9 +1416,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 5419.99,
-       "inst": 524.99,
-       "was": 7119.99
+       "cash": 5999.99,
+       "inst": 577.99,
+       "was": 7119.99,
+       "bw": true
       }
      ],
      "image": "images/drone-mini5pro.jpg",
@@ -1435,9 +1450,10 @@
      "variations": [
       {
        "label": "Fly More Combo",
-       "cash": 3319.99,
-       "inst": 319.99,
-       "was": 3599.0
+       "cash": 3114.99,
+       "inst": 299.99,
+       "was": 3599.0,
+       "bw": true
       }
      ],
      "image": "images/drone-neo2.jpg",
@@ -1467,9 +1483,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 2899.99,
-       "inst": 279.99,
-       "was": 3399.0
+       "cash": 2759.99,
+       "inst": 264.99,
+       "was": 3399.0,
+       "bw": true
       }
      ],
      "image": "images/drone-flip4k.jpg",
@@ -1505,7 +1522,7 @@
      "variations": [
       {
        "label": "825GB",
-       "cash": 4519.99,
+       "cash": 4499.99,
        "inst": 434.99,
        "was": 4579.0
       }
@@ -1537,9 +1554,10 @@
      "variations": [
       {
        "label": "1TB",
-       "cash": 4849.99,
-       "inst": 467.99,
-       "was": 5319.0
+       "cash": 4699.0,
+       "inst": 454.99,
+       "was": 5319.0,
+       "bw": true
       }
      ],
      "image": "images/ps5-leitor.jpg",
@@ -1577,8 +1595,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 8299.99,
-       "cash": 7599.99,
-       "inst": 734.99
+       "cash": 7199.99,
+       "inst": 694.99,
+       "bw": true
       }
      ],
      "image": "images/scooter-verde-oliva.jpg",
@@ -1603,8 +1622,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 7599.99,
-       "cash": 6899.99,
-       "inst": 664.99
+       "cash": 6499.99,
+       "inst": 624.99,
+       "bw": true
       }
      ],
      "image": "images/scooter-verde.jpg",
@@ -1629,8 +1649,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 7299.99,
-       "cash": 6599.99,
-       "inst": 634.99
+       "cash": 6199.99,
+       "inst": 597.99,
+       "bw": true
       }
      ],
      "image": "images/scooter-preta.jpg",
@@ -1686,8 +1707,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1679.99,
-       "cash": 1449.99,
-       "inst": 139.99
+       "cash": 1139.99,
+       "inst": 109.99,
+       "bw": true
       }
      ],
      "image": "images/joog-ra10.jpg",
@@ -1713,8 +1735,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1679.0,
-       "cash": 1529.99,
-       "inst": 147.99
+       "cash": 1249.99,
+       "inst": 119.99,
+       "bw": true
       }
      ],
      "image": "images/vacuum-s40.jpg",
@@ -1748,13 +1771,19 @@
       {
        "label": "256GB",
        "was": 11299.0,
-       "cash": 9919.99,
-       "inst": 954.99
+       "cash": 9299.99,
+       "inst": 894.99,
+       "bw": true
       },
       {
        "label": "512GB",
-       "cash": 11519.99,
-       "inst": 1109.99
+       "cash": 11499.99,
+       "inst": 1107.99
+      },
+      {
+       "label": "1TB",
+       "cash": 14999.99,
+       "inst": 1444.99
       }
      ],
      "image": "images/iphone18-lineup.jpg",
@@ -1771,13 +1800,14 @@
       {
        "label": "256GB",
        "was": 10299.0,
-       "cash": 8599.99,
-       "inst": 827.99
+       "cash": 8499.99,
+       "inst": 817.99,
+       "bw": true
       },
       {
        "label": "512GB",
-       "cash": 10119.99,
-       "inst": 974.99
+       "cash": 9899.99,
+       "inst": 954.99
       }
      ],
      "image": "images/iphone18-pro.jpg",
