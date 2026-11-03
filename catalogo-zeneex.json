@@ -1830,18 +1830,18 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 7619.99,
-       "inst": 734.99
+       "cash": 7499.99,
+       "inst": 724.99
       },
       {
        "label": "512GB",
-       "cash": 9119.99,
-       "inst": 877.99
+       "cash": 8999.99,
+       "inst": 864.99
       },
       {
        "label": "1TB",
-       "cash": 10999.99,
-       "inst": 1059.99
+       "cash": 10649.99,
+       "inst": 1024.99
       }
      ],
      "image": "images/iphone17-pro-max.jpg",
@@ -1864,13 +1864,13 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 7299.0,
-       "inst": 704.99
+       "cash": 7049.99,
+       "inst": 679.99
       },
       {
        "label": "512GB",
-       "cash": 8249.99,
-       "inst": 794.99
+       "cash": 8119.99,
+       "inst": 784.99
       }
      ],
      "image": "images/iphone17-pro-max-seminovo.jpg",
@@ -1886,18 +1886,18 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 7119.99,
-       "inst": 684.99
+       "cash": 6979.99,
+       "inst": 674.99
       },
       {
        "label": "512GB",
-       "cash": 8599.99,
-       "inst": 827.99
+       "cash": 8299.99,
+       "inst": 799.99
       },
       {
        "label": "1TB",
-       "cash": 9999.0,
-       "inst": 964.99
+       "cash": 9699.99,
+       "inst": 934.99
       }
      ],
      "image": "images/iphone17-pro.jpg",
@@ -1920,8 +1920,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 6779.99,
-       "inst": 654.99
+       "cash": 6599.99,
+       "inst": 634.99
       }
      ],
      "image": "images/iphone17-pro-seminovo.jpg",
@@ -1937,8 +1937,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 6179.0,
-       "inst": 594.99
+       "cash": 5899.99,
+       "inst": 567.99
       }
      ],
      "image": "images/iphone17-air.jpg",
@@ -1978,8 +1978,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 5799.99,
-       "inst": 559.99
+       "cash": 5719.99,
+       "inst": 549.99
       },
       {
        "label": "512GB",
@@ -2008,8 +2008,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 5149.0,
-       "inst": 494.99
+       "cash": 4999.99,
+       "inst": 484.99
       }
      ],
      "image": "images/iphone17-seminovo.jpg",
@@ -2025,8 +2025,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 4499.99,
-       "inst": 434.99
+       "cash": 4199.99,
+       "inst": 404.99
       },
       {
        "label": "512GB",
