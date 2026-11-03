@@ -1,7 +1,7 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-10-21",
+  "atualizado_em": "2026-11-03",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397"
  },
@@ -18,8 +18,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 3999.99,
-       "cash": 3379.99,
-       "inst": 324.99
+       "cash": 3289.99,
+       "inst": 317.99,
+       "bw": true
       }
      ],
      "image": "images/oura-ring-5.jpg",
@@ -45,8 +46,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 3379.99,
-       "cash": 2999.99,
-       "inst": 289.99
+       "cash": 2879.99,
+       "inst": 277.99,
+       "bw": true
       }
      ],
      "image": "images/oura-ring-4.jpg",
@@ -77,9 +79,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 2579.99,
-       "inst": 249.99,
-       "was": 2879.0
+       "cash": 2499.99,
+       "inst": 239.99,
+       "was": 2879.0,
+       "bw": true
       }
      ],
      "image": "images/ringconn-gen3.jpg",
@@ -106,9 +109,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 629.99,
-       "inst": 59.99,
-       "was": 779.99
+       "cash": 579.99,
+       "inst": 54.99,
+       "was": 779.99,
+       "bw": true
       }
      ],
      "image": "images/havit-smart-ring.jpg",
@@ -138,8 +142,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 2419.99,
-       "cash": 2299.99,
-       "inst": 224.99
+       "cash": 2119.99,
+       "inst": 204.99,
+       "bw": true
       }
      ],
      "image": "images/garmin-forerunner-170.jpg",
@@ -173,9 +178,10 @@
      "variations": [
       {
        "label": "Obsidian",
-       "cash": 2199.99,
-       "inst": 214.99,
-       "was": 2679.99
+       "cash": 1989.99,
+       "inst": 194.99,
+       "was": 2679.99,
+       "bw": true
       }
      ],
      "image": "images/whoop.jpg",
@@ -206,9 +212,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1819.99,
-       "inst": 174.99,
-       "was": 2399.0
+       "cash": 1689.99,
+       "inst": 164.99,
+       "was": 2399.0,
+       "bw": true
       }
      ],
      "image": "images/garmin-cirqa.jpg",
@@ -245,9 +252,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1399.99,
-       "inst": 134.99,
-       "was": 1679.0
+       "cash": 1259.99,
+       "inst": 124.99,
+       "was": 1679.0,
+       "bw": true
       }
      ],
      "image": "images/fitbit-air.jpg",
@@ -280,9 +288,10 @@
      "variations": [
       {
        "label": "Fotocrom\u00e1tico",
-       "cash": 3599.99,
-       "inst": 347.99,
-       "was": 3799.99
+       "cash": 3369.99,
+       "inst": 324.99,
+       "was": 3799.99,
+       "bw": true
       }
      ],
      "image": "images/rayban-meta.jpg",
@@ -314,14 +323,16 @@
       {
        "label": "Classic",
        "was": 3119.99,
-       "cash": 2799.99,
-       "inst": 269.99
+       "cash": 2399.99,
+       "inst": 229.99,
+       "bw": true
       },
       {
        "label": "Adventurer",
        "was": 3849.99,
-       "cash": 3399.99,
-       "inst": 327.99
+       "cash": 2559.99,
+       "inst": 247.99,
+       "bw": true
       }
      ],
      "image": "images/oculos-meta-ia.jpg",
@@ -358,14 +369,16 @@
       {
        "label": "Speaker + Microfone",
        "was": 649.0,
-       "cash": 449.99,
-       "inst": 44.99
+       "cash": 349.99,
+       "inst": 34.99,
+       "bw": true
       },
       {
        "label": "C\u00e2mera + V\u00eddeo",
        "was": 749.99,
-       "cash": 699.99,
-       "inst": 67.99
+       "cash": 589.99,
+       "inst": 57.99,
+       "bw": true
       }
      ],
      "image": "images/blulory-glasses.jpg",
@@ -404,7 +417,8 @@
        "label": "Padr\u00e3o",
        "was": 3279.99,
        "cash": 2399.99,
-       "inst": 229.99
+       "inst": 229.99,
+       "bw": true
       }
      ],
      "image": "images/ozlo-sleepbuds-2.jpg",
@@ -430,9 +444,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1599.99,
-       "inst": 154.99,
-       "was": 1799.99
+       "cash": 1379.99,
+       "inst": 134.99,
+       "was": 1799.99,
+       "bw": true
       }
      ],
      "image": "images/shokz-openfit-2.jpg",
@@ -464,8 +479,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1749.99,
-       "cash": 1419.99,
-       "inst": 137.99
+       "cash": 1399.99,
+       "inst": 134.99,
+       "bw": true
       }
      ],
      "image": "images/shokz-openrun-pro.jpg",
@@ -490,9 +506,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1199.99,
-       "inst": 114.99,
-       "was": 1299.99
+       "cash": 1099.99,
+       "inst": 104.99,
+       "was": 1299.99,
+       "bw": true
       }
      ],
      "image": "images/huawei-freeclip-2.jpg",
@@ -522,9 +539,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1149.99,
-       "inst": 109.99,
-       "was": 1219.99
+       "cash": 879.99,
+       "inst": 84.99,
+       "was": 1219.99,
+       "bw": true
       }
      ],
      "image": "images/huawei-freebuds6.jpg",
@@ -555,8 +573,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 979.99,
-       "cash": 899.99,
-       "inst": 87.99
+       "cash": 749.99,
+       "inst": 74.99,
+       "bw": true
       }
      ],
      "image": "images/huawei-freearc.jpg",
@@ -583,8 +602,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 579.99,
-       "cash": 499.99,
-       "inst": 49.99
+       "cash": 339.99,
+       "inst": 34.99,
+       "bw": true
       }
      ],
      "image": "images/joog-ows-h33.jpg",
@@ -610,9 +630,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 529.99,
-       "inst": 49.99,
-       "was": 599.99
+       "cash": 414.99,
+       "inst": 39.99,
+       "was": 599.99,
+       "bw": true
       }
      ],
      "image": "images/joog-h27-ows.jpg",
@@ -643,8 +664,8 @@
       {
        "label": "Padr\u00e3o",
        "was": 299.99,
-       "cash": 249.99,
-       "inst": 24.99
+       "cash": 299.99,
+       "inst": 29.99
       }
      ],
      "image": "images/joog-u9-jg.jpg",
@@ -671,8 +692,8 @@
       {
        "label": "Padr\u00e3o",
        "was": 219.99,
-       "cash": 179.99,
-       "inst": 17.99
+       "cash": 199.99,
+       "inst": 19.99
       }
      ],
      "image": "images/joog-air1-pro.jpg",
@@ -704,9 +725,10 @@
      "variations": [
       {
        "label": "Standard Combo",
-       "cash": 5119.99,
-       "inst": 494.99,
-       "was": 6999.0
+       "cash": 4799.99,
+       "inst": 464.99,
+       "was": 6999.0,
+       "bw": true
       }
      ],
      "image": "images/dji-osmo-pocket-4p.jpg",
@@ -736,9 +758,10 @@
      "variations": [
       {
        "label": "Combo",
-       "cash": 4499.99,
-       "inst": 434.99,
-       "was": 4999.99
+       "cash": 4229.99,
+       "inst": 407.99,
+       "was": 4999.99,
+       "bw": true
       }
      ],
      "image": "images/osmo-pocket.jpg",
@@ -771,8 +794,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 2999.99,
-       "cash": 2899.99,
-       "inst": 279.99
+       "cash": 2719.99,
+       "inst": 264.99,
+       "bw": true
       }
      ],
      "image": "images/insta360-go3.jpg",
@@ -803,9 +827,10 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 3119.99,
-       "inst": 299.99,
-       "was": 3479.99
+       "cash": 2879.99,
+       "inst": 277.99,
+       "was": 3479.99,
+       "bw": true
       }
      ],
      "image": "images/insta360.jpg",
@@ -838,14 +863,16 @@
       {
        "label": "Standard Combo",
        "was": 2979.99,
-       "cash": 2249.99,
-       "inst": 217.99
+       "cash": 2119.99,
+       "inst": 204.99,
+       "bw": true
       },
       {
        "label": "Adventure Combo",
        "was": 3579.99,
-       "cash": 2879.99,
-       "inst": 277.99
+       "cash": 2659.99,
+       "inst": 254.99,
+       "bw": true
       }
      ],
      "image": "images/dji-osmo-action-4.jpg",
@@ -875,8 +902,9 @@
       {
        "label": "Padr\u00e3o",
        "was": 1119.99,
-       "cash": 934.99,
-       "inst": 89.99
+       "cash": 769.99,
+       "inst": 74.99,
+       "bw": true
       }
      ],
      "image": "images/sjcam-c100-plus.jpg",
