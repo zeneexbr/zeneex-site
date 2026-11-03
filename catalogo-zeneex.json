@@ -2846,9 +2846,10 @@
      "variations": [
       {
        "label": "49mm",
-       "cash": 4949.99,
-       "inst": 477.99,
-       "was": 5179.0
+       "cash": 4749.99,
+       "inst": 457.99,
+       "was": 5179.0,
+       "bw": true
       }
      ],
      "image": "images/watch-ultra.jpg",
@@ -2878,15 +2879,17 @@
      "variations": [
       {
        "label": "42mm",
-       "cash": 2399.99,
+       "cash": 2379.99,
        "inst": 229.99,
-       "was": 2699.0
+       "was": 2699.0,
+       "bw": true
       },
       {
        "label": "46mm",
-       "cash": 2649.99,
-       "inst": 254.99,
-       "was": 2899.0
+       "cash": 2579.99,
+       "inst": 249.99,
+       "was": 2899.0,
+       "bw": true
       }
      ],
      "image": "images/watch-regular.jpg",
@@ -2915,15 +2918,17 @@
      "variations": [
       {
        "label": "40mm",
-       "cash": 1949.99,
-       "inst": 187.99,
-       "was": 2249.0
+       "cash": 1729.99,
+       "inst": 167.99,
+       "was": 2249.0,
+       "bw": true
       },
       {
        "label": "44mm",
-       "cash": 2119.99,
-       "inst": 204.99,
-       "was": 2379.0
+       "cash": 1999.99,
+       "inst": 194.99,
+       "was": 2379.0,
+       "bw": true
       }
      ],
      "image": "images/watch-regular.jpg",
@@ -2945,10 +2950,16 @@
      "name": "Apple Watch SE 2",
      "variations": [
       {
+       "label": "40mm",
+       "cash": 1679.99,
+       "inst": 164.99
+      },
+      {
        "label": "44mm",
-       "cash": 1919.99,
-       "inst": 184.99,
-       "was": 2179.0
+       "cash": 1879.99,
+       "inst": 179.99,
+       "was": 2179.0,
+       "bw": true
       }
      ],
      "image": "images/watch-regular.jpg",
