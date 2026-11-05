@@ -1023,6 +1023,12 @@ function bwPhase(){
   return BW_PHASES.find(p => t >= Date.parse(p.from) && t <= Date.parse(p.to)) || null;
 }
 const BW_NOW = bwPhase();
+// Desconto em reais (De − Por) mostrado na campanha; 0 = não mostrar
+function bwDesconto(v){
+  if (!BW_NOW || !v.bw || !v.was) return 0;
+  const dsc = Math.floor(v.was - v.cash);
+  return dsc >= 50 ? dsc : 0;
+}
 // Rótulo do selo de oferta para uma variação (null = sem selo)
 function ofertaLabel(v){
   if (BW_NOW) return BW_NOW.selo;
@@ -1353,8 +1359,8 @@ function buildCard(item, ci, ii){
       bOfertaEl.style.display = lab ? "" : "none";
       if (lab) bOfertaEl.textContent = lab;
     }
-    const bwDesc = (BW_NOW && v.bw && v.was) ? Math.floor(v.was - v.cash) : 0;
-    if (bwDesc >= 50){
+    const bwDesc = bwDesconto(v);
+    if (bwDesc){
       priceChip.textContent = "R$ " + bwDesc.toLocaleString("pt-BR") + " de desconto";
       priceChip.style.display = "";
     } else {
@@ -1844,7 +1850,7 @@ async function loadStoryFonts(){
   ]).catch(()=>{});
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
 }
-async function drawStoryShell(ctx, W, photoSrc, title, badgeText){
+async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
   const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
   if (logoImg){
     const lh = 64, lw = lh * (logoImg.width/logoImg.height);
@@ -1868,17 +1874,30 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText){
   ctx.restore();
 
   let y = py + ph + 60;
-  if (badgeText){
-    ctx.font = "600 22px 'IBM Plex Mono'";
-    const bw = ctx.measureText(badgeText).width + 44;
-    ctx.fillStyle = "rgba(252,252,250,0.14)";
-    ctx.strokeStyle = "rgba(255,255,255,0.3)";
-    ctx.lineWidth = 1;
-    roundRectPath(ctx, px, y, bw, 46, 20);
-    ctx.fill(); ctx.stroke();
-    ctx.fillStyle = "#fff";
+  if (badgeText || seloText){
+    let bx = px;
     ctx.textBaseline = "middle";
-    ctx.fillText(badgeText, px+22, y+23);
+    if (badgeText){
+      ctx.font = "600 22px 'IBM Plex Mono'";
+      const bw = ctx.measureText(badgeText).width + 44;
+      ctx.fillStyle = "rgba(252,252,250,0.14)";
+      ctx.strokeStyle = "rgba(255,255,255,0.3)";
+      ctx.lineWidth = 1;
+      roundRectPath(ctx, bx, y, bw, 46, 20);
+      ctx.fill(); ctx.stroke();
+      ctx.fillStyle = "#fff";
+      ctx.fillText(badgeText, bx+22, y+23);
+      bx += bw + 14;
+    }
+    if (seloText){
+      ctx.font = "700 24px 'IBM Plex Mono'";
+      const sw = ctx.measureText(seloText).width + 48;
+      ctx.fillStyle = "#E5231B";
+      roundRectPath(ctx, bx, y - 1, sw, 48, 24);
+      ctx.fill();
+      ctx.fillStyle = "#000";
+      ctx.fillText(seloText, bx+24, y+23);
+    }
     ctx.textBaseline = "alphabetic";
     y += 46 + 30;
   } else {
@@ -1921,8 +1940,9 @@ async function buildCardCanvas(item, variation, simInfo){
   drawStoryBackground(ctx, W, H);
 
   const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
-  const badgeText = [item.badge, hasLabel ? variation.label : null, ofertaLabel(variation)].filter(Boolean).join(" · ");
-  const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText);
+  const seloText = ofertaLabel(variation);
+  const badgeText = [item.badge, hasLabel ? variation.label : null].filter(Boolean).join(" · ");
+  const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText, seloText);
 
   const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
   let py2 = y + 10;
@@ -1939,6 +1959,22 @@ async function buildCardCanvas(item, variation, simInfo){
     const deText = "De R$ " + fmtBRL(variation.was);
     ctx.fillText(deText, px, py2 + 30);
     const dw = ctx.measureText(deText).width;
+    const dsc = bwDesconto(variation);
+    if (dsc){
+      const chipText = "R$ " + dsc.toLocaleString("pt-BR") + " de desconto";
+      ctx.save();
+      ctx.shadowBlur = 0;
+      ctx.font = "600 24px 'Inter'";
+      const cw = ctx.measureText(chipText).width + 36;
+      roundRectPath(ctx, px + dw + 26, py2 + 2, cw, 42, 12);
+      ctx.strokeStyle = "#E5231B";
+      ctx.lineWidth = 2;
+      ctx.stroke();
+      ctx.fillStyle = "#FF6B63";
+      ctx.textBaseline = "middle";
+      ctx.fillText(chipText, px + dw + 26 + 18, py2 + 24);
+      ctx.restore();
+    }
     ctx.strokeStyle = "rgba(255,255,255,0.6)";
     ctx.lineWidth = 2;
     ctx.beginPath();
@@ -1987,7 +2023,7 @@ async function buildGroupCanvas(title, items, coverImageOverride){
   const lowest = lowestVariation.cash;
   const badgeText = count > 1 ? `${count} MODELOS` : null;
   const photoSrc = coverImageOverride || leadItem.image;
-  const {y, px} = await drawStoryShell(ctx, W, photoSrc, title, badgeText);
+  const {y, px} = await drawStoryShell(ctx, W, photoSrc, title, badgeText, BW_NOW ? BW_NOW.selo : null);
 
   ctx.fillStyle = "rgba(255,255,255,0.85)";
   ctx.font = "400 30px 'Inter'";
