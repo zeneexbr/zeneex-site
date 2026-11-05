@@ -2811,12 +2811,12 @@
      }
     },
     {
-     "name": "iPad Air M3 13\"",
+     "name": "iPad Air M3 5G 13\"",
      "variations": [
       {
-       "label": "256GB",
-       "cash": 4919.0,
-       "inst": 474.99
+       "label": "128GB",
+       "cash": 4969.99,
+       "inst": 479.99
       }
      ],
      "image": "images/ipad-air.jpg",
@@ -2826,7 +2826,8 @@
       "highlights": [
        "Chip Apple M3",
        "Tela de 13 polegadas",
-       "256GB",
+       "128GB",
+       "Conectividade 5G",
        "Grande \u00e1rea de trabalho",
        "Excelente desempenho",
        "Compatibilidade com acess\u00f3rios Apple"
