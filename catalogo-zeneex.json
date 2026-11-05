@@ -1,7 +1,7 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-03",
+  "atualizado_em": "2026-11-05",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397"
  },
@@ -2589,12 +2589,12 @@
    "items": [
     {
      "name": "MacBook Pro M5",
-     "spec": "16GB \u00b7 512GB SSD \u00b7 14\"",
+     "spec": "24GB \u00b7 1TB SSD \u00b7 14.2\"",
      "variations": [
       {
-       "label": "512GB",
-       "cash": 12179.0,
-       "inst": 1174.99
+       "label": "1TB",
+       "cash": 15699.99,
+       "inst": 1509.99
       }
      ],
      "image": "images/macbook-pro.jpg",
@@ -2603,7 +2603,7 @@
       "intro": "O MacBook Pro com chip M5 foi feito para quem trabalha com tarefas mais exigentes e quer desempenho para acompanhar uma rotina profissional.",
       "highlights": [
        "Chip Apple M5",
-       "512GB de armazenamento",
+       "24GB de mem\u00f3ria e 1TB de armazenamento",
        "Tela Liquid Retina XDR",
        "Alto desempenho",
        "Sistema de som com seis alto-falantes",
@@ -2625,8 +2625,8 @@
      "variations": [
       {
        "label": "512GB",
-       "cash": 8719.0,
-       "inst": 839.99
+       "cash": 8399.99,
+       "inst": 809.99
       }
      ],
      "image": "images/macbook-air.jpg",
@@ -2647,12 +2647,12 @@
     },
     {
      "name": "MacBook Air M4",
-     "spec": "16GB \u00b7 256GB SSD \u00b7 13\"",
+     "spec": "16GB \u00b7 512GB SSD \u00b7 13\"",
      "variations": [
       {
-       "label": "256GB",
-       "cash": 6999.0,
-       "inst": 674.99
+       "label": "512GB",
+       "cash": 7999.99,
+       "inst": 769.99
       }
      ],
      "image": "images/macbook-air.jpg",
@@ -2661,7 +2661,7 @@
       "intro": "Fino, leve e r\u00e1pido, \u00e9 uma excelente escolha para estudar, trabalhar, navegar, fazer reuni\u00f5es, editar conte\u00fados e cuidar da rotina.",
       "highlights": [
        "Chip Apple M4",
-       "256GB",
+       "512GB",
        "Design fino e port\u00e1til",
        "Tela Liquid Retina",
        "Excelente autonomia",
@@ -2683,8 +2683,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 4879.99,
-       "inst": 469.99
+       "cash": 4799.99,
+       "inst": 464.99
       }
      ],
      "image": "images/macbook-neo.jpg",
@@ -2715,13 +2715,13 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 3399.0,
-       "inst": 327.99
+       "cash": 3199.99,
+       "inst": 307.99
       },
       {
        "label": "256GB",
-       "cash": 3999.0,
-       "inst": 384.99
+       "cash": 3829.99,
+       "inst": 369.99
       }
      ],
      "image": "images/ipad-11.jpg",
@@ -2751,8 +2751,8 @@
      "variations": [
       {
        "label": "256GB",
-       "cash": 7999.0,
-       "inst": 769.99
+       "cash": 7679.99,
+       "inst": 739.99
       },
       {
        "label": "512GB",
@@ -2787,13 +2787,13 @@
      "variations": [
       {
        "label": "128GB",
-       "cash": 5299.0,
-       "inst": 509.99
+       "cash": 5149.99,
+       "inst": 494.99
       },
       {
        "label": "256GB",
-       "cash": 5899.0,
-       "inst": 567.99
+       "cash": 5879.99,
+       "inst": 564.99
       }
      ],
      "image": "images/ipad-air.jpg",
@@ -2989,9 +2989,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 3549.99,
-       "inst": 344.99,
-       "was": 3849.0
+       "cash": 3379.99,
+       "inst": 324.99,
+       "was": 3849.0,
+       "bw": true
       }
      ],
      "image": "images/airpods-max-2.jpg",
@@ -3020,15 +3021,17 @@
      "variations": [
       {
        "label": "Sem Eliminador de Ru\u00eddo",
-       "cash": 1149.99,
+       "cash": 1129.99,
        "inst": 109.99,
-       "was": 1379.0
+       "was": 1379.0,
+       "bw": true
       },
       {
        "label": "Com Eliminador de Ru\u00eddo",
-       "cash": 1399.99,
-       "inst": 134.99,
-       "was": 1749.0
+       "cash": 1349.99,
+       "inst": 129.99,
+       "was": 1749.0,
+       "bw": true
       }
      ],
      "image": "images/airpods4.jpg",
@@ -3057,9 +3060,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1349.99,
-       "inst": 129.99,
-       "was": 1579.99
+       "cash": 1299.99,
+       "inst": 124.99,
+       "was": 1579.99,
+       "bw": true
       }
      ],
      "image": "images/medicube-age-r-booster-pro.jpg",
@@ -3094,9 +3098,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 1079.99,
-       "inst": 104.99,
-       "was": 1219.99
+       "cash": 999.99,
+       "inst": 97.99,
+       "was": 1219.99,
+       "bw": true
       }
      ],
      "image": "images/medicube-age-r-booster-pro-mini-plus.jpg",
@@ -3131,9 +3136,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 999.99,
-       "inst": 97.99,
-       "was": 1179.99
+       "cash": 949.99,
+       "inst": 94.99,
+       "was": 1179.99,
+       "bw": true
       }
      ],
      "image": "images/medicube-age-r-booster-v-roller.jpg",
@@ -3164,9 +3170,10 @@
      "variations": [
       {
        "label": "Padr\u00e3o",
-       "cash": 919.99,
-       "inst": 89.99,
-       "was": 1149.0
+       "cash": 899.99,
+       "inst": 87.99,
+       "was": 1149.0,
+       "bw": true
       }
      ],
      "image": "images/medicube-age-r-booster-cleansing.jpg",
