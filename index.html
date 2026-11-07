@@ -1851,23 +1851,26 @@ async function loadStoryFonts(){
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
 }
 async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText, S){
-  const TOP = 64;
+  const OVER = false; // logo acima da foto (nunca sobre o produto)
+  const TOP = OVER ? 44 : 40;
   const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
-  if (logoImg){
-    const lh = 52, lw = lh * (logoImg.width/logoImg.height);
+  function drawLogo(ly, lh){
+    if (!logoImg) return;
+    const lw = lh * (logoImg.width/logoImg.height);
     ctx.save();
     ctx.shadowColor = "rgba(0,0,0,0.5)";
     ctx.shadowBlur = 16;
     ctx.shadowOffsetY = 6;
-    ctx.drawImage(logoImg, (W-lw)/2, TOP, lw, lh);
+    ctx.drawImage(logoImg, (W-lw)/2, ly, lw, lh);
     ctx.restore();
   }
+  if (!OVER) drawLogo(TOP, 46);
 
   // Foto inteira (sem cortar): a caixa acompanha a proporção da imagem
   const photoImg = photoSrc ? await loadImageEl(photoSrc).catch(()=>null) : null;
   const ratio = photoImg ? Math.min(1.5, Math.max(0.75, photoImg.width/photoImg.height)) : 1;
   const ph = S, pw = Math.min(W - 180, Math.round(S * ratio));
-  const px = 90, py = TOP + 52 + 22, pxPhoto = Math.round((W - pw)/2);
+  const px = 90, py = OVER ? TOP : TOP + 46 + 16, pxPhoto = Math.round((W - pw)/2);
   ctx.save();
   roundRectPath(ctx, pxPhoto, py, pw, ph, 24);
   ctx.clip();
@@ -1876,8 +1879,35 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText, S){
   if (photoImg) drawImageCover(ctx, photoImg, pxPhoto, py, pw, ph);
   else { ctx.fillStyle = "rgba(255,255,255,0.08)"; ctx.fillRect(pxPhoto, py, pw, ph); }
   ctx.restore();
+  if (OVER){
+    // Fundo escuro suave atrás da logo só quando o topo da foto é claro
+    let needScrim = true;
+    try{
+      if (photoImg){
+        const t = document.createElement("canvas"); t.width = 60; t.height = 20;
+        const tc = t.getContext("2d");
+        tc.drawImage(photoImg, photoImg.width*0.33, photoImg.height*0.025, photoImg.width*0.34, photoImg.height*0.1, 0, 0, 60, 20);
+        const dd = tc.getImageData(0, 0, 60, 20).data;
+        let sum = 0;
+        for (let i = 0; i < dd.length; i += 4) sum += 0.299*dd[i] + 0.587*dd[i+1] + 0.114*dd[i+2];
+        needScrim = (sum / (dd.length/4)) > 100;
+      }
+    } catch(e){ needScrim = true; }
+    if (needScrim){
+      ctx.save();
+      roundRectPath(ctx, pxPhoto, py, pw, ph, 24);
+      ctx.clip();
+      const g = ctx.createLinearGradient(0, py, 0, py + 150);
+      g.addColorStop(0, "rgba(6,28,30,0.78)");
+      g.addColorStop(1, "rgba(6,28,30,0)");
+      ctx.fillStyle = g;
+      ctx.fillRect(pxPhoto, py, pw, 150);
+      ctx.restore();
+    }
+    drawLogo(py + 26, 48);
+  }
 
-  let y = py + ph + 36;
+  let y = py + ph + 30;
   if (badgeText || seloText){
     let bx = px;
     ctx.textBaseline = "middle";
@@ -1903,7 +1933,7 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText, S){
       ctx.fillText(seloText, bx+24, y+23);
     }
     ctx.textBaseline = "alphabetic";
-    y += 46 + 22;
+    y += 46 + 20;
   } else {
     y += 6;
   }
@@ -1935,7 +1965,7 @@ function drawStoryFooter(ctx, W, y){
 
 // Cartão de compartilhamento: altura ajustada ao conteúdo (proporção parecida com 4:5),
 // para o WhatsApp mostrar a imagem inteira, sem cortar logo, foto nem preço.
-const SHARE_MAX_H = 1340;
+const SHARE_MAX_H = 1170;
 async function renderShareCard(drawBody){
   await loadStoryFonts();
   const W = 1080, scale = 1.5;
@@ -1946,16 +1976,15 @@ async function renderShareCard(drawBody){
     ctx.scale(scale, scale);
     drawStoryBackground(ctx, W, H);
     const endY = await drawBody(ctx, W, S);
-    drawStoryFooter(ctx, W, endY + 44);
     return {canvas, endY};
   }
   let S = 780;
   let r = await pass(S, 2400);
-  let H = r.endY + 66;
+  let H = r.endY + 44;
   if (H > SHARE_MAX_H){
-    S = Math.max(560, S - (H - SHARE_MAX_H));
+    S = Math.max(480, S - (H - SHARE_MAX_H));
     r = await pass(S, 2400);
-    H = r.endY + 66;
+    H = r.endY + 44;
   }
   return (await pass(S, H)).canvas;
 }
@@ -2006,10 +2035,7 @@ async function buildCardCanvas(item, variation, simInfo){
       ctx.stroke();
       py2 += 54;
 
-      ctx.font = "600 26px 'IBM Plex Mono'";
-      ctx.fillStyle = "rgba(255,255,255,0.75)";
-      ctx.fillText("POR", px, py2 + 20);
-      py2 += 44;
+      py2 += 4;
     }
     ctx.fillStyle = "#fff";
     ctx.font = "500 56px 'IBM Plex Mono'";
@@ -2019,10 +2045,11 @@ async function buildCardCanvas(item, variation, simInfo){
       endY = py2 + 62;
     } else {
       ctx.fillText("R$ " + fmtBRL(variation.cash), px, py2 + 46);
-      ctx.font = "400 30px 'Inter'";
+      const pw1 = ctx.measureText("R$ " + fmtBRL(variation.cash)).width;
+      ctx.font = "400 28px 'Inter'";
       ctx.fillStyle = "rgba(255,255,255,0.8)";
-      ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, px, py2 + 90);
-      endY = py2 + 104;
+      ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, px + pw1 + 22, py2 + 46);
+      endY = py2 + 62;
     }
     ctx.shadowBlur = 0;
     return endY;
@@ -2045,15 +2072,17 @@ async function buildGroupCanvas(title, items, coverImageOverride){
     ctx.fillStyle = "rgba(255,255,255,0.85)";
     ctx.font = "400 30px 'Inter'";
     ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
-    ctx.fillText("a partir de", px, y + 30);
+    ctx.font = "400 26px 'Inter'";
+    ctx.fillText("a partir de", px, y + 24);
     ctx.fillStyle = "#fff";
     ctx.font = "500 56px 'IBM Plex Mono'";
-    ctx.fillText("R$ " + fmtBRL(lowest), px, y + 90);
-    ctx.font = "400 30px 'Inter'";
+    ctx.fillText("R$ " + fmtBRL(lowest), px, y + 84);
+    const pw0 = ctx.measureText("R$ " + fmtBRL(lowest)).width;
+    ctx.font = "400 28px 'Inter'";
     ctx.fillStyle = "rgba(255,255,255,0.8)";
-    ctx.fillText(`ou ${lowestVariation.instCount||12}x de R$ ${fmtBRL(lowestVariation.inst)}`, px, y + 134);
+    ctx.fillText(`ou ${lowestVariation.instCount||12}x de R$ ${fmtBRL(lowestVariation.inst)}`, px + pw0 + 22, y + 84);
     ctx.shadowBlur = 0;
-    return y + 148;
+    return y + 100;
   });
 }
 
