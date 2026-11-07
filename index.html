@@ -1853,17 +1853,17 @@ async function loadStoryFonts(){
 async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
   const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
   if (logoImg){
-    const lh = 64, lw = lh * (logoImg.width/logoImg.height);
+    const lh = 56, lw = lh * (logoImg.width/logoImg.height);
     ctx.save();
     ctx.shadowColor = "rgba(0,0,0,0.5)";
     ctx.shadowBlur = 16;
     ctx.shadowOffsetY = 6;
-    ctx.drawImage(logoImg, (W-lw)/2, 260, lw, lh);
+    ctx.drawImage(logoImg, (W-lw)/2, 364, lw, lh);
     ctx.restore();
   }
 
   const photoImg = photoSrc ? await loadImageEl(photoSrc).catch(()=>null) : null;
-  const px = 90, py = 400, pw = W - px*2, ph = 800;
+  const px = 90, py = 444, pw = W - px*2, ph = 640;
   ctx.save();
   roundRectPath(ctx, px, py, pw, ph, 24);
   ctx.clip();
@@ -1873,7 +1873,7 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
   else { ctx.fillStyle = "rgba(255,255,255,0.08)"; ctx.fillRect(px, py, pw, ph); }
   ctx.restore();
 
-  let y = py + ph + 60;
+  let y = py + ph + 40;
   if (badgeText || seloText){
     let bx = px;
     ctx.textBaseline = "middle";
@@ -1924,7 +1924,7 @@ function drawStoryFooter(ctx, W, H){
   ctx.textAlign = "center";
   ctx.shadowColor = "rgba(0,0,0,0.7)";
   ctx.shadowBlur = 8;
-  ctx.fillText("zeneex.com.br", W/2, H - 120);
+  ctx.fillText("zeneex.com.br", W/2, 1590);
   ctx.shadowBlur = 0;
   ctx.textAlign = "left";
 }
