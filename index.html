@@ -1850,30 +1850,34 @@ async function loadStoryFonts(){
   ]).catch(()=>{});
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
 }
-async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
+async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText, S){
+  const TOP = 64;
   const logoImg = await loadImageEl("logo-zeneex.png").catch(()=>null);
   if (logoImg){
-    const lh = 56, lw = lh * (logoImg.width/logoImg.height);
+    const lh = 52, lw = lh * (logoImg.width/logoImg.height);
     ctx.save();
     ctx.shadowColor = "rgba(0,0,0,0.5)";
     ctx.shadowBlur = 16;
     ctx.shadowOffsetY = 6;
-    ctx.drawImage(logoImg, (W-lw)/2, 364, lw, lh);
+    ctx.drawImage(logoImg, (W-lw)/2, TOP, lw, lh);
     ctx.restore();
   }
 
+  // Foto inteira (sem cortar): a caixa acompanha a proporção da imagem
   const photoImg = photoSrc ? await loadImageEl(photoSrc).catch(()=>null) : null;
-  const px = 90, py = 444, pw = W - px*2, ph = 640;
+  const ratio = photoImg ? Math.min(1.5, Math.max(0.75, photoImg.width/photoImg.height)) : 1;
+  const ph = S, pw = Math.min(W - 180, Math.round(S * ratio));
+  const px = 90, py = TOP + 52 + 22, pxPhoto = Math.round((W - pw)/2);
   ctx.save();
-  roundRectPath(ctx, px, py, pw, ph, 24);
+  roundRectPath(ctx, pxPhoto, py, pw, ph, 24);
   ctx.clip();
   ctx.shadowColor = "rgba(0,0,0,0.5)";
   ctx.shadowBlur = 60;
-  if (photoImg) drawImageCover(ctx, photoImg, px, py, pw, ph);
-  else { ctx.fillStyle = "rgba(255,255,255,0.08)"; ctx.fillRect(px, py, pw, ph); }
+  if (photoImg) drawImageCover(ctx, photoImg, pxPhoto, py, pw, ph);
+  else { ctx.fillStyle = "rgba(255,255,255,0.08)"; ctx.fillRect(pxPhoto, py, pw, ph); }
   ctx.restore();
 
-  let y = py + ph + 40;
+  let y = py + ph + 36;
   if (badgeText || seloText){
     let bx = px;
     ctx.textBaseline = "middle";
@@ -1899,9 +1903,9 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
       ctx.fillText(seloText, bx+24, y+23);
     }
     ctx.textBaseline = "alphabetic";
-    y += 46 + 30;
+    y += 46 + 22;
   } else {
-    y += 10;
+    y += 6;
   }
 
   const measure = document.createElement("canvas").getContext("2d");
@@ -1914,131 +1918,143 @@ async function drawStoryShell(ctx, W, photoSrc, title, badgeText, seloText){
   ctx.shadowOffsetY = 2;
   titleLines.forEach((line, i)=> ctx.fillText(line, px, y + 54 + i*70));
   ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
-  y += titleLines.length * 70 + 20;
+  y += titleLines.length * 70 + 12;
 
   return {y, px};
 }
-function drawStoryFooter(ctx, W, H){
-  ctx.font = "400 26px 'IBM Plex Mono'";
+function drawStoryFooter(ctx, W, y){
+  ctx.font = "400 24px 'IBM Plex Mono'";
   ctx.fillStyle = "rgba(255,255,255,0.7)";
   ctx.textAlign = "center";
   ctx.shadowColor = "rgba(0,0,0,0.7)";
   ctx.shadowBlur = 8;
-  ctx.fillText("zeneex.com.br", W/2, 1590);
+  ctx.fillText("zeneex.com.br", W/2, y);
   ctx.shadowBlur = 0;
   ctx.textAlign = "left";
 }
 
-async function buildCardCanvas(item, variation, simInfo){
+// Cartão de compartilhamento: altura ajustada ao conteúdo (proporção parecida com 4:5),
+// para o WhatsApp mostrar a imagem inteira, sem cortar logo, foto nem preço.
+const SHARE_MAX_H = 1340;
+async function renderShareCard(drawBody){
   await loadStoryFonts();
-  const W = 1080, H = 1920, scale = 1.5;
-  const canvas = document.createElement("canvas");
-  canvas.width = W*scale; canvas.height = H*scale;
-  const ctx = canvas.getContext("2d");
-  ctx.scale(scale, scale);
-
-  drawStoryBackground(ctx, W, H);
-
-  const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
-  const seloText = ofertaLabel(variation);
-  const badgeText = [item.badge, hasLabel ? variation.label : null].filter(Boolean).join(" · ");
-  const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText, seloText);
-
-  const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
-  let py2 = y + 10;
-  ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
-  if (hasSim && simInfo.entrada > 0){
-    ctx.font = "400 30px 'Inter'";
-    ctx.fillStyle = "rgba(255,255,255,0.85)";
-    ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, px, py2 + 26);
-    py2 += 50;
+  const W = 1080, scale = 1.5;
+  async function pass(S, H){
+    const canvas = document.createElement("canvas");
+    canvas.width = W*scale; canvas.height = H*scale;
+    const ctx = canvas.getContext("2d");
+    ctx.scale(scale, scale);
+    drawStoryBackground(ctx, W, H);
+    const endY = await drawBody(ctx, W, S);
+    drawStoryFooter(ctx, W, endY + 44);
+    return {canvas, endY};
   }
-  if (!hasSim && variation.was){
-    ctx.font = "400 34px 'IBM Plex Mono'";
-    ctx.fillStyle = "rgba(255,255,255,0.6)";
-    const deText = "De R$ " + fmtBRL(variation.was);
-    ctx.fillText(deText, px, py2 + 30);
-    const dw = ctx.measureText(deText).width;
-    const dsc = bwDesconto(variation);
-    if (dsc){
-      const chipText = "R$ " + dsc.toLocaleString("pt-BR") + " de desconto";
-      ctx.save();
-      ctx.shadowBlur = 0;
-      ctx.font = "600 24px 'Inter'";
-      const cw = ctx.measureText(chipText).width + 36;
-      roundRectPath(ctx, px + dw + 26, py2 + 2, cw, 42, 12);
-      ctx.strokeStyle = "#E5231B";
-      ctx.lineWidth = 2;
-      ctx.stroke();
-      ctx.fillStyle = "#FF6B63";
-      ctx.textBaseline = "middle";
-      ctx.fillText(chipText, px + dw + 26 + 18, py2 + 24);
-      ctx.restore();
+  let S = 780;
+  let r = await pass(S, 2400);
+  let H = r.endY + 66;
+  if (H > SHARE_MAX_H){
+    S = Math.max(560, S - (H - SHARE_MAX_H));
+    r = await pass(S, 2400);
+    H = r.endY + 66;
+  }
+  return (await pass(S, H)).canvas;
+}
+
+async function buildCardCanvas(item, variation, simInfo){
+  return renderShareCard(async (ctx, W, S)=>{
+    const hasLabel = variation.label && variation.label.trim().toLowerCase() !== "padrão";
+    const seloText = ofertaLabel(variation);
+    const badgeText = [item.badge, hasLabel ? variation.label : null].filter(Boolean).join(" · ");
+    const {y, px} = await drawStoryShell(ctx, W, item.image, item.displayName || item.name, badgeText, seloText, S);
+
+    const hasSim = simInfo && (simInfo.entrada > 0 || simInfo.n !== 12);
+    let py2 = y + 6;
+    ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
+    if (hasSim && simInfo.entrada > 0){
+      ctx.font = "400 30px 'Inter'";
+      ctx.fillStyle = "rgba(255,255,255,0.85)";
+      ctx.fillText(`Entrada: R$ ${fmtBRL(simInfo.entrada)}`, px, py2 + 26);
+      py2 += 50;
     }
-    ctx.strokeStyle = "rgba(255,255,255,0.6)";
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    ctx.moveTo(px, py2 + 19);
-    ctx.lineTo(px + dw, py2 + 19);
-    ctx.stroke();
-    py2 += 54;
+    if (!hasSim && variation.was){
+      ctx.font = "400 34px 'IBM Plex Mono'";
+      ctx.fillStyle = "rgba(255,255,255,0.6)";
+      const deText = "De R$ " + fmtBRL(variation.was);
+      ctx.fillText(deText, px, py2 + 30);
+      const dw = ctx.measureText(deText).width;
+      const dsc = bwDesconto(variation);
+      if (dsc){
+        const chipText = "R$ " + dsc.toLocaleString("pt-BR") + " de desconto";
+        ctx.save();
+        ctx.shadowBlur = 0;
+        ctx.font = "600 24px 'Inter'";
+        const cw = ctx.measureText(chipText).width + 36;
+        roundRectPath(ctx, px + dw + 26, py2 + 2, cw, 42, 12);
+        ctx.strokeStyle = "#E5231B";
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        ctx.fillStyle = "#FF6B63";
+        ctx.textBaseline = "middle";
+        ctx.fillText(chipText, px + dw + 26 + 18, py2 + 24);
+        ctx.restore();
+      }
+      ctx.strokeStyle = "rgba(255,255,255,0.6)";
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(px, py2 + 19);
+      ctx.lineTo(px + dw, py2 + 19);
+      ctx.stroke();
+      py2 += 54;
 
-    ctx.font = "600 26px 'IBM Plex Mono'";
-    ctx.fillStyle = "rgba(255,255,255,0.75)";
-    ctx.fillText("POR", px, py2 + 20);
-    py2 += 44;
-  }
-  ctx.fillStyle = "#fff";
-  ctx.font = "500 56px 'IBM Plex Mono'";
-  if (hasSim){
-    ctx.fillText(`${simInfo.n}x de R$ ${fmtBRL(simInfo.parcela)}`, px, py2 + 46);
-  } else {
-    ctx.fillText("R$ " + fmtBRL(variation.cash), px, py2 + 46);
-    ctx.font = "400 30px 'Inter'";
-    ctx.fillStyle = "rgba(255,255,255,0.8)";
-    ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, px, py2 + 90);
-  }
-  ctx.shadowBlur = 0;
-
-  drawStoryFooter(ctx, W, H);
-  return canvas;
+      ctx.font = "600 26px 'IBM Plex Mono'";
+      ctx.fillStyle = "rgba(255,255,255,0.75)";
+      ctx.fillText("POR", px, py2 + 20);
+      py2 += 44;
+    }
+    ctx.fillStyle = "#fff";
+    ctx.font = "500 56px 'IBM Plex Mono'";
+    let endY;
+    if (hasSim){
+      ctx.fillText(`${simInfo.n}x de R$ ${fmtBRL(simInfo.parcela)}`, px, py2 + 46);
+      endY = py2 + 62;
+    } else {
+      ctx.fillText("R$ " + fmtBRL(variation.cash), px, py2 + 46);
+      ctx.font = "400 30px 'Inter'";
+      ctx.fillStyle = "rgba(255,255,255,0.8)";
+      ctx.fillText(`ou ${variation.instCount||12}x de R$ ${fmtBRL(variation.inst)}`, px, py2 + 90);
+      endY = py2 + 104;
+    }
+    ctx.shadowBlur = 0;
+    return endY;
+  });
 }
 
 async function buildGroupCanvas(title, items, coverImageOverride){
-  await loadStoryFonts();
-  const W = 1080, H = 1920, scale = 1.5;
-  const canvas = document.createElement("canvas");
-  canvas.width = W*scale; canvas.height = H*scale;
-  const ctx = canvas.getContext("2d");
-  ctx.scale(scale, scale);
+  return renderShareCard(async (ctx, W, S)=>{
+    const leadItem = items[0];
+    const count = items.length;
+    let lowestVariation = null;
+    items.forEach(it => it.variations.forEach(v=>{
+      if (!lowestVariation || v.cash < lowestVariation.cash) lowestVariation = v;
+    }));
+    const lowest = lowestVariation.cash;
+    const badgeText = count > 1 ? `${count} MODELOS` : null;
+    const photoSrc = coverImageOverride || leadItem.image;
+    const {y, px} = await drawStoryShell(ctx, W, photoSrc, title, badgeText, BW_NOW ? BW_NOW.selo : null, S);
 
-  drawStoryBackground(ctx, W, H);
-
-  const leadItem = items[0];
-  const count = items.length;
-  let lowestVariation = null;
-  items.forEach(it => it.variations.forEach(v=>{
-    if (!lowestVariation || v.cash < lowestVariation.cash) lowestVariation = v;
-  }));
-  const lowest = lowestVariation.cash;
-  const badgeText = count > 1 ? `${count} MODELOS` : null;
-  const photoSrc = coverImageOverride || leadItem.image;
-  const {y, px} = await drawStoryShell(ctx, W, photoSrc, title, badgeText, BW_NOW ? BW_NOW.selo : null);
-
-  ctx.fillStyle = "rgba(255,255,255,0.85)";
-  ctx.font = "400 30px 'Inter'";
-  ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
-  ctx.fillText("a partir de", px, y + 30);
-  ctx.fillStyle = "#fff";
-  ctx.font = "500 56px 'IBM Plex Mono'";
-  ctx.fillText("R$ " + fmtBRL(lowest), px, y + 90);
-  ctx.font = "400 30px 'Inter'";
-  ctx.fillStyle = "rgba(255,255,255,0.8)";
-  ctx.fillText(`ou ${lowestVariation.instCount||12}x de R$ ${fmtBRL(lowestVariation.inst)}`, px, y + 134);
-  ctx.shadowBlur = 0;
-
-  drawStoryFooter(ctx, W, H);
-  return canvas;
+    ctx.fillStyle = "rgba(255,255,255,0.85)";
+    ctx.font = "400 30px 'Inter'";
+    ctx.shadowColor = "rgba(0,0,0,0.85)"; ctx.shadowBlur = 8;
+    ctx.fillText("a partir de", px, y + 30);
+    ctx.fillStyle = "#fff";
+    ctx.font = "500 56px 'IBM Plex Mono'";
+    ctx.fillText("R$ " + fmtBRL(lowest), px, y + 90);
+    ctx.font = "400 30px 'Inter'";
+    ctx.fillStyle = "rgba(255,255,255,0.8)";
+    ctx.fillText(`ou ${lowestVariation.instCount||12}x de R$ ${fmtBRL(lowestVariation.inst)}`, px, y + 134);
+    ctx.shadowBlur = 0;
+    return y + 148;
+  });
 }
 
 function shareWithPhoto(title, hash, leadItem, leadVariation, groupItems){
