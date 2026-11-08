@@ -1,9 +1,10 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-07",
+  "atualizado_em": "2026-11-08",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
-  "whatsapp": "5591984195397"
+  "whatsapp": "5591984195397",
+  "agenda_precos": "Cada varia\u00e7\u00e3o pode ter \"agenda\": lista de {a_partir (ISO com -03:00), cash, inst}. O site aplica sozinho o \u00faltimo item cujo a_partir j\u00e1 passou. Em 09/11/2026 00:00 (Bras\u00edlia): \u00e0 vista \u2212R$ 30,00 em todos; 12x recalculado pela f\u00f3rmula do site (taxa 13,39%)."
  },
  "categorias": [
   {
@@ -21,19 +22,40 @@
        "was": 11299.0,
        "cash": 9299.99,
        "inst": 894.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 9269.99,
+         "inst": 894.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 11499.99,
        "inst": 1107.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 11469.99,
+         "inst": 1104.99
+        }
+       ]
       },
       {
        "label": "1TB",
        "cash": 14999.99,
        "inst": 1444.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 14969.99,
+         "inst": 1439.99
+        }
+       ]
       }
      ],
      "image": "images/iphone18-lineup.jpg",
@@ -52,13 +74,27 @@
        "was": 10299.0,
        "cash": 8499.99,
        "inst": 817.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8469.99,
+         "inst": 814.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 9899.99,
        "inst": 954.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 9869.99,
+         "inst": 949.99
+        }
+       ]
       }
      ],
      "image": "images/iphone18-pro.jpg",
@@ -83,19 +119,40 @@
        "label": "256GB",
        "cash": 7499.99,
        "inst": 724.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 7469.99,
+         "inst": 719.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 8999.99,
        "inst": 864.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8969.99,
+         "inst": 864.99
+        }
+       ]
       },
       {
        "label": "1TB",
        "cash": 10649.99,
        "inst": 1024.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 10619.99,
+         "inst": 1024.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-pro-max.jpg",
@@ -120,13 +177,27 @@
        "label": "256GB",
        "cash": 7049.99,
        "inst": 679.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 7019.99,
+         "inst": 674.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 8119.99,
        "inst": 784.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8089.99,
+         "inst": 779.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-pro-max-seminovo.jpg",
@@ -144,19 +215,40 @@
        "label": "256GB",
        "cash": 6979.99,
        "inst": 674.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6949.99,
+         "inst": 669.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 8299.99,
        "inst": 799.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8269.99,
+         "inst": 794.99
+        }
+       ]
       },
       {
        "label": "1TB",
        "cash": 9699.99,
        "inst": 934.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 9669.99,
+         "inst": 929.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-pro.jpg",
@@ -181,7 +273,14 @@
        "label": "256GB",
        "cash": 6599.99,
        "inst": 634.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6569.99,
+         "inst": 634.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-pro-seminovo.jpg",
@@ -199,7 +298,14 @@
        "label": "256GB",
        "cash": 5899.99,
        "inst": 567.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5869.99,
+         "inst": 564.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-air.jpg",
@@ -224,7 +330,14 @@
        "label": "256GB",
        "cash": 5399.0,
        "inst": 519.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5369.0,
+         "inst": 517.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-air-seminovo.jpg",
@@ -242,13 +355,27 @@
        "label": "256GB",
        "cash": 5719.99,
        "inst": 549.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5689.99,
+         "inst": 547.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 6479.0,
        "inst": 624.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6449.0,
+         "inst": 619.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17.jpg",
@@ -274,7 +401,14 @@
        "label": "256GB",
        "cash": 4999.99,
        "inst": 484.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4969.99,
+         "inst": 479.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17-seminovo.jpg",
@@ -292,13 +426,27 @@
        "label": "256GB",
        "cash": 4199.99,
        "inst": 404.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4169.99,
+         "inst": 404.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 5999.0,
        "inst": 577.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5969.0,
+         "inst": 574.99
+        }
+       ]
       }
      ],
      "image": "images/iphone17e.jpg",
@@ -329,12 +477,26 @@
       {
        "label": "256GB",
        "cash": 5179.99,
-       "inst": 499.99
+       "inst": 499.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5149.99,
+         "inst": 494.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 5899.0,
-       "inst": 567.99
+       "inst": 567.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5869.0,
+         "inst": 564.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16-pro-max.jpg",
@@ -359,12 +521,26 @@
       {
        "label": "128GB",
        "cash": 4449.99,
-       "inst": 429.99
+       "inst": 429.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4419.99,
+         "inst": 424.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 4879.99,
-       "inst": 469.99
+       "inst": 469.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4849.99,
+         "inst": 467.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16-pro.jpg",
@@ -389,12 +565,26 @@
       {
        "label": "128GB",
        "cash": 5149.0,
-       "inst": 494.99
+       "inst": 494.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5119.0,
+         "inst": 494.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 6149,
-       "inst": 594.99
+       "inst": 594.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6119,
+         "inst": 589.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16-plus.jpg",
@@ -418,7 +608,14 @@
       {
        "label": "128GB",
        "cash": 4699.99,
-       "inst": 454.99
+       "inst": 454.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4669.99,
+         "inst": 449.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16.jpg",
@@ -442,12 +639,26 @@
       {
        "label": "128GB",
        "cash": 3749.99,
-       "inst": 359.99
+       "inst": 359.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3719.99,
+         "inst": 357.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 4299.99,
-       "inst": 414.99
+       "inst": 414.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4269.99,
+         "inst": 409.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16.jpg",
@@ -471,12 +682,26 @@
       {
        "label": "128GB",
        "cash": 3899,
-       "inst": 374.99
+       "inst": 374.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3869,
+         "inst": 374.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 4219,
-       "inst": 404.99
+       "inst": 404.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4189,
+         "inst": 404.99
+        }
+       ]
       }
      ],
      "image": "images/iphone16e.jpg",
@@ -507,7 +732,14 @@
       {
        "label": "128GB",
        "cash": 4199.99,
-       "inst": 404.99
+       "inst": 404.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4169.99,
+         "inst": 404.99
+        }
+       ]
       }
      ],
      "image": "images/iphone15.jpg",
@@ -531,17 +763,38 @@
       {
        "label": "256GB",
        "cash": 4244.99,
-       "inst": 409.99
+       "inst": 409.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4214.99,
+         "inst": 404.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 4649.99,
-       "inst": 447.99
+       "inst": 447.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4619.99,
+         "inst": 444.99
+        }
+       ]
       },
       {
        "label": "1TB",
        "cash": 4999.99,
-       "inst": 484.99
+       "inst": 484.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4969.99,
+         "inst": 479.99
+        }
+       ]
       }
      ],
      "image": "images/iphone15-pro-max.jpg",
@@ -566,12 +819,26 @@
       {
        "label": "128GB",
        "cash": 3549.99,
-       "inst": 344.99
+       "inst": 344.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3519.99,
+         "inst": 339.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3929.99,
-       "inst": 379.99
+       "inst": 379.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3899.99,
+         "inst": 374.99
+        }
+       ]
       }
      ],
      "image": "images/iphone15-pro.jpg",
@@ -596,12 +863,26 @@
       {
        "label": "128GB",
        "cash": 2999.99,
-       "inst": 289.99
+       "inst": 289.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2969.99,
+         "inst": 284.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3329.99,
-       "inst": 319.99
+       "inst": 319.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3299.99,
+         "inst": 317.99
+        }
+       ]
       }
      ],
      "image": "images/iphone15-seminovo.jpg",
@@ -632,12 +913,26 @@
       {
        "label": "128GB",
        "cash": 3459.99,
-       "inst": 334.99
+       "inst": 334.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3429.99,
+         "inst": 329.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3679.99,
-       "inst": 354.99
+       "inst": 354.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3649.99,
+         "inst": 354.99
+        }
+       ]
       }
      ],
      "image": "images/iphone14-pro-max.jpg",
@@ -661,17 +956,38 @@
       {
        "label": "128GB",
        "cash": 3069.99,
-       "inst": 294.99
+       "inst": 294.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3039.99,
+         "inst": 294.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3299.99,
-       "inst": 317.99
+       "inst": 317.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3269.99,
+         "inst": 314.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 3499.99,
-       "inst": 337.99
+       "inst": 337.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3469.99,
+         "inst": 334.99
+        }
+       ]
       }
      ],
      "image": "images/iphone14-pro.jpg",
@@ -695,7 +1011,14 @@
       {
        "label": "128GB",
        "cash": 2619.99,
-       "inst": 254.99
+       "inst": 254.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2589.99,
+         "inst": 249.99
+        }
+       ]
       }
      ],
      "image": "images/iphone14.jpg",
@@ -712,12 +1035,26 @@
       {
        "label": "128GB",
        "cash": 2349.99,
-       "inst": 227.99
+       "inst": 227.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2319.99,
+         "inst": 224.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 2869.99,
-       "inst": 277.99
+       "inst": 277.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2839.99,
+         "inst": 274.99
+        }
+       ]
       }
      ],
      "image": "images/iphone14.jpg",
@@ -748,12 +1085,26 @@
       {
        "label": "128GB",
        "cash": 3029.99,
-       "inst": 294.99
+       "inst": 294.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2999.99,
+         "inst": 289.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3329.99,
-       "inst": 319.99
+       "inst": 319.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3299.99,
+         "inst": 317.99
+        }
+       ]
       }
      ],
      "image": "images/iphone13-pro-max.jpg",
@@ -777,12 +1128,26 @@
       {
        "label": "128GB",
        "cash": 2649.99,
-       "inst": 254.99
+       "inst": 254.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2619.99,
+         "inst": 254.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 2999.99,
-       "inst": 289.99
+       "inst": 289.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2969.99,
+         "inst": 284.99
+        }
+       ]
       }
      ],
      "image": "images/iphone13-pro.jpg",
@@ -806,12 +1171,26 @@
       {
        "label": "128GB",
        "cash": 2149.99,
-       "inst": 207.99
+       "inst": 207.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2119.99,
+         "inst": 204.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 2479.99,
-       "inst": 239.99
+       "inst": 239.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2449.99,
+         "inst": 234.99
+        }
+       ]
       }
      ],
      "image": "images/iphone13.jpg",
@@ -842,7 +1221,14 @@
       {
        "label": "1TB",
        "cash": 15699.99,
-       "inst": 1509.99
+       "inst": 1509.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 15669.99,
+         "inst": 1507.99
+        }
+       ]
       }
      ],
      "image": "images/macbook-pro.jpg",
@@ -874,7 +1260,14 @@
       {
        "label": "512GB",
        "cash": 8399.99,
-       "inst": 809.99
+       "inst": 809.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8369.99,
+         "inst": 804.99
+        }
+       ]
       }
      ],
      "image": "images/macbook-air.jpg",
@@ -900,7 +1293,14 @@
       {
        "label": "512GB",
        "cash": 7999.99,
-       "inst": 769.99
+       "inst": 769.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 7969.99,
+         "inst": 767.99
+        }
+       ]
       }
      ],
      "image": "images/macbook-air.jpg",
@@ -932,7 +1332,14 @@
       {
        "label": "256GB",
        "cash": 4799.99,
-       "inst": 464.99
+       "inst": 464.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4769.99,
+         "inst": 459.99
+        }
+       ]
       }
      ],
      "image": "images/macbook-neo.jpg",
@@ -964,12 +1371,26 @@
       {
        "label": "128GB",
        "cash": 3199.99,
-       "inst": 307.99
+       "inst": 307.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3169.99,
+         "inst": 304.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 3829.99,
-       "inst": 369.99
+       "inst": 369.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3799.99,
+         "inst": 364.99
+        }
+       ]
       }
      ],
      "image": "images/ipad-11.jpg",
@@ -1000,12 +1421,26 @@
       {
        "label": "256GB",
        "cash": 7679.99,
-       "inst": 739.99
+       "inst": 739.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 7649.99,
+         "inst": 737.99
+        }
+       ]
       },
       {
        "label": "512GB",
        "cash": 8999.0,
-       "inst": 864.99
+       "inst": 864.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 8969.0,
+         "inst": 864.99
+        }
+       ]
       }
      ],
      "image": "images/ipad-pro.jpg",
@@ -1036,12 +1471,26 @@
       {
        "label": "128GB",
        "cash": 5149.99,
-       "inst": 494.99
+       "inst": 494.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5119.99,
+         "inst": 494.99
+        }
+       ]
       },
       {
        "label": "256GB",
        "cash": 5879.99,
-       "inst": 564.99
+       "inst": 564.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5849.99,
+         "inst": 564.99
+        }
+       ]
       }
      ],
      "image": "images/ipad-air.jpg",
@@ -1064,7 +1513,14 @@
       {
        "label": "128GB",
        "cash": 4969.99,
-       "inst": 479.99
+       "inst": 479.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4939.99,
+         "inst": 474.99
+        }
+       ]
       }
      ],
      "image": "images/ipad-air.jpg",
@@ -1098,7 +1554,14 @@
        "cash": 4749.99,
        "inst": 457.99,
        "was": 5179.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4719.99,
+         "inst": 454.99
+        }
+       ]
       }
      ],
      "image": "images/watch-ultra.jpg",
@@ -1131,14 +1594,28 @@
        "cash": 2379.99,
        "inst": 229.99,
        "was": 2699.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2349.99,
+         "inst": 227.99
+        }
+       ]
       },
       {
        "label": "46mm",
        "cash": 2579.99,
        "inst": 249.99,
        "was": 2899.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2549.99,
+         "inst": 244.99
+        }
+       ]
       }
      ],
      "image": "images/watch-regular.jpg",
@@ -1170,14 +1647,28 @@
        "cash": 1729.99,
        "inst": 167.99,
        "was": 2249.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1699.99,
+         "inst": 164.99
+        }
+       ]
       },
       {
        "label": "44mm",
        "cash": 1999.99,
        "inst": 194.99,
        "was": 2379.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1969.99,
+         "inst": 189.99
+        }
+       ]
       }
      ],
      "image": "images/watch-regular.jpg",
@@ -1201,14 +1692,28 @@
       {
        "label": "40mm",
        "cash": 1679.99,
-       "inst": 164.99
+       "inst": 164.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1649.99,
+         "inst": 159.99
+        }
+       ]
       },
       {
        "label": "44mm",
        "cash": 1879.99,
        "inst": 179.99,
        "was": 2179.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1849.99,
+         "inst": 179.99
+        }
+       ]
       }
      ],
      "image": "images/watch-regular.jpg",
@@ -1241,7 +1746,14 @@
        "cash": 3379.99,
        "inst": 324.99,
        "was": 3849.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3349.99,
+         "inst": 324.99
+        }
+       ]
       }
      ],
      "image": "images/airpods-max-2.jpg",
@@ -1273,14 +1785,28 @@
        "cash": 1129.99,
        "inst": 109.99,
        "was": 1379.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1099.99,
+         "inst": 104.99
+        }
+       ]
       },
       {
        "label": "Com Eliminador de Ru\u00eddo",
        "cash": 1349.99,
        "inst": 129.99,
        "was": 1749.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1319.99,
+         "inst": 127.99
+        }
+       ]
       }
      ],
      "image": "images/airpods4.jpg",
@@ -1313,7 +1839,14 @@
        "was": 3999.99,
        "cash": 3289.99,
        "inst": 317.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3259.99,
+         "inst": 314.99
+        }
+       ]
       }
      ],
      "image": "images/oura-ring-5.jpg",
@@ -1341,7 +1874,14 @@
        "was": 3379.99,
        "cash": 2879.99,
        "inst": 277.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2849.99,
+         "inst": 274.99
+        }
+       ]
       }
      ],
      "image": "images/oura-ring-4.jpg",
@@ -1375,7 +1915,14 @@
        "cash": 2499.99,
        "inst": 239.99,
        "was": 2879.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2469.99,
+         "inst": 237.99
+        }
+       ]
       }
      ],
      "image": "images/ringconn-gen3.jpg",
@@ -1405,7 +1952,14 @@
        "cash": 579.99,
        "inst": 54.99,
        "was": 779.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 549.99,
+         "inst": 54.99
+        }
+       ]
       }
      ],
      "image": "images/havit-smart-ring.jpg",
@@ -1437,7 +1991,14 @@
        "was": 2419.99,
        "cash": 2119.99,
        "inst": 204.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2089.99,
+         "inst": 204.99
+        }
+       ]
       }
      ],
      "image": "images/garmin-forerunner-170.jpg",
@@ -1474,7 +2035,14 @@
        "cash": 1989.99,
        "inst": 194.99,
        "was": 2679.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1959.99,
+         "inst": 189.99
+        }
+       ]
       }
      ],
      "image": "images/whoop.jpg",
@@ -1508,7 +2076,14 @@
        "cash": 1689.99,
        "inst": 164.99,
        "was": 2399.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1659.99,
+         "inst": 159.99
+        }
+       ]
       }
      ],
      "image": "images/garmin-cirqa.jpg",
@@ -1548,7 +2123,14 @@
        "cash": 1259.99,
        "inst": 124.99,
        "was": 1679.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1229.99,
+         "inst": 119.99
+        }
+       ]
       }
      ],
      "image": "images/fitbit-air.jpg",
@@ -1584,7 +2166,14 @@
        "cash": 3369.99,
        "inst": 324.99,
        "was": 3799.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3339.99,
+         "inst": 324.99
+        }
+       ]
       }
      ],
      "image": "images/rayban-meta.jpg",
@@ -1618,14 +2207,28 @@
        "was": 3119.99,
        "cash": 2399.99,
        "inst": 229.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2369.99,
+         "inst": 229.99
+        }
+       ]
       },
       {
        "label": "Adventurer",
        "was": 3849.99,
        "cash": 2559.99,
        "inst": 247.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2529.99,
+         "inst": 244.99
+        }
+       ]
       }
      ],
      "image": "images/oculos-meta-ia.jpg",
@@ -1664,14 +2267,28 @@
        "was": 649.0,
        "cash": 349.99,
        "inst": 34.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 319.99,
+         "inst": 29.99
+        }
+       ]
       },
       {
        "label": "C\u00e2mera + V\u00eddeo",
        "was": 749.99,
        "cash": 589.99,
        "inst": 57.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 559.99,
+         "inst": 54.99
+        }
+       ]
       }
      ],
      "image": "images/blulory-glasses.jpg",
@@ -1711,7 +2328,14 @@
        "was": 3279.99,
        "cash": 2399.99,
        "inst": 229.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2369.99,
+         "inst": 229.99
+        }
+       ]
       }
      ],
      "image": "images/ozlo-sleepbuds-2.jpg",
@@ -1740,7 +2364,14 @@
        "cash": 1379.99,
        "inst": 134.99,
        "was": 1799.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1349.99,
+         "inst": 129.99
+        }
+       ]
       }
      ],
      "image": "images/shokz-openfit-2.jpg",
@@ -1774,7 +2405,14 @@
        "was": 1749.99,
        "cash": 1399.99,
        "inst": 134.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1369.99,
+         "inst": 134.99
+        }
+       ]
       }
      ],
      "image": "images/shokz-openrun-pro.jpg",
@@ -1802,7 +2440,14 @@
        "cash": 1099.99,
        "inst": 104.99,
        "was": 1299.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1069.99,
+         "inst": 104.99
+        }
+       ]
       }
      ],
      "image": "images/huawei-freeclip-2.jpg",
@@ -1835,7 +2480,14 @@
        "cash": 879.99,
        "inst": 84.99,
        "was": 1219.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 849.99,
+         "inst": 84.99
+        }
+       ]
       }
      ],
      "image": "images/huawei-freebuds6.jpg",
@@ -1868,7 +2520,14 @@
        "was": 979.99,
        "cash": 749.99,
        "inst": 74.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 719.99,
+         "inst": 69.99
+        }
+       ]
       }
      ],
      "image": "images/huawei-freearc.jpg",
@@ -1897,7 +2556,14 @@
        "was": 579.99,
        "cash": 339.99,
        "inst": 34.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 309.99,
+         "inst": 29.99
+        }
+       ]
       }
      ],
      "image": "images/joog-ows-h33.jpg",
@@ -1926,7 +2592,14 @@
        "cash": 414.99,
        "inst": 39.99,
        "was": 599.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 384.99,
+         "inst": 37.99
+        }
+       ]
       }
      ],
      "image": "images/joog-h27-ows.jpg",
@@ -1958,7 +2631,14 @@
        "label": "Padr\u00e3o",
        "was": 299.99,
        "cash": 299.99,
-       "inst": 29.99
+       "inst": 29.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 269.99,
+         "inst": 24.99
+        }
+       ]
       }
      ],
      "image": "images/joog-u9-jg.jpg",
@@ -1986,7 +2666,14 @@
        "label": "Padr\u00e3o",
        "was": 219.99,
        "cash": 199.99,
-       "inst": 19.99
+       "inst": 19.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 169.99,
+         "inst": 17.99
+        }
+       ]
       }
      ],
      "image": "images/joog-air1-pro.jpg",
@@ -2021,7 +2708,14 @@
        "cash": 4799.99,
        "inst": 464.99,
        "was": 6999.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4769.99,
+         "inst": 459.99
+        }
+       ]
       }
      ],
      "image": "images/dji-osmo-pocket-4p.jpg",
@@ -2054,7 +2748,14 @@
        "cash": 4229.99,
        "inst": 407.99,
        "was": 4999.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4199.99,
+         "inst": 404.99
+        }
+       ]
       }
      ],
      "image": "images/osmo-pocket.jpg",
@@ -2089,7 +2790,14 @@
        "was": 2999.99,
        "cash": 2719.99,
        "inst": 264.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2689.99,
+         "inst": 259.99
+        }
+       ]
       }
      ],
      "image": "images/insta360-go3.jpg",
@@ -2123,7 +2831,14 @@
        "cash": 2879.99,
        "inst": 277.99,
        "was": 3479.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2849.99,
+         "inst": 274.99
+        }
+       ]
       }
      ],
      "image": "images/insta360.jpg",
@@ -2158,14 +2873,28 @@
        "was": 2979.99,
        "cash": 2119.99,
        "inst": 204.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2089.99,
+         "inst": 204.99
+        }
+       ]
       },
       {
        "label": "Adventure Combo",
        "was": 3579.99,
        "cash": 2659.99,
        "inst": 254.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2629.99,
+         "inst": 254.99
+        }
+       ]
       }
      ],
      "image": "images/dji-osmo-action-4.jpg",
@@ -2197,7 +2926,14 @@
        "was": 1119.99,
        "cash": 769.99,
        "inst": 74.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 739.99,
+         "inst": 74.99
+        }
+       ]
       }
      ],
      "image": "images/sjcam-c100-plus.jpg",
@@ -2233,7 +2969,14 @@
        "cash": 1299.99,
        "inst": 124.99,
        "was": 1679.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1269.99,
+         "inst": 124.99
+        }
+       ]
       }
      ],
      "image": "images/dji-mic-mini-2.jpg",
@@ -2272,7 +3015,14 @@
        "label": "Padr\u00e3o",
        "was": 1229.99,
        "cash": 1174.99,
-       "inst": 114.99
+       "inst": 114.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1144.99,
+         "inst": 109.99
+        }
+       ]
       }
      ],
      "image": "images/joog-micpro-vx1.jpg",
@@ -2307,7 +3057,14 @@
        "cash": 849.99,
        "inst": 84.99,
        "was": 1199.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 819.99,
+         "inst": 79.99
+        }
+       ]
       }
      ],
      "image": "images/hollyland-lark-m2.jpg",
@@ -2337,7 +3094,14 @@
        "cash": 649.99,
        "inst": 64.99,
        "was": 919.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 619.99,
+         "inst": 59.99
+        }
+       ]
       }
      ],
      "image": "images/hollyland-lark-a1.jpg",
@@ -2377,7 +3141,14 @@
        "cash": 1299.99,
        "inst": 124.99,
        "was": 1599.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1269.99,
+         "inst": 124.99
+        }
+       ]
       }
      ],
      "image": "images/plaud-note.jpg",
@@ -2406,7 +3177,14 @@
        "was": 1779.99,
        "cash": 1399.99,
        "inst": 134.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1369.99,
+         "inst": 134.99
+        }
+       ]
       }
      ],
      "image": "images/plaud-notepin.jpg",
@@ -2435,7 +3213,14 @@
        "was": 1249.99,
        "cash": 889.99,
        "inst": 84.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 859.99,
+         "inst": 84.99
+        }
+       ]
       }
      ],
      "image": "images/joog-ai-note.jpg",
@@ -2470,7 +3255,14 @@
        "was": 1579.99,
        "cash": 889.99,
        "inst": 84.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 859.99,
+         "inst": 84.99
+        }
+       ]
       }
      ],
      "image": "images/huion-note.jpg",
@@ -2504,7 +3296,14 @@
        "was": 979.99,
        "cash": 679.99,
        "inst": 64.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 649.99,
+         "inst": 64.99
+        }
+       ]
       }
      ],
      "image": "images/joog-magcharger.jpg",
@@ -2541,7 +3340,14 @@
        "was": 619.99,
        "cash": 339.99,
        "inst": 34.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 309.99,
+         "inst": 29.99
+        }
+       ]
       }
      ],
      "image": "images/joog-powerbank-20000.jpg",
@@ -2576,7 +3382,14 @@
        "was": 649.99,
        "cash": 404.99,
        "inst": 39.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 374.99,
+         "inst": 37.99
+        }
+       ]
       }
      ],
      "image": "images/joog-kit-vinho.jpg",
@@ -2613,7 +3426,14 @@
        "was": 949.99,
        "cash": 659.99,
        "inst": 64.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 629.99,
+         "inst": 59.99
+        }
+       ]
       }
      ],
      "image": "images/joog-em10.jpg",
@@ -2648,7 +3468,14 @@
        "was": 1449.99,
        "cash": 1069.99,
        "inst": 104.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1039.99,
+         "inst": 99.99
+        }
+       ]
       }
      ],
      "image": "images/joog-hr3-ipl.jpg",
@@ -2677,7 +3504,14 @@
        "was": 1279.99,
        "cash": 969.99,
        "inst": 94.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 939.99,
+         "inst": 89.99
+        }
+       ]
       }
      ],
      "image": "images/joog-hr2-ipl.jpg",
@@ -2712,7 +3546,14 @@
        "cash": 5999.99,
        "inst": 577.99,
        "was": 7119.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5969.99,
+         "inst": 574.99
+        }
+       ]
       }
      ],
      "image": "images/drone-mini5pro.jpg",
@@ -2746,7 +3587,14 @@
        "cash": 3114.99,
        "inst": 299.99,
        "was": 3599.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3084.99,
+         "inst": 297.99
+        }
+       ]
       }
      ],
      "image": "images/drone-neo2.jpg",
@@ -2779,7 +3627,14 @@
        "cash": 2759.99,
        "inst": 264.99,
        "was": 3399.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2729.99,
+         "inst": 264.99
+        }
+       ]
       }
      ],
      "image": "images/drone-flip4k.jpg",
@@ -2817,7 +3672,14 @@
        "label": "825GB",
        "cash": 4499.99,
        "inst": 434.99,
-       "was": 4579.0
+       "was": 4579.0,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4469.99,
+         "inst": 429.99
+        }
+       ]
       }
      ],
      "image": "images/ps5-slim-digital.jpg",
@@ -2850,7 +3712,14 @@
        "cash": 4699.0,
        "inst": 454.99,
        "was": 5319.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4669.0,
+         "inst": 449.99
+        }
+       ]
       }
      ],
      "image": "images/ps5-leitor.jpg",
@@ -2890,7 +3759,14 @@
        "was": 8299.99,
        "cash": 7199.99,
        "inst": 694.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 7169.99,
+         "inst": 689.99
+        }
+       ]
       }
      ],
      "image": "images/scooter-verde-oliva.jpg",
@@ -2917,7 +3793,14 @@
        "was": 7599.99,
        "cash": 6499.99,
        "inst": 624.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6469.99,
+         "inst": 624.99
+        }
+       ]
       }
      ],
      "image": "images/scooter-verde.jpg",
@@ -2944,7 +3827,14 @@
        "was": 7299.99,
        "cash": 6199.99,
        "inst": 597.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 6169.99,
+         "inst": 594.99
+        }
+       ]
       }
      ],
      "image": "images/scooter-preta.jpg",
@@ -2971,7 +3861,14 @@
        "label": "Padr\u00e3o",
        "was": 9999.99,
        "cash": 9499.99,
-       "inst": 914.99
+       "inst": 914.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 9469.99,
+         "inst": 914.99
+        }
+       ]
       }
      ],
      "image": "images/scooter.jpg",
@@ -3002,7 +3899,14 @@
        "was": 1679.99,
        "cash": 1139.99,
        "inst": 109.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1109.99,
+         "inst": 107.99
+        }
+       ]
       }
      ],
      "image": "images/joog-ra10.jpg",
@@ -3030,7 +3934,14 @@
        "was": 1679.0,
        "cash": 1249.99,
        "inst": 119.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1219.99,
+         "inst": 117.99
+        }
+       ]
       }
      ],
      "image": "images/vacuum-s40.jpg",
@@ -3064,7 +3975,14 @@
        "cash": 1299.99,
        "inst": 124.99,
        "was": 1579.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1269.99,
+         "inst": 124.99
+        }
+       ]
       }
      ],
      "image": "images/medicube-age-r-booster-pro.jpg",
@@ -3102,7 +4020,14 @@
        "cash": 999.99,
        "inst": 97.99,
        "was": 1219.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 969.99,
+         "inst": 94.99
+        }
+       ]
       }
      ],
      "image": "images/medicube-age-r-booster-pro-mini-plus.jpg",
@@ -3140,7 +4065,14 @@
        "cash": 949.99,
        "inst": 94.99,
        "was": 1179.99,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 919.99,
+         "inst": 89.99
+        }
+       ]
       }
      ],
      "image": "images/medicube-age-r-booster-v-roller.jpg",
@@ -3174,7 +4106,14 @@
        "cash": 899.99,
        "inst": 87.99,
        "was": 1149.0,
-       "bw": true
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 869.99,
+         "inst": 84.99
+        }
+       ]
       }
      ],
      "image": "images/medicube-age-r-booster-cleansing.jpg",
