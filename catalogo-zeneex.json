@@ -1,7 +1,7 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-08",
+  "atualizado_em": "2026-11-09",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397",
   "agenda_precos": "Cada varia\u00e7\u00e3o pode ter \"agenda\": lista de {a_partir (ISO com -03:00), cash, inst}. O site aplica sozinho o \u00faltimo item cujo a_partir j\u00e1 passou. Em 09/11/2026 00:00 (Bras\u00edlia): \u00e0 vista \u2212R$ 30,00 em todos; 12x recalculado pela f\u00f3rmula do site (taxa 13,39%)."
@@ -4132,9 +4132,232 @@
       ],
       "idealFor": "Para quem busca uma rotina de limpeza pr\u00e1tica, com um dispositivo que combina cuidado facial e tecnologia em um s\u00f3 gesto."
      }
+    },
+    {
+     "name": "Medicube PDRN Pink Collagen Capsule Cream 55 g",
+     "badge": "NOVO",
+     "spec": "Creme facial \u00b7 55 g",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 219.99,
+       "inst": 24.99
+      }
+     ]
+    },
+    {
+     "name": "Medicube Collagen Glow Booster Serum 15 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 15 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 189.99,
+       "inst": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Medicube Collagen Night Wrapping Mask 75 ml",
+     "badge": "NOVO",
+     "spec": "M\u00e1scara noturna \u00b7 75 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 174.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Medicube PDRN Pink Peptide Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 174.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Medicube Collagen Jelly Cream 50 ml",
+     "badge": "NOVO",
+     "spec": "Creme facial \u00b7 50 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 169.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Medicube Kojic Acid Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 154.99,
+       "inst": 14.99
+      }
+     ]
     }
    ],
-   "coverImage": "images/cover-medicube-2.jpg"
+   "coverImage": "images/cover-medicube-2.jpg",
+   "group": "Skincare & Beleza"
+  },
+  {
+   "category": "Elizavecca",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Elizavecca CER-100 Spray 250 ml",
+     "badge": "NOVO",
+     "spec": "250 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 179.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Elizavecca CER-100 Shampoo 500 ml",
+     "badge": "NOVO",
+     "spec": "Shampoo \u00b7 500 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 169.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Elizavecca CER-100 Ion Injection 50 ml",
+     "badge": "NOVO",
+     "spec": "50 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 134.99,
+       "inst": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Elizavecca CER-100 Essence Oil 100 ml",
+     "badge": "NOVO",
+     "spec": "\u00d3leo ess\u00eancia \u00b7 100 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 129.99,
+       "inst": 14.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "SKIN1004",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "SKIN1004 Probio-Cica Ampoule 50 ml",
+     "badge": "NOVO",
+     "spec": "Ampola facial \u00b7 50 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 249.99,
+       "inst": 24.99
+      }
+     ]
+    },
+    {
+     "name": "SKIN1004 Centella Cleansing Oil 200 ml",
+     "badge": "NOVO",
+     "spec": "\u00d3leo de limpeza \u00b7 200 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 179.99,
+       "inst": 17.99
+      }
+     ]
+    },
+    {
+     "name": "SKIN1004 Centella Ampoule Foam 125 ml",
+     "badge": "NOVO",
+     "spec": "Espuma de limpeza \u00b7 125 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 159.99,
+       "inst": 14.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "category": "Beauty of Joseon",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Beauty of Joseon Ginseng Cleansing Oil 210 ml",
+     "badge": "NOVO",
+     "spec": "\u00d3leo de limpeza \u00b7 210 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 249.99,
+       "inst": 24.99
+      }
+     ]
+    },
+    {
+     "name": "Beauty of Joseon Ginseng Essence Water 150 ml",
+     "badge": "NOVO",
+     "spec": "Essence \u00b7 150 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 224.99,
+       "inst": 24.99
+      }
+     ]
+    },
+    {
+     "name": "Beauty of Joseon Revive Eye Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum para olhos \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 209.99,
+       "inst": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Beauty of Joseon Revive Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 169.99,
+       "inst": 17.99
+      }
+     ]
+    }
+   ]
   }
  ]
 }
