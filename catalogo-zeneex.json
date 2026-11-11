@@ -2018,6 +2018,29 @@
    ]
   },
   {
+   "category": "SmartFy",
+   "group": "An\u00e9is Inteligentes",
+   "items": [
+    {
+     "name": "Anel Inteligente SmartFy",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 499.99,
+       "inst": 49.99
+      }
+     ],
+     "image": "images/smartfy-smart-ring.jpg",
+     "description": {
+      "hook": "Mais informa\u00e7\u00e3o sobre sua rotina. No seu dedo.",
+      "intro": "Acompanhe sono, frequ\u00eancia card\u00edaca e atividades em um acess\u00f3rio discreto, conectado ao aplicativo no celular. O SmartFy combina o visual de um anel com recursos para observar seus h\u00e1bitos e acompanhar o dia a dia.",
+      "idealFor": "Quem quer come\u00e7ar a acompanhar a rotina com um anel inteligente de pre\u00e7o acess\u00edvel."
+     }
+    }
+   ]
+  },
+  {
    "category": "Garmin Forerunner 170",
    "group": "Sa\u00fade & Atividade",
    "items": [
