@@ -1,12 +1,51 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-09",
+  "atualizado_em": "2026-11-11",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397",
   "agenda_precos": "Cada varia\u00e7\u00e3o pode ter \"agenda\": lista de {a_partir (ISO com -03:00), cash, inst}. O site aplica sozinho o \u00faltimo item cujo a_partir j\u00e1 passou. Em 09/11/2026 00:00 (Bras\u00edlia): \u00e0 vista \u2212R$ 30,00 em todos; 12x recalculado pela f\u00f3rmula do site (taxa 13,39%)."
  },
  "categorias": [
+  {
+   "category": "iPhone DUO",
+   "group": "iPhones",
+   "supergroup": "Apple Store",
+   "supergroupCoverImage": "images/cover-apple-store-2.jpg",
+   "items": [
+    {
+     "name": "iPhone DUO",
+     "badge": "NOVO",
+     "spec": "Primeiro iPhone dobr\u00e1vel",
+     "variations": [
+      {
+       "label": "256GB",
+       "cash": 16499.99,
+       "inst": 1587.99
+      },
+      {
+       "label": "512GB",
+       "cash": 19499.99,
+       "inst": 1877.99
+      }
+     ],
+     "image": "images/iphone-duo-lineup.jpg",
+     "description": {
+      "hook": "O iPhone que abre para uma tela de tablet.",
+      "intro": "O iPhone DUO \u00e9 o primeiro iPhone dobr\u00e1vel. Fechado, cabe no bolso como um iPhone compacto; aberto, revela uma tela grande para trabalhar, assistir e criar com mais espa\u00e7o.",
+      "highlights": [
+       "Tela de 5,4 polegadas fechado e 7,6 polegadas aberto",
+       "Chip A20 Pro, o mesmo do iPhone 18 Pro",
+       "C\u00e2mera principal de 48 MP com zoom \u00f3ptico 2x e ultra-angular de 48 MP",
+       "Corpo em tit\u00e2nio, com 201 g",
+       "Touch ID no bot\u00e3o lateral, eSIM e resist\u00eancia IP48",
+       "Cores Branco-estrela e C\u00e9u noturno"
+      ],
+      "idealFor": "Nossa indica\u00e7\u00e3o para quem quer o iPhone mais diferente da linha: um aparelho compacto no dia a dia que vira uma tela grande quando precisa."
+     }
+    }
+   ]
+  },
   {
    "category": "iPhone 18",
    "group": "iPhones",
@@ -20,40 +59,40 @@
       {
        "label": "256GB",
        "was": 11299.0,
-       "cash": 9299.99,
-       "inst": 894.99,
+       "cash": 9199.99,
+       "inst": 884.99,
        "bw": true,
        "agenda": [
         {
          "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 9269.99,
-         "inst": 894.99
+         "cash": 9199.99,
+         "inst": 884.99
         }
        ]
       },
       {
        "label": "512GB",
-       "cash": 11499.99,
-       "inst": 1107.99,
+       "cash": 11299.99,
+       "inst": 1087.99,
        "bw": true,
        "agenda": [
         {
          "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 11469.99,
-         "inst": 1104.99
+         "cash": 11299.99,
+         "inst": 1087.99
         }
        ]
       },
       {
        "label": "1TB",
-       "cash": 14999.99,
-       "inst": 1444.99,
+       "cash": 14299.99,
+       "inst": 1374.99,
        "bw": true,
        "agenda": [
         {
          "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 14969.99,
-         "inst": 1439.99
+         "cash": 14299.99,
+         "inst": 1374.99
         }
        ]
       }
