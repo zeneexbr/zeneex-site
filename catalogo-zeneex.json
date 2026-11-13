@@ -1,7 +1,7 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-11",
+  "atualizado_em": "2026-11-12",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397",
   "agenda_precos": "Cada varia\u00e7\u00e3o pode ter \"agenda\": lista de {a_partir (ISO com -03:00), cash, inst}. O site aplica sozinho o \u00faltimo item cujo a_partir j\u00e1 passou. Em 09/11/2026 00:00 (Bras\u00edlia): \u00e0 vista \u2212R$ 30,00 em todos; 12x recalculado pela f\u00f3rmula do site (taxa 13,39%)."
@@ -4196,6 +4196,54 @@
      }
     },
     {
+     "name": "Medicube Kojic Peel Shot",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 308.0,
+       "inst": 29.99
+      }
+     ],
+     "image": "images/medicube-kojic-turmeric-peel-shot.jpg"
+    },
+    {
+     "name": "Medicube Balm Volufiline",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 254.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/medicube-pdrn-pink-multi-balm.jpg"
+    },
+    {
+     "name": "Medicube Deep Vita C Capsule Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 229.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/medicube-deep-vita-c-serum.jpg"
+    },
+    {
+     "name": "Medicube Zero Pore One Day Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 224.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/medicube-zero-pore-one-day-serum.jpg"
+    },
+    {
      "name": "Medicube PDRN Pink Collagen Capsule Cream 55 g",
      "badge": "NOVO",
      "spec": "Creme facial \u00b7 55 g",
@@ -4207,6 +4255,54 @@
       }
      ],
      "image": "images/medicube-pdrn-pink-collagen-capsule-cream.jpg"
+    },
+    {
+     "name": "Medicube Kojic Vita Capsule Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 209.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-kojic-vita-capsule-cream.jpg"
+    },
+    {
+     "name": "Medicube Zero Pore Pad 2.0",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 199.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-zero-pore-pad-2.jpg"
+    },
+    {
+     "name": "Medicube PDRN Pink Collagen Exosome Shot 7500",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 199.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-pdrn-exosome-shot-7500.jpg"
+    },
+    {
+     "name": "Medicube Deep Vita C Capsule Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 199.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-deep-vita-c-capsule-cream.jpg"
     },
     {
      "name": "Medicube Collagen Glow Booster Serum 15 ml",
@@ -4222,6 +4318,54 @@
      "image": "images/medicube-collagen-glow-booster-serum.jpg"
     },
     {
+     "name": "Medicube Vitamina C Pads",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 189.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-deep-vita-c-pad.jpg"
+    },
+    {
+     "name": "Medicube Retinol Boosting Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 189.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/medicube-retinol-nmn-serum.jpg"
+    },
+    {
+     "name": "Medicube Zero Pore Pad Mild (Pele Sens\u00edvel)",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 184.99,
+       "inst": 17.99
+      }
+     ],
+     "image": "images/medicube-zero-pore-pad-mild.jpg"
+    },
+    {
+     "name": "Medicube One Day Exosome Shot 2000",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 179.99,
+       "inst": 17.99
+      }
+     ],
+     "image": "images/medicube-exosome-shot-2000.jpg"
+    },
+    {
      "name": "Medicube Collagen Night Wrapping Mask 75 ml",
      "badge": "NOVO",
      "spec": "M\u00e1scara noturna \u00b7 75 ml",
@@ -4235,19 +4379,6 @@
      "image": "images/medicube-collagen-night-wrapping-mask.jpg"
     },
     {
-     "name": "Medicube PDRN Pink Peptide Serum 30 ml",
-     "badge": "NOVO",
-     "spec": "S\u00e9rum facial \u00b7 30 ml",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 174.99,
-       "inst": 17.99
-      }
-     ],
-     "image": "images/medicube-pdrn-pink-peptide-serum.jpg"
-    },
-    {
      "name": "Medicube Collagen Jelly Cream 50 ml",
      "badge": "NOVO",
      "spec": "Creme facial \u00b7 50 ml",
@@ -4259,6 +4390,31 @@
       }
      ],
      "image": "images/medicube-collagen-jelly-cream.jpg"
+    },
+    {
+     "name": "Medicube PDRN Pink Peptide Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 159.99,
+       "inst": 14.99
+      }
+     ],
+     "image": "images/medicube-pdrn-pink-peptide-serum.jpg"
+    },
+    {
+     "name": "Medicube Zero Pore Blackhead Mud Mask",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 159.99,
+       "inst": 14.99
+      }
+     ],
+     "image": "images/medicube-zero-pore-mud-mask.jpg"
     },
     {
      "name": "Medicube Kojic Acid Serum 30 ml",
@@ -4340,6 +4496,70 @@
    "group": "Skincare & Beleza",
    "items": [
     {
+     "name": "SKIN1004 Hyalu-Cica First Ampoule",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 394.99,
+       "inst": 39.99
+      }
+     ],
+     "image": "images/skin1004-hyalu-cica-first-ampoule.jpg"
+    },
+    {
+     "name": "SKIN1004 Tone Brightening Capsule Ampoule 100 ml",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 309.99,
+       "inst": 29.99
+      }
+     ],
+     "spec": "100 ml",
+     "image": "images/skin1004-tone-brightening-ampoule.jpg"
+    },
+    {
+     "name": "SKIN1004 Fresh Ampoule 100 ml",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 284.99,
+       "inst": 27.99
+      }
+     ],
+     "spec": "100 ml",
+     "image": "images/skin1004-poremizing-100ml.jpg"
+    },
+    {
+     "name": "SKIN1004 Centella Ampoule 100 ml",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 284.99,
+       "inst": 27.99
+      }
+     ],
+     "spec": "100 ml",
+     "image": "images/skin1004-centella-ampoule-100ml.jpg"
+    },
+    {
+     "name": "SKIN1004 Fresh Ampoule 50 ml",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 254.99,
+       "inst": 24.99
+      }
+     ],
+     "spec": "50 ml",
+     "image": "images/skin1004-poremizing-50ml.jpg"
+    },
+    {
      "name": "SKIN1004 Probio-Cica Ampoule 50 ml",
      "badge": "NOVO",
      "spec": "Ampola facial \u00b7 50 ml",
@@ -4351,6 +4571,18 @@
       }
      ],
      "image": "images/skin1004-probio-cica-ampoule.jpg"
+    },
+    {
+     "name": "SKIN1004 Quick Clay Stick Mask",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 184.99,
+       "inst": 17.99
+      }
+     ],
+     "image": "images/skin1004-quick-clay-stick.jpg"
     },
     {
      "name": "SKIN1004 Centella Cleansing Oil 200 ml",
@@ -4385,6 +4617,19 @@
    "group": "Skincare & Beleza",
    "items": [
     {
+     "name": "Beauty of Joseon Revive Eye Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum para olhos \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 369.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/beauty-joseon-revive-eye-serum.jpg"
+    },
+    {
      "name": "Beauty of Joseon Ginseng Cleansing Oil 210 ml",
      "badge": "NOVO",
      "spec": "\u00d3leo de limpeza \u00b7 210 ml",
@@ -4411,19 +4656,6 @@
      "image": "images/beauty-of-joseon-ginseng-essence-water.jpg"
     },
     {
-     "name": "Beauty of Joseon Revive Eye Serum 30 ml",
-     "badge": "NOVO",
-     "spec": "S\u00e9rum para olhos \u00b7 30 ml",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 209.99,
-       "inst": 19.99
-      }
-     ],
-     "image": "images/beauty-of-joseon-revive-eye-serum.jpg"
-    },
-    {
      "name": "Beauty of Joseon Revive Serum 30 ml",
      "badge": "NOVO",
      "spec": "S\u00e9rum facial \u00b7 30 ml",
@@ -4435,6 +4667,265 @@
       }
      ],
      "image": "images/beauty-of-joseon-revive-serum.jpg"
+    }
+   ]
+  },
+  {
+   "category": "Celimax",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Celimax Dual Barrier Creamy Toner",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 349.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/celimax-dual-barrier-creamy-toner.jpg"
+    },
+    {
+     "name": "Celimax Pore+Dark Spot Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 249.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/celimax-pore-dark-spot-cream.jpg"
+    },
+    {
+     "name": "Celimax Pore+Dark Spot Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 229.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/celimax-pore-dark-spot-serum.jpg"
+    },
+    {
+     "name": "Celimax Retinol Shot Tightening Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 169.99,
+       "inst": 17.99
+      }
+     ],
+     "image": "images/celimax-retinol-shot-serum.jpg"
+    },
+    {
+     "name": "Celimax Retinal Shot Tightening Booster",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 154.99,
+       "inst": 14.99
+      }
+     ],
+     "image": "images/celimax-retinal-shot-booster.jpg"
+    }
+   ]
+  },
+  {
+   "category": "Dr. Althea",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Dr. Althea 345 Relief Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 324.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/dr-althea-345-relief-cream.jpg"
+    },
+    {
+     "name": "Dr. Althea Pure Grinding Cleansing Balm",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 324.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/dr-althea-pure-grinding-balm.jpg"
+    },
+    {
+     "name": "Dr. Althea Spray 345",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 284.99,
+       "inst": 27.99
+      }
+     ],
+     "image": "images/dr-althea-345-mist.jpg"
+    },
+    {
+     "name": "Dr. Althea 345 Relief Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 214.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/dr-althea-345-relief-serum.jpg"
+    }
+   ]
+  },
+  {
+   "category": "Anua",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Anua PDRN Mist",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 369.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/anua-pdrn-capsule-mist-30ml.jpg"
+    },
+    {
+     "name": "Anua Visibly Firming",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 354.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/anua-collagen-retinol-gua-sha-cream.jpg"
+    },
+    {
+     "name": "Anua Niacinamide 10+TXA 4 Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 354.99,
+       "inst": 34.99
+      }
+     ],
+     "image": "images/anua-niacinamide-txa-serum.jpg"
+    },
+    {
+     "name": "Anua Azelaic Acid 10",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 229.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/anua-azelaic-acid-serum.jpg"
+    }
+   ]
+  },
+  {
+   "category": "Numbuzin",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "Numbuzin N\u00ba 9+ NAD+ Eye Patches",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 299.99,
+       "inst": 29.99
+      }
+     ],
+     "image": "images/numbuzin-no9-eye-patches.jpg"
+    },
+    {
+     "name": "Numbuzin Eye Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 254.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/numbuzin-no9-volumetox-eye-cream.jpg"
+    },
+    {
+     "name": "Numbuzin NAD+ BIO Lifting-all Essence",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 254.99,
+       "inst": 24.99
+      }
+     ],
+     "image": "images/numbuzin-no9-bio-lifting-essence.jpg"
+    }
+   ]
+  },
+  {
+   "category": "Outros",
+   "group": "Skincare & Beleza",
+   "items": [
+    {
+     "name": "GHK CU Serum",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 284.99,
+       "inst": 27.99
+      }
+     ],
+     "image": "images/ghk-cu-liposomal-serum.jpg"
+    },
+    {
+     "name": "Seoul 1988 Eye Cream",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 284.99,
+       "inst": 27.99
+      }
+     ],
+     "image": "images/ksecret-seoul1988-eye-cream.jpg"
+    },
+    {
+     "name": "Aquaphor Repair Immediate Relief 10 ml",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 114.99,
+       "inst": 14.99
+      }
+     ],
+     "spec": "10 ml",
+     "image": "images/eucerin-aquaphor-sos-lip-repair-10ml.jpg"
     }
    ]
   }
