@@ -1,7 +1,7 @@
 {
  "_meta": {
   "fonte": "Fonte \u00fanica compartilhada entre o site (Plataforma) e o Cat\u00e1logo PDF \u2014 ver Nota de Sincroniza\u00e7\u00e3o na skill de Cat\u00e1logo",
-  "atualizado_em": "2026-11-12",
+  "atualizado_em": "2026-11-14",
   "instrucao": "Ao editar pre\u00e7o/produto, atualizar este arquivo e depois refletir a mesma mudan\u00e7a no CATA_LOGO_ZENEEX.pdf na mesma sess\u00e3o de trabalho.",
   "whatsapp": "5591984195397",
   "agenda_precos": "Cada varia\u00e7\u00e3o pode ter \"agenda\": lista de {a_partir (ISO com -03:00), cash, inst}. O site aplica sozinho o \u00faltimo item cujo a_partir j\u00e1 passou. Em 09/11/2026 00:00 (Bras\u00edlia): \u00e0 vista \u2212R$ 30,00 em todos; 12x recalculado pela f\u00f3rmula do site (taxa 13,39%)."
@@ -4723,6 +4723,35 @@
       ],
       "idealFor": "Quem se incomoda com a apar\u00eancia de manchas e tom irregular e quer um s\u00e9rum direcionado. Cont\u00e9m ativos: siga as orienta\u00e7\u00f5es da embalagem e use protetor solar durante o dia."
      }
+    },
+    {
+     "name": "Medicube Ultra Light PDRN Pink Peptide Serum 30 ml",
+     "badge": "NOVO",
+     "spec": "S\u00e9rum facial \u00b7 30 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 149.99,
+       "inst": 14.99
+      }
+     ],
+     "image": "images/medicube-ultra-light-pdrn-pink-peptide-serum.jpg",
+     "description": {
+      "hook": "A vers\u00e3o mais leve do s\u00e9rum rosa da Medicube.",
+      "intro": "O Ultra Light PDRN Pink Peptide Serum traz PDRN (sodium DNA) e um complexo com 5 tipos de pept\u00eddeos, em textura ultra leve, para quem prefere s\u00e9rum sem sensa\u00e7\u00e3o pesada.",
+      "benefits": [
+       "Hidrata\u00e7\u00e3o e conforto com toque leve",
+       "Aspecto de firmeza e elasticidade",
+       "Pele com vi\u00e7o e aspecto saud\u00e1vel"
+      ],
+      "highlights": [
+       "PDRN (sodium DNA)",
+       "5 tipos de pept\u00eddeos",
+       "Textura ultra leve",
+       "Frasco com conta-gotas, 30 ml"
+      ],
+      "idealFor": "Quem tem pele oleosa ou mista, ou gosta de texturas leves, e quer PDRN e pept\u00eddeos na rotina."
+     }
     }
    ],
    "coverImage": "images/cover-medicube-2.jpg",
@@ -5016,6 +5045,90 @@
        "50 ml"
       ],
       "idealFor": "Quem tem pele sens\u00edvel ou reativa e quer uma ampola calmante para o dia a dia."
+     }
+    },
+    {
+     "name": "SKIN1004 Poremizing Deep Cleansing Foam 125 ml",
+     "badge": "NOVO",
+     "spec": "Espuma de limpeza \u00b7 125 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 199.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/skin1004-poremizing-deep-cleansing-foam.jpg",
+     "description": {
+      "hook": "Limpeza profunda, sem deixar a pele repuxada.",
+      "intro": "A Poremizing Deep Cleansing Foam \u00e9 uma espuma de limpeza facial com centella, voltada \u00e0 limpeza dos poros e ao equil\u00edbrio da oleosidade, em bisnaga de 125 ml. Da linha Madagascar Centella, feita com centella pura de Madagascar.",
+      "benefits": [
+       "Pele com sensa\u00e7\u00e3o de limpeza profunda",
+       "Poros com apar\u00eancia mais limpa e refinada",
+       "Pele fresca e confort\u00e1vel depois de lavar"
+      ],
+      "highlights": [
+       "Linha Poremizing",
+       "Com centella",
+       "Bisnaga de 125 ml"
+      ],
+      "idealFor": "Quem tem pele mista ou oleosa, ou poros aparentes, e quer uma espuma de limpeza para usar todos os dias."
+     }
+    },
+    {
+     "name": "SKIN1004 Centella Air-Fit Suncream Plus SPF50+ PA++++ 50 ml",
+     "badge": "NOVO",
+     "spec": "Protetor solar FPS 50+ \u00b7 50 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 199.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/skin1004-centella-air-fit-suncream-plus.jpg",
+     "description": {
+      "hook": "Prote\u00e7\u00e3o solar de alto n\u00edvel, com centella.",
+      "intro": "O Air-Fit Suncream Plus \u00e9 um protetor solar facial com FPS 50+ e PA++++, da linha Madagascar Centella. O FPS indica a prote\u00e7\u00e3o contra os raios UVB e o PA++++, contra os raios UVA, que s\u00e3o os que mais envelhecem a pele. Da linha Madagascar Centella, feita com centella pura de Madagascar.",
+      "benefits": [
+       "Alta prote\u00e7\u00e3o contra UVB e UVA (FPS 50+ e PA++++)",
+       "Textura pensada para ficar leve na pele (Air-Fit)",
+       "Ajuda a prevenir manchas e sinais de envelhecimento causados pelo sol"
+      ],
+      "highlights": [
+       "FPS 50+ e PA++++",
+       "Com centella",
+       "Frasco de 50 ml"
+      ],
+      "idealFor": "Quem quer um protetor solar facial para usar todos os dias, inclusive sob a maquiagem. Reaplique a cada 2 horas em exposi\u00e7\u00e3o ao sol."
+     }
+    },
+    {
+     "name": "SKIN1004 Centella Soothing Cream 75 ml",
+     "badge": "NOVO",
+     "spec": "Creme calmante \u00b7 75 ml",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 194.99,
+       "inst": 19.99
+      }
+     ],
+     "image": "images/skin1004-centella-soothing-cream.jpg",
+     "description": {
+      "hook": "O creme que acalma a pele, todos os dias.",
+      "intro": "O Soothing Cream \u00e9 um creme facial com centella pura de Madagascar, conhecida por acalmar e dar conforto \u00e0 pele. Vem em bisnaga de 75 ml, com bom rendimento para o uso di\u00e1rio. Da linha Madagascar Centella, feita com centella pura de Madagascar.",
+      "benefits": [
+       "Pele mais calma e confort\u00e1vel",
+       "Aspecto de vermelhid\u00e3o suavizado",
+       "Hidrata\u00e7\u00e3o com toque leve ao longo do dia"
+      ],
+      "highlights": [
+       "Centella pura de Madagascar",
+       "Creme facial",
+       "Bisnaga de 75 ml"
+      ],
+      "idealFor": "Quem tem pele sens\u00edvel, reativa ou irritada e quer um creme simples para a finaliza\u00e7\u00e3o da rotina."
      }
     },
     {
