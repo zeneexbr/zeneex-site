@@ -2204,2026 +2204,6 @@
    ]
   },
   {
-   "category": "Oura Ring",
-   "group": "An\u00e9is Inteligentes",
-   "coverImage": "images/cover-aneis-inteligentes-3.jpg",
-   "items": [
-    {
-     "name": "Oura Ring 5",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 3999.99,
-       "cash": 3289.99,
-       "inst": 317.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 3259.99,
-         "inst": 314.99
-        }
-       ]
-      }
-     ],
-     "image": "images/oura-ring-5.jpg",
-     "description": {
-      "hook": "Quanto menos voc\u00ea percebe o Oura, mais ele percebe sobre voc\u00ea.",
-      "intro": "Mais fino, mais compacto e com uma nova gera\u00e7\u00e3o de sensores, o Oura Ring 5 acompanha seu corpo continuamente sem disputar espa\u00e7o na sua rotina.",
-      "blocks": [
-       {
-        "title": "Mais conforto. Mais tempo com voc\u00ea.",
-        "text": "Um design 40% menor em volume que o Ring 4, pensado para acompanhar seus sinais durante o dia, a noite e o sono."
-       },
-       {
-        "title": "Mais avan\u00e7ado onde voc\u00ea n\u00e3o v\u00ea.",
-        "text": "A nova arquitetura de sensores aprimora a precis\u00e3o enquanto a tecnologia praticamente desaparece no seu dedo."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Oura Ring 4",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 3379.99,
-       "cash": 2879.99,
-       "inst": 277.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2849.99,
-         "inst": 274.99
-        }
-       ]
-      }
-     ],
-     "image": "images/oura-ring-4.jpg",
-     "description": {
-      "hook": "Seu corpo fala o tempo todo. O Oura ajuda voc\u00ea a entend\u00ea-lo.",
-      "intro": "Sono, atividade e recupera\u00e7\u00e3o acompanhados continuamente - sem precisar de mais uma tela no seu dia.",
-      "blocks": [
-       {
-        "title": "Entenda o que seu corpo est\u00e1 dizendo.",
-        "text": "Descubra como seu sono, seus h\u00e1bitos e sua rotina influenciam a maneira como voc\u00ea se sente e se recupera."
-       },
-       {
-        "title": "Tecnologia que n\u00e3o parece tecnologia.",
-        "text": "Smart Sensing e sensores integrados em um anel de tit\u00e2nio discreto, confort\u00e1vel e pensado para acompanhar voc\u00ea dia e noite."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "RingConn",
-   "group": "An\u00e9is Inteligentes",
-   "items": [
-    {
-     "name": "RingConn Gen 3",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 2499.99,
-       "inst": 239.99,
-       "was": 2879.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2469.99,
-         "inst": 237.99
-        }
-       ]
-      }
-     ],
-     "image": "images/ringconn-gen3.jpg",
-     "description": {
-      "hook": "Seu corpo fala o tempo todo. O RingConn ajuda voc\u00ea a entender.",
-      "intro": "Um anel inteligente que acompanha seu corpo continuamente, transformando dados de sa\u00fade, sono e atividade em informa\u00e7\u00f5es f\u00e1ceis de acompanhar. Serve para entender melhor como voc\u00ea dorme, se recupera e como seu corpo responde \u00e0 sua rotina, acompanhando indicadores como frequ\u00eancia card\u00edaca, HRV, oxigena\u00e7\u00e3o, temperatura, atividade e sono.",
-      "blocks": [
-       {
-        "title": "Mais informa\u00e7\u00e3o. Sem mais uma tela.",
-        "text": "Discreto no dedo, acompanha seus sinais durante o dia e a noite, com autonomia de at\u00e9 14 dias e sem assinatura mensal obrigat\u00f3ria."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Havit",
-   "group": "An\u00e9is Inteligentes",
-   "items": [
-    {
-     "name": "Anel Inteligente Havit",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 579.99,
-       "inst": 54.99,
-       "was": 779.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 549.99,
-         "inst": 54.99
-        }
-       ]
-      }
-     ],
-     "image": "images/havit-smart-ring.jpg",
-     "description": {
-      "hook": "Seu corpo tem uma rotina. Comece a conhec\u00ea-la melhor.",
-      "intro": "Discreto como um acess\u00f3rio, o anel inteligente Havit acompanha o sono, os movimentos e indicadores de bem-estar. Pelo aplicativo, voc\u00ea consulta seus registros e observa como seus h\u00e1bitos mudam ao longo dos dias.",
-      "highlights": [
-       "acompanhamento do sono",
-       "frequ\u00eancia card\u00edaca e oxigena\u00e7\u00e3o",
-       "registro de passos e atividades",
-       "conex\u00e3o com Android e iPhone",
-       "estojo de carregamento"
-      ],
-      "idealFor": "Uma op\u00e7\u00e3o para quem deseja come\u00e7ar a acompanhar a pr\u00f3pria rotina com um dispositivo discreto, mantendo o pulso livre e as informa\u00e7\u00f5es ao alcance no celular."
-     }
-    }
-   ]
-  },
-  {
-   "category": "SmartFy",
-   "group": "An\u00e9is Inteligentes",
-   "items": [
-    {
-     "name": "Anel Inteligente SmartFy",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 499.99,
-       "inst": 49.99
-      }
-     ],
-     "image": "images/smartfy-smart-ring.jpg",
-     "description": {
-      "hook": "Mais informa\u00e7\u00e3o sobre sua rotina. No seu dedo.",
-      "intro": "Acompanhe sono, frequ\u00eancia card\u00edaca e atividades em um acess\u00f3rio discreto, conectado ao aplicativo no celular. O SmartFy combina o visual de um anel com recursos para observar seus h\u00e1bitos e acompanhar o dia a dia.",
-      "idealFor": "Quem quer come\u00e7ar a acompanhar a rotina com um anel inteligente de pre\u00e7o acess\u00edvel."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Garmin Forerunner 170",
-   "group": "Sa\u00fade & Atividade",
-   "items": [
-    {
-     "name": "Garmin Forerunner 170",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 2419.99,
-       "cash": 2119.99,
-       "inst": 204.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2089.99,
-         "inst": 204.99
-        }
-       ]
-      }
-     ],
-     "image": "images/garmin-forerunner-170.jpg",
-     "description": {
-      "hook": "Cada corrida conta. Acompanhe sua evolu\u00e7\u00e3o.",
-      "intro": "Um smartwatch com GPS para transformar seus treinos em informa\u00e7\u00f5es \u00fateis. Acompanhe ritmo, dist\u00e2ncia e m\u00e9tricas de corrida em uma tela AMOLED, com recursos que ajudam a entender seu desempenho e organizar sua evolu\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "GPS integrado.",
-        "text": "Ritmo e dist\u00e2ncia registrados em cada treino."
-       },
-       {
-        "title": "Tela AMOLED.",
-        "text": "M\u00e9tricas de corrida em uma tela n\u00edtida, sens\u00edvel ao toque e com cinco bot\u00f5es."
-       }
-      ],
-      "idealFor": "Para quem deseja come\u00e7ar a correr com mais orienta\u00e7\u00e3o ou acompanhar os treinos com mais consist\u00eancia, levando dados \u00fateis para o pulso."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Whoop",
-   "group": "Sa\u00fade & Atividade",
-   "coverImage": "images/cover-saude-atividade-3.jpg",
-   "items": [
-    {
-     "name": "Whoop 5.0 Peak Health and Fitness Tracker",
-     "spec": "Obsidian",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Obsidian",
-       "cash": 1989.99,
-       "inst": 194.99,
-       "was": 2679.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1959.99,
-         "inst": 189.99
-        }
-       ]
-      }
-     ],
-     "image": "images/whoop.jpg",
-     "description": {
-      "hook": "Seu corpo sabe quando voc\u00ea pode ir al\u00e9m. O WHOOP ajuda voc\u00ea a perceber isso.",
-      "intro": "Sono, esfor\u00e7o, recupera\u00e7\u00e3o e sa\u00fade transformados em insights para entender como suas escolhas de hoje afetam seu desempenho amanh\u00e3.",
-      "blocks": [
-       {
-        "title": "Treine com mais intelig\u00eancia.",
-        "text": "Entenda quando acelerar, quando recuperar e quais h\u00e1bitos est\u00e3o ajudando - ou atrapalhando - sua evolu\u00e7\u00e3o."
-       },
-       {
-        "title": "Menos tela. Mais leitura do seu corpo.",
-        "text": "Monitoramento cont\u00ednuo, bateria para mais de 14 dias e recursos do Peak voltados a desempenho, estresse e sa\u00fade a longo prazo."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Garmin Cirqa Smart Band",
-   "group": "Sa\u00fade & Atividade",
-   "items": [
-    {
-     "name": "Garmin Cirqa Smart Band",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 1689.99,
-       "inst": 164.99,
-       "was": 2399.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1659.99,
-         "inst": 159.99
-        }
-       ]
-      }
-     ],
-     "image": "images/garmin-cirqa.jpg",
-     "description": {
-      "hook": "Voc\u00ea n\u00e3o precisa de outra tela. Precisa entender melhor o que acontece com voc\u00ea.",
-      "intro": "A Garmin Cirqa Smart Band leva a proposta de monitoramento para um formato discreto, pensado para permanecer no pulso sem transformar cada informa\u00e7\u00e3o em mais uma notifica\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Tecnologia que quase desaparece.",
-        "text": "Seu formato sem tela reduz distra\u00e7\u00f5es e deixa o acompanhamento acontecer de maneira mais silenciosa durante a rotina."
-       },
-       {
-        "title": "Do dia \u00e0 recupera\u00e7\u00e3o.",
-        "text": "A proposta da Cirqa \u00e9 acompanhar informa\u00e7\u00f5es relacionadas ao corpo, atividade e bem-estar para ajudar voc\u00ea a compreender melhor seus pr\u00f3prios padr\u00f5es."
-       },
-       {
-        "title": "Feita para permanecer com voc\u00ea.",
-        "text": "O design compacto aproxima a experi\u00eancia de uma pulseira tradicional, mas com intelig\u00eancia trabalhando em segundo plano."
-       }
-      ],
-      "idealFor": "Para quem gosta da intelig\u00eancia dos wearables, mas n\u00e3o quer mais uma tela disputando sua aten\u00e7\u00e3o."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Google Fitbit Air",
-   "group": "Sa\u00fade & Atividade",
-   "items": [
-    {
-     "name": "Google Fitbit Air",
-     "badge": "NOVO",
-     "spec": "Pulseira inteligente \u00b7 Obsidian",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 1259.99,
-       "inst": 124.99,
-       "was": 1679.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1229.99,
-         "inst": 119.99
-        }
-       ]
-      }
-     ],
-     "image": "images/fitbit-air.jpg",
-     "description": {
-      "hook": "Voc\u00ea n\u00e3o precisa de mais uma tela. Precisa entender melhor o que acontece com voc\u00ea.",
-      "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequ\u00eancia de notifica\u00e7\u00f5es ao seu dia.",
-      "blocks": [
-       {
-        "title": "Acompanhe sem ficar acompanhando.",
-        "text": "A proposta \u00e9 deixar o monitoramento acontecer em segundo plano enquanto voc\u00ea simplesmente vive sua rotina."
-       },
-       {
-        "title": "O diferencial \u00e9 n\u00e3o pedir sua aten\u00e7\u00e3o.",
-        "text": "Uma experi\u00eancia de acompanhamento corporal pensada para ser discreta, cont\u00ednua e menos invasiva que a de um smartwatch tradicional."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Ray-Ban Meta",
-   "group": "\u00d3culos Inteligentes",
-   "coverImage": "images/cover-oculos-inteligentes-2.jpg",
-   "items": [
-    {
-     "name": "Ray-Ban Meta Wayfarer Gen 2",
-     "spec": "Fotocrom\u00e1tico",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Fotocrom\u00e1tico",
-       "cash": 3369.99,
-       "inst": 324.99,
-       "was": 3799.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 3339.99,
-         "inst": 324.99
-        }
-       ]
-      }
-     ],
-     "image": "images/rayban-meta.jpg",
-     "description": {
-      "hook": "E se os seus \u00f3culos tamb\u00e9m pudessem registrar aquilo que voc\u00ea est\u00e1 vivendo?",
-      "intro": "O cl\u00e1ssico Wayfarer ganha c\u00e2mera, \u00e1udio e recursos inteligentes integrados sem deixar de parecer um Ray-Ban.",
-      "blocks": [
-       {
-        "title": "Viva o momento sem correr para o celular.",
-        "text": "Registre fotos e v\u00eddeos da sua pr\u00f3pria perspectiva enquanto mant\u00e9m as m\u00e3os livres."
-       },
-       {
-        "title": "O diferencial \u00e9 quase n\u00e3o parecer tecnologia.",
-        "text": "Recursos inteligentes integrados a um dos designs mais reconhec\u00edveis da Ray-Ban - tecnologia presente sem dominar o visual."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "\u00d3culos Inteligentes Meta com IA",
-   "group": "\u00d3culos Inteligentes",
-   "items": [
-    {
-     "name": "\u00d3culos Inteligentes Meta com IA",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Classic",
-       "was": 3119.99,
-       "cash": 2399.99,
-       "inst": 229.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2369.99,
-         "inst": 229.99
-        }
-       ]
-      },
-      {
-       "label": "Adventurer",
-       "was": 3849.99,
-       "cash": 2559.99,
-       "inst": 247.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2529.99,
-         "inst": 244.99
-        }
-       ]
-      }
-     ],
-     "image": "images/oculos-meta-ia.jpg",
-     "description": {
-      "hook": "Viva o momento. Registre pela sua perspectiva.",
-      "intro": "Capture fotos e v\u00eddeos sem segurar o celular, ou\u00e7a suas m\u00fasicas e fa\u00e7a chamadas pelos pr\u00f3prios \u00f3culos. Com a Meta AI, comandos de voz ajudam a acessar informa\u00e7\u00f5es e realizar tarefas durante o dia.",
-      "blocks": [
-       {
-        "title": "M\u00e3os livres.",
-        "text": "Captura de fotos e v\u00eddeos sem precisar segurar o celular."
-       },
-       {
-        "title": "\u00c1udio aberto integrado.",
-        "text": "Ou\u00e7a m\u00fasicas e fa\u00e7a chamadas por voz pelos pr\u00f3prios \u00f3culos."
-       },
-       {
-        "title": "Assistente Meta AI.",
-        "text": "Comandos de voz ajudam a acessar informa\u00e7\u00f5es e realizar tarefas durante o dia."
-       }
-      ],
-      "idealFor": "Para quem deseja registrar viagens, criar conte\u00fado e trazer mais praticidade \u00e0 rotina, combinando tecnologia e estilo em um acess\u00f3rio de uso di\u00e1rio."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Blulory Smart AI Glasses",
-   "group": "\u00d3culos Inteligentes",
-   "items": [
-    {
-     "name": "Blulory Smart AI Glasses M01 Pro",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Speaker + Microfone",
-       "was": 649.0,
-       "cash": 349.99,
-       "inst": 34.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 319.99,
-         "inst": 29.99
-        }
-       ]
-      },
-      {
-       "label": "C\u00e2mera + V\u00eddeo",
-       "was": 749.99,
-       "cash": 589.99,
-       "inst": 57.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 559.99,
-         "inst": 54.99
-        }
-       ]
-      }
-     ],
-     "image": "images/blulory-glasses.jpg",
-     "description": {
-      "hook": "Parece um \u00f3culos. Mas n\u00e3o termina no que voc\u00ea v\u00ea.",
-      "intro": "O Blulory Smart AI Glasses M01 Pro leva \u00e1udio e conectividade para uma pe\u00e7a que voc\u00ea j\u00e1 pode usar no rosto, sem precisar recorrer o tempo inteiro a um fone convencional.",
-      "blocks": [
-       {
-        "title": "\u00c1udio sem ocupar seus ouvidos.",
-        "text": "Os speakers integrados permitem ouvir conte\u00fados enquanto o formato aberto mant\u00e9m maior percep\u00e7\u00e3o do ambiente."
-       },
-       {
-        "title": "Fale sem tirar o celular do bolso.",
-        "text": "Com microfone integrado e conectividade Bluetooth, o \u00f3culos pode acompanhar chamadas e outras intera\u00e7\u00f5es de \u00e1udio compat\u00edveis."
-       },
-       {
-        "title": "Tecnologia em um formato familiar.",
-        "text": "Em vez de parecer um gadget preso ao rosto, a proposta \u00e9 incorporar fun\u00e7\u00f5es inteligentes ao formato tradicional de um \u00f3culos."
-       }
-      ],
-      "idealFor": "Para quem quer experimentar \u00f3culos inteligentes de forma acess\u00edvel, especialmente para \u00e1udio, chamadas e uso conectado no cotidiano."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Fones de Ouvido",
-   "coverImage": "images/cover-fones-de-ouvido-2.jpg",
-   "items": [
-    {
-     "name": "Ozlo Sleepbuds 2",
-     "badge": "NOVO",
-     "spec": "Fones sem fio projetados para dormir",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 3279.99,
-       "cash": 2399.99,
-       "inst": 229.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2369.99,
-         "inst": 229.99
-        }
-       ]
-      }
-     ],
-     "image": "images/ozlo-sleepbuds-2.jpg",
-     "description": {
-      "hook": "O seu descanso come\u00e7a com um som feito para a noite.",
-      "intro": "Pequenos e discretos, os Sleepbuds 2 foram desenhados para permanecer confort\u00e1veis durante o sono, inclusive para quem dorme de lado.",
-      "blocks": [
-       {
-        "title": "Menos distra\u00e7\u00f5es ao redor.",
-        "text": "Sons de mascaramento ajudam a reduzir o impacto de ru\u00eddos como tr\u00e2nsito e ronco; voc\u00ea tamb\u00e9m pode ouvir seu pr\u00f3prio conte\u00fado para adormecer."
-       },
-       {
-        "title": "Feitos para atravessar a noite.",
-        "text": "A bateria oferece at\u00e9 14 horas de reprodu\u00e7\u00e3o, e o alarme individual toca nos pr\u00f3prios fones. Eles usam mascaramento sonoro, n\u00e3o cancelamento ativo de ru\u00eddo."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Shokz OpenFit 2+",
-     "badge": "NOVO",
-     "spec": "Fone de Ouvido Bluetooth",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 1379.99,
-       "inst": 134.99,
-       "was": 1799.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1349.99,
-         "inst": 129.99
-        }
-       ]
-      }
-     ],
-     "image": "images/shokz-openfit-2.jpg",
-     "description": {
-      "hook": "Liberdade sem fios, sem abrir m\u00e3o da percep\u00e7\u00e3o do ambiente.",
-      "intro": "O Shokz OpenFit 2+ combina \u00e1udio Bluetooth e encaixe aberto, apoiado ao redor das orelhas. \u00c9 uma escolha para ouvir m\u00fasica, atender chamadas e acompanhar a rotina mantendo maior percep\u00e7\u00e3o do ambiente.",
-      "blocks": [
-       {
-        "title": "Controle sem tirar o fone do ouvido.",
-        "text": "Controles f\u00edsicos facilitam o uso durante atividades e deslocamentos, sem precisar mexer no celular."
-       },
-       {
-        "title": "Bateria para o dia inteiro.",
-        "text": "At\u00e9 11 horas de uso nos fones e at\u00e9 48 horas com o estojo."
-       },
-       {
-        "title": "Pronto pro suor e a chuva fina.",
-        "text": "Resist\u00eancia IP55 a suor e respingos, feito para acompanhar treino e rotina."
-       }
-      ],
-      "idealFor": "Selecionado para quem procura liberdade sem fios, conforto no uso prolongado e um formato aberto para o dia a dia."
-     }
-    },
-    {
-     "name": "Shokz OpenRun Pro 2",
-     "badge": "NOVO",
-     "spec": "Fone Bluetooth de condu\u00e7\u00e3o \u00f3ssea \u00b7 cores preta e laranja",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1749.99,
-       "cash": 1399.99,
-       "inst": 134.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1369.99,
-         "inst": 134.99
-        }
-       ]
-      }
-     ],
-     "image": "images/shokz-openrun-pro.jpg",
-     "description": {
-      "hook": "Seu ritmo, com os ouvidos livres.",
-      "intro": "O Shokz OpenRun Pro usa condu\u00e7\u00e3o \u00f3ssea para levar o \u00e1udio sem cobrir os ouvidos. \u00c9 uma escolha para quem quer ouvir m\u00fasica ou atender chamadas durante o treino e continuar percebendo o que acontece ao redor.",
-      "blocks": [
-       {
-        "title": "Feito para acompanhar o movimento.",
-        "text": "A estrutura se ajusta ao redor da cabe\u00e7a, e a prote\u00e7\u00e3o IP55 oferece resist\u00eancia a suor e respingos."
-       },
-       {
-        "title": "Mais tempo em movimento.",
-        "text": "A bateria oferece at\u00e9 10 horas de m\u00fasica e chamadas. Com 5 minutos de carga r\u00e1pida, pode render at\u00e9 1,5 hora de uso, segundo a Shokz."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Huawei FreeClip 2",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 1099.99,
-       "inst": 104.99,
-       "was": 1299.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1069.99,
-         "inst": 104.99
-        }
-       ]
-      }
-     ],
-     "image": "images/huawei-freeclip-2.jpg",
-     "description": {
-      "hook": "Ou\u00e7a o que voc\u00ea gosta sem se desconectar do que acontece ao redor.",
-      "intro": "O Huawei FreeClip 2 troca o formato tradicional dos fones intra-auriculares por uma experi\u00eancia aberta, leve e diferente de usar.",
-      "blocks": [
-       {
-        "title": "Nada entrando no ouvido.",
-        "text": "Seu design open-ear permite ouvir o \u00e1udio sem bloquear completamente o canal auditivo, trazendo outra sensa\u00e7\u00e3o de conforto para o uso di\u00e1rio."
-       },
-       {
-        "title": "Seu \u00e1udio e o ambiente podem coexistir.",
-        "text": "Voc\u00ea continua mais consciente do que acontece ao redor enquanto escuta m\u00fasicas, podcasts ou atende chamadas."
-       },
-       {
-        "title": "Um fone que tamb\u00e9m virou design.",
-        "text": "O formato em clip transforma o FreeClip 2 em algo que se aproxima de um acess\u00f3rio, dispon\u00edvel em diferentes acabamentos e pensado para permanecer discreto na orelha."
-       }
-      ],
-      "idealFor": "Para quem n\u00e3o se adapta bem aos fones tradicionais ou procura mais conforto e consci\u00eancia do ambiente durante o dia."
-     }
-    },
-    {
-     "name": "Huawei FreeBuds 6",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 879.99,
-       "inst": 84.99,
-       "was": 1219.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 849.99,
-         "inst": 84.99
-        }
-       ]
-      }
-     ],
-     "image": "images/huawei-freebuds6.jpg",
-     "description": {
-      "hook": "Som de alta fidelidade com cancelamento de ru\u00eddo, em um case que cabe na palma da m\u00e3o.",
-      "intro": "O Huawei FreeBuds 6 combina drivers duplos, cancelamento ativo de ru\u00eddo e conectividade est\u00e1vel para acompanhar o seu dia inteiro, do trabalho ao treino.",
-      "blocks": [
-       {
-        "title": "\u00c1udio n\u00edtido em qualquer ambiente.",
-        "text": "Sistema de drivers duplos entrega graves mais profundos e agudos mais claros, com cancelamento ativo de ru\u00eddo para isolar o que importa: a sua m\u00fasica, o seu podcast, a sua chamada."
-       },
-       {
-        "title": "Chamadas limpas, mesmo no barulho.",
-        "text": "Microfones com redu\u00e7\u00e3o de ru\u00eddo ambiente mant\u00eam sua voz n\u00edtida do outro lado da linha, mesmo em ruas movimentadas ou ambientes com vento."
-       },
-       {
-        "title": "Bateria para o dia todo.",
-        "text": "Case compacto que recarrega r\u00e1pido e estende o uso por horas a mais, feito para quem n\u00e3o quer parar pra pensar em bateria."
-       }
-      ],
-      "idealFor": "Para quem quer um fone premium no dia a dia, com cancelamento de ru\u00eddo de verdade e conforto para usar por horas seguidas."
-     }
-    },
-    {
-     "name": "Huawei FreeArc T0021",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 979.99,
-       "cash": 749.99,
-       "inst": 74.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 719.99,
-         "inst": 69.99
-        }
-       ]
-      }
-     ],
-     "image": "images/huawei-freearc.jpg",
-     "description": {
-      "hook": "Ou\u00e7a suas m\u00fasicas com liberdade e continue atento ao que acontece ao redor.",
-      "intro": "O Huawei FreeArc combina design de ouvido aberto com ganchos flex\u00edveis que ajudam a manter os fones firmes e confort\u00e1veis durante a rotina e os treinos.",
-      "blocks": [
-       {
-        "title": "Feito para o dia a dia e os treinos.",
-        "text": "Bluetooth 5.2, controles por toque e conex\u00e3o simult\u00e2nea com dois dispositivos."
-       },
-       {
-        "title": "Mais tempo de uso, mais prote\u00e7\u00e3o.",
-        "text": "Autonomia de at\u00e9 7 horas nos fones e at\u00e9 28 horas com o estojo; redu\u00e7\u00e3o de ru\u00eddo para chamadas e prote\u00e7\u00e3o IP57 contra \u00e1gua e poeira."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Joog OWS H33",
-     "badge": "NOVO",
-     "spec": "Anatel",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 579.99,
-       "cash": 339.99,
-       "inst": 34.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 309.99,
-         "inst": 29.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-ows-h33.jpg",
-     "description": {
-      "hook": "M\u00fasica para acompanhar o dia sem fechar seus ouvidos para o que acontece ao redor.",
-      "intro": "O Joog OWS H33 tem design aberto com apoio na orelha, conex\u00e3o sem fio e estojo de recarga. \u00c9 uma op\u00e7\u00e3o para quem procura conforto em deslocamentos, trabalho e atividades do cotidiano.",
-      "blocks": [
-       {
-        "title": "Feito para o uso cont\u00ednuo.",
-        "text": "Bluetooth 6.0, controles por toque, conex\u00e3o USB-C e autonomia de 6 a 6,5 horas por carga, medida a 70% do volume, segundo a Joog."
-       },
-       {
-        "title": "Mais recargas, mais liberdade.",
-        "text": "O estojo de 250 mAh permite at\u00e9 tr\u00eas recargas completas dos fones, segundo a fabricante."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Fone de Ouvido Sem Fio Joog H27 OWS",
-     "badge": "NOVO",
-     "spec": "Preto | Anatel",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 414.99,
-       "inst": 39.99,
-       "was": 599.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 384.99,
-         "inst": 37.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-h27-ows.jpg",
-     "description": {
-      "hook": "M\u00fasica e chamadas com liberdade para acompanhar o dia.",
-      "intro": "O Joog H27 tem design de ouvido aberto e encaixe com gancho, pensado para oferecer conforto sem isolar completamente voc\u00ea do ambiente. Os fones v\u00eam com estojo de carregamento para facilitar o transporte e o uso na rotina.",
-      "blocks": [
-       {
-        "title": "Aberto para o que acontece ao redor.",
-        "text": "Design OWS com encaixe de gancho, sem bloquear completamente o canal auditivo."
-       },
-       {
-        "title": "Controle sem tirar o fone do ouvido.",
-        "text": "Conex\u00e3o Bluetooth 6.0 e controles por toque para tocar, pausar e atender chamadas direto no fone."
-       },
-       {
-        "title": "Bateria para o dia a dia.",
-        "text": "At\u00e9 6,5 horas de reprodu\u00e7\u00e3o por carga\u00b9, com estojo de carregamento para repor a energia na rua."
-       }
-      ],
-      "idealFor": "Para quem prefere ouvir m\u00fasica durante deslocamentos, trabalho ou atividades do dia a dia mantendo a percep\u00e7\u00e3o do entorno."
-     }
-    },
-    {
-     "name": "Joog U9-JG",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 299.99,
-       "cash": 299.99,
-       "inst": 29.99,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 269.99,
-         "inst": 24.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-u9-jg.jpg",
-     "description": {
-      "hook": "Ou\u00e7a m\u00fasica e atenda chamadas com liberdade, sem perder a percep\u00e7\u00e3o do ambiente.",
-      "intro": "O Joog U9-JG foi pensado para quem quer ouvir m\u00fasica e atender chamadas com liberdade, sem perder completamente a percep\u00e7\u00e3o do ambiente. Seu formato aberto apoia o fone na orelha, enquanto o gancho de silicone ajuda a mant\u00ea-lo est\u00e1vel na rotina, em caminhadas e no trabalho.",
-      "blocks": [
-       {
-        "title": "Feito para o seu ritmo.",
-        "text": "Bluetooth 5.3, drivers de 14,2 mm, controles por toque e estojo de recarga USB-C."
-       },
-       {
-        "title": "Autonomia para o dia.",
-        "text": "A autonomia informada pela Joog \u00e9 de at\u00e9 5 horas por carga."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Joog Air 1 Pro A1P-JG",
-     "badge": "NOVO",
-     "spec": "Anatel",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 219.99,
-       "cash": 199.99,
-       "inst": 19.99,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 169.99,
-         "inst": 17.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-air1-pro.jpg",
-     "description": {
-      "hook": "Leve sua m\u00fasica para todos os momentos.",
-      "intro": "O Joog Air 1 Pro oferece um formato leve para a rotina, conex\u00e3o Bluetooth 5.0 e controles por toque para reproduzir m\u00fasicas e atender chamadas com praticidade.",
-      "blocks": [
-       {
-        "title": "Pareamento autom\u00e1tico.",
-        "text": "Ao retirar os fones do estojo, o pareamento acontece automaticamente."
-       },
-       {
-        "title": "Bateria para o dia a dia.",
-        "text": "Mais de 4 horas de uso por carga; o estojo amplia o tempo de reprodu\u00e7\u00e3o e recarrega por USB-C. Modelo homologado pela Anatel."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "DJI Osmo Pocket",
-   "group": "C\u00e2meras de A\u00e7\u00e3o",
-   "coverImage": "images/cover-cameras-acao-3.jpg",
-   "items": [
-    {
-     "name": "DJI Osmo Pocket 4P",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Standard Combo",
-       "cash": 4799.99,
-       "inst": 464.99,
-       "was": 6999.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 4769.99,
-         "inst": 459.99
-        }
-       ]
-      }
-     ],
-     "image": "images/dji-osmo-pocket-4p.jpg",
-     "description": {
-      "hook": "Capture mais. Viva al\u00e9m.",
-      "intro": "Uma c\u00e2mera compacta criada para quem quer registrar viagens, rotina e conte\u00fado com uma qualidade que vai muito al\u00e9m de simplesmente tirar o celular do bolso. O Osmo Pocket 4P serve para gravar v\u00eddeos e produzir conte\u00fado com qualidade profissional em um equipamento pequeno e f\u00e1cil de levar, oferecendo mais liberdade para filmar em movimento. Na pr\u00e1tica, ele \u00e9 ideal para viagens, vlogs, cria\u00e7\u00e3o de conte\u00fado, eventos, v\u00eddeos para redes sociais e registros do dia a dia, especialmente quando voc\u00ea quer imagens mais est\u00e1veis e uma experi\u00eancia dedicada \u00e0 grava\u00e7\u00e3o. \u00c9 como levar uma estrutura de produ\u00e7\u00e3o na palma da m\u00e3o \u2014 pronta para registrar a pr\u00f3xima hist\u00f3ria.",
-      "blocks": [
-       {
-        "title": "Qualidade para acompanhar suas ideias.",
-        "text": "Pensado para entregar imagens de alto n\u00edvel sem exigir uma estrutura grande de equipamentos."
-       },
-       {
-        "title": "Movimento sem perder a cena.",
-        "text": "A estabiliza\u00e7\u00e3o ajuda a manter as grava\u00e7\u00f5es mais fluidas enquanto voc\u00ea caminha, explora ou acompanha o que est\u00e1 acontecendo."
-       },
-       {
-        "title": "Pequeno para ir mais longe.",
-        "text": "Seu formato compacto facilita levar a c\u00e2mera para lugares em que uma estrutura tradicional simplesmente seria inconveniente."
-       }
-      ],
-      "idealFor": "Criadores de conte\u00fado, viajantes, profissionais e qualquer pessoa que queira elevar a qualidade dos seus v\u00eddeos sem carregar uma produ\u00e7\u00e3o inteira nas costas."
-     }
-    },
-    {
-     "name": "DJI Osmo Pocket 4 Creator Combo",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Combo",
-       "cash": 4229.99,
-       "inst": 407.99,
-       "was": 4999.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 4199.99,
-         "inst": 404.99
-        }
-       ]
-      }
-     ],
-     "image": "images/osmo-pocket.jpg",
-     "description": {
-      "hook": "A melhor c\u00e2mera \u00e9 aquela que est\u00e1 pronta quando o momento acontece.",
-      "intro": "Compacta para acompanhar voc\u00ea, mas equipada para transformar momentos r\u00e1pidos em conte\u00fado com apar\u00eancia de produ\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Tire a produ\u00e7\u00e3o do caminho da ideia.",
-        "text": "Estabiliza\u00e7\u00e3o, captura de alta qualidade e recursos inteligentes deixam voc\u00ea mais livre para enquadrar, acompanhar e criar."
-       },
-       {
-        "title": "O Creator Combo j\u00e1 nasce para criar.",
-        "text": "Um conjunto pensado para ampliar a experi\u00eancia de grava\u00e7\u00e3o com acess\u00f3rios voltados a \u00e1udio, enquadramento e produ\u00e7\u00e3o em movimento."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Insta360",
-   "group": "C\u00e2meras de A\u00e7\u00e3o",
-   "items": [
-    {
-     "name": "Insta360 GO 3",
-     "badge": "NOVO",
-     "spec": "C\u00e2mera de A\u00e7\u00e3o com Action Pod",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 2999.99,
-       "cash": 2719.99,
-       "inst": 264.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2689.99,
-         "inst": 259.99
-        }
-       ]
-      }
-     ],
-     "image": "images/insta360-go3.jpg",
-     "description": {
-      "hook": "Pequena no tamanho. Livre para acompanhar sua vida.",
-      "intro": "Registre viagens, passeios e momentos do dia pela sua perspectiva. A GO 3 combina uma c\u00e2mera compacta e remov\u00edvel com o Action Pod de tela articulada, facilitando o enquadramento e a cria\u00e7\u00e3o de conte\u00fado.",
-      "blocks": [
-       {
-        "title": "V\u00eddeos em at\u00e9 2,7K.",
-        "text": "Qualidade para registrar viagens, passeios e o dia a dia."
-       },
-       {
-        "title": "Estabiliza\u00e7\u00e3o FlowState.",
-        "text": "Imagens mais firmes mesmo em movimento."
-       },
-       {
-        "title": "C\u00e2mera remov\u00edvel + Action Pod.",
-        "text": "A c\u00e2mera sai do Action Pod, que tem tela articulada para facilitar o enquadramento."
-       }
-      ],
-      "idealFor": "Para quem deseja registrar mais sem carregar equipamentos grandes, com liberdade para explorar \u00e2ngulos e transformar momentos simples em conte\u00fado."
-     }
-    },
-    {
-     "name": "Insta360 Go 3S",
-     "spec": "4K \u00b7 128GB",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "128GB",
-       "cash": 2879.99,
-       "inst": 277.99,
-       "was": 3479.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2849.99,
-         "inst": 274.99
-        }
-       ]
-      }
-     ],
-     "image": "images/insta360.jpg",
-     "description": {
-      "hook": "Tem momentos que uma c\u00e2mera grande simplesmente n\u00e3o consegue acompanhar.",
-      "intro": "Pequena, leve e capaz de gravar em 4K, a GO 3S foi feita para registrar perspectivas que seriam dif\u00edceis com uma c\u00e2mera convencional.",
-      "blocks": [
-       {
-        "title": "Mostre a cena como voc\u00ea realmente viveu.",
-        "text": "Use as m\u00e3os livres e explore \u00e2ngulos em primeira pessoa para criar imagens muito mais imersivas."
-       },
-       {
-        "title": "O diferencial \u00e9 a liberdade.",
-        "text": "Com apenas 39,1 g e fixa\u00e7\u00e3o magn\u00e9tica, ela consegue estar onde c\u00e2meras maiores simplesmente atrapalhariam."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "DJI Osmo Action",
-   "group": "C\u00e2meras de A\u00e7\u00e3o",
-   "items": [
-    {
-     "name": "DJI Osmo Action 4",
-     "spec": "C\u00e2mera de a\u00e7\u00e3o 10 MP, tela traseira de 2,25\"",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Standard Combo",
-       "was": 2979.99,
-       "cash": 2119.99,
-       "inst": 204.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2089.99,
-         "inst": 204.99
-        }
-       ]
-      },
-      {
-       "label": "Adventure Combo",
-       "was": 3579.99,
-       "cash": 2659.99,
-       "inst": 254.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2629.99,
-         "inst": 254.99
-        }
-       ]
-      }
-     ],
-     "image": "images/dji-osmo-action-4.jpg",
-     "description": {
-      "hook": "Feita para acompanhar a a\u00e7\u00e3o, sem deixar a hist\u00f3ria para tr\u00e1s.",
-      "intro": "A DJI Osmo Action 4 re\u00fane grava\u00e7\u00e3o em at\u00e9 4K/120 fps, sensor de 1/1,3\" e estabiliza\u00e7\u00e3o para registrar viagens, esportes e conte\u00fado em movimento. O campo de vis\u00e3o amplo ajuda a mostrar mais da cena, enquanto as telas sens\u00edveis ao toque facilitam o enquadramento. O corpo \u00e9 resistente \u00e0 \u00e1gua at\u00e9 18 m sem caixa estanque, conforme as condi\u00e7\u00f5es informadas pela DJI.",
-      "blocks": [
-       {
-        "title": "Qual combo escolher?",
-        "text": "O Standard Combo \u00e9 a op\u00e7\u00e3o para come\u00e7ar com o kit essencial e uma bateria. O Adventure Combo acrescenta duas baterias, estojo multifuncional para baterias e bast\u00e3o extensor de 1,5 m, oferecendo mais autonomia e possibilidades de enquadramento."
-       }
-      ],
-      "idealFor": "Para quem quer filmar al\u00e9m dos \u00e2ngulos e das condi\u00e7\u00f5es em que costuma usar o celular. A Action 4 \u00e9 uma escolha para criadores, viajantes e pessoas que registram experi\u00eancias em movimento. Se a prioridade \u00e9 come\u00e7ar com o essencial, o Standard Combo atende. Para jornadas mais longas e grava\u00e7\u00f5es com menos pausas, o Adventure Combo faz mais sentido."
-     }
-    }
-   ]
-  },
-  {
-   "category": "SJCAM",
-   "group": "C\u00e2meras de A\u00e7\u00e3o",
-   "items": [
-    {
-     "name": "SJCAM C100+ Mini Actioncam 4K/WiFi",
-     "badge": "NOVO",
-     "spec": "Black",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1119.99,
-       "cash": 769.99,
-       "inst": 74.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 739.99,
-         "inst": 74.99
-        }
-       ]
-      }
-     ],
-     "image": "images/sjcam-c100-plus.jpg",
-     "description": {
-      "hook": "Uma c\u00e2mera pequena para registrar momentos de v\u00e1rios \u00e2ngulos.",
-      "intro": "A SJCAM C100+ pesa apenas 34 g e combina corpo magn\u00e9tico com op\u00e7\u00f5es flex\u00edveis de fixa\u00e7\u00e3o, facilitando grava\u00e7\u00f5es em viagens, passeios e na cria\u00e7\u00e3o de conte\u00fado.",
-      "blocks": [
-       {
-        "title": "Qualidade em 4K.",
-        "text": "Grava v\u00eddeos em at\u00e9 4K a 30 fps, com estabiliza\u00e7\u00e3o eletr\u00f4nica para reduzir movimentos indesejados."
-       },
-       {
-        "title": "Conectada ao seu fluxo.",
-        "text": "Wi-Fi para conex\u00e3o ao aplicativo SJCAM ZONE, com grava\u00e7\u00e3o vertical em 9:16 para Reels e Stories."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "DJI Mic Mini 2",
-   "group": "Microfones sem Fio",
-   "coverImage": "images/cover-microfones-2.jpg",
-   "items": [
-    {
-     "name": "DJI Mic Mini 2",
-     "badge": "NOVO",
-     "spec": "2 TX + 1 RX + Estojo de Carregamento",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 1299.99,
-       "inst": 124.99,
-       "was": 1679.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1269.99,
-         "inst": 124.99
-        }
-       ]
-      }
-     ],
-     "image": "images/dji-mic-mini-2.jpg",
-     "description": {
-      "hook": "Sua c\u00e2mera pode estar longe. Sua voz continua perto.",
-      "intro": "O DJI Mic Mini 2 leva liberdade para quem grava conte\u00fado, entrevistas, aulas ou v\u00eddeos sem querer ficar preso ao celular ou \u00e0 c\u00e2mera.",
-      "blocks": [
-       {
-        "title": "Grave. Ande. Continue falando.",
-        "text": "O sistema sem fio permite captar a voz enquanto voc\u00ea se movimenta, deixando a grava\u00e7\u00e3o muito mais natural."
-       },
-       {
-        "title": "Duas pessoas. Uma grava\u00e7\u00e3o.",
-        "text": "Com dois transmissores, \u00e9 uma solu\u00e7\u00e3o especialmente interessante para entrevistas, podcasts, conte\u00fados em dupla e produ\u00e7\u00f5es externas."
-       },
-       {
-        "title": "Tudo junto quando voc\u00ea precisa.",
-        "text": "O conjunto com receptor e estojo de carregamento mant\u00e9m os principais componentes organizados e prontos para acompanhar sua rotina de produ\u00e7\u00e3o."
-       }
-      ],
-      "idealFor": "Criadores de conte\u00fado, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do \u00e1udio sem montar uma estrutura complicada."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Joog MicPro VX1",
-   "group": "Microfones sem Fio",
-   "items": [
-    {
-     "name": "Joog MicPro VX1",
-     "badge": "NOVO",
-     "spec": "USB-C \u00b7 Preto",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1229.99,
-       "cash": 1174.99,
-       "inst": 114.99,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1144.99,
-         "inst": 109.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-micpro-vx1.jpg",
-     "description": {
-      "hook": "Uma boa imagem merece uma voz bem captada.",
-      "intro": "Compacto e f\u00e1cil de levar, o Joog MicPro VX1 foi pensado para quem grava v\u00eddeos, entrevistas, vlogs e transmiss\u00f5es com o smartphone.",
-      "blocks": [
-       {
-        "title": "\u00c1udio limpo, sem fio.",
-        "text": "Conecta sem fio ao receptor USB-C e oferece redu\u00e7\u00e3o de ru\u00eddo acionada por um toque."
-       },
-       {
-        "title": "Controle pelo app.",
-        "text": "O conjunto inclui estojo de carregamento, e o aplicativo permite monitorar o \u00e1udio e ajustar o volume."
-       }
-      ]
-     },
-     "esgotado": true
-    }
-   ]
-  },
-  {
-   "category": "Hollyland Lark",
-   "group": "Microfones sem Fio",
-   "items": [
-    {
-     "name": "Microfone Hollyland Lark M2 Combo",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Combo",
-       "cash": 849.99,
-       "inst": 84.99,
-       "was": 1199.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 819.99,
-         "inst": 79.99
-        }
-       ]
-      }
-     ],
-     "image": "images/hollyland-lark-m2.jpg",
-     "description": {
-      "hook": "Um v\u00eddeo pode parecer profissional. At\u00e9 o \u00e1udio come\u00e7ar.",
-      "intro": "O Lark M2 leva \u00e1udio sem fio de alta qualidade para v\u00eddeos, entrevistas, podcasts e conte\u00fados sem complicar sua grava\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Sua voz merece a mesma qualidade da sua imagem.",
-        "text": "\u00c1udio em 48 kHz/24-bit e cancelamento de ru\u00eddo ajudam a entregar uma voz mais limpa e presente."
-       },
-       {
-        "title": "Pequeno para voc\u00ea esquecer. Potente para fazer diferen\u00e7a.",
-        "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a grava\u00e7\u00e3o."
-       }
-      ]
-     },
-     "spec": "Conector Lightning e USB-C"
-    },
-    {
-     "name": "Microfone Sem Fio Hollyland LARK A1 Combo",
-     "badge": "NOVO",
-     "spec": "Preto \u00b7 Conector Lightning e USB-C",
-     "variations": [
-      {
-       "label": "Combo",
-       "cash": 649.99,
-       "inst": 64.99,
-       "was": 919.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 619.99,
-         "inst": 59.99
-        }
-       ]
-      }
-     ],
-     "image": "images/hollyland-lark-a1.jpg",
-     "description": {
-      "hook": "Sua voz em primeiro plano.",
-      "intro": "O Hollyland LARK A1 \u00e9 uma escolha pr\u00e1tica para gravar v\u00eddeos, entrevistas e conte\u00fados para redes sociais pelo smartphone. A vers\u00e3o Combo re\u00fane dois transmissores compactos, receptores USB-C e Lightning e um estojo de carregamento.",
-      "blocks": [
-       {
-        "title": "Fala clara em qualquer ambiente.",
-        "text": "Capta\u00e7\u00e3o em 48 kHz/24 bits e cancelamento de ru\u00eddo ajust\u00e1vel em tr\u00eas n\u00edveis ajudam a manter a fala clara em diferentes ambientes."
-       },
-       {
-        "title": "Pronto pra qualquer celular.",
-        "text": "Receptores USB-C e Lightning inclu\u00eddos no combo, sem precisar comprar adaptador \u00e0 parte."
-       },
-       {
-        "title": "Autonomia para o dia de grava\u00e7\u00e3o.",
-        "text": "At\u00e9 54 horas de uso alternado entre os dois transmissores com o estojo\u00b9."
-       }
-      ],
-      "idealFor": "Para quem quer dar um passo na qualidade do \u00e1udio sem complicar a rotina de grava\u00e7\u00e3o."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Gravadores de Voz com IA",
-   "coverImage": "images/cover-gravadores-voz-ia-2.jpg",
-   "items": [
-    {
-     "name": "Plaud Note 64GB",
-     "badge": "NOVO",
-     "spec": "Gravador de Voz com ChatGPT",
-     "variations": [
-      {
-       "label": "64GB",
-       "cash": 1299.99,
-       "inst": 124.99,
-       "was": 1599.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1269.99,
-         "inst": 124.99
-        }
-       ]
-      }
-     ],
-     "image": "images/plaud-note.jpg",
-     "description": {
-      "hook": "Algumas conversas s\u00e3o importantes demais para depender da mem\u00f3ria.",
-      "intro": "O Plaud Note registra conversas e usa IA para transformar o que foi dito em transcri\u00e7\u00f5es, resumos e informa\u00e7\u00f5es que voc\u00ea pode consultar depois.",
-      "blocks": [
-       {
-        "title": "Voc\u00ea participa da conversa. Ele cuida das anota\u00e7\u00f5es.",
-        "text": "Em vez de dividir sua aten\u00e7\u00e3o entre ouvir e escrever, voc\u00ea pode voltar ao conte\u00fado quando precisar."
-       },
-       {
-        "title": "O diferencial acontece depois de gravar.",
-        "text": "A IA ajuda a organizar o conte\u00fado capturado, enquanto os 64 GB internos mant\u00eam suas grava\u00e7\u00f5es em um dispositivo ultrafino."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Plaud NotePin 64GB",
-     "badge": "NOVO",
-     "spec": "Gravador de voz port\u00e1til com IA",
-     "variations": [
-      {
-       "label": "64GB",
-       "was": 1779.99,
-       "cash": 1399.99,
-       "inst": 134.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1369.99,
-         "inst": 134.99
-        }
-       ]
-      }
-     ],
-     "image": "images/plaud-notepin.jpg",
-     "description": {
-      "hook": "Uma boa ideia n\u00e3o precisa esperar voc\u00ea pegar o celular.",
-      "intro": "Compacto e f\u00e1cil de levar, o Plaud NotePin registra conversas presenciais para que voc\u00ea possa se concentrar no momento.",
-      "blocks": [
-       {
-        "title": "Presente na conversa, com o conte\u00fado guardado.",
-        "text": "Grave reuni\u00f5es e ideias sem dividir a aten\u00e7\u00e3o entre ouvir e anotar."
-       },
-       {
-        "title": "Da grava\u00e7\u00e3o ao que interessa.",
-        "text": "Pelo aplicativo Plaud, use recursos de IA para transcrever, resumir e consultar o conte\u00fado depois."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Joog Ai Note 64GB",
-     "badge": "NOVO",
-     "spec": "Cinza",
-     "variations": [
-      {
-       "label": "64GB",
-       "was": 1249.99,
-       "cash": 889.99,
-       "inst": 84.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 859.99,
-         "inst": 84.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-ai-note.jpg",
-     "description": {
-      "hook": "Esteja presente na conversa sem depender de anota\u00e7\u00f5es a cada minuto.",
-      "intro": "O Joog AI Note grava reuni\u00f5es, aulas e entrevistas e permite organizar o conte\u00fado depois com recursos de intelig\u00eancia artificial, como resumos e mapas mentais.",
-      "blocks": [
-       {
-        "title": "Para guardar o que importa.",
-        "text": "64GB de armazenamento, formato fino e aplicativo para iOS e Android."
-       },
-       {
-        "title": "IA inclu\u00edda todo m\u00eas.",
-        "text": "A Joog informa 300 minutos gratuitos por m\u00eas para os recursos de IA."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Huion Note",
-   "coverImage": "images/cover-huion-note-2.jpg",
-   "items": [
-    {
-     "name": "Huion Note",
-     "badge": "NOVO",
-     "spec": "Caderno inteligente e mesa digitalizadora",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1579.99,
-       "cash": 889.99,
-       "inst": 84.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 859.99,
-         "inst": 84.99
-        }
-       ]
-      }
-     ],
-     "image": "images/huion-note.jpg",
-     "description": {
-      "hook": "A liberdade de escrever no papel, com suas ideias tamb\u00e9m no digital.",
-      "intro": "O Huion Note acompanha suas anota\u00e7\u00f5es feitas no caderno e permite organiz\u00e1-las no aplicativo. Para criar no computador, ele tamb\u00e9m funciona como mesa digitalizadora.",
-      "blocks": [
-       {
-        "title": "Escreva do seu jeito.",
-        "text": "Use papel e caneta em reuni\u00f5es, aulas ou projetos, com a escrita sincronizada ao celular quando conectado."
-       },
-       {
-        "title": "Continue a cria\u00e7\u00e3o no computador.",
-        "text": "No modo mesa digitalizadora, use a caneta para desenhar diretamente no PC."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
-   "category": "Carregadores e Powerbanks",
-   "items": [
-    {
-     "name": "Joog MagCharger",
-     "badge": "NOVO",
-     "spec": "Carregador 3 em 1 \u00b7 Qi2",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 979.99,
-       "cash": 679.99,
-       "inst": 64.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 649.99,
-         "inst": 64.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-magcharger.jpg",
-     "description": {
-      "hook": "Uma esta\u00e7\u00e3o. Tr\u00eas dispositivos. Mais organiza\u00e7\u00e3o.",
-      "intro": "O Joog MagCharger re\u00fane o carregamento do celular, dos fones e do rel\u00f3gio em uma esta\u00e7\u00e3o compacta. Com alinhamento magn\u00e9tico e tecnologia Qi2, oferece at\u00e9 15W para smartphones compat\u00edveis, enquanto mant\u00e9m seus acess\u00f3rios ao alcance.",
-      "blocks": [
-       {
-        "title": "Carregamento 3 em 1.",
-        "text": "Celular, fones e rel\u00f3gio carregando em uma \u00fanica esta\u00e7\u00e3o, com tecnologia Qi2 e at\u00e9 15W para o celular."
-       },
-       {
-        "title": "Design articulado.",
-        "text": "Ajuste autom\u00e1tico de 180\u00b0 por toque para posicionar o celular, e suportes que se recolhem quando n\u00e3o est\u00e3o em uso."
-       },
-       {
-        "title": "Compacto e pr\u00e1tico.",
-        "text": "Entrada USB-C e design compacto para a mesa do escrit\u00f3rio ou a cabeceira."
-       },
-       {
-        "title": "Compatibilidade e alimenta\u00e7\u00e3o.",
-        "text": "Requer dispositivos compat\u00edveis com cada \u00e1rea de carga. Para carregamento r\u00e1pido, utiliza adaptador PD de 30W ou superior, vendido separadamente."
-       }
-      ],
-      "idealFor": "Para quem valoriza uma mesa organizada e gosta de ter seus dispositivos reunidos em um s\u00f3 lugar. Uma escolha funcional para acompanhar a rotina no escrit\u00f3rio ou na cabeceira."
-     }
-    },
-    {
-     "name": "Carregador Port\u00e1til Joog Powerbank QC Digital 20.000mAh",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 619.99,
-       "cash": 339.99,
-       "inst": 34.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 309.99,
-         "inst": 29.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-powerbank-20000.jpg",
-     "description": {
-      "hook": "Mais energia para acompanhar sua rotina.",
-      "intro": "O Joog Powerbank QC Digital combina capacidade de 20.000 mAh com carregamento r\u00e1pido para dispositivos compat\u00edveis, oferecendo uma reserva de energia pr\u00e1tica para viagens, trabalho e momentos longe da tomada.",
-      "blocks": [
-       {
-        "title": "Carregue at\u00e9 tr\u00eas dispositivos.",
-        "text": "Duas sa\u00eddas USB-A e uma USB-C permitem carregar at\u00e9 tr\u00eas dispositivos simultaneamente."
-       },
-       {
-        "title": "Acompanhe e fique protegido.",
-        "text": "Indicador digital de bateria dispon\u00edvel e prote\u00e7\u00f5es contra sobrecarga, curto-circuito e superaquecimento."
-       }
-      ]
-     }
-    }
-   ],
-   "coverImage": "images/cover-carregadores-powerbanks.jpg"
-  },
-  {
-   "category": "Caf\u00e9 & Vinho",
-   "items": [
-    {
-     "name": "Kit Abridor de Vinho Joog",
-     "badge": "NOVO",
-     "spec": "El\u00e9trico Autom\u00e1tico \u00b7 Prata",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 649.99,
-       "cash": 404.99,
-       "inst": 39.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 374.99,
-         "inst": 37.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-kit-vinho.jpg",
-     "description": {
-      "hook": "Um convite para abrir, servir e compartilhar bons momentos.",
-      "intro": "O kit re\u00fane um abridor el\u00e9trico recarreg\u00e1vel e acess\u00f3rios para acompanhar o vinho da primeira ta\u00e7a ao armazenamento da garrafa, organizados em uma base de apresenta\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Abrir com praticidade.",
-        "text": "Abridor el\u00e9trico recarreg\u00e1vel e cortador de lacre."
-       },
-       {
-        "title": "Servir melhor.",
-        "text": "Aerador e bico dosador para servir com mais controle."
-       },
-       {
-        "title": "Guardar a garrafa.",
-        "text": "Bomba de v\u00e1cuo e duas tampas para armazenar o vinho que sobrou."
-       },
-       {
-        "title": "Tudo em um s\u00f3 lugar.",
-        "text": "Base para organizar o conjunto e deix\u00e1-lo pronto para uso."
-       }
-      ],
-      "idealFor": "Para quem gosta de receber bem ou procura um presente \u00fatil e elegante. Os acess\u00f3rios ficam reunidos em um s\u00f3 lugar, prontos para transformar o ritual de servir vinho em uma experi\u00eancia mais pr\u00e1tica."
-     }
-    },
-    {
-     "name": "Cafeteira Port\u00e1til Espresso 3 Em 1 Joog EM10 72W",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 949.99,
-       "cash": 659.99,
-       "inst": 64.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 629.99,
-         "inst": 59.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-em10.jpg",
-     "description": {
-      "hook": "Seu momento de caf\u00e9 pode acompanhar voc\u00ea.",
-      "intro": "A Joog EM10 combina formato port\u00e1til e preparo de espresso em uma solu\u00e7\u00e3o pr\u00e1tica para levar ao trabalho, nas viagens ou usar em casa.",
-      "blocks": [
-       {
-        "title": "3 em 1, sem complica\u00e7\u00e3o.",
-        "text": "O sistema aceita caf\u00e9 mo\u00eddo, c\u00e1psulas pequenas e c\u00e1psulas grandes, com aquecimento autom\u00e1tico e capacidade de 60 ml."
-       },
-       {
-        "title": "Pr\u00e1tica no uso e na limpeza.",
-        "text": "Recarga USB-C e corpo desmont\u00e1vel, que facilita a limpeza ap\u00f3s o uso."
-       }
-      ]
-     }
-    }
-   ],
-   "coverImage": "images/cover-cafe-vinho.jpg"
-  },
-  {
-   "category": "Depilador a Laser",
-   "items": [
-    {
-     "name": "Depilador Laser Joog IPL HR3 Ice Cooling 64.8W",
-     "badge": "NOVO",
-     "spec": "Bivolt",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1449.99,
-       "cash": 1069.99,
-       "inst": 104.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1039.99,
-         "inst": 99.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-hr3-ipl.jpg",
-     "description": {
-      "hook": "Mais praticidade para sua rotina de cuidados.",
-      "intro": "O Joog HR3 combina tecnologia IPL para auxiliar na redu\u00e7\u00e3o dos pelos com o sistema Ice Cooling, que resfria a superf\u00edcie de contato para ajudar a diminuir a sensa\u00e7\u00e3o de calor durante a aplica\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "F\u00e1cil de usar e acompanhar.",
-        "text": "Formato ergon\u00f4mico e painel digital facilitam o manuseio e o acompanhamento das configura\u00e7\u00f5es."
-       },
-       {
-        "title": "Mais pot\u00eancia.",
-        "text": "Pot\u00eancia de 64,8W e alimenta\u00e7\u00e3o bivolt, seguindo as orienta\u00e7\u00f5es do fabricante."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Depilador Laser Joog IPL HR2 Ice Cooling 48W",
-     "badge": "NOVO",
-     "spec": "Bivolt",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1279.99,
-       "cash": 969.99,
-       "inst": 94.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 939.99,
-         "inst": 89.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-hr2-ipl.jpg",
-     "description": {
-      "hook": "Tecnologia para tornar sua rotina de cuidados mais pr\u00e1tica.",
-      "intro": "O Joog HR2 combina luz pulsada intensa (IPL), voltada \u00e0 redu\u00e7\u00e3o dos pelos, com o sistema Ice Cooling, que resfria a superf\u00edcie de contato para ajudar a diminuir a sensa\u00e7\u00e3o de calor durante a aplica\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Pensado para casa.",
-        "text": "Formato ergon\u00f4mico que ajuda a incorporar a fotodepila\u00e7\u00e3o \u00e0 rotina em casa, seguindo as orienta\u00e7\u00f5es de uso do fabricante."
-       },
-       {
-        "title": "Pot\u00eancia e praticidade.",
-        "text": "Pot\u00eancia de 48W e alimenta\u00e7\u00e3o bivolt."
-       }
-      ]
-     }
-    }
-   ],
-   "coverImage": "images/cover-depilador-laser.jpg"
-  },
-  {
-   "category": "Drones DJI",
-   "coverImage": "images/cover-drones-2.jpg",
-   "items": [
-    {
-     "name": "Drone DJI Mini 5 Pro",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 5999.99,
-       "inst": 577.99,
-       "was": 7119.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 5969.99,
-         "inst": 574.99
-        }
-       ]
-      }
-     ],
-     "image": "images/drone-mini5pro.jpg",
-     "description": {
-      "hook": "Tem paisagens que merecem mais do que uma foto do celular.",
-      "intro": "O DJI Mini 5 Pro combina uma c\u00e2mera com sensor de 1 polegada e recursos inteligentes em um drone compacto, f\u00e1cil de levar para viagens e produ\u00e7\u00f5es.",
-      "blocks": [
-       {
-        "title": "Mais detalhes. Mais possibilidades.",
-        "text": "Fotos de at\u00e9 50 MP e v\u00eddeos em 4K permitem registrar paisagens, im\u00f3veis e momentos com riqueza de detalhes."
-       },
-       {
-        "title": "Sua criatividade tamb\u00e9m pode ser vertical.",
-        "text": "A grava\u00e7\u00e3o vertical real facilita a produ\u00e7\u00e3o para Reels e Stories. O gimbal com rota\u00e7\u00e3o de 225\u00b0 amplia as possibilidades de enquadramento."
-       },
-       {
-        "title": "Acompanhe o movimento.",
-        "text": "O ActiveTrack 360\u00b0 mant\u00e9m o assunto em destaque, enquanto os sensores de obst\u00e1culos auxiliam durante o voo."
-       }
-      ],
-      "idealFor": "Uma escolha para criadores, viajantes e profissionais que procuram qualidade de imagem e liberdade criativa em um equipamento port\u00e1til."
-     }
-    },
-    {
-     "name": "Drone DJI Neo 2",
-     "spec": "FLY More Combo",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Fly More Combo",
-       "cash": 3114.99,
-       "inst": 299.99,
-       "was": 3599.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 3084.99,
-         "inst": 297.99
-        }
-       ]
-      }
-     ],
-     "image": "images/drone-neo2.jpg",
-     "description": {
-      "hook": "Voc\u00ea vive o momento. O drone acompanha.",
-      "intro": "O DJI Neo 2 foi pensado para colocar voc\u00ea dentro da cena. Compacto e leve, acompanha passeios, viagens e atividades com recursos que simplificam a grava\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Comece pela palma da m\u00e3o.",
-        "text": "A decolagem e o pouso na m\u00e3o tornam o uso mais pr\u00e1tico. O controle por gestos permite comandar fun\u00e7\u00f5es sem precisar segurar um controle."
-       },
-       {
-        "title": "Movimento com voc\u00ea em destaque.",
-        "text": "O ActiveTrack acompanha seus deslocamentos, enquanto o SelfieShot facilita a cria\u00e7\u00e3o de enquadramentos autom\u00e1ticos."
-       },
-       {
-        "title": "Pequeno para levar. Vers\u00e1til para criar.",
-        "text": "V\u00eddeos em 4K, protetores integrais de h\u00e9lices e detec\u00e7\u00e3o de obst\u00e1culos em todas as dire\u00e7\u00f5es completam a proposta."
-       }
-      ],
-      "idealFor": "Para quem deseja registrar a pr\u00f3pria experi\u00eancia com mais liberdade: passeios, atividades ao ar livre e conte\u00fados com perspectivas que o celular sozinho n\u00e3o oferece."
-     }
-    },
-    {
-     "name": "Drone DJI Flip 4K",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "cash": 2759.99,
-       "inst": 264.99,
-       "was": 3399.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 2729.99,
-         "inst": 264.99
-        }
-       ]
-      }
-     ],
-     "image": "images/drone-flip4k.jpg",
-     "description": {
-      "hook": "Seu pr\u00f3ximo conte\u00fado pode come\u00e7ar de um \u00e2ngulo inesperado.",
-      "intro": "O DJI Flip re\u00fane qualidade de imagem e praticidade em um drone dobr\u00e1vel, pensado para acompanhar viagens, passeios e a rotina de cria\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Cenas que valorizam cada detalhe.",
-        "text": "O sensor de 1/1,3 polegada e a grava\u00e7\u00e3o em 4K a 60 quadros por segundo com HDR ajudam a registrar imagens detalhadas e movimentos suaves."
-       },
-       {
-        "title": "Voc\u00ea tamb\u00e9m faz parte da hist\u00f3ria.",
-        "text": "A decolagem na palma da m\u00e3o e o acompanhamento inteligente facilitam a cria\u00e7\u00e3o de v\u00eddeos com voc\u00ea em cena."
-       },
-       {
-        "title": "Abriu. Gravou. Guardou.",
-        "text": "Os protetores integrais de h\u00e9lices dobr\u00e1veis tornam o conjunto compacto para transportar."
-       }
-      ],
-      "idealFor": "Uma op\u00e7\u00e3o para quem quer come\u00e7ar a criar imagens a\u00e9reas ou trazer novas perspectivas aos conte\u00fados, com um equipamento pr\u00e1tico para levar na mochila."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Games e Consoles",
-   "coverImage": "images/cover-consoles-2.jpg",
-   "items": [
-    {
-     "name": "PlayStation 5 Slim 825GB Digital",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "825GB",
-       "cash": 4499.99,
-       "inst": 434.99,
-       "was": 4579.0,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 4469.99,
-         "inst": 429.99
-        }
-       ]
-      }
-     ],
-     "image": "images/ps5-slim-digital.jpg",
-     "description": {
-      "hook": "Sua pr\u00f3xima grande aventura come\u00e7a quando voc\u00ea pega o controle.",
-      "intro": "O PlayStation 5 Slim Digital re\u00fane a experi\u00eancia PS5 em um console compacto, com SSD de 825 GB e acesso aos jogos digitais da PlayStation Store.",
-      "blocks": [
-       {
-        "title": "Menos espera para entrar na a\u00e7\u00e3o.",
-        "text": "O SSD de alta velocidade reduz os tempos de carregamento nos jogos compat\u00edveis."
-       },
-       {
-        "title": "Sinta o que acontece na tela.",
-        "text": "A resposta t\u00e1til e os gatilhos adapt\u00e1veis do DualSense trazem novas sensa\u00e7\u00f5es aos t\u00edtulos compat\u00edveis."
-       },
-       {
-        "title": "Sua biblioteca em formato digital.",
-        "text": "Esta vers\u00e3o n\u00e3o possui leitor de discos: os jogos s\u00e3o adquiridos e baixados digitalmente."
-       }
-      ],
-      "idealFor": "Para quem prefere organizar sua cole\u00e7\u00e3o digital e ter entretenimento, grandes aventuras e partidas com os amigos em um s\u00f3 console."
-     }
-    },
-    {
-     "name": "PlayStation 5 1TB com Leitor",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "1TB",
-       "cash": 4699.0,
-       "inst": 454.99,
-       "was": 5319.0,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 4669.0,
-         "inst": 449.99
-        }
-       ]
-      }
-     ],
-     "image": "images/ps5-leitor.jpg",
-     "description": {
-      "hook": "Grandes hist\u00f3rias merecem ser jogadas de perto.",
-      "intro": "O PlayStation 5 com SSD de 1 TB e leitor de discos combina carregamento r\u00e1pido, imers\u00e3o e liberdade para escolher entre jogos f\u00edsicos e digitais.",
-      "blocks": [
-       {
-        "title": "Sua cole\u00e7\u00e3o ganha espa\u00e7o.",
-        "text": "O leitor permite utilizar discos de jogos compat\u00edveis, al\u00e9m dos t\u00edtulos adquiridos na PlayStation Store."
-       },
-       {
-        "title": "Cada a\u00e7\u00e3o ganha uma nova sensa\u00e7\u00e3o.",
-        "text": "O DualSense aproxima voc\u00ea do jogo com resposta t\u00e1til e gatilhos adapt\u00e1veis nos t\u00edtulos compat\u00edveis."
-       },
-       {
-        "title": "Mais tempo jogando.",
-        "text": "O SSD de alta velocidade agiliza o carregamento e a entrada nas partidas."
-       }
-      ],
-      "idealFor": "Uma escolha para quem valoriza m\u00eddia f\u00edsica, gosta de colecionar jogos e quer manter tamb\u00e9m a praticidade das compras digitais."
-     }
-    }
-   ]
-  },
-  {
-   "category": "Rob\u00f4 Aspirador",
-   "coverImage": "images/cover-robo-aspirador-2.jpg",
-   "items": [
-    {
-     "name": "Rob\u00f4 Aspirador Joog RA10 Vacuum Cleaner",
-     "badge": "NOVO",
-     "spec": "Bivolt \u00b7 aspira e passa pano",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1679.99,
-       "cash": 1139.99,
-       "inst": 109.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1109.99,
-         "inst": 107.99
-        }
-       ]
-      }
-     ],
-     "image": "images/joog-ra10.jpg",
-     "description": {
-      "hook": "Mais tempo para voc\u00ea, menos tempo cuidando do ch\u00e3o.",
-      "intro": "O Joog RA10 aspira e passa pano, ajudando a cuidar dos pisos enquanto voc\u00ea dedica seu tempo a outras coisas. A limpeza pode ser iniciada pelo aplicativo ou pelo controle remoto que acompanha o produto.",
-      "blocks": [
-       {
-        "title": "Limpeza com autonomia.",
-        "text": "Seus sensores ajudam a evitar colis\u00f5es com m\u00f3veis e paredes. Quando precisa recarregar, o rob\u00f4 retorna \u00e0 base automaticamente."
-       },
-       {
-        "title": "Controle do seu jeito.",
-        "text": "Use o celular ou o controle remoto para comandar a limpeza. O modelo \u00e9 bivolt e oferece aproximadamente 90 minutos de funcionamento por carga, segundo a fabricante."
-       }
-      ]
-     }
-    },
-    {
-     "name": "Rob\u00f4 Aspirador Xiaomi Vacuum S40C",
-     "badge": "NOVO",
-     "variations": [
-      {
-       "label": "Padr\u00e3o",
-       "was": 1679.0,
-       "cash": 1249.99,
-       "inst": 119.99,
-       "bw": true,
-       "agenda": [
-        {
-         "a_partir": "2026-11-09T00:00:00-03:00",
-         "cash": 1219.99,
-         "inst": 117.99
-        }
-       ]
-      }
-     ],
-     "image": "images/vacuum-s40.jpg",
-     "description": {
-      "hook": "Sua casa pode continuar sendo limpa mesmo quando voc\u00ea est\u00e1 fazendo outra coisa.",
-      "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos interven\u00e7\u00e3o.",
-      "blocks": [
-       {
-        "title": "Menos uma tarefa esperando por voc\u00ea.",
-        "text": "Programe a limpeza, escolha \u00e1reas e acompanhe a rotina pelo aplicativo Xiaomi Home."
-       },
-       {
-        "title": "O diferencial est\u00e1 na autonomia para fazer sozinho.",
-        "text": "Suc\u00e7\u00e3o potente, navega\u00e7\u00e3o a laser LDS e aspira\u00e7\u00e3o com lavagem integrada para manter a casa em ordem com menos esfor\u00e7o."
-       }
-      ]
-     }
-    }
-   ]
-  },
-  {
    "category": "Medicube",
    "items": [
     {
@@ -7086,6 +5066,2026 @@
        "Marca Eucerin Aquaphor"
       ],
       "idealFor": "Quem sofre com l\u00e1bios ressecados e quer ter um cuidado sempre \u00e0 m\u00e3o."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Oura Ring",
+   "group": "An\u00e9is Inteligentes",
+   "coverImage": "images/cover-aneis-inteligentes-3.jpg",
+   "items": [
+    {
+     "name": "Oura Ring 5",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 3999.99,
+       "cash": 3289.99,
+       "inst": 317.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3259.99,
+         "inst": 314.99
+        }
+       ]
+      }
+     ],
+     "image": "images/oura-ring-5.jpg",
+     "description": {
+      "hook": "Quanto menos voc\u00ea percebe o Oura, mais ele percebe sobre voc\u00ea.",
+      "intro": "Mais fino, mais compacto e com uma nova gera\u00e7\u00e3o de sensores, o Oura Ring 5 acompanha seu corpo continuamente sem disputar espa\u00e7o na sua rotina.",
+      "blocks": [
+       {
+        "title": "Mais conforto. Mais tempo com voc\u00ea.",
+        "text": "Um design 40% menor em volume que o Ring 4, pensado para acompanhar seus sinais durante o dia, a noite e o sono."
+       },
+       {
+        "title": "Mais avan\u00e7ado onde voc\u00ea n\u00e3o v\u00ea.",
+        "text": "A nova arquitetura de sensores aprimora a precis\u00e3o enquanto a tecnologia praticamente desaparece no seu dedo."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Oura Ring 4",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 3379.99,
+       "cash": 2879.99,
+       "inst": 277.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2849.99,
+         "inst": 274.99
+        }
+       ]
+      }
+     ],
+     "image": "images/oura-ring-4.jpg",
+     "description": {
+      "hook": "Seu corpo fala o tempo todo. O Oura ajuda voc\u00ea a entend\u00ea-lo.",
+      "intro": "Sono, atividade e recupera\u00e7\u00e3o acompanhados continuamente - sem precisar de mais uma tela no seu dia.",
+      "blocks": [
+       {
+        "title": "Entenda o que seu corpo est\u00e1 dizendo.",
+        "text": "Descubra como seu sono, seus h\u00e1bitos e sua rotina influenciam a maneira como voc\u00ea se sente e se recupera."
+       },
+       {
+        "title": "Tecnologia que n\u00e3o parece tecnologia.",
+        "text": "Smart Sensing e sensores integrados em um anel de tit\u00e2nio discreto, confort\u00e1vel e pensado para acompanhar voc\u00ea dia e noite."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "RingConn",
+   "group": "An\u00e9is Inteligentes",
+   "items": [
+    {
+     "name": "RingConn Gen 3",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 2499.99,
+       "inst": 239.99,
+       "was": 2879.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2469.99,
+         "inst": 237.99
+        }
+       ]
+      }
+     ],
+     "image": "images/ringconn-gen3.jpg",
+     "description": {
+      "hook": "Seu corpo fala o tempo todo. O RingConn ajuda voc\u00ea a entender.",
+      "intro": "Um anel inteligente que acompanha seu corpo continuamente, transformando dados de sa\u00fade, sono e atividade em informa\u00e7\u00f5es f\u00e1ceis de acompanhar. Serve para entender melhor como voc\u00ea dorme, se recupera e como seu corpo responde \u00e0 sua rotina, acompanhando indicadores como frequ\u00eancia card\u00edaca, HRV, oxigena\u00e7\u00e3o, temperatura, atividade e sono.",
+      "blocks": [
+       {
+        "title": "Mais informa\u00e7\u00e3o. Sem mais uma tela.",
+        "text": "Discreto no dedo, acompanha seus sinais durante o dia e a noite, com autonomia de at\u00e9 14 dias e sem assinatura mensal obrigat\u00f3ria."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Havit",
+   "group": "An\u00e9is Inteligentes",
+   "items": [
+    {
+     "name": "Anel Inteligente Havit",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 579.99,
+       "inst": 54.99,
+       "was": 779.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 549.99,
+         "inst": 54.99
+        }
+       ]
+      }
+     ],
+     "image": "images/havit-smart-ring.jpg",
+     "description": {
+      "hook": "Seu corpo tem uma rotina. Comece a conhec\u00ea-la melhor.",
+      "intro": "Discreto como um acess\u00f3rio, o anel inteligente Havit acompanha o sono, os movimentos e indicadores de bem-estar. Pelo aplicativo, voc\u00ea consulta seus registros e observa como seus h\u00e1bitos mudam ao longo dos dias.",
+      "highlights": [
+       "acompanhamento do sono",
+       "frequ\u00eancia card\u00edaca e oxigena\u00e7\u00e3o",
+       "registro de passos e atividades",
+       "conex\u00e3o com Android e iPhone",
+       "estojo de carregamento"
+      ],
+      "idealFor": "Uma op\u00e7\u00e3o para quem deseja come\u00e7ar a acompanhar a pr\u00f3pria rotina com um dispositivo discreto, mantendo o pulso livre e as informa\u00e7\u00f5es ao alcance no celular."
+     }
+    }
+   ]
+  },
+  {
+   "category": "SmartFy",
+   "group": "An\u00e9is Inteligentes",
+   "items": [
+    {
+     "name": "Anel Inteligente SmartFy",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 499.99,
+       "inst": 49.99
+      }
+     ],
+     "image": "images/smartfy-smart-ring.jpg",
+     "description": {
+      "hook": "Mais informa\u00e7\u00e3o sobre sua rotina. No seu dedo.",
+      "intro": "Acompanhe sono, frequ\u00eancia card\u00edaca e atividades em um acess\u00f3rio discreto, conectado ao aplicativo no celular. O SmartFy combina o visual de um anel com recursos para observar seus h\u00e1bitos e acompanhar o dia a dia.",
+      "idealFor": "Quem quer come\u00e7ar a acompanhar a rotina com um anel inteligente de pre\u00e7o acess\u00edvel."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Garmin Forerunner 170",
+   "group": "Sa\u00fade & Atividade",
+   "items": [
+    {
+     "name": "Garmin Forerunner 170",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 2419.99,
+       "cash": 2119.99,
+       "inst": 204.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2089.99,
+         "inst": 204.99
+        }
+       ]
+      }
+     ],
+     "image": "images/garmin-forerunner-170.jpg",
+     "description": {
+      "hook": "Cada corrida conta. Acompanhe sua evolu\u00e7\u00e3o.",
+      "intro": "Um smartwatch com GPS para transformar seus treinos em informa\u00e7\u00f5es \u00fateis. Acompanhe ritmo, dist\u00e2ncia e m\u00e9tricas de corrida em uma tela AMOLED, com recursos que ajudam a entender seu desempenho e organizar sua evolu\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "GPS integrado.",
+        "text": "Ritmo e dist\u00e2ncia registrados em cada treino."
+       },
+       {
+        "title": "Tela AMOLED.",
+        "text": "M\u00e9tricas de corrida em uma tela n\u00edtida, sens\u00edvel ao toque e com cinco bot\u00f5es."
+       }
+      ],
+      "idealFor": "Para quem deseja come\u00e7ar a correr com mais orienta\u00e7\u00e3o ou acompanhar os treinos com mais consist\u00eancia, levando dados \u00fateis para o pulso."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Whoop",
+   "group": "Sa\u00fade & Atividade",
+   "coverImage": "images/cover-saude-atividade-3.jpg",
+   "items": [
+    {
+     "name": "Whoop 5.0 Peak Health and Fitness Tracker",
+     "spec": "Obsidian",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Obsidian",
+       "cash": 1989.99,
+       "inst": 194.99,
+       "was": 2679.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1959.99,
+         "inst": 189.99
+        }
+       ]
+      }
+     ],
+     "image": "images/whoop.jpg",
+     "description": {
+      "hook": "Seu corpo sabe quando voc\u00ea pode ir al\u00e9m. O WHOOP ajuda voc\u00ea a perceber isso.",
+      "intro": "Sono, esfor\u00e7o, recupera\u00e7\u00e3o e sa\u00fade transformados em insights para entender como suas escolhas de hoje afetam seu desempenho amanh\u00e3.",
+      "blocks": [
+       {
+        "title": "Treine com mais intelig\u00eancia.",
+        "text": "Entenda quando acelerar, quando recuperar e quais h\u00e1bitos est\u00e3o ajudando - ou atrapalhando - sua evolu\u00e7\u00e3o."
+       },
+       {
+        "title": "Menos tela. Mais leitura do seu corpo.",
+        "text": "Monitoramento cont\u00ednuo, bateria para mais de 14 dias e recursos do Peak voltados a desempenho, estresse e sa\u00fade a longo prazo."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Garmin Cirqa Smart Band",
+   "group": "Sa\u00fade & Atividade",
+   "items": [
+    {
+     "name": "Garmin Cirqa Smart Band",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 1689.99,
+       "inst": 164.99,
+       "was": 2399.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1659.99,
+         "inst": 159.99
+        }
+       ]
+      }
+     ],
+     "image": "images/garmin-cirqa.jpg",
+     "description": {
+      "hook": "Voc\u00ea n\u00e3o precisa de outra tela. Precisa entender melhor o que acontece com voc\u00ea.",
+      "intro": "A Garmin Cirqa Smart Band leva a proposta de monitoramento para um formato discreto, pensado para permanecer no pulso sem transformar cada informa\u00e7\u00e3o em mais uma notifica\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Tecnologia que quase desaparece.",
+        "text": "Seu formato sem tela reduz distra\u00e7\u00f5es e deixa o acompanhamento acontecer de maneira mais silenciosa durante a rotina."
+       },
+       {
+        "title": "Do dia \u00e0 recupera\u00e7\u00e3o.",
+        "text": "A proposta da Cirqa \u00e9 acompanhar informa\u00e7\u00f5es relacionadas ao corpo, atividade e bem-estar para ajudar voc\u00ea a compreender melhor seus pr\u00f3prios padr\u00f5es."
+       },
+       {
+        "title": "Feita para permanecer com voc\u00ea.",
+        "text": "O design compacto aproxima a experi\u00eancia de uma pulseira tradicional, mas com intelig\u00eancia trabalhando em segundo plano."
+       }
+      ],
+      "idealFor": "Para quem gosta da intelig\u00eancia dos wearables, mas n\u00e3o quer mais uma tela disputando sua aten\u00e7\u00e3o."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Google Fitbit Air",
+   "group": "Sa\u00fade & Atividade",
+   "items": [
+    {
+     "name": "Google Fitbit Air",
+     "badge": "NOVO",
+     "spec": "Pulseira inteligente \u00b7 Obsidian",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 1259.99,
+       "inst": 124.99,
+       "was": 1679.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1229.99,
+         "inst": 119.99
+        }
+       ]
+      }
+     ],
+     "image": "images/fitbit-air.jpg",
+     "description": {
+      "hook": "Voc\u00ea n\u00e3o precisa de mais uma tela. Precisa entender melhor o que acontece com voc\u00ea.",
+      "intro": "Um wearable discreto pensado para acompanhar sinais do corpo e a rotina sem adicionar mais uma tela ou uma sequ\u00eancia de notifica\u00e7\u00f5es ao seu dia.",
+      "blocks": [
+       {
+        "title": "Acompanhe sem ficar acompanhando.",
+        "text": "A proposta \u00e9 deixar o monitoramento acontecer em segundo plano enquanto voc\u00ea simplesmente vive sua rotina."
+       },
+       {
+        "title": "O diferencial \u00e9 n\u00e3o pedir sua aten\u00e7\u00e3o.",
+        "text": "Uma experi\u00eancia de acompanhamento corporal pensada para ser discreta, cont\u00ednua e menos invasiva que a de um smartwatch tradicional."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Ray-Ban Meta",
+   "group": "\u00d3culos Inteligentes",
+   "coverImage": "images/cover-oculos-inteligentes-2.jpg",
+   "items": [
+    {
+     "name": "Ray-Ban Meta Wayfarer Gen 2",
+     "spec": "Fotocrom\u00e1tico",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Fotocrom\u00e1tico",
+       "cash": 3369.99,
+       "inst": 324.99,
+       "was": 3799.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3339.99,
+         "inst": 324.99
+        }
+       ]
+      }
+     ],
+     "image": "images/rayban-meta.jpg",
+     "description": {
+      "hook": "E se os seus \u00f3culos tamb\u00e9m pudessem registrar aquilo que voc\u00ea est\u00e1 vivendo?",
+      "intro": "O cl\u00e1ssico Wayfarer ganha c\u00e2mera, \u00e1udio e recursos inteligentes integrados sem deixar de parecer um Ray-Ban.",
+      "blocks": [
+       {
+        "title": "Viva o momento sem correr para o celular.",
+        "text": "Registre fotos e v\u00eddeos da sua pr\u00f3pria perspectiva enquanto mant\u00e9m as m\u00e3os livres."
+       },
+       {
+        "title": "O diferencial \u00e9 quase n\u00e3o parecer tecnologia.",
+        "text": "Recursos inteligentes integrados a um dos designs mais reconhec\u00edveis da Ray-Ban - tecnologia presente sem dominar o visual."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "\u00d3culos Inteligentes Meta com IA",
+   "group": "\u00d3culos Inteligentes",
+   "items": [
+    {
+     "name": "\u00d3culos Inteligentes Meta com IA",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Classic",
+       "was": 3119.99,
+       "cash": 2399.99,
+       "inst": 229.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2369.99,
+         "inst": 229.99
+        }
+       ]
+      },
+      {
+       "label": "Adventurer",
+       "was": 3849.99,
+       "cash": 2559.99,
+       "inst": 247.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2529.99,
+         "inst": 244.99
+        }
+       ]
+      }
+     ],
+     "image": "images/oculos-meta-ia.jpg",
+     "description": {
+      "hook": "Viva o momento. Registre pela sua perspectiva.",
+      "intro": "Capture fotos e v\u00eddeos sem segurar o celular, ou\u00e7a suas m\u00fasicas e fa\u00e7a chamadas pelos pr\u00f3prios \u00f3culos. Com a Meta AI, comandos de voz ajudam a acessar informa\u00e7\u00f5es e realizar tarefas durante o dia.",
+      "blocks": [
+       {
+        "title": "M\u00e3os livres.",
+        "text": "Captura de fotos e v\u00eddeos sem precisar segurar o celular."
+       },
+       {
+        "title": "\u00c1udio aberto integrado.",
+        "text": "Ou\u00e7a m\u00fasicas e fa\u00e7a chamadas por voz pelos pr\u00f3prios \u00f3culos."
+       },
+       {
+        "title": "Assistente Meta AI.",
+        "text": "Comandos de voz ajudam a acessar informa\u00e7\u00f5es e realizar tarefas durante o dia."
+       }
+      ],
+      "idealFor": "Para quem deseja registrar viagens, criar conte\u00fado e trazer mais praticidade \u00e0 rotina, combinando tecnologia e estilo em um acess\u00f3rio de uso di\u00e1rio."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Blulory Smart AI Glasses",
+   "group": "\u00d3culos Inteligentes",
+   "items": [
+    {
+     "name": "Blulory Smart AI Glasses M01 Pro",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Speaker + Microfone",
+       "was": 649.0,
+       "cash": 349.99,
+       "inst": 34.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 319.99,
+         "inst": 29.99
+        }
+       ]
+      },
+      {
+       "label": "C\u00e2mera + V\u00eddeo",
+       "was": 749.99,
+       "cash": 589.99,
+       "inst": 57.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 559.99,
+         "inst": 54.99
+        }
+       ]
+      }
+     ],
+     "image": "images/blulory-glasses.jpg",
+     "description": {
+      "hook": "Parece um \u00f3culos. Mas n\u00e3o termina no que voc\u00ea v\u00ea.",
+      "intro": "O Blulory Smart AI Glasses M01 Pro leva \u00e1udio e conectividade para uma pe\u00e7a que voc\u00ea j\u00e1 pode usar no rosto, sem precisar recorrer o tempo inteiro a um fone convencional.",
+      "blocks": [
+       {
+        "title": "\u00c1udio sem ocupar seus ouvidos.",
+        "text": "Os speakers integrados permitem ouvir conte\u00fados enquanto o formato aberto mant\u00e9m maior percep\u00e7\u00e3o do ambiente."
+       },
+       {
+        "title": "Fale sem tirar o celular do bolso.",
+        "text": "Com microfone integrado e conectividade Bluetooth, o \u00f3culos pode acompanhar chamadas e outras intera\u00e7\u00f5es de \u00e1udio compat\u00edveis."
+       },
+       {
+        "title": "Tecnologia em um formato familiar.",
+        "text": "Em vez de parecer um gadget preso ao rosto, a proposta \u00e9 incorporar fun\u00e7\u00f5es inteligentes ao formato tradicional de um \u00f3culos."
+       }
+      ],
+      "idealFor": "Para quem quer experimentar \u00f3culos inteligentes de forma acess\u00edvel, especialmente para \u00e1udio, chamadas e uso conectado no cotidiano."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Fones de Ouvido",
+   "coverImage": "images/cover-fones-de-ouvido-2.jpg",
+   "items": [
+    {
+     "name": "Ozlo Sleepbuds 2",
+     "badge": "NOVO",
+     "spec": "Fones sem fio projetados para dormir",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 3279.99,
+       "cash": 2399.99,
+       "inst": 229.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2369.99,
+         "inst": 229.99
+        }
+       ]
+      }
+     ],
+     "image": "images/ozlo-sleepbuds-2.jpg",
+     "description": {
+      "hook": "O seu descanso come\u00e7a com um som feito para a noite.",
+      "intro": "Pequenos e discretos, os Sleepbuds 2 foram desenhados para permanecer confort\u00e1veis durante o sono, inclusive para quem dorme de lado.",
+      "blocks": [
+       {
+        "title": "Menos distra\u00e7\u00f5es ao redor.",
+        "text": "Sons de mascaramento ajudam a reduzir o impacto de ru\u00eddos como tr\u00e2nsito e ronco; voc\u00ea tamb\u00e9m pode ouvir seu pr\u00f3prio conte\u00fado para adormecer."
+       },
+       {
+        "title": "Feitos para atravessar a noite.",
+        "text": "A bateria oferece at\u00e9 14 horas de reprodu\u00e7\u00e3o, e o alarme individual toca nos pr\u00f3prios fones. Eles usam mascaramento sonoro, n\u00e3o cancelamento ativo de ru\u00eddo."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Shokz OpenFit 2+",
+     "badge": "NOVO",
+     "spec": "Fone de Ouvido Bluetooth",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 1379.99,
+       "inst": 134.99,
+       "was": 1799.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1349.99,
+         "inst": 129.99
+        }
+       ]
+      }
+     ],
+     "image": "images/shokz-openfit-2.jpg",
+     "description": {
+      "hook": "Liberdade sem fios, sem abrir m\u00e3o da percep\u00e7\u00e3o do ambiente.",
+      "intro": "O Shokz OpenFit 2+ combina \u00e1udio Bluetooth e encaixe aberto, apoiado ao redor das orelhas. \u00c9 uma escolha para ouvir m\u00fasica, atender chamadas e acompanhar a rotina mantendo maior percep\u00e7\u00e3o do ambiente.",
+      "blocks": [
+       {
+        "title": "Controle sem tirar o fone do ouvido.",
+        "text": "Controles f\u00edsicos facilitam o uso durante atividades e deslocamentos, sem precisar mexer no celular."
+       },
+       {
+        "title": "Bateria para o dia inteiro.",
+        "text": "At\u00e9 11 horas de uso nos fones e at\u00e9 48 horas com o estojo."
+       },
+       {
+        "title": "Pronto pro suor e a chuva fina.",
+        "text": "Resist\u00eancia IP55 a suor e respingos, feito para acompanhar treino e rotina."
+       }
+      ],
+      "idealFor": "Selecionado para quem procura liberdade sem fios, conforto no uso prolongado e um formato aberto para o dia a dia."
+     }
+    },
+    {
+     "name": "Shokz OpenRun Pro 2",
+     "badge": "NOVO",
+     "spec": "Fone Bluetooth de condu\u00e7\u00e3o \u00f3ssea \u00b7 cores preta e laranja",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1749.99,
+       "cash": 1399.99,
+       "inst": 134.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1369.99,
+         "inst": 134.99
+        }
+       ]
+      }
+     ],
+     "image": "images/shokz-openrun-pro.jpg",
+     "description": {
+      "hook": "Seu ritmo, com os ouvidos livres.",
+      "intro": "O Shokz OpenRun Pro usa condu\u00e7\u00e3o \u00f3ssea para levar o \u00e1udio sem cobrir os ouvidos. \u00c9 uma escolha para quem quer ouvir m\u00fasica ou atender chamadas durante o treino e continuar percebendo o que acontece ao redor.",
+      "blocks": [
+       {
+        "title": "Feito para acompanhar o movimento.",
+        "text": "A estrutura se ajusta ao redor da cabe\u00e7a, e a prote\u00e7\u00e3o IP55 oferece resist\u00eancia a suor e respingos."
+       },
+       {
+        "title": "Mais tempo em movimento.",
+        "text": "A bateria oferece at\u00e9 10 horas de m\u00fasica e chamadas. Com 5 minutos de carga r\u00e1pida, pode render at\u00e9 1,5 hora de uso, segundo a Shokz."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Huawei FreeClip 2",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 1099.99,
+       "inst": 104.99,
+       "was": 1299.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1069.99,
+         "inst": 104.99
+        }
+       ]
+      }
+     ],
+     "image": "images/huawei-freeclip-2.jpg",
+     "description": {
+      "hook": "Ou\u00e7a o que voc\u00ea gosta sem se desconectar do que acontece ao redor.",
+      "intro": "O Huawei FreeClip 2 troca o formato tradicional dos fones intra-auriculares por uma experi\u00eancia aberta, leve e diferente de usar.",
+      "blocks": [
+       {
+        "title": "Nada entrando no ouvido.",
+        "text": "Seu design open-ear permite ouvir o \u00e1udio sem bloquear completamente o canal auditivo, trazendo outra sensa\u00e7\u00e3o de conforto para o uso di\u00e1rio."
+       },
+       {
+        "title": "Seu \u00e1udio e o ambiente podem coexistir.",
+        "text": "Voc\u00ea continua mais consciente do que acontece ao redor enquanto escuta m\u00fasicas, podcasts ou atende chamadas."
+       },
+       {
+        "title": "Um fone que tamb\u00e9m virou design.",
+        "text": "O formato em clip transforma o FreeClip 2 em algo que se aproxima de um acess\u00f3rio, dispon\u00edvel em diferentes acabamentos e pensado para permanecer discreto na orelha."
+       }
+      ],
+      "idealFor": "Para quem n\u00e3o se adapta bem aos fones tradicionais ou procura mais conforto e consci\u00eancia do ambiente durante o dia."
+     }
+    },
+    {
+     "name": "Huawei FreeBuds 6",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 879.99,
+       "inst": 84.99,
+       "was": 1219.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 849.99,
+         "inst": 84.99
+        }
+       ]
+      }
+     ],
+     "image": "images/huawei-freebuds6.jpg",
+     "description": {
+      "hook": "Som de alta fidelidade com cancelamento de ru\u00eddo, em um case que cabe na palma da m\u00e3o.",
+      "intro": "O Huawei FreeBuds 6 combina drivers duplos, cancelamento ativo de ru\u00eddo e conectividade est\u00e1vel para acompanhar o seu dia inteiro, do trabalho ao treino.",
+      "blocks": [
+       {
+        "title": "\u00c1udio n\u00edtido em qualquer ambiente.",
+        "text": "Sistema de drivers duplos entrega graves mais profundos e agudos mais claros, com cancelamento ativo de ru\u00eddo para isolar o que importa: a sua m\u00fasica, o seu podcast, a sua chamada."
+       },
+       {
+        "title": "Chamadas limpas, mesmo no barulho.",
+        "text": "Microfones com redu\u00e7\u00e3o de ru\u00eddo ambiente mant\u00eam sua voz n\u00edtida do outro lado da linha, mesmo em ruas movimentadas ou ambientes com vento."
+       },
+       {
+        "title": "Bateria para o dia todo.",
+        "text": "Case compacto que recarrega r\u00e1pido e estende o uso por horas a mais, feito para quem n\u00e3o quer parar pra pensar em bateria."
+       }
+      ],
+      "idealFor": "Para quem quer um fone premium no dia a dia, com cancelamento de ru\u00eddo de verdade e conforto para usar por horas seguidas."
+     }
+    },
+    {
+     "name": "Huawei FreeArc T0021",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 979.99,
+       "cash": 749.99,
+       "inst": 74.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 719.99,
+         "inst": 69.99
+        }
+       ]
+      }
+     ],
+     "image": "images/huawei-freearc.jpg",
+     "description": {
+      "hook": "Ou\u00e7a suas m\u00fasicas com liberdade e continue atento ao que acontece ao redor.",
+      "intro": "O Huawei FreeArc combina design de ouvido aberto com ganchos flex\u00edveis que ajudam a manter os fones firmes e confort\u00e1veis durante a rotina e os treinos.",
+      "blocks": [
+       {
+        "title": "Feito para o dia a dia e os treinos.",
+        "text": "Bluetooth 5.2, controles por toque e conex\u00e3o simult\u00e2nea com dois dispositivos."
+       },
+       {
+        "title": "Mais tempo de uso, mais prote\u00e7\u00e3o.",
+        "text": "Autonomia de at\u00e9 7 horas nos fones e at\u00e9 28 horas com o estojo; redu\u00e7\u00e3o de ru\u00eddo para chamadas e prote\u00e7\u00e3o IP57 contra \u00e1gua e poeira."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Joog OWS H33",
+     "badge": "NOVO",
+     "spec": "Anatel",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 579.99,
+       "cash": 339.99,
+       "inst": 34.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 309.99,
+         "inst": 29.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-ows-h33.jpg",
+     "description": {
+      "hook": "M\u00fasica para acompanhar o dia sem fechar seus ouvidos para o que acontece ao redor.",
+      "intro": "O Joog OWS H33 tem design aberto com apoio na orelha, conex\u00e3o sem fio e estojo de recarga. \u00c9 uma op\u00e7\u00e3o para quem procura conforto em deslocamentos, trabalho e atividades do cotidiano.",
+      "blocks": [
+       {
+        "title": "Feito para o uso cont\u00ednuo.",
+        "text": "Bluetooth 6.0, controles por toque, conex\u00e3o USB-C e autonomia de 6 a 6,5 horas por carga, medida a 70% do volume, segundo a Joog."
+       },
+       {
+        "title": "Mais recargas, mais liberdade.",
+        "text": "O estojo de 250 mAh permite at\u00e9 tr\u00eas recargas completas dos fones, segundo a fabricante."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Fone de Ouvido Sem Fio Joog H27 OWS",
+     "badge": "NOVO",
+     "spec": "Preto | Anatel",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 414.99,
+       "inst": 39.99,
+       "was": 599.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 384.99,
+         "inst": 37.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-h27-ows.jpg",
+     "description": {
+      "hook": "M\u00fasica e chamadas com liberdade para acompanhar o dia.",
+      "intro": "O Joog H27 tem design de ouvido aberto e encaixe com gancho, pensado para oferecer conforto sem isolar completamente voc\u00ea do ambiente. Os fones v\u00eam com estojo de carregamento para facilitar o transporte e o uso na rotina.",
+      "blocks": [
+       {
+        "title": "Aberto para o que acontece ao redor.",
+        "text": "Design OWS com encaixe de gancho, sem bloquear completamente o canal auditivo."
+       },
+       {
+        "title": "Controle sem tirar o fone do ouvido.",
+        "text": "Conex\u00e3o Bluetooth 6.0 e controles por toque para tocar, pausar e atender chamadas direto no fone."
+       },
+       {
+        "title": "Bateria para o dia a dia.",
+        "text": "At\u00e9 6,5 horas de reprodu\u00e7\u00e3o por carga\u00b9, com estojo de carregamento para repor a energia na rua."
+       }
+      ],
+      "idealFor": "Para quem prefere ouvir m\u00fasica durante deslocamentos, trabalho ou atividades do dia a dia mantendo a percep\u00e7\u00e3o do entorno."
+     }
+    },
+    {
+     "name": "Joog U9-JG",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 299.99,
+       "cash": 299.99,
+       "inst": 29.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 269.99,
+         "inst": 24.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-u9-jg.jpg",
+     "description": {
+      "hook": "Ou\u00e7a m\u00fasica e atenda chamadas com liberdade, sem perder a percep\u00e7\u00e3o do ambiente.",
+      "intro": "O Joog U9-JG foi pensado para quem quer ouvir m\u00fasica e atender chamadas com liberdade, sem perder completamente a percep\u00e7\u00e3o do ambiente. Seu formato aberto apoia o fone na orelha, enquanto o gancho de silicone ajuda a mant\u00ea-lo est\u00e1vel na rotina, em caminhadas e no trabalho.",
+      "blocks": [
+       {
+        "title": "Feito para o seu ritmo.",
+        "text": "Bluetooth 5.3, drivers de 14,2 mm, controles por toque e estojo de recarga USB-C."
+       },
+       {
+        "title": "Autonomia para o dia.",
+        "text": "A autonomia informada pela Joog \u00e9 de at\u00e9 5 horas por carga."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Joog Air 1 Pro A1P-JG",
+     "badge": "NOVO",
+     "spec": "Anatel",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 219.99,
+       "cash": 199.99,
+       "inst": 19.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 169.99,
+         "inst": 17.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-air1-pro.jpg",
+     "description": {
+      "hook": "Leve sua m\u00fasica para todos os momentos.",
+      "intro": "O Joog Air 1 Pro oferece um formato leve para a rotina, conex\u00e3o Bluetooth 5.0 e controles por toque para reproduzir m\u00fasicas e atender chamadas com praticidade.",
+      "blocks": [
+       {
+        "title": "Pareamento autom\u00e1tico.",
+        "text": "Ao retirar os fones do estojo, o pareamento acontece automaticamente."
+       },
+       {
+        "title": "Bateria para o dia a dia.",
+        "text": "Mais de 4 horas de uso por carga; o estojo amplia o tempo de reprodu\u00e7\u00e3o e recarrega por USB-C. Modelo homologado pela Anatel."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "DJI Osmo Pocket",
+   "group": "C\u00e2meras de A\u00e7\u00e3o",
+   "coverImage": "images/cover-cameras-acao-3.jpg",
+   "items": [
+    {
+     "name": "DJI Osmo Pocket 4P",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Standard Combo",
+       "cash": 4799.99,
+       "inst": 464.99,
+       "was": 6999.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4769.99,
+         "inst": 459.99
+        }
+       ]
+      }
+     ],
+     "image": "images/dji-osmo-pocket-4p.jpg",
+     "description": {
+      "hook": "Capture mais. Viva al\u00e9m.",
+      "intro": "Uma c\u00e2mera compacta criada para quem quer registrar viagens, rotina e conte\u00fado com uma qualidade que vai muito al\u00e9m de simplesmente tirar o celular do bolso. O Osmo Pocket 4P serve para gravar v\u00eddeos e produzir conte\u00fado com qualidade profissional em um equipamento pequeno e f\u00e1cil de levar, oferecendo mais liberdade para filmar em movimento. Na pr\u00e1tica, ele \u00e9 ideal para viagens, vlogs, cria\u00e7\u00e3o de conte\u00fado, eventos, v\u00eddeos para redes sociais e registros do dia a dia, especialmente quando voc\u00ea quer imagens mais est\u00e1veis e uma experi\u00eancia dedicada \u00e0 grava\u00e7\u00e3o. \u00c9 como levar uma estrutura de produ\u00e7\u00e3o na palma da m\u00e3o \u2014 pronta para registrar a pr\u00f3xima hist\u00f3ria.",
+      "blocks": [
+       {
+        "title": "Qualidade para acompanhar suas ideias.",
+        "text": "Pensado para entregar imagens de alto n\u00edvel sem exigir uma estrutura grande de equipamentos."
+       },
+       {
+        "title": "Movimento sem perder a cena.",
+        "text": "A estabiliza\u00e7\u00e3o ajuda a manter as grava\u00e7\u00f5es mais fluidas enquanto voc\u00ea caminha, explora ou acompanha o que est\u00e1 acontecendo."
+       },
+       {
+        "title": "Pequeno para ir mais longe.",
+        "text": "Seu formato compacto facilita levar a c\u00e2mera para lugares em que uma estrutura tradicional simplesmente seria inconveniente."
+       }
+      ],
+      "idealFor": "Criadores de conte\u00fado, viajantes, profissionais e qualquer pessoa que queira elevar a qualidade dos seus v\u00eddeos sem carregar uma produ\u00e7\u00e3o inteira nas costas."
+     }
+    },
+    {
+     "name": "DJI Osmo Pocket 4 Creator Combo",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Combo",
+       "cash": 4229.99,
+       "inst": 407.99,
+       "was": 4999.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4199.99,
+         "inst": 404.99
+        }
+       ]
+      }
+     ],
+     "image": "images/osmo-pocket.jpg",
+     "description": {
+      "hook": "A melhor c\u00e2mera \u00e9 aquela que est\u00e1 pronta quando o momento acontece.",
+      "intro": "Compacta para acompanhar voc\u00ea, mas equipada para transformar momentos r\u00e1pidos em conte\u00fado com apar\u00eancia de produ\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Tire a produ\u00e7\u00e3o do caminho da ideia.",
+        "text": "Estabiliza\u00e7\u00e3o, captura de alta qualidade e recursos inteligentes deixam voc\u00ea mais livre para enquadrar, acompanhar e criar."
+       },
+       {
+        "title": "O Creator Combo j\u00e1 nasce para criar.",
+        "text": "Um conjunto pensado para ampliar a experi\u00eancia de grava\u00e7\u00e3o com acess\u00f3rios voltados a \u00e1udio, enquadramento e produ\u00e7\u00e3o em movimento."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Insta360",
+   "group": "C\u00e2meras de A\u00e7\u00e3o",
+   "items": [
+    {
+     "name": "Insta360 GO 3",
+     "badge": "NOVO",
+     "spec": "C\u00e2mera de A\u00e7\u00e3o com Action Pod",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 2999.99,
+       "cash": 2719.99,
+       "inst": 264.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2689.99,
+         "inst": 259.99
+        }
+       ]
+      }
+     ],
+     "image": "images/insta360-go3.jpg",
+     "description": {
+      "hook": "Pequena no tamanho. Livre para acompanhar sua vida.",
+      "intro": "Registre viagens, passeios e momentos do dia pela sua perspectiva. A GO 3 combina uma c\u00e2mera compacta e remov\u00edvel com o Action Pod de tela articulada, facilitando o enquadramento e a cria\u00e7\u00e3o de conte\u00fado.",
+      "blocks": [
+       {
+        "title": "V\u00eddeos em at\u00e9 2,7K.",
+        "text": "Qualidade para registrar viagens, passeios e o dia a dia."
+       },
+       {
+        "title": "Estabiliza\u00e7\u00e3o FlowState.",
+        "text": "Imagens mais firmes mesmo em movimento."
+       },
+       {
+        "title": "C\u00e2mera remov\u00edvel + Action Pod.",
+        "text": "A c\u00e2mera sai do Action Pod, que tem tela articulada para facilitar o enquadramento."
+       }
+      ],
+      "idealFor": "Para quem deseja registrar mais sem carregar equipamentos grandes, com liberdade para explorar \u00e2ngulos e transformar momentos simples em conte\u00fado."
+     }
+    },
+    {
+     "name": "Insta360 Go 3S",
+     "spec": "4K \u00b7 128GB",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "128GB",
+       "cash": 2879.99,
+       "inst": 277.99,
+       "was": 3479.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2849.99,
+         "inst": 274.99
+        }
+       ]
+      }
+     ],
+     "image": "images/insta360.jpg",
+     "description": {
+      "hook": "Tem momentos que uma c\u00e2mera grande simplesmente n\u00e3o consegue acompanhar.",
+      "intro": "Pequena, leve e capaz de gravar em 4K, a GO 3S foi feita para registrar perspectivas que seriam dif\u00edceis com uma c\u00e2mera convencional.",
+      "blocks": [
+       {
+        "title": "Mostre a cena como voc\u00ea realmente viveu.",
+        "text": "Use as m\u00e3os livres e explore \u00e2ngulos em primeira pessoa para criar imagens muito mais imersivas."
+       },
+       {
+        "title": "O diferencial \u00e9 a liberdade.",
+        "text": "Com apenas 39,1 g e fixa\u00e7\u00e3o magn\u00e9tica, ela consegue estar onde c\u00e2meras maiores simplesmente atrapalhariam."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "DJI Osmo Action",
+   "group": "C\u00e2meras de A\u00e7\u00e3o",
+   "items": [
+    {
+     "name": "DJI Osmo Action 4",
+     "spec": "C\u00e2mera de a\u00e7\u00e3o 10 MP, tela traseira de 2,25\"",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Standard Combo",
+       "was": 2979.99,
+       "cash": 2119.99,
+       "inst": 204.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2089.99,
+         "inst": 204.99
+        }
+       ]
+      },
+      {
+       "label": "Adventure Combo",
+       "was": 3579.99,
+       "cash": 2659.99,
+       "inst": 254.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2629.99,
+         "inst": 254.99
+        }
+       ]
+      }
+     ],
+     "image": "images/dji-osmo-action-4.jpg",
+     "description": {
+      "hook": "Feita para acompanhar a a\u00e7\u00e3o, sem deixar a hist\u00f3ria para tr\u00e1s.",
+      "intro": "A DJI Osmo Action 4 re\u00fane grava\u00e7\u00e3o em at\u00e9 4K/120 fps, sensor de 1/1,3\" e estabiliza\u00e7\u00e3o para registrar viagens, esportes e conte\u00fado em movimento. O campo de vis\u00e3o amplo ajuda a mostrar mais da cena, enquanto as telas sens\u00edveis ao toque facilitam o enquadramento. O corpo \u00e9 resistente \u00e0 \u00e1gua at\u00e9 18 m sem caixa estanque, conforme as condi\u00e7\u00f5es informadas pela DJI.",
+      "blocks": [
+       {
+        "title": "Qual combo escolher?",
+        "text": "O Standard Combo \u00e9 a op\u00e7\u00e3o para come\u00e7ar com o kit essencial e uma bateria. O Adventure Combo acrescenta duas baterias, estojo multifuncional para baterias e bast\u00e3o extensor de 1,5 m, oferecendo mais autonomia e possibilidades de enquadramento."
+       }
+      ],
+      "idealFor": "Para quem quer filmar al\u00e9m dos \u00e2ngulos e das condi\u00e7\u00f5es em que costuma usar o celular. A Action 4 \u00e9 uma escolha para criadores, viajantes e pessoas que registram experi\u00eancias em movimento. Se a prioridade \u00e9 come\u00e7ar com o essencial, o Standard Combo atende. Para jornadas mais longas e grava\u00e7\u00f5es com menos pausas, o Adventure Combo faz mais sentido."
+     }
+    }
+   ]
+  },
+  {
+   "category": "SJCAM",
+   "group": "C\u00e2meras de A\u00e7\u00e3o",
+   "items": [
+    {
+     "name": "SJCAM C100+ Mini Actioncam 4K/WiFi",
+     "badge": "NOVO",
+     "spec": "Black",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1119.99,
+       "cash": 769.99,
+       "inst": 74.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 739.99,
+         "inst": 74.99
+        }
+       ]
+      }
+     ],
+     "image": "images/sjcam-c100-plus.jpg",
+     "description": {
+      "hook": "Uma c\u00e2mera pequena para registrar momentos de v\u00e1rios \u00e2ngulos.",
+      "intro": "A SJCAM C100+ pesa apenas 34 g e combina corpo magn\u00e9tico com op\u00e7\u00f5es flex\u00edveis de fixa\u00e7\u00e3o, facilitando grava\u00e7\u00f5es em viagens, passeios e na cria\u00e7\u00e3o de conte\u00fado.",
+      "blocks": [
+       {
+        "title": "Qualidade em 4K.",
+        "text": "Grava v\u00eddeos em at\u00e9 4K a 30 fps, com estabiliza\u00e7\u00e3o eletr\u00f4nica para reduzir movimentos indesejados."
+       },
+       {
+        "title": "Conectada ao seu fluxo.",
+        "text": "Wi-Fi para conex\u00e3o ao aplicativo SJCAM ZONE, com grava\u00e7\u00e3o vertical em 9:16 para Reels e Stories."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "DJI Mic Mini 2",
+   "group": "Microfones sem Fio",
+   "coverImage": "images/cover-microfones-2.jpg",
+   "items": [
+    {
+     "name": "DJI Mic Mini 2",
+     "badge": "NOVO",
+     "spec": "2 TX + 1 RX + Estojo de Carregamento",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 1299.99,
+       "inst": 124.99,
+       "was": 1679.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1269.99,
+         "inst": 124.99
+        }
+       ]
+      }
+     ],
+     "image": "images/dji-mic-mini-2.jpg",
+     "description": {
+      "hook": "Sua c\u00e2mera pode estar longe. Sua voz continua perto.",
+      "intro": "O DJI Mic Mini 2 leva liberdade para quem grava conte\u00fado, entrevistas, aulas ou v\u00eddeos sem querer ficar preso ao celular ou \u00e0 c\u00e2mera.",
+      "blocks": [
+       {
+        "title": "Grave. Ande. Continue falando.",
+        "text": "O sistema sem fio permite captar a voz enquanto voc\u00ea se movimenta, deixando a grava\u00e7\u00e3o muito mais natural."
+       },
+       {
+        "title": "Duas pessoas. Uma grava\u00e7\u00e3o.",
+        "text": "Com dois transmissores, \u00e9 uma solu\u00e7\u00e3o especialmente interessante para entrevistas, podcasts, conte\u00fados em dupla e produ\u00e7\u00f5es externas."
+       },
+       {
+        "title": "Tudo junto quando voc\u00ea precisa.",
+        "text": "O conjunto com receptor e estojo de carregamento mant\u00e9m os principais componentes organizados e prontos para acompanhar sua rotina de produ\u00e7\u00e3o."
+       }
+      ],
+      "idealFor": "Criadores de conte\u00fado, profissionais, entrevistadores e qualquer pessoa que queira elevar a qualidade do \u00e1udio sem montar uma estrutura complicada."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Joog MicPro VX1",
+   "group": "Microfones sem Fio",
+   "items": [
+    {
+     "name": "Joog MicPro VX1",
+     "badge": "NOVO",
+     "spec": "USB-C \u00b7 Preto",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1229.99,
+       "cash": 1174.99,
+       "inst": 114.99,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1144.99,
+         "inst": 109.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-micpro-vx1.jpg",
+     "description": {
+      "hook": "Uma boa imagem merece uma voz bem captada.",
+      "intro": "Compacto e f\u00e1cil de levar, o Joog MicPro VX1 foi pensado para quem grava v\u00eddeos, entrevistas, vlogs e transmiss\u00f5es com o smartphone.",
+      "blocks": [
+       {
+        "title": "\u00c1udio limpo, sem fio.",
+        "text": "Conecta sem fio ao receptor USB-C e oferece redu\u00e7\u00e3o de ru\u00eddo acionada por um toque."
+       },
+       {
+        "title": "Controle pelo app.",
+        "text": "O conjunto inclui estojo de carregamento, e o aplicativo permite monitorar o \u00e1udio e ajustar o volume."
+       }
+      ]
+     },
+     "esgotado": true
+    }
+   ]
+  },
+  {
+   "category": "Hollyland Lark",
+   "group": "Microfones sem Fio",
+   "items": [
+    {
+     "name": "Microfone Hollyland Lark M2 Combo",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Combo",
+       "cash": 849.99,
+       "inst": 84.99,
+       "was": 1199.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 819.99,
+         "inst": 79.99
+        }
+       ]
+      }
+     ],
+     "image": "images/hollyland-lark-m2.jpg",
+     "description": {
+      "hook": "Um v\u00eddeo pode parecer profissional. At\u00e9 o \u00e1udio come\u00e7ar.",
+      "intro": "O Lark M2 leva \u00e1udio sem fio de alta qualidade para v\u00eddeos, entrevistas, podcasts e conte\u00fados sem complicar sua grava\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Sua voz merece a mesma qualidade da sua imagem.",
+        "text": "\u00c1udio em 48 kHz/24-bit e cancelamento de ru\u00eddo ajudam a entregar uma voz mais limpa e presente."
+       },
+       {
+        "title": "Pequeno para voc\u00ea esquecer. Potente para fazer diferen\u00e7a.",
+        "text": "Transmissores de apenas 9 g, longo alcance e autonomia com estojo para dar mais liberdade durante a grava\u00e7\u00e3o."
+       }
+      ]
+     },
+     "spec": "Conector Lightning e USB-C"
+    },
+    {
+     "name": "Microfone Sem Fio Hollyland LARK A1 Combo",
+     "badge": "NOVO",
+     "spec": "Preto \u00b7 Conector Lightning e USB-C",
+     "variations": [
+      {
+       "label": "Combo",
+       "cash": 649.99,
+       "inst": 64.99,
+       "was": 919.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 619.99,
+         "inst": 59.99
+        }
+       ]
+      }
+     ],
+     "image": "images/hollyland-lark-a1.jpg",
+     "description": {
+      "hook": "Sua voz em primeiro plano.",
+      "intro": "O Hollyland LARK A1 \u00e9 uma escolha pr\u00e1tica para gravar v\u00eddeos, entrevistas e conte\u00fados para redes sociais pelo smartphone. A vers\u00e3o Combo re\u00fane dois transmissores compactos, receptores USB-C e Lightning e um estojo de carregamento.",
+      "blocks": [
+       {
+        "title": "Fala clara em qualquer ambiente.",
+        "text": "Capta\u00e7\u00e3o em 48 kHz/24 bits e cancelamento de ru\u00eddo ajust\u00e1vel em tr\u00eas n\u00edveis ajudam a manter a fala clara em diferentes ambientes."
+       },
+       {
+        "title": "Pronto pra qualquer celular.",
+        "text": "Receptores USB-C e Lightning inclu\u00eddos no combo, sem precisar comprar adaptador \u00e0 parte."
+       },
+       {
+        "title": "Autonomia para o dia de grava\u00e7\u00e3o.",
+        "text": "At\u00e9 54 horas de uso alternado entre os dois transmissores com o estojo\u00b9."
+       }
+      ],
+      "idealFor": "Para quem quer dar um passo na qualidade do \u00e1udio sem complicar a rotina de grava\u00e7\u00e3o."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Gravadores de Voz com IA",
+   "coverImage": "images/cover-gravadores-voz-ia-2.jpg",
+   "items": [
+    {
+     "name": "Plaud Note 64GB",
+     "badge": "NOVO",
+     "spec": "Gravador de Voz com ChatGPT",
+     "variations": [
+      {
+       "label": "64GB",
+       "cash": 1299.99,
+       "inst": 124.99,
+       "was": 1599.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1269.99,
+         "inst": 124.99
+        }
+       ]
+      }
+     ],
+     "image": "images/plaud-note.jpg",
+     "description": {
+      "hook": "Algumas conversas s\u00e3o importantes demais para depender da mem\u00f3ria.",
+      "intro": "O Plaud Note registra conversas e usa IA para transformar o que foi dito em transcri\u00e7\u00f5es, resumos e informa\u00e7\u00f5es que voc\u00ea pode consultar depois.",
+      "blocks": [
+       {
+        "title": "Voc\u00ea participa da conversa. Ele cuida das anota\u00e7\u00f5es.",
+        "text": "Em vez de dividir sua aten\u00e7\u00e3o entre ouvir e escrever, voc\u00ea pode voltar ao conte\u00fado quando precisar."
+       },
+       {
+        "title": "O diferencial acontece depois de gravar.",
+        "text": "A IA ajuda a organizar o conte\u00fado capturado, enquanto os 64 GB internos mant\u00eam suas grava\u00e7\u00f5es em um dispositivo ultrafino."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Plaud NotePin 64GB",
+     "badge": "NOVO",
+     "spec": "Gravador de voz port\u00e1til com IA",
+     "variations": [
+      {
+       "label": "64GB",
+       "was": 1779.99,
+       "cash": 1399.99,
+       "inst": 134.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1369.99,
+         "inst": 134.99
+        }
+       ]
+      }
+     ],
+     "image": "images/plaud-notepin.jpg",
+     "description": {
+      "hook": "Uma boa ideia n\u00e3o precisa esperar voc\u00ea pegar o celular.",
+      "intro": "Compacto e f\u00e1cil de levar, o Plaud NotePin registra conversas presenciais para que voc\u00ea possa se concentrar no momento.",
+      "blocks": [
+       {
+        "title": "Presente na conversa, com o conte\u00fado guardado.",
+        "text": "Grave reuni\u00f5es e ideias sem dividir a aten\u00e7\u00e3o entre ouvir e anotar."
+       },
+       {
+        "title": "Da grava\u00e7\u00e3o ao que interessa.",
+        "text": "Pelo aplicativo Plaud, use recursos de IA para transcrever, resumir e consultar o conte\u00fado depois."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Joog Ai Note 64GB",
+     "badge": "NOVO",
+     "spec": "Cinza",
+     "variations": [
+      {
+       "label": "64GB",
+       "was": 1249.99,
+       "cash": 889.99,
+       "inst": 84.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 859.99,
+         "inst": 84.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-ai-note.jpg",
+     "description": {
+      "hook": "Esteja presente na conversa sem depender de anota\u00e7\u00f5es a cada minuto.",
+      "intro": "O Joog AI Note grava reuni\u00f5es, aulas e entrevistas e permite organizar o conte\u00fado depois com recursos de intelig\u00eancia artificial, como resumos e mapas mentais.",
+      "blocks": [
+       {
+        "title": "Para guardar o que importa.",
+        "text": "64GB de armazenamento, formato fino e aplicativo para iOS e Android."
+       },
+       {
+        "title": "IA inclu\u00edda todo m\u00eas.",
+        "text": "A Joog informa 300 minutos gratuitos por m\u00eas para os recursos de IA."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Huion Note",
+   "coverImage": "images/cover-huion-note-2.jpg",
+   "items": [
+    {
+     "name": "Huion Note",
+     "badge": "NOVO",
+     "spec": "Caderno inteligente e mesa digitalizadora",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1579.99,
+       "cash": 889.99,
+       "inst": 84.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 859.99,
+         "inst": 84.99
+        }
+       ]
+      }
+     ],
+     "image": "images/huion-note.jpg",
+     "description": {
+      "hook": "A liberdade de escrever no papel, com suas ideias tamb\u00e9m no digital.",
+      "intro": "O Huion Note acompanha suas anota\u00e7\u00f5es feitas no caderno e permite organiz\u00e1-las no aplicativo. Para criar no computador, ele tamb\u00e9m funciona como mesa digitalizadora.",
+      "blocks": [
+       {
+        "title": "Escreva do seu jeito.",
+        "text": "Use papel e caneta em reuni\u00f5es, aulas ou projetos, com a escrita sincronizada ao celular quando conectado."
+       },
+       {
+        "title": "Continue a cria\u00e7\u00e3o no computador.",
+        "text": "No modo mesa digitalizadora, use a caneta para desenhar diretamente no PC."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "category": "Carregadores e Powerbanks",
+   "items": [
+    {
+     "name": "Joog MagCharger",
+     "badge": "NOVO",
+     "spec": "Carregador 3 em 1 \u00b7 Qi2",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 979.99,
+       "cash": 679.99,
+       "inst": 64.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 649.99,
+         "inst": 64.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-magcharger.jpg",
+     "description": {
+      "hook": "Uma esta\u00e7\u00e3o. Tr\u00eas dispositivos. Mais organiza\u00e7\u00e3o.",
+      "intro": "O Joog MagCharger re\u00fane o carregamento do celular, dos fones e do rel\u00f3gio em uma esta\u00e7\u00e3o compacta. Com alinhamento magn\u00e9tico e tecnologia Qi2, oferece at\u00e9 15W para smartphones compat\u00edveis, enquanto mant\u00e9m seus acess\u00f3rios ao alcance.",
+      "blocks": [
+       {
+        "title": "Carregamento 3 em 1.",
+        "text": "Celular, fones e rel\u00f3gio carregando em uma \u00fanica esta\u00e7\u00e3o, com tecnologia Qi2 e at\u00e9 15W para o celular."
+       },
+       {
+        "title": "Design articulado.",
+        "text": "Ajuste autom\u00e1tico de 180\u00b0 por toque para posicionar o celular, e suportes que se recolhem quando n\u00e3o est\u00e3o em uso."
+       },
+       {
+        "title": "Compacto e pr\u00e1tico.",
+        "text": "Entrada USB-C e design compacto para a mesa do escrit\u00f3rio ou a cabeceira."
+       },
+       {
+        "title": "Compatibilidade e alimenta\u00e7\u00e3o.",
+        "text": "Requer dispositivos compat\u00edveis com cada \u00e1rea de carga. Para carregamento r\u00e1pido, utiliza adaptador PD de 30W ou superior, vendido separadamente."
+       }
+      ],
+      "idealFor": "Para quem valoriza uma mesa organizada e gosta de ter seus dispositivos reunidos em um s\u00f3 lugar. Uma escolha funcional para acompanhar a rotina no escrit\u00f3rio ou na cabeceira."
+     }
+    },
+    {
+     "name": "Carregador Port\u00e1til Joog Powerbank QC Digital 20.000mAh",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 619.99,
+       "cash": 339.99,
+       "inst": 34.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 309.99,
+         "inst": 29.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-powerbank-20000.jpg",
+     "description": {
+      "hook": "Mais energia para acompanhar sua rotina.",
+      "intro": "O Joog Powerbank QC Digital combina capacidade de 20.000 mAh com carregamento r\u00e1pido para dispositivos compat\u00edveis, oferecendo uma reserva de energia pr\u00e1tica para viagens, trabalho e momentos longe da tomada.",
+      "blocks": [
+       {
+        "title": "Carregue at\u00e9 tr\u00eas dispositivos.",
+        "text": "Duas sa\u00eddas USB-A e uma USB-C permitem carregar at\u00e9 tr\u00eas dispositivos simultaneamente."
+       },
+       {
+        "title": "Acompanhe e fique protegido.",
+        "text": "Indicador digital de bateria dispon\u00edvel e prote\u00e7\u00f5es contra sobrecarga, curto-circuito e superaquecimento."
+       }
+      ]
+     }
+    }
+   ],
+   "coverImage": "images/cover-carregadores-powerbanks.jpg"
+  },
+  {
+   "category": "Caf\u00e9 & Vinho",
+   "items": [
+    {
+     "name": "Kit Abridor de Vinho Joog",
+     "badge": "NOVO",
+     "spec": "El\u00e9trico Autom\u00e1tico \u00b7 Prata",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 649.99,
+       "cash": 404.99,
+       "inst": 39.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 374.99,
+         "inst": 37.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-kit-vinho.jpg",
+     "description": {
+      "hook": "Um convite para abrir, servir e compartilhar bons momentos.",
+      "intro": "O kit re\u00fane um abridor el\u00e9trico recarreg\u00e1vel e acess\u00f3rios para acompanhar o vinho da primeira ta\u00e7a ao armazenamento da garrafa, organizados em uma base de apresenta\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Abrir com praticidade.",
+        "text": "Abridor el\u00e9trico recarreg\u00e1vel e cortador de lacre."
+       },
+       {
+        "title": "Servir melhor.",
+        "text": "Aerador e bico dosador para servir com mais controle."
+       },
+       {
+        "title": "Guardar a garrafa.",
+        "text": "Bomba de v\u00e1cuo e duas tampas para armazenar o vinho que sobrou."
+       },
+       {
+        "title": "Tudo em um s\u00f3 lugar.",
+        "text": "Base para organizar o conjunto e deix\u00e1-lo pronto para uso."
+       }
+      ],
+      "idealFor": "Para quem gosta de receber bem ou procura um presente \u00fatil e elegante. Os acess\u00f3rios ficam reunidos em um s\u00f3 lugar, prontos para transformar o ritual de servir vinho em uma experi\u00eancia mais pr\u00e1tica."
+     }
+    },
+    {
+     "name": "Cafeteira Port\u00e1til Espresso 3 Em 1 Joog EM10 72W",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 949.99,
+       "cash": 659.99,
+       "inst": 64.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 629.99,
+         "inst": 59.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-em10.jpg",
+     "description": {
+      "hook": "Seu momento de caf\u00e9 pode acompanhar voc\u00ea.",
+      "intro": "A Joog EM10 combina formato port\u00e1til e preparo de espresso em uma solu\u00e7\u00e3o pr\u00e1tica para levar ao trabalho, nas viagens ou usar em casa.",
+      "blocks": [
+       {
+        "title": "3 em 1, sem complica\u00e7\u00e3o.",
+        "text": "O sistema aceita caf\u00e9 mo\u00eddo, c\u00e1psulas pequenas e c\u00e1psulas grandes, com aquecimento autom\u00e1tico e capacidade de 60 ml."
+       },
+       {
+        "title": "Pr\u00e1tica no uso e na limpeza.",
+        "text": "Recarga USB-C e corpo desmont\u00e1vel, que facilita a limpeza ap\u00f3s o uso."
+       }
+      ]
+     }
+    }
+   ],
+   "coverImage": "images/cover-cafe-vinho.jpg"
+  },
+  {
+   "category": "Depilador a Laser",
+   "items": [
+    {
+     "name": "Depilador Laser Joog IPL HR3 Ice Cooling 64.8W",
+     "badge": "NOVO",
+     "spec": "Bivolt",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1449.99,
+       "cash": 1069.99,
+       "inst": 104.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1039.99,
+         "inst": 99.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-hr3-ipl.jpg",
+     "description": {
+      "hook": "Mais praticidade para sua rotina de cuidados.",
+      "intro": "O Joog HR3 combina tecnologia IPL para auxiliar na redu\u00e7\u00e3o dos pelos com o sistema Ice Cooling, que resfria a superf\u00edcie de contato para ajudar a diminuir a sensa\u00e7\u00e3o de calor durante a aplica\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "F\u00e1cil de usar e acompanhar.",
+        "text": "Formato ergon\u00f4mico e painel digital facilitam o manuseio e o acompanhamento das configura\u00e7\u00f5es."
+       },
+       {
+        "title": "Mais pot\u00eancia.",
+        "text": "Pot\u00eancia de 64,8W e alimenta\u00e7\u00e3o bivolt, seguindo as orienta\u00e7\u00f5es do fabricante."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Depilador Laser Joog IPL HR2 Ice Cooling 48W",
+     "badge": "NOVO",
+     "spec": "Bivolt",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1279.99,
+       "cash": 969.99,
+       "inst": 94.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 939.99,
+         "inst": 89.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-hr2-ipl.jpg",
+     "description": {
+      "hook": "Tecnologia para tornar sua rotina de cuidados mais pr\u00e1tica.",
+      "intro": "O Joog HR2 combina luz pulsada intensa (IPL), voltada \u00e0 redu\u00e7\u00e3o dos pelos, com o sistema Ice Cooling, que resfria a superf\u00edcie de contato para ajudar a diminuir a sensa\u00e7\u00e3o de calor durante a aplica\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Pensado para casa.",
+        "text": "Formato ergon\u00f4mico que ajuda a incorporar a fotodepila\u00e7\u00e3o \u00e0 rotina em casa, seguindo as orienta\u00e7\u00f5es de uso do fabricante."
+       },
+       {
+        "title": "Pot\u00eancia e praticidade.",
+        "text": "Pot\u00eancia de 48W e alimenta\u00e7\u00e3o bivolt."
+       }
+      ]
+     }
+    }
+   ],
+   "coverImage": "images/cover-depilador-laser.jpg"
+  },
+  {
+   "category": "Drones DJI",
+   "coverImage": "images/cover-drones-2.jpg",
+   "items": [
+    {
+     "name": "Drone DJI Mini 5 Pro",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 5999.99,
+       "inst": 577.99,
+       "was": 7119.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 5969.99,
+         "inst": 574.99
+        }
+       ]
+      }
+     ],
+     "image": "images/drone-mini5pro.jpg",
+     "description": {
+      "hook": "Tem paisagens que merecem mais do que uma foto do celular.",
+      "intro": "O DJI Mini 5 Pro combina uma c\u00e2mera com sensor de 1 polegada e recursos inteligentes em um drone compacto, f\u00e1cil de levar para viagens e produ\u00e7\u00f5es.",
+      "blocks": [
+       {
+        "title": "Mais detalhes. Mais possibilidades.",
+        "text": "Fotos de at\u00e9 50 MP e v\u00eddeos em 4K permitem registrar paisagens, im\u00f3veis e momentos com riqueza de detalhes."
+       },
+       {
+        "title": "Sua criatividade tamb\u00e9m pode ser vertical.",
+        "text": "A grava\u00e7\u00e3o vertical real facilita a produ\u00e7\u00e3o para Reels e Stories. O gimbal com rota\u00e7\u00e3o de 225\u00b0 amplia as possibilidades de enquadramento."
+       },
+       {
+        "title": "Acompanhe o movimento.",
+        "text": "O ActiveTrack 360\u00b0 mant\u00e9m o assunto em destaque, enquanto os sensores de obst\u00e1culos auxiliam durante o voo."
+       }
+      ],
+      "idealFor": "Uma escolha para criadores, viajantes e profissionais que procuram qualidade de imagem e liberdade criativa em um equipamento port\u00e1til."
+     }
+    },
+    {
+     "name": "Drone DJI Neo 2",
+     "spec": "FLY More Combo",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Fly More Combo",
+       "cash": 3114.99,
+       "inst": 299.99,
+       "was": 3599.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 3084.99,
+         "inst": 297.99
+        }
+       ]
+      }
+     ],
+     "image": "images/drone-neo2.jpg",
+     "description": {
+      "hook": "Voc\u00ea vive o momento. O drone acompanha.",
+      "intro": "O DJI Neo 2 foi pensado para colocar voc\u00ea dentro da cena. Compacto e leve, acompanha passeios, viagens e atividades com recursos que simplificam a grava\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Comece pela palma da m\u00e3o.",
+        "text": "A decolagem e o pouso na m\u00e3o tornam o uso mais pr\u00e1tico. O controle por gestos permite comandar fun\u00e7\u00f5es sem precisar segurar um controle."
+       },
+       {
+        "title": "Movimento com voc\u00ea em destaque.",
+        "text": "O ActiveTrack acompanha seus deslocamentos, enquanto o SelfieShot facilita a cria\u00e7\u00e3o de enquadramentos autom\u00e1ticos."
+       },
+       {
+        "title": "Pequeno para levar. Vers\u00e1til para criar.",
+        "text": "V\u00eddeos em 4K, protetores integrais de h\u00e9lices e detec\u00e7\u00e3o de obst\u00e1culos em todas as dire\u00e7\u00f5es completam a proposta."
+       }
+      ],
+      "idealFor": "Para quem deseja registrar a pr\u00f3pria experi\u00eancia com mais liberdade: passeios, atividades ao ar livre e conte\u00fados com perspectivas que o celular sozinho n\u00e3o oferece."
+     }
+    },
+    {
+     "name": "Drone DJI Flip 4K",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "cash": 2759.99,
+       "inst": 264.99,
+       "was": 3399.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 2729.99,
+         "inst": 264.99
+        }
+       ]
+      }
+     ],
+     "image": "images/drone-flip4k.jpg",
+     "description": {
+      "hook": "Seu pr\u00f3ximo conte\u00fado pode come\u00e7ar de um \u00e2ngulo inesperado.",
+      "intro": "O DJI Flip re\u00fane qualidade de imagem e praticidade em um drone dobr\u00e1vel, pensado para acompanhar viagens, passeios e a rotina de cria\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Cenas que valorizam cada detalhe.",
+        "text": "O sensor de 1/1,3 polegada e a grava\u00e7\u00e3o em 4K a 60 quadros por segundo com HDR ajudam a registrar imagens detalhadas e movimentos suaves."
+       },
+       {
+        "title": "Voc\u00ea tamb\u00e9m faz parte da hist\u00f3ria.",
+        "text": "A decolagem na palma da m\u00e3o e o acompanhamento inteligente facilitam a cria\u00e7\u00e3o de v\u00eddeos com voc\u00ea em cena."
+       },
+       {
+        "title": "Abriu. Gravou. Guardou.",
+        "text": "Os protetores integrais de h\u00e9lices dobr\u00e1veis tornam o conjunto compacto para transportar."
+       }
+      ],
+      "idealFor": "Uma op\u00e7\u00e3o para quem quer come\u00e7ar a criar imagens a\u00e9reas ou trazer novas perspectivas aos conte\u00fados, com um equipamento pr\u00e1tico para levar na mochila."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Games e Consoles",
+   "coverImage": "images/cover-consoles-2.jpg",
+   "items": [
+    {
+     "name": "PlayStation 5 Slim 825GB Digital",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "825GB",
+       "cash": 4499.99,
+       "inst": 434.99,
+       "was": 4579.0,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4469.99,
+         "inst": 429.99
+        }
+       ]
+      }
+     ],
+     "image": "images/ps5-slim-digital.jpg",
+     "description": {
+      "hook": "Sua pr\u00f3xima grande aventura come\u00e7a quando voc\u00ea pega o controle.",
+      "intro": "O PlayStation 5 Slim Digital re\u00fane a experi\u00eancia PS5 em um console compacto, com SSD de 825 GB e acesso aos jogos digitais da PlayStation Store.",
+      "blocks": [
+       {
+        "title": "Menos espera para entrar na a\u00e7\u00e3o.",
+        "text": "O SSD de alta velocidade reduz os tempos de carregamento nos jogos compat\u00edveis."
+       },
+       {
+        "title": "Sinta o que acontece na tela.",
+        "text": "A resposta t\u00e1til e os gatilhos adapt\u00e1veis do DualSense trazem novas sensa\u00e7\u00f5es aos t\u00edtulos compat\u00edveis."
+       },
+       {
+        "title": "Sua biblioteca em formato digital.",
+        "text": "Esta vers\u00e3o n\u00e3o possui leitor de discos: os jogos s\u00e3o adquiridos e baixados digitalmente."
+       }
+      ],
+      "idealFor": "Para quem prefere organizar sua cole\u00e7\u00e3o digital e ter entretenimento, grandes aventuras e partidas com os amigos em um s\u00f3 console."
+     }
+    },
+    {
+     "name": "PlayStation 5 1TB com Leitor",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "1TB",
+       "cash": 4699.0,
+       "inst": 454.99,
+       "was": 5319.0,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 4669.0,
+         "inst": 449.99
+        }
+       ]
+      }
+     ],
+     "image": "images/ps5-leitor.jpg",
+     "description": {
+      "hook": "Grandes hist\u00f3rias merecem ser jogadas de perto.",
+      "intro": "O PlayStation 5 com SSD de 1 TB e leitor de discos combina carregamento r\u00e1pido, imers\u00e3o e liberdade para escolher entre jogos f\u00edsicos e digitais.",
+      "blocks": [
+       {
+        "title": "Sua cole\u00e7\u00e3o ganha espa\u00e7o.",
+        "text": "O leitor permite utilizar discos de jogos compat\u00edveis, al\u00e9m dos t\u00edtulos adquiridos na PlayStation Store."
+       },
+       {
+        "title": "Cada a\u00e7\u00e3o ganha uma nova sensa\u00e7\u00e3o.",
+        "text": "O DualSense aproxima voc\u00ea do jogo com resposta t\u00e1til e gatilhos adapt\u00e1veis nos t\u00edtulos compat\u00edveis."
+       },
+       {
+        "title": "Mais tempo jogando.",
+        "text": "O SSD de alta velocidade agiliza o carregamento e a entrada nas partidas."
+       }
+      ],
+      "idealFor": "Uma escolha para quem valoriza m\u00eddia f\u00edsica, gosta de colecionar jogos e quer manter tamb\u00e9m a praticidade das compras digitais."
+     }
+    }
+   ]
+  },
+  {
+   "category": "Rob\u00f4 Aspirador",
+   "coverImage": "images/cover-robo-aspirador-2.jpg",
+   "items": [
+    {
+     "name": "Rob\u00f4 Aspirador Joog RA10 Vacuum Cleaner",
+     "badge": "NOVO",
+     "spec": "Bivolt \u00b7 aspira e passa pano",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1679.99,
+       "cash": 1139.99,
+       "inst": 109.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1109.99,
+         "inst": 107.99
+        }
+       ]
+      }
+     ],
+     "image": "images/joog-ra10.jpg",
+     "description": {
+      "hook": "Mais tempo para voc\u00ea, menos tempo cuidando do ch\u00e3o.",
+      "intro": "O Joog RA10 aspira e passa pano, ajudando a cuidar dos pisos enquanto voc\u00ea dedica seu tempo a outras coisas. A limpeza pode ser iniciada pelo aplicativo ou pelo controle remoto que acompanha o produto.",
+      "blocks": [
+       {
+        "title": "Limpeza com autonomia.",
+        "text": "Seus sensores ajudam a evitar colis\u00f5es com m\u00f3veis e paredes. Quando precisa recarregar, o rob\u00f4 retorna \u00e0 base automaticamente."
+       },
+       {
+        "title": "Controle do seu jeito.",
+        "text": "Use o celular ou o controle remoto para comandar a limpeza. O modelo \u00e9 bivolt e oferece aproximadamente 90 minutos de funcionamento por carga, segundo a fabricante."
+       }
+      ]
+     }
+    },
+    {
+     "name": "Rob\u00f4 Aspirador Xiaomi Vacuum S40C",
+     "badge": "NOVO",
+     "variations": [
+      {
+       "label": "Padr\u00e3o",
+       "was": 1679.0,
+       "cash": 1249.99,
+       "inst": 119.99,
+       "bw": true,
+       "agenda": [
+        {
+         "a_partir": "2026-11-09T00:00:00-03:00",
+         "cash": 1219.99,
+         "inst": 117.99
+        }
+       ]
+      }
+     ],
+     "image": "images/vacuum-s40.jpg",
+     "description": {
+      "hook": "Sua casa pode continuar sendo limpa mesmo quando voc\u00ea est\u00e1 fazendo outra coisa.",
+      "intro": "O Xiaomi Robot Vacuum S40 aspira e passa pano de forma automatizada, mapeando os ambientes para cuidar da limpeza com muito menos interven\u00e7\u00e3o.",
+      "blocks": [
+       {
+        "title": "Menos uma tarefa esperando por voc\u00ea.",
+        "text": "Programe a limpeza, escolha \u00e1reas e acompanhe a rotina pelo aplicativo Xiaomi Home."
+       },
+       {
+        "title": "O diferencial est\u00e1 na autonomia para fazer sozinho.",
+        "text": "Suc\u00e7\u00e3o potente, navega\u00e7\u00e3o a laser LDS e aspira\u00e7\u00e3o com lavagem integrada para manter a casa em ordem com menos esfor\u00e7o."
+       }
+      ]
      }
     }
    ]
