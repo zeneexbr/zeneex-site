@@ -55,6 +55,21 @@
     --radius: 2px;
     --wa-number: 5591984195397;
   }
+  /* galeria de fotos e informativos dos seminovos */
+  .card .thumb.gallery{ padding:0; border-style:solid; background:var(--card); cursor:default; }
+  .g-track{ display:flex; width:100%; height:100%; overflow-x:auto; scroll-snap-type:x mandatory; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+  .g-track::-webkit-scrollbar{ display:none; }
+  .g-track .g-slide{ flex:0 0 100%; height:100%; scroll-snap-align:center; overflow:hidden; cursor:zoom-in; }
+  .g-track .g-slide img{ width:100%; height:100%; object-fit:cover; display:block; }
+  .g-count{ position:absolute; right:8px; bottom:8px; background:rgba(8,36,38,0.82); color:#fff; font:600 10px 'IBM Plex Mono',monospace; letter-spacing:.04em; padding:3px 7px; border-radius:20px; pointer-events:none; }
+  .g-dots{ position:absolute; left:0; right:0; bottom:9px; display:flex; justify-content:center; gap:5px; pointer-events:none; }
+  .g-dots i{ width:6px; height:6px; border-radius:50%; background:rgba(255,255,255,.55); box-shadow:0 0 0 1px rgba(8,36,38,.25); }
+  .g-dots i.on{ background:#fff; width:16px; border-radius:4px; }
+  .g-real{ position:absolute; left:8px; top:8px; display:flex; align-items:center; gap:5px; background:rgba(8,36,38,0.82); color:#fff; font:600 9.5px 'IBM Plex Mono',monospace; letter-spacing:.06em; padding:4px 8px; border-radius:20px; pointer-events:none; }
+  .g-real i{ width:6px; height:6px; border-radius:50%; background:#3DDC84; }
+  .semi-perks{ list-style:none; margin:0 0 12px; padding:9px 0; display:grid; grid-template-columns:1fr 1fr; gap:7px 10px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+  .semi-perks li{ display:flex; align-items:center; gap:6px; font-size:11px; line-height:1.2; font-weight:500; color:var(--ink-soft); }
+  .semi-perks svg{ flex:0 0 14px; width:14px; height:14px; stroke:var(--gold); fill:none; stroke-width:1.9; stroke-linecap:round; stroke-linejoin:round; }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{
@@ -1226,7 +1241,23 @@ function buildCard(item, ci, ii){
 
   const thumb = document.createElement("div");
   thumb.className = "thumb";
-  if (item.image){
+  if (item.images && item.images.length > 1){
+    thumb.classList.add("has-image","gallery");
+    const track = document.createElement("div"); track.className = "g-track";
+    item.images.forEach((src,k)=>{
+      const sl = document.createElement("div"); sl.className = "g-slide";
+      const im = document.createElement("img"); im.src = src; im.alt = item.name + " foto " + (k+1); im.loading = "lazy";
+      sl.appendChild(im); sl.addEventListener("click",(e)=>{ e.stopPropagation(); openLightbox(src, item.name); });
+      track.appendChild(sl);
+    });
+    const cnt = document.createElement("span"); cnt.className = "g-count"; cnt.textContent = "1/" + item.images.length;
+    const dots = document.createElement("div"); dots.className = "g-dots";
+    dots.innerHTML = item.images.map((_,k)=>`<i class="${k===0?"on":""}"></i>`).join("");
+    track.addEventListener("scroll",()=>{ const k = Math.round(track.scrollLeft / track.clientWidth);
+      cnt.textContent = (k+1) + "/" + item.images.length; dots.querySelectorAll("i").forEach((d,j)=>d.classList.toggle("on", j===k)); });
+    thumb.appendChild(track); thumb.appendChild(dots); thumb.appendChild(cnt);
+    if (item.fotosReais){ const real = document.createElement("span"); real.className = "g-real"; real.innerHTML = "<i></i>FOTOS REAIS"; thumb.appendChild(real); }
+  } else if (item.image){
     thumb.classList.add("has-image");
     const img = document.createElement("img");
     img.src = item.image;
@@ -1479,6 +1510,16 @@ function buildCard(item, ci, ii){
   if (badges.childElementCount) body.appendChild(badges);
   body.appendChild(h3);
   if (specEl) body.appendChild(specEl);
+  if (item.badge === "SEMINOVO"){
+    const perks = document.createElement("ul"); perks.className = "semi-perks";
+    const I = {
+      sel:'<svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"/><path d="M8.8 12.2l2.2 2.2 4.2-4.4"/></svg>',
+      bat:'<svg viewBox="0 0 24 24"><rect x="3" y="8" width="16" height="9" rx="2"/><path d="M21 11v3"/><path d="M6.5 11.5v2M9.5 11.5v2M12.5 11.5v2"/></svg>',
+      gar:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>',
+      imp:'<svg viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></svg>'};
+    perks.innerHTML = [[I.sel,"Seleção criteriosa"],[I.bat,"Bateria 80–90%"],[I.gar,"Garantia 6 meses"],[I.imp,"Impecável"]].map(([ic,t])=>`<li>${ic}<span>${t}</span></li>`).join("");
+    body.appendChild(perks);
+  }
   if (variationsWrap.childElementCount) body.appendChild(variationsWrap);
   body.appendChild(priceBlock);
   body.appendChild(simToggle);
